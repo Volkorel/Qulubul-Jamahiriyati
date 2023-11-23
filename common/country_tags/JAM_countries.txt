@@ -1,13 +1,29 @@
 #NOTE categorize nations alphabetically and continentially so its easier
 
 #Africa
-
+SAF = "countries/South Africa.txt"
 #Asia
 
 #Australasia
 
 #North Eriksland
-
-#South Eriksland
-
+CAN = "countries/Vinland.txt"
+HON = "countries/Atatoshi.txt"
+ELS = "countries/Mamiyajima.txt"
+GUA = "countries/Great Penglai.txt"
+USA = "countries/Hroudsted.txt"
+CSA = "countries/Kusabosted.txt"
+HAI = "countries/Septinsular.txt"
+MEX = "countries/Armagnaceoisée.txt"
+CUB = "countries/Langobardia.txt"
+#South/Central Eriksland
+NIC = "countries/Guadalupei Szuzanya.txt"
+PAN = "countries/USCE.txt"
+COL = "countries/Opstandich.txt"
+SUR = "countries/Julésia.txt"
+GYA = "countries/Bney Shlomo.txt"
+BRA = "countries/Califocasa.txt"
+PRU = "countries/Brankou.txt"
+ARG = "countries/Aremorica.txt"
+CHL = "countries/Sztenfoldje.txt"
 #Europe
