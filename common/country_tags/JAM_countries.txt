@@ -1,0 +1,13 @@
+#NOTE categorize nations alphabetically and continentially so its easier
+
+#Africa
+
+#Asia
+
+#Australasia
+
+#North Eriksland
+
+#South Eriksland
+
+#Europe
