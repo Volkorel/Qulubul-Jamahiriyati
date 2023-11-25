@@ -8,4 +8,3 @@ tags={
 	"Alternative History"
 }
 picture="thumbnail.png"
-path="C:/Users/ARES/Documents/Paradox Interactive/Hearts of Iron IV/mod/Qulubul-Jamahiriyati"
