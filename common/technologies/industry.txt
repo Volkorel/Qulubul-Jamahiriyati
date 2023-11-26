@@ -309,7 +309,7 @@ technologies = {
 			}		
 			modifier = {
 				factor = 10
-				tag = RUS
+				tag = SOV
 			}			
 			modifier = {
 				factor = 10

@@ -902,7 +902,7 @@ technologies = {
 				factor = 0
 			}
 			modifier = {
-				tag = AUH
+				tag = BAY
 				factor = 0
 			}
 		}
@@ -1004,7 +1004,7 @@ technologies = {
 				tag = GER
 			}
 			modifier = {
-				tag = AUH
+				tag = BAY
 				factor = 200
 			}
 			modifier = {
@@ -1012,7 +1012,7 @@ technologies = {
 				factor = 200
 			}
 			modifier = {
-				tag = RUS
+				tag = SOV
 				factor = 200
 			}
 		}
@@ -1057,7 +1057,7 @@ technologies = {
 				factor = 200
 			}
 			modifier = {
-				tag = RUS
+				tag = SOV
 				factor = 200
 			}
 			modifier = {
@@ -1102,7 +1102,7 @@ technologies = {
 				factor = 200
 			}
 			modifier = {
-				tag = RUS
+				tag = SOV
 				factor = 200
 			}
 			modifier = {

@@ -8,3 +8,13 @@ tags={
 	"Alternative History"
 }
 picture="thumbnail.png"
+replace_path="common/technologies"
+replace_path="common/ai_equipment"
+replace_path="common/ai_templates"
+replace_path="common/scripted_diplomatic_actions"
+replace_path="common/scripted_effects"
+replace_path="common/scripted_localisation"
+replace_path="common/scripted_triggers"
+replace_path="common/national_focus"
+replace_path="common/military_industrial_organization"
+replace_path="gfx/interface/technologies"

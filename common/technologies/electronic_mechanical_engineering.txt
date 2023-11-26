@@ -299,7 +299,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 3
-				tag = RUS
+				tag = SOV
 			}
 			modifier = {
 				date < 1914.1.1
@@ -342,7 +342,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 3
-				tag = RUS
+				tag = SOV
 			}
 		}	
 		categories = {
@@ -377,7 +377,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 3
-				tag = RUS
+				tag = SOV
 			}
 		}	
 		categories = {
@@ -413,7 +413,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 3
-				tag = RUS
+				tag = SOV
 			}
 			modifier = {
 				factor = 3
@@ -457,7 +457,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 3
-				tag = RUS
+				tag = SOV
 			}
 			modifier = {
 				factor = 3
@@ -493,7 +493,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 3
-				tag = RUS
+				tag = SOV
 			}
 			modifier = {
 				factor = 3

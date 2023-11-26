@@ -426,7 +426,7 @@ technologies = {
 					tag = GER
 					tag = ENG
 					tag = USA
-					tag = RUS
+					tag = SOV
 				}
 			}
 			modifier = {
@@ -471,7 +471,7 @@ technologies = {
 					tag = GER
 					tag = ENG
 					tag = USA
-					tag = RUS
+					tag = SOV
 				}
 			}
 			modifier = {

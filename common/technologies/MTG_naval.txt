@@ -1447,7 +1447,7 @@ technologies = {
 				factor = 7
 				OR = {
 					tag = ENG
-					tag = RUS
+					tag = SOV
 					tag = GER
 				}
 			}
