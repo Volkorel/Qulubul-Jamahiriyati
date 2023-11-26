@@ -1,0 +1,10 @@
+spriteTypes = {
+
+	#ASIA
+	#JAPANOSPHERE
+	#Republic of Ezo
+	spriteType = {
+		name = "GFX_portrait_ezo_takagaki_satoru"
+		texturefile = "gfx/leaders/EZO/portrait_ezo_takagaki_satoru.dds"
+	}
+}

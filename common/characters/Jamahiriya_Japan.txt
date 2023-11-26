@@ -1,0 +1,15 @@
+characters={
+	EZO_takagaki_satoru={
+		name="Takagaki Satoru"
+		portraits={
+			civilian={
+				large="GFX_portrait_ezo_takagaki_satoru"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}
