@@ -1,0 +1,29 @@
+#Below the San Diego Line
+characters={
+	MZB_Theodor_Lihan_Bronkhorst={
+		name="Theodor Lihan Bronkhorst"
+		portraits={
+			civilian={
+				large="GFX_MZB_Portrait_Theodor_Lihan_Bronkhorst"
+			}
+		}
+		country_leader={
+			ideology=conservatism_integralism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SAF_Pietje_Robjert_Vrouwenvelder={
+		name="Pietje-Robjert Vrouwenvelder"
+		portraits={
+			civilian={
+				large="GFX_SAF_Pietje_Robjert_Vrouwenvelder"
+			}
+		}
+		country_leader={
+			ideology=liberalism_liberal_conservatism_subtype
+			expire="1965.1.1.1"
+			id=-2
+		}
+	}
+}

@@ -33,6 +33,15 @@ bookmarks = { ### !!! Both bookmarks should be identical
 			focuses = {
 			}
 		}
+		"SAF"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = { has_dlc = "Man the Guns" }
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}

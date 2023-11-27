@@ -7,4 +7,16 @@ spriteTypes = {
 		name = "GFX_portrait_ezo_takagaki_satoru"
 		texturefile = "gfx/leaders/EZO/portrait_ezo_takagaki_satoru.dds"
 	}
+	#AFRICA
+	#SAN DIEGO LINE
+	#Süid Afrika
+	spriteType = {
+		name = "GFX_SAF_Pietje_Robjert_Vrouwenvelder"
+		texturefile = "gfx/leaders/SAF/SAF_Pietje_Robjert_Vrouwenvelder.dds"
+	}
+	#Mozambique Protectorate
+	spriteType = {
+		name = "GFX_MZB_Portrait_Theodor_Lihan_Bronkhorst"
+		texturefile = "gfx/leaders/MZB/MZB_Portrait_Theodor_Lihan_Bronkhorst.dds"
+	}
 }

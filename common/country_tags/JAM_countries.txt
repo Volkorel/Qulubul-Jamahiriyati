@@ -2,6 +2,8 @@
 
 #Africa
 SAF = "countries/South Africa.txt"
+MZB = "countries/Mozambique.txt"
+
 #Asia
 
 #Australasia

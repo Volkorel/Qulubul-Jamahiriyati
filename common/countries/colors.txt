@@ -506,8 +506,8 @@ COG = {
 	color_ui = rgb { 152 159 209 }
 }
 MZB = {
-	color = rgb { 112 62 90 }
-	color_ui = rgb { 112 62 90 }
+	color = rgb { 138 148 206 }
+	color_ui = rgb { 138 148 206 }
 }
 KEN = {
 	color = rgb { 145 103 14 }
