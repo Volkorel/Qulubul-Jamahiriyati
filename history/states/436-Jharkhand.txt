@@ -11,7 +11,8 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = PAK
+		add_core = PAK
 		buildings = {
 			infrastructure = 2
 		}
