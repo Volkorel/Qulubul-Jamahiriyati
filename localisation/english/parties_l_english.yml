@@ -35,6 +35,82 @@
  indigeneum_subtype_desc:0 "Indigeneum"
  suprarealisme_subtype_desc:0 "Suprarealisme"
  
+ ##### SUBIDEOLOGY NAMES #####
+ 
+ communism_vanguard_socialism_subtype:0 "Vanguard Socialism"
+ communism_spartacism_subtype:0 "Spartacism"
+ communism_anarchism_subtype:0 "Anarchism"
+ 
+ socialism_althydaism_subtype:0 "Althydaism"
+ socialism_social_democracy_subtype:0 "Social Democracy"
+ socialism_social_corporatism_subtype:0 "Social Corporatism"
+ 
+ liberalism_integral_reformism_subtype:0 "Integral Reformism"
+ liberalism_liberal_conservatism_subtype:0 "Liberal Conservatism"
+ liberalism_eretzism_subtype:0 "Eretzism"
+ 
+ conservatism_integralism_subtype:0 "Integralism"
+ conservatism_ultramonarchism_subtype:0 "Ultra-Monarchism"
+ conservatism_shia_traditionalism_subtype:0 "Shi'a Traditionalism"
+ conservatism_eretzism_subtype:0 "Eretzism"
+ 
+ jacobinism_gamleby_revivalism_subtype:0 "Gamleby Revivalism"
+ jacobinism_heckerism_subtype:0 "Heckerism"
+ jacobinism_abolitionism_subtype:0 "Abolitionism"
+ jacobinism_left_jacobinism_subtype:0 "Left-Jacobinism"
+ 
+ duemarism_wahhabism_subtype:0 "Wahhabism"
+ duemarism_barakzaism_subtype:0 "Barakzaism"
+ duemarism_yahmadi_revivalism_subtype:0 "Yahmadi Revivalism"
+ duemarism_hokkaido_subtype:0 "Hokkaido School of Thought"
+ duemarism_siqqiliyyan_subtype:0 "Siqqiliyyan School of Thought"
+ duemarism_theeds_subtype:0 "Theeds School of Thought"
+ duemarism_camelots_de_la_republique_subtype:0 "Camelots de la République"
+ duemarism_arian_fundamentalism_subtype:0 "Arian Fundamentalism"
+ duemarism_autochtonist_ascensionism_subtype:0 "Autochthonist Ascensionism"
+ 
+ suprarealisme_apocalypticism_subtype:0 "Apocalypticism"
+ suprarealisme_erliks_disciples_subtype:0 "Erlik's Disciples"
+ suprarealisme_crusaders_of_the_white_band_subtype:0 "Crusaders of the White Band"
+ 
+ ##### SUBIDEOLOGY DESCRIPTIONS #####
+ 
+ communism_vanguard_socialism_subtype_desc:0 ""
+ communism_spartacism_subtype_desc:0 ""
+ communism_anarchism_subtype_desc:0 ""
+ 
+ socialism_althydaism_subtype_desc:0 ""
+ socialism_social_democracy_subtype_desc:0 ""
+ socialism_social_corporatism_subtype_desc:0 ""
+ 
+ liberalism_integral_reformism_subtype_desc:0 ""
+ liberalism_liberal_conservatism_subtype_desc:0 ""
+ liberalism_eretzism_subtype_desc:0 ""
+ 
+ conservatism_integralism_subtype_desc:0 ""
+ conservatism_ultramonarchism_subtype_desc:0 ""
+ conservatism_shia_traditionalism_subtype_desc:0 ""
+ conservatism_eretzism_subtype_desc:0 ""
+ 
+ jacobinism_gamleby_revivalism_subtype_desc:0 ""
+ jacobinism_heckerism_subtype_desc:0 ""
+ jacobinism_abolitionism_subtype_desc:0 ""
+ jacobinism_left_jacobinism_subtype_desc:0 "Left-Jacobinism"
+ 
+ duemarism_wahhabism_subtype_desc:0 ""
+ duemarism_barakzaism_subtype_desc:0 ""
+ duemarism_yahmadi_revivalism_subtype_desc:0 ""
+ duemarism_hokkaido_subtype_desc:0 ""
+ duemarism_siqqiliyyan_subtype_desc:0 ""
+ duemarism_theeds_subtype_desc:0 ""
+ duemarism_camelots_de_la_republique_subtype_desc:0 ""
+ duemarism_arian_fundamentalism_subtype_desc:0 ""
+ duemarism_autochtonist_ascensionism_subtype_desc:0 ""
+ 
+ suprarealisme_apocalypticism_subtype_desc:0 ""
+ suprarealisme_erliks_disciples_subtype_desc:0 ""
+ suprarealisme_crusaders_of_the_white_band_subtype_desc:0 ""
+ 
  CAN_communism_party:0 "KV"
  CAN_communism_party_long:0 "Kommúnistafylgð Vinlands"
  CAN_socialism_party:0 "Alþýðafylgð"

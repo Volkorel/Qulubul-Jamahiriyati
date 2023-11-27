@@ -1,0 +1,207 @@
+defined_text = {
+	name = GetSubIdeology
+	text = {
+		trigger = { has_government = communism }
+		localization_key = "[GetSubIdeologyLocCommunism]"
+	}
+	text = {
+		trigger = { has_government = socialism }
+		localization_key = "[GetSubIdeologyLocSocialism]"
+	}
+	text = {
+		trigger = { has_government = liberalism }
+		localization_key = "[GetSubIdeologyLocLiberalism]"
+	}
+	text = {
+		trigger = { has_government = conservatism }
+		localization_key = "[GetSubIdeologyLocConservatism]"
+	}
+	text = {
+		trigger = { has_government = jacobinism }
+		localization_key = "[GetSubIdeologyLocJacobinism]"
+	}
+	text = {
+		trigger = { has_government = duemarism }
+		localization_key = "[GetSubIdeologyLocDuemarism]"
+	}
+	text = {
+		trigger = { has_government = indigeneum }
+		localization_key = "[GetSubIdeologyLocIndigeneum]"
+	}
+	text = {
+		trigger = { has_government = suprarealisme }
+		localization_key = "[GetSubIdeologyLocSuprarealisme]"
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocCommunist
+	text = {
+		trigger = { has_country_leader_ideology = communism_vanguard_socialism_subtype }
+		localization_key = communism_vanguard_socialism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = communism_spartacism_subtype }
+		localization_key = communism_spartacism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = communism_anarchism_subtype }
+		localization_key = communism_anarchism_subtype
+	}
+	text = {
+		localization_key = communism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocSocialist
+	text = {
+		trigger = { has_country_leader_ideology = socialism_althydaism_subtype }
+		localization_key = socialism_althydaism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = socialism_social_democracy_subtype }
+		localization_key = socialism_social_democracy_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = socialism_social_corporatism_subtype }
+		localization_key = socialism_social_corporatism_subtype
+	}
+	text = {
+		localization_key = socialism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocLiberalism
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_integral_reformism_subtype }
+		localization_key = liberalism_integral_reformism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_liberal_conservatism_subtype }
+		localization_key = liberalism_liberal_conservatism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_eretzism_subtype }
+		localization_key = liberalism_eretzism_subtype
+	}
+	text = {
+		localization_key = liberalism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocConservatism
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_integralism_subtype }
+		localization_key = conservatism_integralism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_ultramonarchism_subtype }
+		localization_key = conservatism_ultramonarchism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_shia_traditionalism_subtype }
+		localization_key = conservatism_shia_traditionalism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_eretzism_subtype }
+		localization_key = conservatism_eretzism_subtype
+	}
+	text = {
+		localization_key = conservatism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocJacobinism
+	text = {
+		trigger = { has_country_leader_ideology = jacobinism_gamleby_revivalism_subtype }
+		localization_key = jacobinism_gamleby_revivalism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = jacobinism_heckerism_subtype }
+		localization_key = jacobinism_heckerism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = jacobinism_abolitionism_subtype }
+		localization_key = jacobinism_abolitionism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = jacobinism_left_jacobinism_subtype }
+		localization_key = jacobinism_left_jacobinism_subtype
+	}
+	text = {
+		localization_key = jacobinism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocDuemarism
+	text = {
+		trigger = { has_country_leader_ideology = duemarism_wahhabism_subtype }
+		localization_key = duemarism_wahhabism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = duemarism_barakzaism_subtype }
+		localization_key = duemarism_barakzaism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = duemarism_yahmadi_revivalism_subtype }
+		localization_key = duemarism_yahmadi_revivalism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = duemarism_hokkaido_subtype }
+		localization_key = duemarism_hokkaido_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = duemarism_siqqiliyyan_subtype }
+		localization_key = duemarism_siqqiliyyan_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = duemarism_theeds_subtype }
+		localization_key = duemarism_theeds_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = duemarism_camelots_de_la_republique_subtype }
+		localization_key = duemarism_camelots_de_la_republique_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = duemarism_arian_fundamentalism_subtype }
+		localization_key = duemarism_arian_fundamentalism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = duemarism_autochtonist_ascensionism_subtype }
+		localization_key = duemarism_autochtonist_ascensionism_subtype
+	}
+	text = {
+		localization_key = duemarism
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocIndigeneum
+	text = {
+		localization_key = indigeneum
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocSuprarealisme
+	text = {
+		trigger = { has_country_leader_ideology = suprarealisme_apocalypticism_subtype }
+		localization_key = suprarealisme_apocalypticism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = suprarealisme_erliks_disciples_subtype }
+		localization_key = suprarealisme_erliks_disciples_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = suprarealisme_crusaders_of_the_white_band_subtype }
+		localization_key = suprarealisme_crusaders_of_the_white_band_subtype
+	}
+	text = {
+		localization_key = suprarealisme
+	}
+}

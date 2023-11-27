@@ -3,7 +3,9 @@ ideologies = {
 		types = {
 			communism_subtype = {}
 
-			#communism_whenthegovernmentdoesstuffism_subtype = { can_be_randomly_selected = no }
+			communism_vanguard_socialism_subtype = { can_be_randomly_selected = no }
+			communism_spartacism_subtype = { can_be_randomly_selected = no }
+			communism_anarchism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 165 0 0 }
@@ -14,7 +16,9 @@ ideologies = {
 		types = {
 			socialism_subtype = {}
 
-			#socialism_redditsocdemism_subtype = { can_be_randomly_selected = no }
+			socialism_althydaism_subtype = { can_be_randomly_selected = no }
+			socialism_social_democracy_subtype = { can_be_randomly_selected = no }
+			socialism_social_corporatism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 204 0 74 }
@@ -25,7 +29,9 @@ ideologies = {
 		types = {
 			liberalism_subtype = {}
 
-			#liberalism_bluehairism_subtype = { can_be_randomly_selected = no }
+			liberalism_integral_reformism_subtype = { can_be_randomly_selected = no }
+			liberalism_liberal_conservatism_subtype = { can_be_randomly_selected = no }
+			liberalism_eretzism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 0 184 216 }
@@ -36,7 +42,10 @@ ideologies = {
 		types = {
 			conservatism_subtype = {}
 
-			#conservatism_donothingism_subtype = { can_be_randomly_selected = no }
+			conservatism_integralism_subtype = { can_be_randomly_selected = no }
+			conservatism_ultramonarchism_subtype = { can_be_randomly_selected = no }
+			conservatism_shia_traditionalism_subtype = { can_be_randomly_selected = no }
+			conservatism_eretzism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 55 86 137 }
@@ -47,7 +56,10 @@ ideologies = {
 		types = {
 			jacobinism_subtype = {}
 
-			#jacobinism_disruptthelawsofgodandmanism_subtype = { can_be_randomly_selected = no }
+			jacobinism_gamleby_revivalism_subtype = { can_be_randomly_selected = no }
+			jacobinism_heckerism_subtype = { can_be_randomly_selected = no }
+			jacobinism_abolitionism_subtype = { can_be_randomly_selected = no }
+			jacobinism_left_jacobinism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 216 216 0 }
@@ -58,7 +70,15 @@ ideologies = {
 		types = {
 			duemarism_subtype = {}
 
-			#duemarism_romanlarpism_subtype = { can_be_randomly_selected = no }
+			duemarism_wahhabism_subtype = { can_be_randomly_selected = no }
+			duemarism_barakzaism_subtype = { can_be_randomly_selected = no }
+			duemarism_yahmadi_revivalism_subtype = { can_be_randomly_selected = no }
+			duemarism_hokkaido_subtype = { can_be_randomly_selected = no }
+			duemarism_siqqiliyyan_subtype = { can_be_randomly_selected = no }
+			duemarism_theeds_subtype = { can_be_randomly_selected = no }
+			duemarism_camelots_de_la_republique_subtype = { can_be_randomly_selected = no }
+			duemarism_arian_fundamentalism_subtype = { can_be_randomly_selected = no }
+			duemarism_autochtonist_ascensionism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 0 133 66 }
@@ -78,7 +98,9 @@ ideologies = {
 		types = {
 			suprarealisme_subtype = {}
 
-			#suprarealisme_funnyism_subtype = { can_be_randomly_selected = no }
+			suprarealisme_apocalypticism_subtype = { can_be_randomly_selected = no }
+			suprarealisme_erliks_disciples_subtype = { can_be_randomly_selected = no }
+			suprarealisme_crusaders_of_the_white_band_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 25 25 25 }
