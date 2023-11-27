@@ -1,6 +1,6 @@
 ﻿capital = 105 # Montenegro
 
-oob = "MNT_1936"
+#oob = ""
 
 set_research_slots = 3
 
@@ -73,22 +73,12 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = conservatism
+	last_election = "1905.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 33
-	neutrality = 33
-	communism = 34
+	conservatism = 100
 }
-
-recruit_character = MNT_kristo_popovic
-recruit_character = MNT_blazo_jovanovic
-recruit_character = MNT_blazo_dukanovic
-
-
-
-
