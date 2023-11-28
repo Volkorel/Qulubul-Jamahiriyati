@@ -1,0 +1,15 @@
+state={
+	id=936
+	name="STATE_936"
+	provinces={
+		13273 13277 13278 
+	}
+	history = {
+		owner = HER
+		add_core_of = HER
+	}
+	manpower=22250
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

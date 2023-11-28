@@ -1,0 +1,18 @@
+state={
+	id=937
+	name="STATE_937"
+	provinces={
+		8202 12391 13279 
+	}
+	history = {
+		owner = HER
+		add_core_of = HER
+		victory_points = {
+			12391 10
+		}
+	}
+	manpower=463700
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -509,6 +509,12 @@ MZB = {
 	color = rgb { 138 148 206 }
 	color_ui = rgb { 138 148 206 }
 }
+
+HER = {
+	color = rgb { 119 132 125 }
+	color_ui = rgb { 119 132 125 }
+}
+
 KEN = {
 	color = rgb { 145 103 14 }
 	color_ui = rgb { 145 103 14 }

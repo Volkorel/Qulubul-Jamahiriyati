@@ -1,5 +1,6 @@
 #Below the San Diego Line
 characters={
+	#MZB
 	MZB_Theodor_Lihan_Bronkhorst={
 		name="Theodor Lihan Bronkhorst"
 		portraits={
@@ -13,6 +14,7 @@ characters={
 			id=-1
 		}
 	}
+	#SAF
 	SAF_Pietje_Robjert_Vrouwenvelder={
 		name="Pietje-Robjert Vrouwenvelder"
 		portraits={
@@ -24,6 +26,20 @@ characters={
 			ideology=liberalism_liberal_conservatism_subtype
 			expire="1965.1.1.1"
 			id=-2
+		}
+	}
+	#HER
+	HER_Tjinaani_Maharero={
+		name="Tjinaani Maharero"
+		portraits={
+			civilian={
+				large="GFX_Portrait_HER_Tjinaani_Maharero"
+			}
+		}
+		country_leader={
+			ideology=indigeneum_subtype
+			expire="1965.1.1.1"
+			id=-3
 		}
 	}
 }

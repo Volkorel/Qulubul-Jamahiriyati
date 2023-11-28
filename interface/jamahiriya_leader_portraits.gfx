@@ -19,4 +19,9 @@ spriteTypes = {
 		name = "GFX_MZB_Portrait_Theodor_Lihan_Bronkhorst"
 		texturefile = "gfx/leaders/MZB/MZB_Portrait_Theodor_Lihan_Bronkhorst.dds"
 	}
+	#Hererolannen
+	spriteType = {
+		name = "GFX_Portrait_HER_Tjinaani_Maharero"
+		texturefile = "gfx/leaders/HER/Portrait_HER_Tjinaani_Maharero.dds"
+	}
 }
