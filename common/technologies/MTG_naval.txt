@@ -30,7 +30,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1904
+		start_year = 1897
 		
 		folder = {
 			name = mtgnavalfolder
@@ -76,7 +76,7 @@ technologies = {
 		}
 		research_cost = 1.5
 		
-		start_year = 1910
+		start_year = 1903
 
 		folder = {
 			name = mtgnavalfolder
@@ -123,7 +123,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1916
+		start_year = 1909
 		
 		folder = {
 			name = mtgnavalfolder
@@ -138,7 +138,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 0
-				date < 1916.1.1
+				date < 1909.1.1
 			}
 		}
 		
@@ -161,7 +161,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 1922
+		start_year = 1915
 		
 		folder = {
 			name = mtgnavalfolder
@@ -172,7 +172,7 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 0
-				date < 1922.1.1
+				date < 1915.1.1
 			}
 		}
 		
@@ -190,7 +190,7 @@ technologies = {
 		
 		research_cost = 0.75
 
-		start_year = 1904
+		start_year = 1897
 		
 		folder = {
 			name = mtgnavalfolder
@@ -236,7 +236,7 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 1.5
 
-		start_year = 1914
+		start_year = 1907
 		
 		folder = {
 			name = mtgnavalfolder
@@ -248,7 +248,7 @@ technologies = {
 			
 			modifier = {
 				factor = 0
-				date < 1914.1.1
+				date < 1907.1.1
 			}
 			modifier = {
 				factor = 2
@@ -277,7 +277,7 @@ technologies = {
 		}
 		research_cost = 1
 
-		start_year = 1910
+		start_year = 1903
 		
 		folder = {
 			name = mtgnavalfolder
@@ -315,7 +315,7 @@ technologies = {
 		}
 		research_cost = 1
 
-		start_year = 1916
+		start_year = 1909
 		
 		folder = {
 			name = mtgnavalfolder
@@ -327,7 +327,7 @@ technologies = {
 			
 			modifier = {
 				factor = 0
-				date < 1916.1.1
+				date < 1909.1.1
 			}
 			modifier = {
 				factor = 2
@@ -375,7 +375,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1904
+		start_year = 1897
 		
 		folder = {
 			name = mtgnavalfolder
@@ -421,7 +421,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1910
+		start_year = 1903
 		
 		folder = {
 			name = mtgnavalfolder
@@ -463,7 +463,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1916
+		start_year = 1909
 		
 		folder = {
 			name = mtgnavalfolder
@@ -483,7 +483,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 0
-				date < 1916.1.1
+				date < 1909.1.1
 			}
 		}
 		
@@ -505,7 +505,7 @@ technologies = {
 		}
 		research_cost = 1.5
 
-		start_year = 1922
+		start_year = 1915
 		
 		folder = {
 			name = mtgnavalfolder
@@ -524,7 +524,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 0
-				date < 1922.1.1
+				date < 1915.1.1
 			}
 		}
 		
@@ -559,7 +559,7 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 2.5
 
-		start_year = 1908
+		start_year = 1901
 		
 		folder = {
 			name = mtgnavalfolder
@@ -610,7 +610,7 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 2.5
 
-		start_year = 1914
+		start_year = 1907
 		
 		folder = {
 			name = mtgnavalfolder
@@ -630,7 +630,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 0
-				date < 1914.1.1
+				date < 1907.1.1
 			}
 		}
 		
@@ -659,7 +659,7 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 2.5
 
-		start_year = 1918
+		start_year = 1911
 		
 		folder = {
 			name = mtgnavalfolder
@@ -679,7 +679,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 0
-				date < 1918.1.1
+				date < 1911.1.1
 			}
 		}
 		
@@ -724,7 +724,7 @@ technologies = {
 		
 		research_cost = 1.75
 
-		start_year = 1904
+		start_year = 1897
 		
 		folder = {
 			name = mtgnavalfolder
@@ -775,7 +775,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1910
+		start_year = 1903
 		
 		folder = {
 			name = mtgnavalfolder
@@ -821,7 +821,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1910
+		start_year = 1903
 		
 		ai_will_do = {
 			factor = 1
@@ -832,7 +832,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 0
-				date < 1916.1.1
+				date < 1909.1.1
 			}
 		}
 		
@@ -859,7 +859,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1916
+		start_year = 1909
 		
 		folder = {
 			name = mtgnavalfolder
@@ -879,7 +879,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 0
-				date < 1916.1.1
+				date < 1909.1.1
 			}
 		}
 		
@@ -901,7 +901,7 @@ technologies = {
 		}
 		research_cost = 1.5
 
-		start_year = 1922
+		start_year = 1915
 		
 		folder = {
 			name = mtgnavalfolder
@@ -922,7 +922,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 0
-				date < 1924.1.1
+				date < 1917.1.1
 			}
 		}
 		
@@ -955,7 +955,7 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 2.5
 
-		start_year = 1908
+		start_year = 1901
 		
 		folder = {
 			name = mtgnavalfolder
@@ -975,7 +975,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 0
-				date < 1914.1.1
+				date < 1907.1.1
 			}
 		}
 		
@@ -1004,7 +1004,7 @@ technologies = {
 		xp_research_bonus = 1.50
 		research_cost = 2.5
 
-		start_year = 1914
+		start_year = 1907
 		
 		folder = {
 			name = mtgnavalfolder
@@ -1027,7 +1027,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 0
-				date < 1914.1.1
+				date < 1907.1.1
 			}
 		}
 		
@@ -1067,7 +1067,7 @@ technologies = {
 		
 		research_cost = 1.75
 
-		start_year = 1910
+		start_year = 1903
 		
 		folder = {
 			name = mtgnavalfolder
@@ -1109,7 +1109,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1916
+		start_year = 1909
 		
 		folder = {
 			name = mtgnavalfolder
@@ -1129,7 +1129,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 0
-				date < 1918.1.1
+				date < 1911.1.1
 			}
 		}
 		
@@ -1159,7 +1159,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1922
+		start_year = 1915
 		
 		folder = {
 			name = mtgnavalfolder
@@ -1179,7 +1179,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 0
-				date < 1916.1.1
+				date < 1909.1.1
 			}
 		}
 		
@@ -1200,7 +1200,7 @@ technologies = {
 		}
 		research_cost = 1.5
 
-		start_year = 1928
+		start_year = 1921
 		
 		folder = {
 			name = mtgnavalfolder
@@ -1220,7 +1220,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 0
-				date < 1926.1.1
+				date < 1919.1.1
 			}
 		}
 		
@@ -1252,7 +1252,7 @@ technologies = {
 
 		research_cost = 1.25
 
-		start_year = 1904
+		start_year = 1897
 		
 		folder = {
 			name = mtgnavalfolder
@@ -1271,7 +1271,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 0
-				date < 1912.1.1
+				date < 1905.1.1
 			}
 		}
 		
@@ -1302,7 +1302,7 @@ technologies = {
 		
 		research_cost = 1.25
 
-		start_year = 1910
+		start_year = 1903
 		
 		folder = {
 			name = mtgnavalfolder
@@ -1321,7 +1321,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 0
-				date < 1912.1.1
+				date < 1905.1.1
 			}
 		}
 		
@@ -1349,7 +1349,7 @@ technologies = {
 		
 		research_cost = 1.25
 
-		start_year = 1916
+		start_year = 1909
 		
 		folder = {
 			name = mtgnavalfolder
@@ -1368,7 +1368,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 0
-				date < 1916.1.1
+				date < 1909.1.1
 			}
 		}
 		
@@ -1391,7 +1391,7 @@ technologies = {
 		
 		research_cost = 1.25
 
-		start_year = 1922
+		start_year = 1915
 		dependencies = {
 			advanced_generator = 1
 		}
@@ -1412,7 +1412,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 0
-				date < 1926.1.1
+				date < 1919.1.1
 			}
 		}
 		
@@ -1433,7 +1433,7 @@ technologies = {
 		}
 		research_cost = 1
 
-		start_year = 1916
+		start_year = 1909
 		
 		folder = {
 			name = mtgnavalfolder
@@ -1460,7 +1460,7 @@ technologies = {
 			}
 			modifier = {
 				factor = 0
-				date < 1917.1.1
+				date < 1910.1.1
 			}
 		}
 		
@@ -1479,7 +1479,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1910
+		start_year = 1903
 
 		#set at gamestart
 		allow = {
@@ -1493,7 +1493,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1910
+		start_year = 1903
 
 		#set at gamestart
 		allow = {
@@ -1507,7 +1507,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1910
+		start_year = 1903
 
 		#set at gamestart
 		allow = {
@@ -1520,7 +1520,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1910
+		start_year = 1903
 
 		#set at gamestart
 		allow = {
@@ -1535,7 +1535,7 @@ technologies = {
 			ship_extra_fuel_tank
 		}
 		research_cost = 1
-		start_year = 1910
+		start_year = 1903
 
 		#set at gamestart
 		allow = {
