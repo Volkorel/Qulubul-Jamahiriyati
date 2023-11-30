@@ -2,18 +2,22 @@
 state={
 	id=935
 	name="STATE_935"
-	provinces={
-		12985 13274 13275 13276 13280 
-	}
-	history = {
+
+	history={
 		owner = HER
 		add_core_of = HER
 		victory_points = {
-			13276 50
+			13276 50 
 		}
 		buildings = {
 			infrastructure = 2
+
 		}
+
+	}
+
+	provinces={
+		12985 13274 13275 13276 
 	}
 	manpower=612500
 	buildings_max_level_factor=1.000

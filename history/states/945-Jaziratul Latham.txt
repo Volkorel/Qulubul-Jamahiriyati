@@ -1,0 +1,15 @@
+state={
+	id=945
+	name="STATE_945"
+	provinces={
+		13282 
+	}
+	history={
+		owner = CUB
+		add_core_of = ZAN
+	}
+	manpower=250
+	state_category=tiny_island
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

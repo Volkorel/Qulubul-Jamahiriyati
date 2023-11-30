@@ -29,6 +29,11 @@ spriteTypes = {
 		name = "GFX_Portrait_MLW_Chifundo_Mzembe"
 		texturefile = "gfx/leaders/MLW/Portrait_MLW_Chifundo_Mzembe.dds"
 	}
+	#Zanzibar
+	spriteType = {
+		name = "GFX_Portrait_ZAN_Ye"
+		texturefile = "gfx/leaders/ZAN/Portrait_ZAN_Ye.dds"
+	}
 	#EUROPE
 	#WEST OF DANUBE
 	#Frankia

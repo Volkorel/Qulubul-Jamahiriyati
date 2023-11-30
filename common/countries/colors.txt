@@ -3,6 +3,10 @@ GER = {
 	color = rgb { 160 154 97 }
 	color_ui = rgb { 160 154 97 }
 }
+ZAN = {
+	color = rgb { 79 127 105 }
+	color_ui = rgb { 79 127 105 }
+}
 MLW = {
 	color = rgb { 128 190 206 }
 	color_ui = rgb { 128 190 206 }

@@ -1,0 +1,18 @@
+state={
+	id=944
+	name="STATE_944"
+	provinces={
+		13283 
+	}
+	history={
+		owner = ZAN
+		add_core_of = ZAN
+        victory_points = {
+            13283 50 
+        }
+	}
+	manpower=453700
+	state_category=metropolis
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

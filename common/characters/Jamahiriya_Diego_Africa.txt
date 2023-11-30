@@ -56,4 +56,18 @@ characters={
 			id=-4
 		}
 	}
+	#ZAN
+	ZAN_Kanye_Gharb={
+		name="Qassem ibn Hassan al-Bilali"
+		portraits={
+			civilian={
+				large="GFX_Portrait_ZAN_Ye"
+			}
+		}
+		country_leader={
+			ideology=conservatism_ultramonarchism_subtype
+			expire="1965.1.1.1"
+			id=-4
+		}
+	}
 }
