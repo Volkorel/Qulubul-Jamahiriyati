@@ -1,8 +1,8 @@
-bookmarks = { ### !!! Both bookmarks should be identical
+bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
-		date = 1936.1.1.12
+		date = 1905.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = "CAN"
 		default = yes
