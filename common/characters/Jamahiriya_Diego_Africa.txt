@@ -42,4 +42,18 @@ characters={
 			id=-3
 		}
 	}
+	#MLW
+	MLW_Chifundo_Mzembe={
+		name="Chifundo Mzembe"
+		portraits={
+			civilian={
+				large="GFX_Portrait_MLW_Chifundo_Mzembe"
+			}
+		}
+		country_leader={
+			ideology=indigeneum_subtype
+			expire="1965.1.1.1"
+			id=-4
+		}
+	}
 }

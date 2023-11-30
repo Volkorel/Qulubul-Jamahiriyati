@@ -24,4 +24,16 @@ spriteTypes = {
 		name = "GFX_Portrait_HER_Tjinaani_Maharero"
 		texturefile = "gfx/leaders/HER/Portrait_HER_Tjinaani_Maharero.dds"
 	}
+	#Malawi
+	spriteType = {
+		name = "GFX_Portrait_MLW_Chifundo_Mzembe"
+		texturefile = "gfx/leaders/MLW/Portrait_MLW_Chifundo_Mzembe.dds"
+	}
+	#EUROPE
+	#WEST OF DANUBE
+	#Frankia
+	spriteType = {
+		name = "GFX_portrait_FRA_Pierre_Isaie_Asselineau"
+		texturefile = "gfx/leaders/FRA/portrait_FRA_Pierre_Isaie_Asselineau.dds"
+	}
 }

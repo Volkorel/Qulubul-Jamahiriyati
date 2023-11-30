@@ -1,0 +1,17 @@
+#West of Danube
+characters={
+	#FRA
+	FRA_Pierre_Asselineau={
+		name="Pierre-Isaïe Asselineau"
+		portraits={
+			civilian={
+				large="GFX_portrait_FRA_Pierre_Isaie_Asselineau"
+			}
+		}
+		country_leader={
+			ideology=jacobinism_left_jacobinism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

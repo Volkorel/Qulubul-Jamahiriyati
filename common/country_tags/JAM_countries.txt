@@ -4,6 +4,7 @@
 SAF = "countries/South Africa.txt"
 MZB = "countries/Mozambique.txt"
 HER = "countries/Hererolannen.txt"
+MLW = "countries/Malawi.txt"
 #Asia
 
 #Australasia

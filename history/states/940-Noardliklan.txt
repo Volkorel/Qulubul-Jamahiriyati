@@ -1,0 +1,17 @@
+state={
+	id=940
+	name="STATE_940"
+	provinces={
+		5164 12971 
+	}
+	history = {
+		owner = SAF
+		victory_points = {
+			12971 10
+		}
+	}
+	manpower=313700
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

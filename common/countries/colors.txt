@@ -1,8 +1,11 @@
 #reload countrycolors
-
 GER = {
 	color = rgb { 160 154 97 }
 	color_ui = rgb { 160 154 97 }
+}
+MLW = {
+	color = rgb { 128 190 206 }
+	color_ui = rgb { 128 190 206 }
 }
 BAY = {
 	color = rgb { 153 216 216 }
