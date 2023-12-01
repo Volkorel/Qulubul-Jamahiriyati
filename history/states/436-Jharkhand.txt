@@ -12,7 +12,7 @@ state={
 
 	history={
 		owner = PAK
-		add_core = PAK
+		add_core_of = PAK
 		buildings = {
 			infrastructure = 2
 		}

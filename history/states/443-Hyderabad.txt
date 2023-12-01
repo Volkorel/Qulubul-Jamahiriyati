@@ -8,7 +8,7 @@ state={
 
 	history={
 		owner = PAK
-		add_core = PAK
+		add_core_of = PAK
 		victory_points = {
 			3456 3 
 		}

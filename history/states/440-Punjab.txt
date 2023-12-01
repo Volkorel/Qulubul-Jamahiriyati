@@ -11,7 +11,7 @@ state={
 			10887 5
 		}
 		owner = PAK
-		add_core = PAK
+		add_core_of = PAK
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
