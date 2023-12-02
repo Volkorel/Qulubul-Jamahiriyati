@@ -1,7 +1,7 @@
 ﻿l_english:
  communism:0 "Communism"
  socialism:0 "Socialism"
- liberalism:0 "Liberalism"
+ liberalism:0 "Centrism"
  conservatism:0 "Conservatism"
  jacobinism:0 "Jacobinism"
  duemarism:0 "Duemarism"
@@ -10,7 +10,7 @@
  
  communism_noun:0 "Communism"
  socialism_noun:0 "Socialism"
- liberalism_noun:0 "Liberalism"
+ liberalism_noun:0 "Centrism"
  conservatism_noun:0 "Conservatism"
  jacobinism_noun:0 "Jacobinism"
  duemarism_noun:0 "Duemarism"
@@ -19,7 +19,7 @@
  
  communism_desc:0 "Communism"
  socialism_desc:0 "Socialism"
- liberalism_desc:0 "Liberalism"
+ liberalism_desc:0 "Centrism"
  conservatism_desc:0 "Conservatism"
  jacobinism_desc:0 "Jacobinism"
  duemarism_desc:0 "Duemarism"
@@ -28,7 +28,7 @@
  
  communism_subtype_desc:0 "Communism"
  socialism_subtype_desc:0 "Socialism"
- liberalism_subtype_desc:0 "Liberalism"
+ liberalism_subtype_desc:0 "Centrism"
  conservatism_subtype_desc:0 "Conservatism"
  jacobinism_subtype_desc:0 "Jacobinism"
  duemarism_subtype_desc:0 "Duemarism"
