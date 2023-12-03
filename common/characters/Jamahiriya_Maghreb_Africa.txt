@@ -1,0 +1,17 @@
+#N. Africa and Arab World
+characters={
+	#MOR
+	MOR_Muwaffaq_Ismail_alMoustaoui={
+		name="Muwaffaq ibn Ismail al-Moustaoui"
+		portraits={
+			civilian={
+				large="GFX_Portrait_MOR_Muwaffaq_Ismail_alMoustaoui"
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype #conservatism_sunni_traditionalism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

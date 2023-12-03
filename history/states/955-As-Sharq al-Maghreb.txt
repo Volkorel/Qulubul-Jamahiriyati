@@ -1,0 +1,18 @@
+state={
+	id=955
+	name="STATE_955"
+	provinces={
+		989 1111 7116 7215 
+	}
+	history = {
+		owner = MOR
+		add_core_of = MOR
+		victory_points = {
+			989 10
+		}
+	}
+	manpower=1726700
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

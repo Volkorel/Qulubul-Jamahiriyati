@@ -8,6 +8,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/EZO/portrait_ezo_takagaki_satoru.dds"
 	}
 	#AFRICA
+	#MAGHREB
+	spriteType = {
+		name = "GFX_Portrait_MOR_Muwaffaq_Ismail_alMoustaoui"
+		texturefile = "gfx/leaders/MOR/Portrait_MOR_Muwaffaq_Ismail_alMoustaoui.dds"
+	}
 	#SAN DIEGO LINE
 	#Süid Afrika
 	spriteType = {

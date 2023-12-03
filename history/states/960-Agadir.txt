@@ -1,0 +1,19 @@
+state={
+	id=960
+	name="STATE_960"
+	provinces={
+		5046 7203 
+	}
+	history = {
+		owner = MOR
+		add_core_of = MOR
+		#add_core_of = SUS
+		victory_points = {
+			7203 5
+		}
+	}
+	manpower=1006200
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

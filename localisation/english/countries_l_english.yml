@@ -12,6 +12,9 @@
  MLW:0 "Kingdom of Maravi"
  MLW_DEF:0 "the Kingdom of Maravi"
  MLW_ADJ:0 "Maravi"
+ MOR:0 "Alaouite Sultanate"
+ MOR_DEF:0 "the Moroccan Alaouite Sultanate"
+ MOR_ADJ:0 "Moroccan"
 ### ASIA ###
  SOV:0 "Garðaveldi"
  SOV_DEF:0 "Garðaveldi"

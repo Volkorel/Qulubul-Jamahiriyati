@@ -1,0 +1,19 @@
+state={
+	id=959
+	name="STATE_959"
+	provinces={
+		1152 1207 4084 12042 
+	}
+	history = {
+		owner = MOR
+		add_core_of = MOR
+		#add_core_of = SUS
+		victory_points = {
+			1207 5
+		}
+	}
+	manpower=606200
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

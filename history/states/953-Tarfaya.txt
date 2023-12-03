@@ -1,0 +1,19 @@
+state={
+	id=953
+	name="STATE_953"
+	provinces={
+		4920 8038 8111 
+	}
+	history = {
+		owner = MOR
+		add_core_of = MOR
+		add_core_of = WES
+		victory_points = {
+			8111 10
+		}
+	}
+	manpower=726700
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

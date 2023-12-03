@@ -1,0 +1,16 @@
+state={
+	id=954
+	name="STATE_954"
+	provinces={
+		1989 4022 7908 8046 
+	}
+	history = {
+		owner = MOR
+		add_core_of = MOR
+		#add_core_of = SUS
+	}
+	manpower=526700
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

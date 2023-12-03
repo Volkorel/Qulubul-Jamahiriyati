@@ -6,7 +6,9 @@ MZB = "countries/Mozambique.txt"
 HER = "countries/Hererolannen.txt"
 MLW = "countries/Malawi.txt"
 ZAN = "countries/Zanzibar.txt"
-
+ALG = "countries/Algeria.txt"
+MOR = "countries/Morocco.txt"
+WES = "countries/Western Sahara.txt"
 #Asia
 
 #Australasia

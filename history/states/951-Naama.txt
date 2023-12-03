@@ -1,0 +1,16 @@
+state={
+	id=951
+	name="STATE_951"
+	provinces={
+		3991 4018 7008 10045 12018 12020 13074 
+	}
+	history = {
+		owner = MOR
+		add_core_of = MOR
+		add_core_of = ALG
+	}
+	manpower=225000
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
