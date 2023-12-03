@@ -56,7 +56,7 @@
  UNLOCK_AIRCRAFT2:0 "Allows to research Interbellum Aircrafts."
  UNLOCK_TANKS:0 "Allows to research first Tank."
  UNLOCK_TANKS2:0 "Allows to research Tank Sub-Technologies."
- UNLOCK_SUBMARINE:0 "Allows to research Submarine Technologies."
+ UNLOCK_SUBMARINE:0 "Allows to research Mecha Technologies."
  UNLOCK_SUBMARINE2:0 "Allows to research Atlantic-Class Submarine."
  tank_design:0 "Tank Prototype Design"
  tank_design_short:0 "Tank Prototype"

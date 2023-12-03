@@ -821,6 +821,10 @@ technologies = {
 			name = electronics_folder
 			position = { x = 14 y = 2 }
 		}
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 18 y = 2 }
+		}
 		path = {
 			leads_to_tech = advanced_generator
 			research_cost_coeff = 1

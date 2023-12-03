@@ -671,11 +671,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		path = {
-			leads_to_tech = proto_mecha
-			research_cost_coeff = 1
-		}
-		
 		research_cost = 2
 		start_year = 1910
 		
@@ -911,14 +906,16 @@ technologies = {
 		}
 	}
 	
+### METAL GEAR RISING: JAMAHIRIYA ###
+	
 	proto_mecha = {
-
+		
 		enable_equipments = {
 			 gw_automat_1
 		}
 
 		dependencies = {
-			basic_heavy_tank = 1
+			generator_battery = 1
 		}
 
 #		on_research_complete_limit = {
@@ -941,7 +938,7 @@ technologies = {
 		
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 19 y = @1911 }
+			position = { x = 18 y = @1911 }
 		}
 		
 		ai_will_do = {
@@ -973,7 +970,7 @@ technologies = {
 		
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 19 y = @1912 }
+			position = { x = 18 y = @1912 }
 		}
 		
 		ai_will_do = {
@@ -1000,7 +997,7 @@ technologies = {
 		
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 19 y = @1913 }
+			position = { x = 18 y = @1913 }
 		}
 		
 		ai_will_do = {

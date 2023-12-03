@@ -894,6 +894,18 @@ guiTypes = {
 					quadTextureSprite ="GFX_tiled_research_bg"
 				}
 			}
+			
+			containerWindowType = {
+				name = "tiled_research_bg2"
+				position = { x=1440 y=740 }
+				size = { width = 240 height = 240 }
+				clipping = no
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_research_bg"
+				}
+			}
 
 			gridboxtype = {
 				name = "mechanical_engineering_tree"
@@ -937,6 +949,14 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "basic_heavy_tank_chassis_tree"
+				position = { x = 100 y = 172 }
+				size = { width = 400 height = 1000 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			
+			gridboxtype = {
+				name = "proto_mecha_tree"
 				position = { x = 100 y = 172 }
 				size = { width = 400 height = 1000 }
 				slotsize = { width = 70 height = 70 }
