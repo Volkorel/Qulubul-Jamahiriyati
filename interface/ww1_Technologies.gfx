@@ -1787,4 +1787,17 @@ spriteTypes = {
 		name = "GFX_maintenance_optimisation_medium"
 		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/maintenance_optimisation.png"
 	}
+	
+	SpriteType = {
+		name = "GFX_proto_mecha_medium"
+		texturefile = "gfx/interface/technologies/gw_automat_1.png"
+	}
+	SpriteType = {
+		name = "GFX_improved_mecha_medium"
+		texturefile = "gfx/interface/technologies/gw_automat_2.png"
+	}
+	SpriteType = {
+		name = "GFX_advanced_mecha_medium"
+		texturefile = "gfx/interface/technologies/gw_automat_3.png"
+	}
 }
