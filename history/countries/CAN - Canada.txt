@@ -112,11 +112,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 5
-	socialism = 42
-	liberalism = 10
-	conservatism = 33
-	jacobinism = 10
+	communism = 2
+	socialism = 52
+	liberalism = 8
+	conservatism = 35
+	jacobinism = 3
 	duemarism = 0
 	indigeneum = 0
 	suprarealisme = 0
