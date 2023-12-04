@@ -49,6 +49,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/conservatism_eretzism_subtype.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_conservatism_norse_conservatism_subtype"
+		texturefile = "gfx/interface/ideologies/conservatism_norse_conservatism_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_jacobinism_gamleby_revivalism_subtype"
 		texturefile = "gfx/interface/ideologies/jacobinism_gamleby_revivalism_subtype.dds"
 	}
