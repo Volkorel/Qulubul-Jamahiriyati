@@ -1800,4 +1800,49 @@ spriteTypes = {
 		name = "GFX_advanced_mecha_medium"
 		texturefile = "gfx/interface/technologies/gw_automat_3.png"
 	}
+	
+	SpriteType = {
+		name = "GFX_passive_fortification_medium"
+		texturefile = "gfx/interface/technologies/tech_passive_fortification.png"
+	}
+	SpriteType = {
+		name = "GFX_landmines_medium"
+		texturefile = "gfx/interface/technologies/tech_landmines.png"
+	}
+	SpriteType = {
+		name = "GFX_wind_dispersal_medium"
+		texturefile = "gfx/interface/technologies/tech_wind_dispersal.png"
+	}
+	SpriteType = {
+		name = "GFX_basic_chemical_agents_medium"
+		texturefile = "gfx/interface/technologies/tech_basic_chem_agents.png"
+	}
+	SpriteType = {
+		name = "GFX_nerve_agents_medium"
+		texturefile = "gfx/interface/technologies/tech_nerve_agents.png"
+	}
+	SpriteType = {
+		name = "GFX_anthrax_medium"
+		texturefile = "gfx/interface/technologies/tech_anthrax.png"
+	}
+	SpriteType = {
+		name = "GFX_smallpox_medium"
+		texturefile = "gfx/interface/technologies/tech_smallpox.png"
+	}
+	SpriteType = {
+		name = "GFX_artillery_shells_medium"
+		texturefile = "gfx/interface/technologies/tech_artillery_shells.png"
+	}
+	SpriteType = {
+		name = "GFX_aircraft_bombs_medium"
+		texturefile = "gfx/interface/technologies/tech_aircraft_bombs.png"
+	}
+	SpriteType = {
+		name = "GFX_mass_anthrax_vaccination_medium"
+		texturefile = "gfx/interface/technologies/tech_anthrax_vaccine.png"
+	}
+	SpriteType = {
+		name = "GFX_mass_smallpox_vaccination_medium"
+		texturefile = "gfx/interface/technologies/tech_smallpox_vaccine.png"
+	}
 }

@@ -565,7 +565,7 @@ technologies = {
 		start_year = 1893
 		folder = {
 			name = electronics_folder
-			position = { x = 10 y = 0 }
+			position = { x = 4 y = 0 }
 		}	
 		folder = {
 			name = infantry_folder
@@ -593,7 +593,7 @@ technologies = {
 		start_year = 1903
 		folder = {
 			name = electronics_folder
-			position = { x = 12 y = 2 }
+			position = { x = 6 y = 2 }
 		}
 		path = {
 			leads_to_tech = turbocharger
@@ -626,7 +626,7 @@ technologies = {
 		start_year = 1911
 		folder = {
 			name = electronics_folder
-			position = { x = 12 y = 6 }
+			position = { x = 6 y = 6 }
 		}		
 		ai_will_do = {
 			factor = 1
@@ -686,7 +686,7 @@ technologies = {
 		start_year = 1917
 		folder = {
 			name = electronics_folder
-			position = { x = 12 y = 8 }
+			position = { x = 6 y = 8 }
 		}		
 		ai_will_do = {
 			factor = 2
@@ -725,7 +725,7 @@ technologies = {
 		start_year = 1907
 		folder = {
 			name = electronics_folder
-			position = { x = 10 y = 4 }
+			position = { x = 4 y = 4 }
 		}
 		folder = {
 			name = nsb_armour_folder
@@ -760,7 +760,7 @@ technologies = {
 		start_year = 1911
 		folder = {
 			name = electronics_folder
-			position = { x = 10 y = 6 }
+			position = { x = 4 y = 6 }
 		}
 		path = {
 			leads_to_tech = tank_design_standartization_and_unification
@@ -793,7 +793,7 @@ technologies = {
 		start_year = 1917
 		folder = {
 			name = electronics_folder
-			position = { x = 10 y = 8 }
+			position = { x = 4 y = 8 }
 		}		
 		ai_will_do = {
 			factor = 2
@@ -819,7 +819,7 @@ technologies = {
 		start_year = 1903
 		folder = {
 			name = electronics_folder
-			position = { x = 14 y = 2 }
+			position = { x = 8 y = 2 }
 		}
 		folder = {
 			name = nsb_armour_folder
@@ -851,7 +851,7 @@ technologies = {
 		start_year = 1911
 		folder = {
 			name = electronics_folder
-			position = { x = 14 y = 6 }
+			position = { x = 8 y = 6 }
 		}
 		ai_will_do = {
 			factor = 10
@@ -868,6 +868,195 @@ technologies = {
 			electronics
 			naval_equipment
 			mio_cat_tech_all_submarine_and_modules
+		}
+	}
+	
+	passive_fortification = {
+		path = {
+			leads_to_tech = landmines
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1903
+		folder = {
+			name = electronics_folder
+			position = { x = 11 y = 0 }
+		}
+		ai_will_do = {
+			factor = 1
+		}		
+		categories = {
+			electronics
+		}
+	}
+	landmines = {
+		research_cost = 1
+		start_year = 1905
+		folder = {
+			name = electronics_folder
+			position = { x = 11 y = 2 }
+		}
+		ai_will_do = {
+			factor = 1
+		}		
+		categories = {
+			electronics
+		}
+	}
+	
+	wind_dispersal = {
+		path = {
+			leads_to_tech = basic_chemical_agents
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = anthrax
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = artillery_shells
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1905
+		folder = {
+			name = electronics_folder
+			position = { x = 15 y = 2 }
+		}
+		ai_will_do = {
+			factor = 1
+		}		
+		categories = {
+			electronics
+		}
+	}
+	basic_chemical_agents = {
+		path = {
+			leads_to_tech = nerve_agents
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1907
+		folder = {
+			name = electronics_folder
+			position = { x = 11 y = 4 }
+		}
+		ai_will_do = {
+			factor = 1
+		}		
+		categories = {
+			electronics
+		}
+	}
+	nerve_agents = {
+		research_cost = 1
+		start_year = 1911
+		folder = {
+			name = electronics_folder
+			position = { x = 11 y = 6 }
+		}
+		ai_will_do = {
+			factor = 1
+		}		
+		categories = {
+			electronics
+		}
+	}
+	anthrax = {
+		path = {
+			leads_to_tech = smallpox
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1907
+		folder = {
+			name = electronics_folder
+			position = { x = 13 y = 4 }
+		}
+		ai_will_do = {
+			factor = 1
+		}		
+		categories = {
+			electronics
+		}
+	}
+	smallpox = {
+		research_cost = 1
+		start_year = 1911
+		folder = {
+			name = electronics_folder
+			position = { x = 13 y = 6 }
+		}
+		ai_will_do = {
+			factor = 1
+		}		
+		categories = {
+			electronics
+		}
+	}
+	artillery_shells = {
+		path = {
+			leads_to_tech = aircraft_bombs
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1907
+		folder = {
+			name = electronics_folder
+			position = { x = 15 y = 4 }
+		}
+		ai_will_do = {
+			factor = 1
+		}		
+		categories = {
+			electronics
+		}
+	}
+	aircraft_bombs = {
+		research_cost = 1
+		start_year = 1911
+		folder = {
+			name = electronics_folder
+			position = { x = 15 y = 6 }
+		}
+		ai_will_do = {
+			factor = 1
+		}		
+		categories = {
+			electronics
+		}
+	}
+	
+	mass_anthrax_vaccination = {
+		path = {
+			leads_to_tech = mass_smallpox_vaccination
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1907
+		folder = {
+			name = electronics_folder
+			position = { x = 17 y = 4 }
+		}
+		ai_will_do = {
+			factor = 1
+		}		
+		categories = {
+			electronics
+		}
+	}
+	mass_smallpox_vaccination = {
+		research_cost = 1
+		start_year = 1911
+		folder = {
+			name = electronics_folder
+			position = { x = 17 y = 6 }
+		}
+		ai_will_do = {
+			factor = 1
+		}		
+		categories = {
+			electronics
 		}
 	}
 }
