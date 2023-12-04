@@ -6,6 +6,7 @@ ideologies = {
 			communism_vanguard_socialism_subtype = { can_be_randomly_selected = no }
 			communism_spartacism_subtype = { can_be_randomly_selected = no }
 			communism_anarchism_subtype = { can_be_randomly_selected = no }
+			communism_national_communism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 165 0 0 }
@@ -19,6 +20,8 @@ ideologies = {
 			socialism_althydaism_subtype = { can_be_randomly_selected = no }
 			socialism_social_democracy_subtype = { can_be_randomly_selected = no }
 			socialism_social_corporatism_subtype = { can_be_randomly_selected = no }
+			socialism_leftist_nationalism_subtype = { can_be_randomly_selected = no }
+			socialism_leftist_agrarianism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 204 0 74 }
@@ -31,7 +34,9 @@ ideologies = {
 
 			liberalism_integral_reformism_subtype = { can_be_randomly_selected = no }
 			liberalism_liberal_conservatism_subtype = { can_be_randomly_selected = no }
+			liberalism_economic_liberalism_subtype = { can_be_randomly_selected = no }
 			liberalism_eretzism_subtype = { can_be_randomly_selected = no }
+			liberalism_progressive_liberalism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 0 184 216 }
@@ -47,6 +52,10 @@ ideologies = {
 			conservatism_shia_traditionalism_subtype = { can_be_randomly_selected = no }
 			conservatism_sunni_traditionalism_subtype = { can_be_randomly_selected = no }
 			conservatism_eretzism_subtype = { can_be_randomly_selected = no }
+			conservatism_national_conservatism_subtype = { can_be_randomly_selected = no }
+			conservatism_conservative_populism_subtype = { can_be_randomly_selected = no }
+			conservatism_military_junta_subtype = { can_be_randomly_selected = no }
+			conservatism_norse_conservatism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 55 86 137 }
@@ -61,6 +70,7 @@ ideologies = {
 			jacobinism_heckerism_subtype = { can_be_randomly_selected = no }
 			jacobinism_abolitionism_subtype = { can_be_randomly_selected = no }
 			jacobinism_left_jacobinism_subtype = { can_be_randomly_selected = no }
+			jacobinism_national_jacobinism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 216 216 0 }

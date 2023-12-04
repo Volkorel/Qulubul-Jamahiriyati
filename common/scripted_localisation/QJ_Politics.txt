@@ -49,6 +49,10 @@ defined_text = {
 		localization_key = communism_anarchism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = communism_national_communism_subtype }
+		localization_key = communism_national_communism_subtype
+	}
+	text = {
 		localization_key = communism
 	}
 }
@@ -68,6 +72,14 @@ defined_text = {
 		localization_key = socialism_social_corporatism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = socialism_leftist_nationalism_subtype }
+		localization_key = socialism_leftist_nationalism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = socialism_leftist_agrarianism_subtype }
+		localization_key = socialism_leftist_agrarianism_subtype
+	}
+	text = {
 		localization_key = socialism
 	}
 }
@@ -83,8 +95,16 @@ defined_text = {
 		localization_key = liberalism_liberal_conservatism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = liberalism_economic_liberalism_subtype }
+		localization_key = liberalism_economic_liberalism_subtype
+	}
+	text = {
 		trigger = { has_country_leader_ideology = liberalism_eretzism_subtype }
 		localization_key = liberalism_eretzism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_progressive_liberalism_subtype }
+		localization_key = liberalism_progressive_liberalism_subtype
 	}
 	text = {
 		localization_key = liberalism
@@ -114,6 +134,22 @@ defined_text = {
 		localization_key = conservatism_eretzism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = conservatism_national_conservatism_subtype }
+		localization_key = conservatism_national_conservatism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_conservative_populism_subtype }
+		localization_key = conservatism_conservative_populism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_military_junta_subtype }
+		localization_key = conservatism_military_junta_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_norse_conservatism_subtype }
+		localization_key = conservatism_norse_conservatism_subtype
+	}
+	text = {
 		localization_key = conservatism
 	}
 }
@@ -135,6 +171,10 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = jacobinism_left_jacobinism_subtype }
 		localization_key = jacobinism_left_jacobinism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = jacobinism_national_jacobinism_subtype }
+		localization_key = jacobinism_national_jacobinism_subtype
 	}
 	text = {
 		localization_key = jacobinism
