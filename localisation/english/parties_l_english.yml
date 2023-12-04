@@ -52,6 +52,7 @@
  conservatism_integralism_subtype:0 "Integralism"
  conservatism_ultramonarchism_subtype:0 "Ultra-Monarchism"
  conservatism_shia_traditionalism_subtype:0 "Shi'a Traditionalism"
+ conservatism_sunni_traditionalism_subtype:0 "Sunni Traditionalism"
  conservatism_eretzism_subtype:0 "Eretzism"
  
  jacobinism_gamleby_revivalism_subtype:0 "Gamleby Revivalism"
@@ -90,6 +91,7 @@
  conservatism_integralism_subtype_desc:0 ""
  conservatism_ultramonarchism_subtype_desc:0 ""
  conservatism_shia_traditionalism_subtype_desc:0 ""
+ conservatism_sunni_traditionalism_subtype_desc:0 ""
  conservatism_eretzism_subtype_desc:0 ""
  
  jacobinism_gamleby_revivalism_subtype_desc:0 ""

@@ -45,6 +45,7 @@ ideologies = {
 			conservatism_integralism_subtype = { can_be_randomly_selected = no }
 			conservatism_ultramonarchism_subtype = { can_be_randomly_selected = no }
 			conservatism_shia_traditionalism_subtype = { can_be_randomly_selected = no }
+			conservatism_sunni_traditionalism_subtype = { can_be_randomly_selected = no }
 			conservatism_eretzism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}

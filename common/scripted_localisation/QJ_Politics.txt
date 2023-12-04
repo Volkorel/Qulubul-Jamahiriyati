@@ -106,6 +106,10 @@ defined_text = {
 		localization_key = conservatism_shia_traditionalism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = conservatism_sunni_traditionalism_subtype }
+		localization_key = conservatism_sunni_traditionalism_subtype
+	}
+	text = {
 		trigger = { has_country_leader_ideology = conservatism_eretzism_subtype }
 		localization_key = conservatism_eretzism_subtype
 	}

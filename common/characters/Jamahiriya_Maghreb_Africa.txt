@@ -9,7 +9,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism_subtype #conservatism_sunni_traditionalism_subtype
+			ideology=conservatism_sunni_traditionalism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
