@@ -1,0 +1,16 @@
+characters={
+	#VINLAND
+	CAN_Sigrídtr_Ragnsung={
+		name="Sigríðr Ragnsung"
+		portraits={
+			civilian={
+				large="GFX_Portrait_CAN_Sigrídtr_Ragnsung"
+			}
+		}
+		country_leader={
+			ideology=socialism_althydaism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

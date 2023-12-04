@@ -1,0 +1,17 @@
+#West of Danube
+characters={
+	#XSM
+	XSM_Abbas_Jaffar_Ya={
+		name="Abbas Jaffar ibn Hussein al-Yahmadi"
+		portraits={
+			civilian={
+				large="GFX_Portrait_XSM_Abbas_Jaffar_Ya"
+			}
+		}
+		country_leader={
+			ideology=conservatism_shia_traditionalism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

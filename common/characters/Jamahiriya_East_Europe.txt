@@ -1,0 +1,17 @@
+#West of Danube
+characters={
+	#SOV
+	SOV_Novoseltsev_Askandar_Lytingsson={
+		name="Novoseltsev Askandar Lytingsson"
+		portraits={
+			civilian={
+				large="GFX_Portrait_SOV_Novoseltsev_Askandar_Lytingsson"
+			}
+		}
+		country_leader={
+			ideology=jacobinism_gamleby_revivalism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

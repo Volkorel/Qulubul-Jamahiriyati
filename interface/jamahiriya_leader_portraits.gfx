@@ -7,6 +7,11 @@ spriteTypes = {
 		name = "GFX_portrait_ezo_takagaki_satoru"
 		texturefile = "gfx/leaders/EZO/portrait_ezo_takagaki_satoru.dds"
 	}
+	#FAREAST
+	spriteType = {
+		name = "GFX_Portrait_XSM_Abbas_Jaffar_Ya"
+		texturefile = "gfx/leaders/XSM/Portrait_XSM_Abbas_Jaffar_Ya.dds"
+	}
 	#AFRICA
 	#MAGHREB
 	spriteType = {
@@ -45,5 +50,18 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_FRA_Pierre_Isaie_Asselineau"
 		texturefile = "gfx/leaders/FRA/portrait_FRA_Pierre_Isaie_Asselineau.dds"
+	}
+	#EAST OF DANUBE 
+	#Gardtaveldi
+	spriteType = {
+		name = "GFX_Portrait_SOV_Novoseltsev_Askandar_Lytingsson"
+		texturefile = "gfx/leaders/SOV/Portrait_SOV_Novoseltsev_Askandar_Lytingsson.dds"
+	}
+	#ERIKSLAND
+	#NORTH ERIKSLAND
+	#Vinland
+	spriteType = {
+		name = "GFX_Portrait_CAN_Sigrídtr_Ragnsung"
+		texturefile = "gfx/leaders/CAN/Portrait_CAN_Sigrídtr_Ragnsung.dds"
 	}
 }
