@@ -1,0 +1,87 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_ideology_communism_vanguard_socialism_subtype"
+		texturefile = "gfx/interface/ideologies/communism_vanguard_socialism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_communism_spartacism_subtype"
+		texturefile = "gfx/interface/ideologies/communism_spartacism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_socialism_althydaism_subtype"
+		texturefile = "gfx/interface/ideologies/socialism_althydaism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_liberalism_integral_reformism_subtype"
+		texturefile = "gfx/interface/ideologies/liberalism_integral_reformism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_liberalism_liberal_conservatism_subtype"
+		texturefile = "gfx/interface/ideologies/liberalism_liberal_conservatism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_liberalism_economic_liberalism_subtype"
+		texturefile = "gfx/interface/ideologies/liberalism_economic_liberalism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_liberalism_eretzism_subtype"
+		texturefile = "gfx/interface/ideologies/liberalism_eretzism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservatism_integralism_subtype"
+		texturefile = "gfx/interface/ideologies/conservatism_integralism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservatism_ultramonarchism_subtype"
+		texturefile = "gfx/interface/ideologies/conservatism_ultramonarchism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservatism_shia_traditionalism_subtype"
+		texturefile = "gfx/interface/ideologies/conservatism_shia_traditionalism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservatism_sunni_traditionalism_subtype"
+		texturefile = "gfx/interface/ideologies/conservatism_sunni_traditionalism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservatism_eretzism_subtype"
+		texturefile = "gfx/interface/ideologies/conservatism_eretzism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_jacobinism_gamleby_revivalism_subtype"
+		texturefile = "gfx/interface/ideologies/jacobinism_gamleby_revivalism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_jacobinism_abolitionism_subtype"
+		texturefile = "gfx/interface/ideologies/jacobinism_abolitionism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_jacobinism_left_jacobinism_subtype"
+		texturefile = "gfx/interface/ideologies/jacobinism_left_jacobinism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_jacobinism_national_jacobinism_subtype"
+		texturefile = "gfx/interface/ideologies/jacobinism_national_jacobinism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_duemarism_arian_fundamentalism_subtype"
+		texturefile = "gfx/interface/ideologies/duemarism_arian_fundamentalism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_duemarism_autochtonist_ascensionism_subtype"
+		texturefile = "gfx/interface/ideologies/duemarism_autochtonist_ascensionism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_suprarealisme_apocalypticism_subtype"
+		texturefile = "gfx/interface/ideologies/suprarealisme_apocalypticism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_suprarealisme_erliks_disciples_subtype"
+		texturefile = "gfx/interface/ideologies/suprarealisme_erliks_disciples_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_suprarealisme_crusaders_of_the_white_band_subtype"
+		texturefile = "gfx/interface/ideologies/suprarealisme_crusaders_of_the_white_band_subtype.dds"
+	}
+}
