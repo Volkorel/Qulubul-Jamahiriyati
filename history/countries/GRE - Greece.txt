@@ -20,6 +20,16 @@ if = {
 	}
 }
 
+create_faction = "catholic_war_criminals"
+add_to_faction = BAY
+add_to_faction = SYR
+add_to_faction = PAL
+add_to_faction = BOS
+add_to_faction = SER
+add_to_faction = ROM
+add_to_faction = MOL
+add_to_faction = BUL
+
 set_research_slots = 3
 
 set_technology = {

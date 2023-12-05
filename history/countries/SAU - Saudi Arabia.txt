@@ -23,6 +23,10 @@ if = {
 	set_technology = { camelry = 1 }
 }
 
+create_faction = "rightful_successors_of_yahmadi"
+add_to_faction = PER
+add_to_faction = BUK
+
 set_convoys = 5
 
 recruit_character = SAU_abdulaziz_ibn_saud

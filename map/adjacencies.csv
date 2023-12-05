@@ -128,6 +128,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3422;6449;sea;2871;-1;-1;-1;-1;;Channel islands#Added
 1091;12068;sea;5322;-1;-1;-1;-1;;Hoko#Added
 7145;1167;sea;2684;-1;-1;-1;-1;;Red Sea#Added
+7982;10904;sea;2919;-1;-1;-1;-1;;Persian Gulf#Added
 4985;5074;sea;2776;-1;-1;-1;-1;;Oki Islands#Added
 5407;5382;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar North
 5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
