@@ -1,0 +1,55 @@
+chemweapons_basic = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_chemweapons_basic_icon
+	
+	attrition_for_controller = 0.3
+	local_org_regain = -0.2
+}
+chemweapons_nerve = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_chemweapons_nerve_icon
+	
+	attrition_for_controller = 0.5
+	local_org_regain = -0.3
+	disable_strategic_redeployment_for_controller = 1
+}
+bioweapons_anthrax = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_bioweapons_anthrax_modifier_icon
+	
+	attrition_for_controller = 0.2
+	state_resources_factor = -0.25
+	local_manpower = -0.25
+}
+bioweapons_smallpox = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_bioweapons_smallpox_modifier_icon
+	
+	attrition_for_controller = 0.3
+	state_resources_factor = -0.5
+	local_manpower = -0.5
+}
+passive_fortification = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_fortification_icon
+	
+	enemy_army_speed_factor = -0.2
+	enemy_attrition = 0.15
+	enemy_local_supplies = -0.15
+	state_resources_factor = -0.2
+}
+landmines = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_fortification_icon
+	
+	enemy_army_speed_factor = -0.4
+	enemy_attrition = 0.3
+	enemy_local_supplies = -0.3
+	state_resources_factor = -0.5
+}

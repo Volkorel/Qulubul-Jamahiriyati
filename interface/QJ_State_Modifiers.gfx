@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_modifiers_bioweapons_anthrax_modifier_icon"
+		textureFile = "gfx/interface/state_modifiers/bioweapons_anthrax_modifier.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_bioweapons_smallpox_modifier_icon"
+		textureFile = "gfx/interface/state_modifiers/bioweapons_smallpox_modifier.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_chemweapons_basic_icon"
+		textureFile = "gfx/interface/state_modifiers/chemweapons_basic.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_chemweapons_nerve_icon"
+		textureFile = "gfx/interface/state_modifiers/chemweapons_nerve.dds"
+	}
+	spriteType = {
+		name = "GFX_modifiers_fortification_icon"
+		textureFile = "gfx/interface/state_modifiers/fortification.dds"
+	}
+}

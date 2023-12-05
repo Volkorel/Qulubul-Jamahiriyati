@@ -9,6 +9,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/communism_spartacism_subtype.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_communism_anarchism_subtype"
+		texturefile = "gfx/interface/ideologies/communism_anarchism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_communism_national_communism_subtype"
+		texturefile = "gfx/interface/ideologies/communism_national_communism_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_socialism_althydaism_subtype"
 		texturefile = "gfx/interface/ideologies/socialism_althydaism_subtype.dds"
 	}

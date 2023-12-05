@@ -1,0 +1,133 @@
+scripted_gui = {
+	QJ_WMDs_scripted_gui = {
+		window_name = "QJ_WMD_Scripted_GUI_Window"
+		context_type = selected_state_context
+		parent_window_name = province_info_window
+
+		visible = {
+			always = yes
+		}
+
+		triggers = {
+			QJ_Passive_Fortification_Deployment_Icon_visible = {
+				ROOT = {
+					has_tech = passive_fortification
+				}
+				owner = {
+					tag = ROOT
+					controller = ROOT
+					has_war = yes 
+				}
+				NOT = {
+					OR = {
+						has_dynamic_modifier = {
+							modifier = passive_fortification
+						}
+						has_dynamic_modifier = {
+							modifier = landmines
+						}
+					}
+				}
+			}
+			
+			QJ_Chemical_Weapons_Deployment_Icon_visible = {
+				ROOT = {
+					has_tech = basic_chemical_agents
+				}
+				controller = {
+					has_war_with = ROOT
+				}
+				NOT = {
+					OR = {
+						has_dynamic_modifier = {
+							modifier = chemweapons_basic
+						}
+						has_dynamic_modifier = {
+							modifier = chemweapons_nerve
+						}
+						has_dynamic_modifier = {
+							modifier = bioweapons_anthrax
+						}
+						has_dynamic_modifier = {
+							modifier = bioweapons_smallpox
+						}
+					}
+				}
+			}
+
+			QJ_Biological_Weapons_Deployment_Icon_visible = {
+				ROOT = {
+					has_tech = anthrax
+				}
+				controller = {
+					has_war_with = ROOT
+				}
+				NOT = {
+					OR = {
+						has_dynamic_modifier = {
+							modifier = chemweapons_basic
+						}
+						has_dynamic_modifier = {
+							modifier = chemweapons_nerve
+						}
+						has_dynamic_modifier = {
+							modifier = bioweapons_anthrax
+						}
+						has_dynamic_modifier = {
+							modifier = bioweapons_smallpox
+						}
+					}
+				}
+			}
+		}
+
+		effects = {
+			QJ_Passive_Fortification_Deployment_Icon_click = {
+				if = {
+					limit = {
+						ROOT = {
+							has_tech = landmines
+						}
+					}
+					add_dynamic_modifier = { modifier = landmines days = 180 }
+				}
+				else = {
+					add_dynamic_modifier = { modifier = passive_fortification days = 180 }
+				}
+			}
+			QJ_Chemical_Weapons_Deployment_Icon_click = {
+				if = {
+					limit = {
+						ROOT = {
+							has_tech = nerve_agents
+						}
+					}
+					add_dynamic_modifier = { modifier = chemweapons_nerve days = 28 }
+				}
+				else = {
+					add_dynamic_modifier = { modifier = chemweapons_basic days = 28 }
+				}
+			}
+			QJ_Biological_Weapons_Deployment_Icon_click = {
+				if = {
+					limit = {
+						ROOT = {
+							has_tech = smallpox
+						}
+					}
+					add_dynamic_modifier = { modifier = bioweapons_smallpox days = 90 }
+
+#					controller = {
+#						country_event = {
+#							id = chembio.3
+#							days = 1
+#						}
+#					}
+				}
+				else = {
+					add_dynamic_modifier = { modifier = bioweapons_anthrax days = 90 }
+				}
+			}
+		}
+	}
+}

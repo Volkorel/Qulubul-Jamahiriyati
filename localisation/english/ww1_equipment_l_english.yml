@@ -1099,3 +1099,17 @@
  gw_automat_1:0 "Prototype Mecha"
  gw_automat_2:0 "Basic Mecha"
  gw_automat_3:0 "Improved Mecha"
+ 
+ chemweapons_basic:0 "Basic Chemical Agents"
+ chemweapons_nerve:0 "Nerve Agents"
+ bioweapons_anthrax:0 "Weaponized Anthrax"
+ bioweapons_smallpox:0 "Weaponized Smallpox"
+ passive_fortification:0 "Passive Fortification"
+ landmines:0 "Landmines"
+ 
+ Passivefortification_tt:0 "§RDeploy Passive Fortification§!"
+ Passivefortification_tt_delayed:0 "Selecting this will deploy passive fortification in this state, affecting it for §Yhalf a year§!\n\nOnly possible in §Gour owned and controlled§! territory."
+ Chemweapons_tt:0 "§GDeploy Chemical Weapons§!"
+ Chemweapons_tt_delayed:0 "Selecting this will deploy chemical weaponry on this state, affecting it for §Yfour weeks§!\n\nOnly possible in §Rhostile-controlled§! territory."
+ Bioweapons_tt:0 "§ODeploy Biological Weapons§!"
+ Bioweapons_tt_delayed:0 "Selecting this will deploy biological weaponry on this state, affecting it for approximately §Ythree months§!.[GetDiseaseUsed]\n\nOnly possible in §Rhostile-controlled§! territory."
