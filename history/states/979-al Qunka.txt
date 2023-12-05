@@ -4,6 +4,13 @@ state={
 	provinces={
 		888 942 3858 3891 3945 9933 11742 11870 
 	}
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SPR
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

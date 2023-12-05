@@ -5,6 +5,13 @@ state={
 	provinces={
 		3873 6817 6966 9896 13222 
 	}
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SPR
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

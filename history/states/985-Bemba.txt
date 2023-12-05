@@ -4,6 +4,12 @@ state={
 	provinces={
 		1846 5221 10594 10930 12907 13173 
 	}
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+		}
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

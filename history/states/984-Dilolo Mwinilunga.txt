@@ -4,6 +4,12 @@ state={
 	provinces={
 		1968 12677 12795 
 	}
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 2
+		}
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

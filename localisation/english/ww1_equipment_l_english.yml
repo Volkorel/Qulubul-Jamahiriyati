@@ -1107,8 +1107,8 @@
  passive_fortification:0 "Passive Fortification"
  landmines:0 "Landmines"
  
- Passivefortification_tt:0 "§RDeploy Passive Fortification§!"
- Passivefortification_tt_delayed:0 "Selecting this will deploy passive fortification in this state, affecting it for §Yhalf a year§!\n\nOnly possible in §Gour owned and controlled§! territory."
+ Passivefortification_tt:0 "§RDeploy Passive Fortifications§!"
+ Passivefortification_tt_delayed:0 "Selecting this will deploy passive fortifications in this state, affecting it for §Yhalf a year§!\n\nOnly possible in §Gour owned and controlled§! territory."
  Chemweapons_tt:0 "§GDeploy Chemical Weapons§!"
  Chemweapons_tt_delayed:0 "Selecting this will deploy chemical weaponry on this state, affecting it for §Yfour weeks§!\n\nOnly possible in §Rhostile-controlled§! territory."
  Bioweapons_tt:0 "§ODeploy Biological Weapons§!"
