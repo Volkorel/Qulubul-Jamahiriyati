@@ -20,18 +20,36 @@ bioweapons_anthrax = {
 
 	icon = GFX_modifiers_bioweapons_anthrax_modifier_icon
 	
-	attrition_for_controller = 0.2
-	state_resources_factor = -0.25
-	local_manpower = -0.25
+	attrition_for_controller = 0.3
+	state_resources_factor = -0.5
+	local_manpower = -0.5
 }
 bioweapons_smallpox = {
 	enable = { always = yes }
 
 	icon = GFX_modifiers_bioweapons_smallpox_modifier_icon
 	
-	attrition_for_controller = 0.3
-	state_resources_factor = -0.5
-	local_manpower = -0.5
+	attrition_for_controller = 0.5
+	state_resources_factor = -0.75
+	local_manpower = -0.75
+}
+bioweapons_anthrax_reduced = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_bioweapons_anthrax_modifier_icon
+	
+	attrition_for_controller = 0.12
+	state_resources_factor = -0.2
+	local_manpower = -0.2
+}
+bioweapons_smallpox_reduced = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_bioweapons_smallpox_modifier_icon
+	
+	attrition_for_controller = 0.2
+	state_resources_factor = -0.3
+	local_manpower = -0.3
 }
 passive_fortification = {
 	enable = { always = yes }

@@ -1,0 +1,22 @@
+﻿l_english:
+ QJ_apocalypse.1.t:0 "Nationwide Smallpox Outbreak!"
+ QJ_apocalypse.1.d:0 ""
+ QJ_apocalypse.1.a:0 "Oh shit"
+ 
+ QJ_apocalypse.2.t:0 "Smallpox Spreads from [FROM.GetName]!"
+ QJ_apocalypse.2.d:0 ""
+ QJ_apocalypse.2.a:0 "We may have done too much gaming"
+ 
+ QJ_apocalypse.3.t:0 "Pandemic Hits Our Nation!"
+ QJ_apocalypse.3.d:0 ""
+ QJ_apocalypse.3.a:0 "It's joever"
+ 
+ QJ_apocalypse.99.t:0 "Global Pandemic!"
+ QJ_apocalypse.99.d:0 "me sowing: haha, fuck yeah!"
+ QJ_apocalypse.99.a:0 "me reaping: this shit sucks!"
+ 
+ QJ_apocalypse.100.t:0 "Global Pandemic Dies Down"
+ QJ_apocalypse.100.d:0 ""
+ QJ_apocalypse.100.a:0 ""
+ 
+ QJ_PANDEMIC_NO_MORE_tt:0 "§RThe Pandemic§! will no longer spread to other nations."

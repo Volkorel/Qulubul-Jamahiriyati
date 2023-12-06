@@ -1,0 +1,49 @@
+###A TIME OF AXES, A TIME OF SWORDS, A TIME OF WIND, A TIME OF WOLVES###
+ideas = {
+	country = {
+		QJ_national_outbreak_idea = {
+			allowed = { always = no }
+			picture = outbreak
+			removal_cost = -1
+
+			modifier = {
+				monthly_population = -0.5
+				stability_factor = -0.2
+				war_support_factor = -0.3
+			}
+		}
+		QJ_national_outbreak_reduced_idea = {
+			allowed = { always = no }
+			picture = outbreak
+			removal_cost = -1
+
+			modifier = {
+				monthly_population = -0.25
+				stability_factor = -0.1
+				war_support_factor = -0.15
+			}
+		}
+		QJ_global_outbreak_idea = {
+			allowed = { always = no }
+			picture = outbreak
+			removal_cost = -1
+
+			modifier = {
+				monthly_population = -0.8
+				stability_factor = -0.4
+				war_support_factor = -0.5
+			}
+		}
+		QJ_global_outbreak_reduced_idea = {
+			allowed = { always = no }
+			picture = outbreak
+			removal_cost = -1
+
+			modifier = {
+				monthly_population = -0.4
+				stability_factor = -0.2
+				war_support_factor = -0.25
+			}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+﻿l_english:
+ MAPMODE_OUTBREAKS_MAP_MODE_NAME:0 "Diseases"
+ MAPMODE_OUTBREAKS_MAP_MODE:0 "§YDiseases§! map mode"
+ MAPMODE_OUTBREAKS_MAP_MODE_DESCRIPTION:0 "Shows countries currently suffering from a disease outbreak."
+ outbreaks_map_mode_tooltip:0 "Countries in §Rred§! are currently suffering from a disease outbreak."
+ outbreaks_map_mode_tooltip_delayed:0 "You should've been more careful buddy!"

@@ -1104,6 +1104,8 @@
  chemweapons_nerve:0 "Nerve Agents"
  bioweapons_anthrax:0 "Weaponized Anthrax"
  bioweapons_smallpox:0 "Weaponized Smallpox"
+ bioweapons_anthrax_reduced:0 "Weaponized Anthrax"
+ bioweapons_smallpox_reduced:0 "Weaponized Smallpox"
  passive_fortification:0 "Passive Fortification"
  landmines:0 "Landmines"
  

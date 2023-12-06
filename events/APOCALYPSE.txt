@@ -1,0 +1,244 @@
+﻿##########################################################
+# BALDR DIES, CHRIST RETURNS, AND IMAM MAHDI IS REVEALED #
+##########################################################
+
+add_namespace = QJ_apocalypse
+
+country_event = { #National outbreak due to weaponised smallpox
+	id = QJ_apocalypse.1
+	title = QJ_apocalypse.1.t
+	desc = QJ_apocalypse.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_apocalypse.1.a
+		clr_country_flag = QJ_national_outbreak_imminent
+		if = {
+			limit = {
+				has_tech = mass_smallpox_vaccination
+			}
+			add_timed_idea = {
+				idea = QJ_national_outbreak_reduced_idea
+				days = 180
+			}
+		}
+		else = {
+			add_timed_idea = {
+				idea = QJ_national_outbreak_idea
+				days = 180
+			}
+		}
+		hidden_effect = {
+			every_neighbor_country = {
+				limit = {
+					NOT = {
+						OR = {
+							has_country_flag = QJ_national_outbreak_imminent
+							has_idea = QJ_national_outbreak_idea
+							has_idea = QJ_national_outbreak_reduced_idea
+						}
+					}
+				}
+				random_list = {
+					1 = {
+						set_country_flag = QJ_national_outbreak_imminent
+						country_event = {
+							id = QJ_apocalypse.2
+							days = 30
+						}
+					}
+					1 = {
+						#No outbreak
+					}
+				}
+			}
+		}
+	}
+}
+country_event = { #Smallpox spreads to neighbouring countries
+	id = QJ_apocalypse.2
+	title = QJ_apocalypse.2.t
+	desc = QJ_apocalypse.2.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_apocalypse.2.a
+		clr_country_flag = QJ_national_outbreak_imminent
+		if = {
+			limit = {
+				NOT = {
+					has_global_flag = QJ_THE_PANDEMIC
+				}
+			}
+			if = {
+				limit = {
+					has_tech = mass_smallpox_vaccination
+				}
+				add_timed_idea = {
+					idea = QJ_national_outbreak_reduced_idea
+					days = 180
+				}
+			}
+			else = {
+				add_timed_idea = {
+					idea = QJ_national_outbreak_idea
+					days = 180
+				}
+			}
+			hidden_effect = {
+				random_list = {
+					1 = {
+						set_global_flag = QJ_THE_PANDEMIC
+						every_neighbor_country = {
+							limit = {
+								NOT = {
+									OR = {
+										has_country_flag = QJ_global_outbreak_imminent
+										has_idea = QJ_global_outbreak_idea
+										has_idea = QJ_global_outbreak_reduced_idea
+									}
+								}
+							}
+							random_list = {
+								5 = {
+									set_country_flag = QJ_global_outbreak_imminent
+									country_event = {
+										id = QJ_apocalypse.3
+										days = 30
+									}
+								}
+								1 = {
+									#No outbreak
+								}
+							}
+						}
+						every_country = {
+							news_event = QJ_apocalypse.99
+						}
+					}
+					9 = {
+						#World doesn't end just yet
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Global Pandemic Spreads
+	id = QJ_apocalypse.3
+	title = QJ_apocalypse.3.t
+	desc = QJ_apocalypse.3.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_apocalypse.3.a
+		if = {
+			limit = {
+				has_tech = mass_smallpox_vaccination
+			}
+			add_timed_idea = {
+				idea = QJ_global_outbreak_reduced_idea
+				days = 720
+			}
+		}
+		else = {
+			add_timed_idea = {
+				idea = QJ_global_outbreak_idea
+				days = 720
+			}
+		}
+		hidden_effect = {
+			remove_ideas = QJ_national_outbreak_idea
+			remove_ideas = QJ_national_outbreak_reduced_idea
+			if = {
+				limit = {
+					NOT = {
+						has_global_flag = QJ_PANDEMIC_DYING_DOWN
+					}
+				}
+				every_neighbor_country = {
+					limit = {
+						NOT = {
+							OR = {
+								has_country_flag = QJ_global_outbreak_imminent
+								has_idea = QJ_global_outbreak_idea
+								has_idea = QJ_global_outbreak_reduced_idea
+							}
+						}
+					}
+					random_list = {
+						5 = {
+							set_country_flag = QJ_global_outbreak_imminent
+							country_event = {
+								id = QJ_apocalypse.3
+								days = 30
+							}
+						}
+						1 = {
+							#No outbreak
+						}
+					}
+				}
+				random_country = {
+					limit = {
+						NOT = {
+							OR = {
+								has_country_flag = QJ_global_outbreak_imminent
+								has_idea = QJ_global_outbreak_idea
+								has_idea = QJ_global_outbreak_reduced_idea
+							}
+						}
+					}
+					random_list = {
+						5 = {
+							set_country_flag = QJ_global_outbreak_imminent
+							country_event = {
+								id = QJ_apocalypse.3
+								days = 30
+							}
+						}
+						1 = {
+							#No outbreak
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+news_event = { #The first seal is broken
+	id = QJ_apocalypse.99
+	title = QJ_apocalypse.99.t
+	desc = QJ_apocalypse.99.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = QJ_apocalypse.99.a
+		
+	}
+}
+
+news_event = { #Global Pandemic dies down
+	id = QJ_apocalypse.100
+	title = QJ_apocalypse.100.t
+	desc = QJ_apocalypse.100.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = QJ_apocalypse.100.a
+		set_global_flag = QJ_PANDEMIC_DYING_DOWN
+		custom_effect_tooltip = QJ_PANDEMIC_NO_MORE_tt
+	}
+}

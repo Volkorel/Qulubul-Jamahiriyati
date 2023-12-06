@@ -1,0 +1,7 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_outbreak"
+		texturefile = "gfx/interface/ideas/QJ_outbreak.dds"
+	}
+}

@@ -1,0 +1,51 @@
+scripted_map_modes = {
+	outbreaks_map_mode = {
+		top = {
+			type = country
+
+			color = {
+				FROM = {
+					set_temp_variable = { alpha = 1.0 }
+					set_temp_variable = { thickness = 10.0 }
+					if = {
+						limit = {
+							OR = {
+								has_idea = QJ_national_outbreak_idea 
+								has_idea = QJ_national_outbreak_reduced_idea
+								has_idea = QJ_global_outbreak_idea 
+								has_idea = QJ_globak_outbreak_reduced_idea 
+							}
+						}
+						set_temp_variable = { red = 0.9 }
+						set_temp_variable = { green = 0 }
+						set_temp_variable = { blue = 0 }
+					}
+					else = {
+						set_temp_variable = { red = 0.502 }
+						set_temp_variable = { green = 0.502 }
+						set_temp_variable = { blue = 0.502 }
+					}
+
+				}
+
+			}
+			thickness = no
+		}
+
+		bottom = {
+			type = none 
+
+			color = {
+				set_temp_variable = { alpha = 0.4 }
+				set_temp_variable = { thickness = 10.0 }
+			}
+
+			thickness = yes
+		}
+
+		far_text = none
+		near_text = none
+
+		update_daily = yes
+	}
+}
