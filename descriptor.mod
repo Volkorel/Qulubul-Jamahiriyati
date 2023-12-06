@@ -9,6 +9,7 @@ tags={
 }
 picture="thumbnail.png"
 replace_path="common/bookmarks"
+replace_path="common/decisions"
 replace_path="common/technologies"
 replace_path="common/ai_equipment"
 replace_path="common/ai_templates"
