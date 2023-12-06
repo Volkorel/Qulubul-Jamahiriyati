@@ -150,6 +150,22 @@ defined_text = {
 		localization_key = conservatism_norse_conservatism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = conservatism_beqtashi_mysticism_subtype }
+		localization_key = conservatism_beqtashi_mysticism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_serkadji_school_subtype }
+		localization_key = conservatism_serkadji_school_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_hercegersek_rule_subtype }
+		localization_key = conservatism_hercegersek_rule_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_pontifical_rule_subtype }
+		localization_key = conservatism_pontifical_rule_subtype
+	}
+	text = {
 		localization_key = conservatism
 	}
 }

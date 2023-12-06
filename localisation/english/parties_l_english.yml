@@ -63,6 +63,10 @@
  conservatism_conservative_populism_subtype:0 "Conservative Populism"
  conservatism_military_junta_subtype:0 "Military Junta"
  conservatism_norse_conservatism_subtype:0 "Norse Conservatism"
+ conservatism_beqtashi_mysticism_subtype:0 "Beqtashi Mysticism"
+ conservatism_serkadji_school_subtype:0 "Serkadji School"
+ conservatism_hercegersek_rule_subtype:0 "Hercegérsek Rule"
+ conservatism_pontifical_rule_subtype:0 "Pontifical Rule"
  
  jacobinism_gamleby_revivalism_subtype:0 "Gamleby Revivalism"
  jacobinism_heckerism_subtype:0 "Heckerism"
@@ -112,11 +116,15 @@
  conservatism_conservative_populism_subtype_desc:0 ""
  conservatism_military_junta_subtype_desc:0 ""
  conservatism_norse_conservatism_subtype_desc:0 ""
+ conservatism_beqtashi_mysticism_subtype_desc:0 ""
+ conservatism_serkadji_school_subtype_desc:0 ""
+ conservatism_hercegersek_rule_subtype_desc:0 ""
+ conservatism_pontifical_rule_subtype_desc:0 ""
  
  jacobinism_gamleby_revivalism_subtype_desc:0 ""
  jacobinism_heckerism_subtype_desc:0 ""
  jacobinism_abolitionism_subtype_desc:0 ""
- jacobinism_left_jacobinism_subtype_desc:0 "Left-Jacobinism"
+ jacobinism_left_jacobinism_subtype_desc:0 ""
  jacobinism_national_jacobinism_subtype_desc:0 ""
  
  duemarism_wahhabism_subtype_desc:0 ""

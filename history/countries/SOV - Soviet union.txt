@@ -75,6 +75,11 @@ set_war_support = 0.3
 create_faction = "jacobin_axis_of_evil"
 add_to_faction = LIT
 add_to_faction = POL
+add_to_faction = GER
+add_to_faction = NOR
+add_to_faction = SWE
+add_to_faction = ICE
+add_to_faction = LAT
 
 # Starting tech
 set_technology = { #WARNING: Do not just remove techs from here -> It can impact a lot of stuff. Before removing, double check that content does not count on these techs being researched
