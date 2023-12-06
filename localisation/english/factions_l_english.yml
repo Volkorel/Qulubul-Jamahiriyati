@@ -27,6 +27,7 @@
  FACTION_NAME_NONALIGNED_5:0 "The $LEADER_COUNTRY$ Coalition"
  
  slavery_NATO:0 "Atlantic Defense League"
- jacobin_axis_of_evil:0 "Holmgard Pact"
+ jacobin_axis_of_evil:0 "Gamleby Pact"
  catholic_war_criminals:0 "Sacred Oath Alliance"
  rightful_successors_of_yahmadi:0 "Hormuz Coalition"
+ the_good_guys:0 "Prolefront"

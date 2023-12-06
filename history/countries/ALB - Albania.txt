@@ -11,6 +11,8 @@ set_technology = {
 
 recruit_character = ALB_Milaim_Kaplan
 
+create_faction = "the_good_guys"
+add_to_faction = MAC
 
 set_politics = {
 	ruling_party = communism

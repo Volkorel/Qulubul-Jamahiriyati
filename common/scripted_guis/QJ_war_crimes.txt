@@ -37,6 +37,17 @@ scripted_gui = {
 				controller = {
 					has_war_with = ROOT
 				}
+				OR = {
+					any_neighbor_state = {
+						is_controlled_by = ROOT
+					}
+					AND = {
+						ROOT = {
+							has_tech = aircraft_bombs
+						}
+						days_since_last_strategic_bombing < 10
+					}
+				}
 				NOT = {
 					OR = {
 						has_dynamic_modifier = {
@@ -61,6 +72,17 @@ scripted_gui = {
 				}
 				controller = {
 					has_war_with = ROOT
+				}
+				OR = {
+					any_neighbor_state = {
+						is_controlled_by = ROOT
+					}
+					AND = {
+						ROOT = {
+							has_tech = aircraft_bombs
+						}
+						days_since_last_strategic_bombing < 10
+					}
 				}
 				NOT = {
 					OR = {

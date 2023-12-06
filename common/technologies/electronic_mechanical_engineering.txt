@@ -872,6 +872,9 @@ technologies = {
 	}
 	
 	passive_fortification = {
+		on_research_complete = {		
+			custom_effect_tooltip = UNLOCK_PASSIVE_FORTIFICATION
+		}
 		path = {
 			leads_to_tech = landmines
 			research_cost_coeff = 1
@@ -890,6 +893,9 @@ technologies = {
 		}
 	}
 	landmines = {
+		on_research_complete = {		
+			custom_effect_tooltip = UNLOCK_LANDMINES
+		}
 		research_cost = 1
 		start_year = 1905
 		folder = {
@@ -905,6 +911,9 @@ technologies = {
 	}
 	
 	wind_dispersal = {
+		on_research_complete = {		
+			custom_effect_tooltip = UNLOCK_WIND_DISPERSAL
+		}
 		path = {
 			leads_to_tech = basic_chemical_agents
 			research_cost_coeff = 1
@@ -931,6 +940,9 @@ technologies = {
 		}
 	}
 	basic_chemical_agents = {
+		on_research_complete = {		
+			custom_effect_tooltip = UNLOCK_BASIC_CHEM
+		}
 		path = {
 			leads_to_tech = nerve_agents
 			research_cost_coeff = 1
@@ -949,6 +961,9 @@ technologies = {
 		}
 	}
 	nerve_agents = {
+		on_research_complete = {		
+			custom_effect_tooltip = UNLOCK_NERVE_AGENTS
+		}
 		research_cost = 1
 		start_year = 1911
 		folder = {
@@ -963,6 +978,9 @@ technologies = {
 		}
 	}
 	anthrax = {
+		on_research_complete = {		
+			custom_effect_tooltip = UNLOCK_ANTHRAX
+		}
 		path = {
 			leads_to_tech = smallpox
 			research_cost_coeff = 1
@@ -981,6 +999,9 @@ technologies = {
 		}
 	}
 	smallpox = {
+		on_research_complete = {		
+			custom_effect_tooltip = UNLOCK_SMALLPOX
+		}
 		research_cost = 1
 		start_year = 1911
 		folder = {
@@ -995,6 +1016,9 @@ technologies = {
 		}
 	}
 	artillery_shells = {
+		on_research_complete = {		
+			custom_effect_tooltip = UNLOCK_ARTILLERY_SHELLS
+		}
 		path = {
 			leads_to_tech = aircraft_bombs
 			research_cost_coeff = 1
@@ -1013,6 +1037,9 @@ technologies = {
 		}
 	}
 	aircraft_bombs = {
+		on_research_complete = {		
+			custom_effect_tooltip = UNLOCK_AIRCRAFT_BOMBING
+		}
 		research_cost = 1
 		start_year = 1911
 		folder = {
@@ -1028,6 +1055,9 @@ technologies = {
 	}
 	
 	mass_anthrax_vaccination = {
+		on_research_complete = {		
+			custom_effect_tooltip = UNLOCK_GATES
+		}
 		path = {
 			leads_to_tech = mass_smallpox_vaccination
 			research_cost_coeff = 1
@@ -1046,6 +1076,9 @@ technologies = {
 		}
 	}
 	mass_smallpox_vaccination = {
+		on_research_complete = {		
+			custom_effect_tooltip = UNLOCK_FAUCI
+		}
 		research_cost = 1
 		start_year = 1911
 		folder = {
