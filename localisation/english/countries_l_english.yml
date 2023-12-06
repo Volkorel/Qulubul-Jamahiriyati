@@ -15,6 +15,9 @@
  MOR:0 "Alaouite Sultanate"
  MOR_DEF:0 "the Moroccan Alaouite Sultanate"
  MOR_ADJ:0 "Moroccan"
+ ALG:0 "Kingdom of Tlemcen"
+ ALG_DEF:0 "the Saidi Kingdom of Tlemcen"
+ ALG_ADJ:0 "Jazairi"
 ### ASIA ###
  SOV:0 "Garðaveldi"
  SOV_DEF:0 "Garðaveldi"

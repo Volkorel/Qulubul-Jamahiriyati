@@ -18,6 +18,10 @@ spriteTypes = {
 		name = "GFX_Portrait_MOR_Muwaffaq_Ismail_alMoustaoui"
 		texturefile = "gfx/leaders/MOR/Portrait_MOR_Muwaffaq_Ismail_alMoustaoui.dds"
 	}
+	spriteType = {
+		name = "GFX_Portrait_ALG_Mohammad_Malik_Said_Atbaa"
+		texturefile = "gfx/leaders/ALG/Portrait_ALG_Mohammad_Malik_Said_Atbaa.dds"
+	}
 	#SAN DIEGO LINE
 	#Süid Afrika
 	spriteType = {
@@ -56,6 +60,16 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_SOV_Novoseltsev_Askandar_Lytingsson"
 		texturefile = "gfx/leaders/SOV/Portrait_SOV_Novoseltsev_Askandar_Lytingsson.dds"
+	}
+	#Bavaria Mariaföld
+	spriteType = {
+		name = "GFX_Portrait_BAY_Kobyak_Toglyy_Mikael"
+		texturefile = "gfx/leaders/BAY/Portrait_BAY_Kobyak_Toglyy_Mikael.dds"
+	}
+	#Nikisetokako
+	spriteType = {
+		name = "GFX_Portrait_GRE_Regent_Council"
+		texturefile = "gfx/leaders/GRE/Portrait_GRE_Regent_Council.dds"
 	}
 	#ERIKSLAND
 	#NORTH ERIKSLAND

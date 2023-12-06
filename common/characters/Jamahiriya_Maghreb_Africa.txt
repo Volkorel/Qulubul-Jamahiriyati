@@ -14,4 +14,18 @@ characters={
 			id=-1
 		}
 	}
+	#ALG
+	ALG_Mohammad_Malik_SaidAtbaa={
+		name="Mohammad Malik ibn Zayed al Said Atbaa"
+		portraits={
+			civilian={
+				large="GFX_Portrait_ALG_Mohammad_Malik_Said_Atbaa"
+			}
+		}
+		country_leader={
+			ideology=conservatism_sunni_traditionalism_subtype #Beqtashi Mysticism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 }

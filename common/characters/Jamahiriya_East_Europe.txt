@@ -14,4 +14,32 @@ characters={
 			id=-1
 		}
 	}
+	#BAY
+	BAY_Kobyak_Mikael={
+		name="Kobyak Toglyy Mikael"
+		portraits={
+			civilian={
+				large="GFX_Portrait_BAY_Kobyak_Toglyy_Mikael"
+			}
+		}
+		country_leader={
+			ideology=conservatism_integralism_subtype #Hercegérsek Rule 
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	#GRE
+	GRE_Regent_Council={
+		name="Antivasiliako Symvoulio"
+		portraits={
+			civilian={
+				large="GFX_Portrait_GRE_Regent_Council"
+			}
+		}
+		country_leader={
+			ideology=conservatism_military_junta_subtype #Hercegérsek Rule 
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 }

@@ -76,7 +76,7 @@ if = {
 }
 
 set_convoys = 10
-
+recruit_character = GRE_Regent_Council
 set_politics = {
 	ruling_party = conservatism
 	last_election = "1935.6.9"
