@@ -55,6 +55,16 @@ spriteTypes = {
 		name = "GFX_portrait_FRA_Pierre_Isaie_Asselineau"
 		texturefile = "gfx/leaders/FRA/portrait_FRA_Pierre_Isaie_Asselineau.dds"
 	}
+	#Britain
+	spriteType = {
+		name = "GFX_Portrait_ENG_Yisrael_Itzik"
+		texturefile = "gfx/leaders/ENG/Portrait_ENG_Yisrael_Itzik.dds"
+	}
+	#Freien Republik
+	spriteType = {
+		name = "GFX_Portrait_GER_Fredrik_Rolf_Eckermann"
+		texturefile = "gfx/leaders/GER/Portrait_GER_Fredrik_Rolf_Eckermann.dds"
+	}
 	#EAST OF DANUBE 
 	#Gardtaveldi
 	spriteType = {
@@ -75,6 +85,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_Portrait_ALB_Milaim_Kaplan"
 		texturefile = "gfx/leaders/ALB/Portrait_ALB_Milaim_Kaplan.dds"
+	}
+	#Finland
+	spriteType = {
+		name = "GFX_Portrait_FIN_Uuno_Maenpaa"
+		texturefile = "gfx/leaders/FIN/Portrait_FIN_Uuno_Maenpaa.dds"
 	}
 	#ERIKSLAND
 	#NORTH ERIKSLAND

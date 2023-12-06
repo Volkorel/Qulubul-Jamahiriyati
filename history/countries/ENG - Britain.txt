@@ -1,5 +1,4 @@
 ﻿capital = 126
-
 if = {
 	limit = {
 		NOT = {
@@ -180,15 +179,15 @@ add_ideas = {
 	
 
 set_convoys = 1000
-
+recruit_character = ENG_Yisrael_Four_Itzik
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = liberalism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = yes ##suspended through duration of war, which is handled via event
 }
 set_popularities = {
-	conservatism = 100
+	liberalism = 100
 }
 
 

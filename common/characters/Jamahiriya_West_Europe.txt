@@ -14,4 +14,32 @@ characters={
 			id=-1
 		}
 	}
+	#ENG
+	ENG_Yisrael_Four_Itzik={
+		name="Yisrael IV. Itzik"
+		portraits={
+			civilian={
+				large="GFX_Portrait_ENG_Yisrael_Itzik"
+			}
+		}
+		country_leader={
+			ideology=liberalism_economic_liberalism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	#GER
+	GER_Fredrik_Rolf_Eckerman={
+		name="Fredrik Rolf Eckermann"
+		portraits={
+			civilian={
+				large="GFX_Portrait_GER_Fredrik_Rolf_Eckermann"
+			}
+		}
+		country_leader={
+			ideology=jacobinism_heckerism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 }

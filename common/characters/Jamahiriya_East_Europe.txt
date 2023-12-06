@@ -56,4 +56,18 @@ characters={
 			id=-1
 		}
 	}
+	#FIN
+	FIN_Uuno_Maenpaa={
+		name="Uuno Mäenpää"
+		portraits={
+			civilian={
+				large="GFX_Portrait_FIN_Uuno_Maenpaa"
+			}
+		}
+		country_leader={
+			ideology=conservatism_military_junta_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 }
