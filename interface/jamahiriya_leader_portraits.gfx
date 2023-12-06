@@ -71,6 +71,11 @@ spriteTypes = {
 		name = "GFX_Portrait_GRE_Regent_Council"
 		texturefile = "gfx/leaders/GRE/Portrait_GRE_Regent_Council.dds"
 	}
+	#Albania
+	spriteType = {
+		name = "GFX_Portrait_ALB_Milaim_Kaplan"
+		texturefile = "gfx/leaders/ALB/Portrait_ALB_Milaim_Kaplan.dds"
+	}
 	#ERIKSLAND
 	#NORTH ERIKSLAND
 	#Vinland

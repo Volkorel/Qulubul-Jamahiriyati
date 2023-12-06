@@ -42,4 +42,18 @@ characters={
 			id=-1
 		}
 	}
+	#ALB
+	ALB_Milaim_Kaplan={
+		name="Milaim Kaplan"
+		portraits={
+			civilian={
+				large="GFX_Portrait_ALB_Milaim_Kaplan"
+			}
+		}
+		country_leader={
+			ideology=communism_vanguard_socialism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 }
