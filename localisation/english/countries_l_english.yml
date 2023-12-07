@@ -18,6 +18,12 @@
  ALG:0 "Kingdom of Tlemcen"
  ALG_DEF:0 "the Saidi Kingdom of Tlemcen"
  ALG_ADJ:0 "Jazairi"
+ SEN:0 "Imamate of Cayor and Wolof"
+ SEN_DEF:0 "the Imamate of Cayor and Wolof"
+ SEN_ADJ:0 "Wolof"
+ GNB:0 "Imamate of Futa Jallon"
+ GNB_DEF:0 "the Imamate of Futa Jallon"
+ GNB_ADJ:0 "Fulani"
 ### ASIA ###
  SOV:0 "Garðaveldi"
  SOV_DEF:0 "Garðaveldi"

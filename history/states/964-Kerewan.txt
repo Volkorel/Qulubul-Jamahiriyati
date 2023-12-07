@@ -4,13 +4,15 @@ state={
 	provinces={
 		7972 
 	}
-	history={
-		owner = FRA
+	history = {
+		owner = SEN
+		add_core_of = SEN
 		buildings = {
 			infrastructure = 2
 		}
 	}
-	manpower=0
+	manpower=985500
+	state_category=rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

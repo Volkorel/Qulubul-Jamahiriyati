@@ -3,8 +3,8 @@ state={
 	name="STATE_701"
 
 	history={
-		owner = ENG
-		add_core_of = GAM
+		owner = BAY
+		add_core_of = SEN
 		victory_points = {
 			4989 1 
 		}
@@ -14,11 +14,8 @@ state={
 				naval_base = 1
 
 			}
-
 		}
-
 	}
-
 	provinces={
 		4989 13213 
 	}

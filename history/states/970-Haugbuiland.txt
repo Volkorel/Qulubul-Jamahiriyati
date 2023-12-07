@@ -6,11 +6,13 @@ state={
 	}
 	history={
 		owner = CAN
+		#Fang people here, no tag rn but keep in mind. Also, I want them to have a higher compliance due to Vinlandic-Caliphate Wars
 		buildings = {
 			infrastructure = 2
 		}
 	}
-	manpower=0
+	manpower=3125000
+	state_category=rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
