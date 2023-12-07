@@ -1078,6 +1078,26 @@ technologies = {
 	mass_smallpox_vaccination = {
 		on_research_complete = {		
 			custom_effect_tooltip = UNLOCK_FAUCI
+			hidden_effect = {
+				if = {
+					limit = {
+						has_idea = QJ_global_outbreak_idea
+					}
+					swap_ideas = {
+						remove_idea = QJ_global_outbreak_idea
+						add_idea = QJ_global_outbreak_reduced_idea
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = QJ_national_outbreak_idea
+					}
+					swap_ideas = {
+						remove_idea = QJ_national_outbreak_idea
+						add_idea = QJ_national_outbreak_reduced_idea
+					}
+				}
+			}
 		}
 		research_cost = 1
 		start_year = 1911
