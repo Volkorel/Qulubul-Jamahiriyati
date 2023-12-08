@@ -21,6 +21,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/socialism_althydaism_subtype.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_socialism_social_democracy_subtype"
+		texturefile = "gfx/interface/ideologies/socialism_social_democracy_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_socialism_leftist_nationalism_subtype"
+		texturefile = "gfx/interface/ideologies/socialism_leftist_nationalism_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_liberalism_integral_reformism_subtype"
 		texturefile = "gfx/interface/ideologies/liberalism_integral_reformism_subtype.dds"
 	}
@@ -61,12 +69,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/conservatism_norse_conservatism_subtype.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_conservatism_military_junta_subtype"
+		texturefile = "gfx/interface/ideologies/conservatism_military_junta_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservatism_serkadji_school_subtype"
+		texturefile = "gfx/interface/ideologies/conservatism_serkadji_school_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservatism_pontifical_rule_subtype"
+		texturefile = "gfx/interface/ideologies/conservatism_pontifical_rule_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_jacobinism_gamleby_revivalism_subtype"
 		texturefile = "gfx/interface/ideologies/jacobinism_gamleby_revivalism_subtype.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_jacobinism_abolitionism_subtype"
 		texturefile = "gfx/interface/ideologies/jacobinism_abolitionism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_jacobinism_heckerism_subtype"
+		texturefile = "gfx/interface/ideologies/jacobinism_heckerism_subtype.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_jacobinism_left_jacobinism_subtype"
@@ -83,6 +107,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_duemarism_autochtonist_ascensionism_subtype"
 		texturefile = "gfx/interface/ideologies/duemarism_autochtonist_ascensionism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_duemarism_wahhabism_subtype"
+		texturefile = "gfx/interface/ideologies/duemarism_wahhabism_subtype.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_suprarealisme_apocalypticism_subtype"

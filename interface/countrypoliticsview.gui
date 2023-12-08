@@ -150,7 +150,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "ideology"
-				position = { x = 19 y = 600 }
+				position = { x = 19 y = 570 }
 				font = "IBM_EGA_16_outline"
 				text = "ideology"
 				maxWidth = 150
