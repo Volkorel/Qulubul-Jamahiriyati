@@ -1,0 +1,19 @@
+state={
+	id=991
+	name="STATE_991"
+	provinces={
+		1060 1140 1143 10104 10127 10869 11951 12764 
+	}
+	history={
+		owner = LBA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = LBA
+		add_core_of = EGY
+	}
+	manpower=62200
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

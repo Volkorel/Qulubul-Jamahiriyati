@@ -4,7 +4,8 @@ state={
 	name="STATE_782"
 
 	history={
-		owner = FRA
+		owner = MRT
+		add_core_of = MRT
 		add_core_of = MLI
 		buildings = {
 			infrastructure = 0
@@ -14,7 +15,7 @@ state={
 	}
 
 	provinces={
-		1115 2068 7041 10725 10868 
+		1115 7041 10725 
 	}
 	manpower=79243
 	buildings_max_level_factor=1.000

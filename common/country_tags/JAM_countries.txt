@@ -9,6 +9,14 @@ ZAN = "countries/Zanzibar.txt"
 ALG = "countries/Algeria.txt"
 MOR = "countries/Morocco.txt"
 WES = "countries/Western Sahara.txt"
+LBA = "countries/Libya.txt"
+MRT = "countries/Mauritania.txt"
+GHA = "countries/Ghana.txt"
+DAH = "countries/Dahomey.txt"
+IVO = "countries/Ivory Coast.txt"
+MLI = "countries/Mali.txt"
+TOG = "countries/Togo.txt"
+GAM = "countries/Gambia.txt"
 #Asia
 
 #Australasia

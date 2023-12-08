@@ -4,8 +4,10 @@ state={
 	name="STATE_699"
 
 	history={
-		owner = SPR
+		owner = WES
 		add_core_of = WES
+		add_core_of = MRT
+		add_core_of = MOR
 		buildings = {
 			infrastructure = 1
 			8038 = {
@@ -17,9 +19,7 @@ state={
 		victory_points = {
 			8038 1 
 		}
-
 	}
-
 	provinces={
 		5012 7979 10875 
 	}

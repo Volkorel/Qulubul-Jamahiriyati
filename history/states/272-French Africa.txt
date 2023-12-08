@@ -7,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = FRA
+		owner = GAM
+		add_core_of = GAM
 		add_core_of = SEN
 		victory_points = {
 			4948 5 

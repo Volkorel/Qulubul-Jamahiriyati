@@ -4,7 +4,8 @@ state={
 	name="STATE_780"
 
 	history={
-		owner = FRA
+		owner = GAM
+		add_core_of = GAM
 		add_core_of = GNA
 		victory_points = {
 			1909 1 
@@ -21,7 +22,7 @@ state={
 	}
 
 	provinces={
-		4957 5039 8008 
+		4957 5039 5070 8008 
 	}
 	manpower=195041
 	buildings_max_level_factor=1.000

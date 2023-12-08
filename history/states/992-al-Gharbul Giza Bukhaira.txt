@@ -1,0 +1,19 @@
+state={
+	id=992
+	name="STATE_992"
+	provinces={
+		992 4055 7117 
+	}
+	history={
+		owner = LBA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = LBA
+		add_core_of = EGY
+	}
+	manpower=2762200
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

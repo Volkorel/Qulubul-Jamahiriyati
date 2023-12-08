@@ -1,24 +1,27 @@
 
 state={
 	id=778
-	name="STATE_778" # Upper Volta
-	manpower = 3186184
-	
-	state_category = pastoral
+	name="STATE_778"
+
 	history={
-		owner = FRA
+		owner = GAM
+		add_core_of = GAM
 		add_core_of = VOL
 		victory_points = {
-			10836 1
+			10836 1 
 		}
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
 
 	provinces={
-		2001 7950 7983 8071 10836 12851
+		2001 7950 7983 8071 8096 10836 12851 
 	}
-
-	local_supplies=1.0 
+	manpower=3186184
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=1.000
 }
