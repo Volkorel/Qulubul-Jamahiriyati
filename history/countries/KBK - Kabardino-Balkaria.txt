@@ -1,7 +1,5 @@
 ﻿capital = 827 #Nalchik
 
-#oob = "KBK_1936"
-
 set_research_slots = 3
 
 # Starting tech

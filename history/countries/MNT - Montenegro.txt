@@ -1,6 +1,4 @@
-﻿capital = 105 # Montenegro
-
-#oob = ""
+﻿capital = 105
 
 set_research_slots = 3
 

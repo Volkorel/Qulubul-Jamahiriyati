@@ -1,7 +1,5 @@
 ﻿capital = 323
 
-#oob = ""
-
 add_ideas = {
 	NEP_royal_army
 }

@@ -1,40 +1,5 @@
 ﻿capital = 331
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_oob = "CAN_1936"
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "CAN_1936_nsb"
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_naval_oob = "CAN_1936_naval_mtg"
-	else = {
-		set_naval_oob = "CAN_1936_naval_legacy"
-	}
-}
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "CAN_1936_air_bba"
-		set_technology = {
-			aa_lmg = 1
-			engines_1 = 1
-			aircraft_construction = 1
-			iw_small_airframe = 1
-		}
-	else = {
-		set_air_oob = "CAN_1936_air_legacy"
-	}
-}
-
 set_research_slots = 3
 set_stability = 0.8
 set_war_support = 0.1
@@ -50,6 +15,30 @@ add_to_faction = HON
 add_to_faction = ELS
 add_to_faction = PAN
 add_to_faction = AST
+
+#Monroe Doctrine
+give_guarantee = USA
+give_guarantee = CSA
+give_guarantee = MEX
+give_guarantee = CUB
+give_guarantee = HAI
+give_guarantee = DOM
+give_guarantee = GUA
+give_guarantee = HON
+give_guarantee = ELS
+give_guarantee = NIC
+give_guarantee = COS
+give_guarantee = PAN
+give_guarantee = VEN
+give_guarantee = COL
+give_guarantee = ECU
+give_guarantee = PRU
+give_guarantee = BRA
+give_guarantee = BOL
+give_guarantee = CHL
+give_guarantee = PAR
+give_guarantee = ARG
+give_guarantee = URG
 
 # Starting tech
 set_technology = {

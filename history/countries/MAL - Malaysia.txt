@@ -1,6 +1,4 @@
-﻿capital = 336 #Kuala Lumpur
-
-oob = "MAL_1936"
+﻿capital = 336
 
 set_research_slots = 3
 

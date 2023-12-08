@@ -1,6 +1,4 @@
-﻿capital = 651 #Ufa
-
-#oob = "BSK_1936"
+﻿capital = 651
 
 set_research_slots = 3
 

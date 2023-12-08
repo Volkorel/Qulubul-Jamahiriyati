@@ -1,23 +1,5 @@
 ﻿capital = 275
 
-oob = "SAF_1936"
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "SAF_1936_air_bba"
-	else = {
-		set_air_oob = "SAF_1936_air_legacy"
-		set_technology = {
-			early_fighter = 1
-			cv_early_fighter = 1
-			cv_naval_bomber1 = 1
-			naval_bomber1 = 1
-			early_bomber = 1
-			CAS1 = 1
-
-		}
-	}
-}
-
 recruit_character = SAF_Pietje_Robjert_Vrouwenvelder
 
 set_stability = 0.6

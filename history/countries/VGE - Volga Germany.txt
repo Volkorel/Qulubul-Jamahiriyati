@@ -1,6 +1,4 @@
-﻿capital = 829 #Engels
-
-#oob = "VGE_1936"
+﻿capital = 829
 
 set_research_slots = 3
 

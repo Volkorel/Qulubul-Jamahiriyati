@@ -1,7 +1,5 @@
 ﻿capital = 807
 
-#oob = ""
-
 set_research_slots = 3
 # Starting tech
 set_technology = {
