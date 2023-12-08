@@ -35,7 +35,7 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetSubIdeologyLocCommunist
+	name = GetSubIdeologyLocCommunism
 	text = {
 		trigger = { has_country_leader_ideology = communism_vanguard_socialism_subtype }
 		localization_key = communism_vanguard_socialism_subtype
@@ -58,7 +58,7 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetSubIdeologyLocSocialist
+	name = GetSubIdeologyLocSocialism
 	text = {
 		trigger = { has_country_leader_ideology = socialism_althydaism_subtype }
 		localization_key = socialism_althydaism_subtype

@@ -1,7 +1,7 @@
-armor_USA = {
+armor_CAN = {
 
 	available_for = {
-		USA
+		CAN
 	}
 	
 	roles = {
@@ -14,7 +14,7 @@ armor_USA = {
 	
 	match_to_count = 0.5
 	
-	armored_car_default_USA = {
+	armored_car_default_CAN = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -103,11 +103,11 @@ armor_USA = {
 		}
 		
 		replace_at_match = 0.75
-		replace_with = light_armor_default_USA
+		replace_with = light_armor_default_CAN
 		target_min_match = 0.5
 	}
 	
-	light_armor_default_USA = {
+	light_armor_default_CAN = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -190,12 +190,12 @@ armor_USA = {
 		}
 		
 		replace_at_match = 0.4
-		replace_with = medium_armor_default_USA
+		replace_with = medium_armor_default_CAN
 		target_min_match = 0.5
 	}
 
 
-	heavy_armor_default_USA = {
+	heavy_armor_default_CAN = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -273,7 +273,7 @@ armor_USA = {
 		}
 	}
 
-	medium_armor_default_USA = {
+	medium_armor_default_CAN = {
 	
 		
 		upgrade_prio = {
@@ -356,10 +356,10 @@ armor_USA = {
 	}
 }
 
-infantry_USA = {
+infantry_CAN = {
 
 	available_for = {
-		USA
+		CAN
 	}
 	
 	roles = {
@@ -376,7 +376,7 @@ infantry_USA = {
 	
 	match_to_count = 0.50
 
-	infantry_default_USA = {
+	infantry_default_CAN = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -456,11 +456,11 @@ infantry_USA = {
 		}
 		
 		replace_at_match = 1.0
-		replace_with = great_war_infantry_USA
+		replace_with = great_war_infantry_CAN
 		target_min_match = 0.5
 	}
 	
-	great_war_infantry_USA = {
+	great_war_infantry_CAN = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -546,11 +546,11 @@ infantry_USA = {
 		}
 		
 		replace_at_match = 1.0
-		replace_with = interwar_infantry_USA
+		replace_with = interwar_infantry_CAN
 		target_min_match = 0.5
 	}
 	
-	interwar_infantry_USA = {
+	interwar_infantry_CAN = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -631,10 +631,10 @@ infantry_USA = {
 	}
 }
 
-mountaineers_USA = {
+mountaineers_CAN = {
 
 	available_for = {
-		USA
+		CAN
 	}
 	
 	roles = {
@@ -654,7 +654,7 @@ mountaineers_USA = {
 	
 	match_to_count = 0.45
 
-	mountaineers_default_USA = {
+	mountaineers_default_CAN = {
 	
 		upgrade_prio = {
 			factor = 2
@@ -732,10 +732,10 @@ mountaineers_USA = {
 	}
 }
 
-marines_USA = {
+marines_CAN = {
 
 	available_for = {
-		USA
+		CAN
 	}
 	
 	roles = {
@@ -755,7 +755,7 @@ marines_USA = {
 	
 	match_to_count = 0.45
 
-	marine_default_USA = {
+	marine_default_CAN = {
 		
 		upgrade_prio = {
 			factor = 2

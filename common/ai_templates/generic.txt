@@ -3,11 +3,10 @@ armor_generic = {
 	blocked_for = {
 		GER 
 		FRA 
-		ENG 
-		SOV 
+		ENG  
 		ITA 
 		SOV 
-		USA 
+		CAN 
 		BAY 
 	}
 
@@ -482,10 +481,9 @@ infantry_generic = {
 		GER
 		FRA
 		ENG
-		SOV
 		ITA
 		SOV
-		USA
+		CAN
 		BAY
 	}
 
@@ -841,10 +839,9 @@ infantry_big_generic = {
 		GER
 		FRA
 		ENG
-		SOV
 		ITA
 		SOV
-		USA
+		CAN
 		BAY
 	}
 
@@ -965,10 +962,9 @@ mountaineers_generic = {
 		GER
 		FRA
 		ENG
-		SOV
 		ITA
 		SOV
-		USA
+		CAN
 		BAY
 	}
 
@@ -1074,10 +1070,9 @@ marines_generic = {
 		GER
 		FRA
 		ENG
-		SOV
 		ITA
 		SOV
-		USA
+		CAN
 		BAY
 	}
 
