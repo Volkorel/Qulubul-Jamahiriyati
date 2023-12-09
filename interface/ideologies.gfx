@@ -29,6 +29,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/socialism_leftist_nationalism_subtype.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_socialism_social_corporatism_subtype"
+		texturefile = "gfx/interface/ideologies/socialism_social_corporatism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_socialism_leftist_agrarianism_subtype"
+		texturefile = "gfx/interface/ideologies/socialism_leftist_agrarianism_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_liberalism_integral_reformism_subtype"
 		texturefile = "gfx/interface/ideologies/liberalism_integral_reformism_subtype.dds"
 	}
@@ -43,6 +51,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_liberalism_eretzism_subtype"
 		texturefile = "gfx/interface/ideologies/liberalism_eretzism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_liberalism_progressive_liberalism_subtype"
+		texturefile = "gfx/interface/ideologies/liberalism_progressive_liberalism_subtype.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_conservatism_integralism_subtype"
@@ -111,6 +123,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_duemarism_wahhabism_subtype"
 		texturefile = "gfx/interface/ideologies/duemarism_wahhabism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_duemarism_hokkaido_subtype"
+		texturefile = "gfx/interface/ideologies/duemarism_hokkaido_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_duemarism_theeds_subtype"
+		texturefile = "gfx/interface/ideologies/duemarism_theeds_subtype.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_suprarealisme_apocalypticism_subtype"

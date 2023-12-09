@@ -119,7 +119,7 @@ country_event = { #Smallpox spreads to neighbouring countries
 							}
 						}
 					}
-					19 = {
+					9 = {
 						#World doesn't end just yet
 					}
 				}

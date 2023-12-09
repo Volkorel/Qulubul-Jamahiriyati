@@ -148,45 +148,53 @@ scripted_gui = {
 					else = {
 						add_dynamic_modifier = { modifier = bioweapons_smallpox days = 90 }
 					}
-					controller = {
-						if = {
-							limit = {
-								NOT = {
-									OR = {
-										has_country_flag = QJ_national_outbreak_imminent
-										has_idea = QJ_national_outbreak_idea
-										has_idea = QJ_national_outbreak_reduced_idea
-									}
-								}
-							}
+					if = {
+						limit = {
+							state_population > 100000
+						}
+						controller = {
 							if = {
 								limit = {
-									has_tech = mass_smallpox_vaccination
-								}
-								random_list = {
-									1 = {
-										set_country_flag = QJ_national_outbreak_imminent
-										country_event = {
-											id = QJ_apocalypse.1
-											days = 30
+									NOT = {
+										OR = {
+											has_country_flag = QJ_national_outbreak_imminent
+											has_idea = QJ_national_outbreak_idea
+											has_idea = QJ_national_outbreak_reduced_idea
+											has_country_flag = QJ_global_outbreak_imminent
+											has_idea = QJ_global_outbreak_idea
+											has_idea = QJ_global_outbreak_reduced_idea
 										}
 									}
-									19 = {
-										#No outbreak
-									}
 								}
-							}
-							else = {
-								random_list = {
-									1 = {
-										set_country_flag = QJ_national_outbreak_imminent
-										country_event = {
-											id = QJ_apocalypse.1
-											days = 30
+								if = {
+									limit = {
+										has_tech = mass_smallpox_vaccination
+									}
+									random_list = {
+										1 = {
+											set_country_flag = QJ_national_outbreak_imminent
+											country_event = {
+												id = QJ_apocalypse.1
+												days = 30
+											}
+										}
+										19 = {
+											#No outbreak
 										}
 									}
-									9 = {
-										#No outbreak
+								}
+								else = {
+									random_list = {
+										1 = {
+											set_country_flag = QJ_national_outbreak_imminent
+											country_event = {
+												id = QJ_apocalypse.1
+												days = 30
+											}
+										}
+										9 = {
+											#No outbreak
+										}
 									}
 								}
 							}
