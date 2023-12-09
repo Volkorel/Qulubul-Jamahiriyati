@@ -23,7 +23,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism_integralism_subtype #Hercegérsek Rule 
+			ideology=conservatism_hercegersek_rule_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}

@@ -93,6 +93,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/conservatism_pontifical_rule_subtype.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_conservatism_national_conservatism_subtype"
+		texturefile = "gfx/interface/ideologies/conservatism_national_conservatism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservatism_conservative_populism_subtype"
+		texturefile = "gfx/interface/ideologies/conservatism_conservative_populism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservatism_beqtashi_mysticism_subtype"
+		texturefile = "gfx/interface/ideologies/conservatism_beqtashi_mysticism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservatism_hercegersek_rule_subtype"
+		texturefile = "gfx/interface/ideologies/conservatism_hercegersek_rule_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_jacobinism_gamleby_revivalism_subtype"
 		texturefile = "gfx/interface/ideologies/jacobinism_gamleby_revivalism_subtype.dds"
 	}
