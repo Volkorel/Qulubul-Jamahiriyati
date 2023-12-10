@@ -149,6 +149,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/duemarism_theeds_subtype.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_duemarism_siqqiliyyan_subtype"
+		texturefile = "gfx/interface/ideologies/duemarism_siqqiliyyan_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_duemarism_barakzaism_subtype"
+		texturefile = "gfx/interface/ideologies/duemarism_barakzaism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_duemarism_yahmadi_revivalism_subtype"
+		texturefile = "gfx/interface/ideologies/duemarism_yahmadi_revivalism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_duemarism_camelots_de_la_republique_subtype"
+		texturefile = "gfx/interface/ideologies/duemarism_camelots_de_la_republique_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_suprarealisme_apocalypticism_subtype"
 		texturefile = "gfx/interface/ideologies/suprarealisme_apocalypticism_subtype.dds"
 	}
