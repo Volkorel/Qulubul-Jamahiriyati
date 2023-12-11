@@ -2,7 +2,7 @@
 state={
 	id=786
 	name="STATE_786"
-
+	impassable = yes
 	history={
 		owner = MRT
 		add_core_of = MRT

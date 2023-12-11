@@ -2,7 +2,7 @@
 state={
 	id=514
 	name="STATE_514"
-
+	impassable = yes
 	history={
 		owner = LBA
 		add_core_of = LBA

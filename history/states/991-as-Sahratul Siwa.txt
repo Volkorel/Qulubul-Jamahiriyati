@@ -1,6 +1,7 @@
 state={
 	id=991
 	name="STATE_991"
+	impassable = yes
 	provinces={
 		1060 1140 1143 10104 10127 10869 11951 12764 
 	}

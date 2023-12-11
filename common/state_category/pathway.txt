@@ -1,0 +1,10 @@
+state_categories={
+	pathway = {
+		local_building_slots = 0
+		attrition = 1.0
+		heat_attrition_factor = 1.0
+		winter_attrition_factor = 1.0
+		color = { 25 5 5 }
+
+	}
+}

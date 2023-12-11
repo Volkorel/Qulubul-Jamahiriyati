@@ -1,0 +1,20 @@
+state={
+	id=1006
+	name="STATE_1006"
+	impassable = yes
+	provinces={
+		850 1740 4742 4816 7879 10591 10651 10662 12573 12699 
+	}
+	history={
+		owner = GUA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = GUA
+		add_core_of = CAN
+	}
+	manpower=62200
+	state_category = desert
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
