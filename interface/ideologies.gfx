@@ -1,6 +1,10 @@
 spriteTypes = {	
 
 	spriteType = {
+		name = "GFX_ideology_communism_subtype"
+		texturefile = "gfx/interface/ideologies/communism_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_communism_vanguard_socialism_subtype"
 		texturefile = "gfx/interface/ideologies/communism_vanguard_socialism_subtype.dds"
 	}
@@ -15,6 +19,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_communism_national_communism_subtype"
 		texturefile = "gfx/interface/ideologies/communism_national_communism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_socialism_subtype"
+		texturefile = "gfx/interface/ideologies/socialism_subtype.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_socialism_althydaism_subtype"
@@ -37,6 +45,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/socialism_leftist_agrarianism_subtype.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_liberalism_subtype"
+		texturefile = "gfx/interface/ideologies/liberalism_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_liberalism_integral_reformism_subtype"
 		texturefile = "gfx/interface/ideologies/liberalism_integral_reformism_subtype.dds"
 	}
@@ -55,6 +67,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_liberalism_progressive_liberalism_subtype"
 		texturefile = "gfx/interface/ideologies/liberalism_progressive_liberalism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservatism_subtype"
+		texturefile = "gfx/interface/ideologies/conservatism_subtype.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_conservatism_integralism_subtype"
@@ -109,6 +125,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/conservatism_hercegersek_rule_subtype.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_jacobinism_subtype"
+		texturefile = "gfx/interface/ideologies/jacobinism_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_jacobinism_gamleby_revivalism_subtype"
 		texturefile = "gfx/interface/ideologies/jacobinism_gamleby_revivalism_subtype.dds"
 	}
@@ -127,6 +147,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_jacobinism_national_jacobinism_subtype"
 		texturefile = "gfx/interface/ideologies/jacobinism_national_jacobinism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_duemarism_subtype"
+		texturefile = "gfx/interface/ideologies/duemarism_subtype.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_duemarism_arian_fundamentalism_subtype"
@@ -163,6 +187,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_duemarism_camelots_de_la_republique_subtype"
 		texturefile = "gfx/interface/ideologies/duemarism_camelots_de_la_republique_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_suprarealisme_subtype"
+		texturefile = "gfx/interface/ideologies/suprarealisme_subtype.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_suprarealisme_apocalypticism_subtype"
