@@ -41,18 +41,26 @@
  communism_spartacism_subtype:0 "Spartacism"
  communism_anarchism_subtype:0 "Anarchism"
  communism_national_communism_subtype:0 "National Communism"
+ communism_fujian_thought_subtype:0 "Fujian Thought"
+ communism_sakokuism_subtype:0 "Sakokuism"
+ communism_thingfylgd_subtype:0 "Þingfylgð"
+ communism_national_liberationism_subtype:0 "National Liberationism"
+ communism_foldlaegh_movement_subtype:0 "Foldlægh Movement"
  
  socialism_althydaism_subtype:0 "Alþýðaism"
  socialism_social_democracy_subtype:0 "Social Democracy"
  socialism_social_corporatism_subtype:0 "Social Corporatism"
  socialism_leftist_nationalism_subtype:0 "Leftist Nationalism"
  socialism_leftist_agrarianism_subtype:0 "Leftist Agrarianism"
+ socialism_enonoism_subtype:0 "Enonoism"
  
  liberalism_integral_reformism_subtype:0 "Integral Reformism"
  liberalism_liberal_conservatism_subtype:0 "Liberal Conservatism"
  liberalism_economic_liberalism_subtype:0 "Economic Liberalism"
  liberalism_eretzism_subtype:0 "Eretzism"
  liberalism_progressive_liberalism_subtype:0 "Progressive Liberalism"
+ liberalism_laeeradr_liberalism_subtype:0 "Laeradr Liberalism"
+ liberalism_prometheanism_subtype:0 "Prometheanism"
  
  conservatism_integralism_subtype:0 "Integralism"
  conservatism_ultramonarchism_subtype:0 "Ultra-Monarchism"
@@ -73,6 +81,7 @@
  jacobinism_abolitionism_subtype:0 "Abolitionism"
  jacobinism_left_jacobinism_subtype:0 "Left-Jacobinism"
  jacobinism_national_jacobinism_subtype:0 "National Jacobinism"
+ jacobinism_siegfredism_subtype:0 "Siegfredism"
  
  duemarism_wahhabism_subtype:0 "Wahhabism"
  duemarism_barakzaism_subtype:0 "Barakzaism"
@@ -83,10 +92,19 @@
  duemarism_camelots_de_la_republique_subtype:0 "Camelots de la République"
  duemarism_arian_fundamentalism_subtype:0 "Arian Fundamentalism"
  duemarism_autochtonist_ascensionism_subtype:0 "Autochthonist Ascensionism"
+ duemarism_sanyi_taiji_subtype:0 "Sanyi Taiji"
+ duemarism_yogaku_subtype:0 "Yōgaku"
+ duemarism_hongjin_qiyi_subtype:0 "Hóngjīn Qǐyì"
+ duemarism_nyljohaed_subtype:0 "Nyljohæð School of Thought"
+ duemarism_anotatis_subtype:0 "Anotatis School of Thought"
+ duemarism_buonapartism_subtype:0 "Buonapartism"
+ duemarism_foldlaegh_movement_subtype:0 "Foldlægh Movement"
  
- suprarealisme_apocalypticism_subtype:0 "Apocalypticism"
+ suprarealisme_apocalypticism_subtype:0 "Challengers of Babylon"
  suprarealisme_erliks_disciples_subtype:0 "Erlik's Disciples"
  suprarealisme_crusaders_of_the_white_band_subtype:0 "Crusaders of the White Band"
+ suprarealisme_einherjarlid_subtype:0 "Einherjarlið"
+ suprarealisme_mukashifoun_subtype:0 "Mukashifoun"
  
  ##### SUBIDEOLOGY DESCRIPTIONS #####
  

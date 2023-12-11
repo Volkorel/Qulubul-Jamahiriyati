@@ -53,6 +53,26 @@ defined_text = {
 		localization_key = communism_national_communism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = communism_fujian_thought_subtype }
+		localization_key = communism_fujian_thought_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = communism_sakokuism_subtype }
+		localization_key = communism_sakokuism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = communism_thingfylgd_subtype }
+		localization_key = communism_thingfylgd_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = communism_national_liberationism_subtype }
+		localization_key = communism_national_liberationism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = communism_foldlaegh_movement_subtype }
+		localization_key = communism_foldlaegh_movement_subtype
+	}
+	text = {
 		localization_key = communism
 	}
 }
@@ -80,6 +100,10 @@ defined_text = {
 		localization_key = socialism_leftist_agrarianism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = socialism_enonoism_subtype }
+		localization_key = socialism_enonoism_subtype
+	}
+	text = {
 		localization_key = socialism
 	}
 }
@@ -105,6 +129,14 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = liberalism_progressive_liberalism_subtype }
 		localization_key = liberalism_progressive_liberalism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_laeeradr_liberalism_subtype }
+		localization_key = liberalism_laeeradr_liberalism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = liberalism_prometheanism_subtype }
+		localization_key = liberalism_prometheanism_subtype
 	}
 	text = {
 		localization_key = liberalism
@@ -193,6 +225,10 @@ defined_text = {
 		localization_key = jacobinism_national_jacobinism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = jacobinism_siegfredism_subtype }
+		localization_key = jacobinism_siegfredism_subtype
+	}
+	text = {
 		localization_key = jacobinism
 	}
 }
@@ -236,6 +272,34 @@ defined_text = {
 		localization_key = duemarism_autochtonist_ascensionism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = duemarism_sanyi_taiji_subtype }
+		localization_key = duemarism_sanyi_taiji_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = duemarism_yogaku_subtype }
+		localization_key = duemarism_yogaku_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = duemarism_hongjin_qiyi_subtype }
+		localization_key = duemarism_hongjin_qiyi_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = duemarism_nyljohaed_subtype }
+		localization_key = duemarism_nyljohaed_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = duemarism_anotatis_subtype }
+		localization_key = duemarism_anotatis_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = duemarism_buonapartism_subtype }
+		localization_key = duemarism_buonapartism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = duemarism_foldlaegh_movement_subtype }
+		localization_key = duemarism_foldlaegh_movement_subtype
+	}
+	text = {
 		localization_key = duemarism
 	}
 }
@@ -260,6 +324,14 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = suprarealisme_crusaders_of_the_white_band_subtype }
 		localization_key = suprarealisme_crusaders_of_the_white_band_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = suprarealisme_einherjarlid_subtype }
+		localization_key = suprarealisme_einherjarlid_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = suprarealisme_mukashifoun_subtype }
+		localization_key = suprarealisme_mukashifoun_subtype
 	}
 	text = {
 		localization_key = suprarealisme
