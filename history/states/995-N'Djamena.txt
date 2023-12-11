@@ -1,0 +1,18 @@
+state={
+	id=995
+	name="STATE_995"
+	provinces={
+		2081 3181 9152 13138 
+	}
+	history={
+		owner = GAB
+		add_core_of = GAB
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	manpower=4570000
+	state_category=urban
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

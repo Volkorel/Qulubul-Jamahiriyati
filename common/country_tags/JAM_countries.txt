@@ -17,6 +17,12 @@ IVO = "countries/Ivory Coast.txt"
 MLI = "countries/Mali.txt"
 TOG = "countries/Togo.txt"
 GAM = "countries/Gambia.txt"
+CHA = "countries/Chad.txt"
+VOL = "countries/Upper Volta.txt"
+GAB = "countries/Gabon.txt"
+SUD = "countries/Sudan.txt"
+EGY = "countries/Egypt.txt"
+NGA = "countries/Nigeria.txt"
 #Asia
 
 #Australasia

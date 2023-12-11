@@ -1,0 +1,15 @@
+state={
+	id=999
+	name="STATE_999"
+	provinces={
+		2046 7989 10784 12881 
+	}
+	history={
+		owner = SUD
+		add_core_of = SUD
+	}
+	manpower=14880
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

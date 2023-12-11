@@ -1,18 +1,22 @@
+
 state={
 	id=970
 	name="STATE_970"
-	provinces={
-		1903 2080 5036 6039 7978 13015 
-	}
+
 	history={
 		owner = CAN
-		#Fang people here, no tag rn but keep in mind. Also, I want them to have a higher compliance due to Vinlandic-Caliphate Wars
 		buildings = {
 			infrastructure = 2
+
 		}
+
+	}
+
+	provinces={
+		1903 2080 5036 6039 13015 
 	}
 	manpower=3125000
-	state_category=rural
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
 }
