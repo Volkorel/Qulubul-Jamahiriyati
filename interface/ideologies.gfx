@@ -21,6 +21,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/communism_national_communism_subtype.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_communism_fujian_thought_subtype"
+		texturefile = "gfx/interface/ideologies/communism_fujian_thought_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_communism_sakokuism_subtype"
+		texturefile = "gfx/interface/ideologies/communism_sakokuism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_communism_thingfylgd_subtype"
+		texturefile = "gfx/interface/ideologies/communism_thingfylgd_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_communism_national_liberationism_subtype"
+		texturefile = "gfx/interface/ideologies/communism_national_liberationism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_communism_foldlaegh_movement_subtype"
+		texturefile = "gfx/interface/ideologies/communism_foldlaegh_movement_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_socialism_subtype"
 		texturefile = "gfx/interface/ideologies/socialism_subtype.dds"
 	}
@@ -45,6 +65,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/socialism_leftist_agrarianism_subtype.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_socialism_enonoism_subtype"
+		texturefile = "gfx/interface/ideologies/socialism_enonoism_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_liberalism_subtype"
 		texturefile = "gfx/interface/ideologies/liberalism_subtype.dds"
 	}
@@ -67,6 +91,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_liberalism_progressive_liberalism_subtype"
 		texturefile = "gfx/interface/ideologies/liberalism_progressive_liberalism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_liberalism_laeeradr_liberalism_subtype"
+		texturefile = "gfx/interface/ideologies/liberalism_laeeradr_liberalism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_liberalism_prometheanism_subtype"
+		texturefile = "gfx/interface/ideologies/liberalism_prometheanism_subtype.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_conservatism_subtype"
@@ -149,6 +181,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/jacobinism_national_jacobinism_subtype.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_jacobinism_siegfredism_subtype"
+		texturefile = "gfx/interface/ideologies/jacobinism_siegfredism_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_duemarism_subtype"
 		texturefile = "gfx/interface/ideologies/duemarism_subtype.dds"
 	}
@@ -189,6 +225,34 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/duemarism_camelots_de_la_republique_subtype.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_duemarism_camelots_de_la_republique_subtype"
+		texturefile = "gfx/interface/ideologies/duemarism_sanyi_taiji_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_duemarism_yogaku_subtype"
+		texturefile = "gfx/interface/ideologies/duemarism_yogaku_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_duemarism_hongjin_qiyi_subtype"
+		texturefile = "gfx/interface/ideologies/duemarism_hongjin_qiyi_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_duemarism_nyljohaed_subtype"
+		texturefile = "gfx/interface/ideologies/duemarism_nyljohaed_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_duemarism_anotatis_subtype"
+		texturefile = "gfx/interface/ideologies/duemarism_anotatis_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_duemarism_buonapartism_subtype"
+		texturefile = "gfx/interface/ideologies/duemarism_buonapartism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_duemarism_foldlaegh_movement_subtype"
+		texturefile = "gfx/interface/ideologies/duemarism_foldlaegh_movement_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_suprarealisme_subtype"
 		texturefile = "gfx/interface/ideologies/suprarealisme_subtype.dds"
 	}
@@ -203,5 +267,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_suprarealisme_crusaders_of_the_white_band_subtype"
 		texturefile = "gfx/interface/ideologies/suprarealisme_crusaders_of_the_white_band_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_suprarealisme_einherjarlid_subtype"
+		texturefile = "gfx/interface/ideologies/suprarealisme_einherjarlid_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_suprarealisme_mukashifoun_subtype"
+		texturefile = "gfx/interface/ideologies/suprarealisme_mukashifoun_subtype.dds"
 	}
 }
