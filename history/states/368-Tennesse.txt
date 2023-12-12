@@ -2,20 +2,16 @@
 state={
 	id=368
 	name="STATE_368"
-	manpower = 2616555
-	
-	state_category = city
-	
 	resources={
-		steel=60 # was: 112
+		steel=60.000
 	}
-
 
 	history={
 		owner = CSA
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
 			industrial_complex = 3
+
 		}
 		add_core_of = CSA
 		victory_points = {
@@ -25,8 +21,10 @@ state={
 	}
 
 	provinces={
-		913 1758 1987 7615 7791 7797 8014 8083 10281 10615 10657 10824 10909 12501 12670 
+		638 968 1758 1987 4402 4988 5059 5090 7464 7615 7797 8083 9996 10192 10281 10586 10615 10657 10753 10753 10824 10909 12384 12501 12568 12670 12803 
 	}
-
-	local_supplies=0.0 
+	manpower=2616555
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

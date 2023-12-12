@@ -1,0 +1,21 @@
+state={
+	id=1010
+	name="STATE_1010"
+	provinces={
+		1445 4452 6696 6974 7547 9727 10727 12709 
+	}
+	history={
+		owner = CAN
+		add_core_of = USA
+		victory_points = {
+			6696 15 
+		}
+		victory_points = {
+			4452 10 
+		}
+	}
+	manpower=850550
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
