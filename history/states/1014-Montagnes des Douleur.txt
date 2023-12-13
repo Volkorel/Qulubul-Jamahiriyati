@@ -1,0 +1,15 @@
+state={
+	id=1014
+	name="STATE_1014"
+	provinces={
+		1954 3867 5038 10740 10894 12791 
+	}
+	history={
+		owner = MEX
+		add_core_of = MEX
+	}
+	manpower=650200
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

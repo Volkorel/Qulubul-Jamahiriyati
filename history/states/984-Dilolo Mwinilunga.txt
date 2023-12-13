@@ -5,12 +5,11 @@ state={
 		1968 12677 12795 
 	}
 	history={
-		owner = POR
-		buildings = {
-			infrastructure = 2
-		}
+		owner = NMB
+		add_core_of = NMB
 	}
-	manpower=0
+	manpower=796000
+	state_category=rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

@@ -7,6 +7,10 @@ ZAN = {
 	color = rgb { 79 127 105 }
 	color_ui = rgb { 79 127 105 }
 }
+SIE = {
+	color = rgb { 105 72 58 }
+	color_ui = rgb { 105 72 58 }
+}
 MLW = {
 	color = rgb { 128 190 206 }
 	color_ui = rgb { 128 190 206 }

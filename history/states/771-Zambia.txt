@@ -8,18 +8,15 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = ZAM
 		add_core_of = ZAM
 		victory_points = {
 			5199 1 
 		}
 		buildings = {
 			infrastructure = 2
-
 		}
-
 	}
-
 	provinces={
 		697 5199 7872 
 	}

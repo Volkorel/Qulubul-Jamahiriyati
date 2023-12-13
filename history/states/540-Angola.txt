@@ -4,22 +4,19 @@ state={
 	name="STATE_540"
 
 	history={
-		owner = POR
+		owner = CMR
 		buildings = {
 			infrastructure = 1
 			8248 = {
 				naval_base = 1
 
 			}
-
 		}
 		victory_points = {
 			8248 1 
 		}
-		add_core_of = ANG
-
+		add_core_of = CMR
 	}
-
 	provinces={
 		8248 12981 
 	}

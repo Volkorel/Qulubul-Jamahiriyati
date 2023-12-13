@@ -5,12 +5,14 @@ state={
 		7548 
 	}
 	history={
-		owner = POR
+		owner = EQG
+		add_core_of = EQG
 		buildings = {
 			infrastructure = 2
 		}
 	}
-	manpower=0
+	manpower=2250000
+	state_category=rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

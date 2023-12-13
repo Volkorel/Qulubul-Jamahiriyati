@@ -1,0 +1,22 @@
+state={
+	id=1013
+	name="STATE_1013"
+	provinces={
+		7552 12398 
+	}
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CUB
+		#add_core_of = Neukarthago
+		victory_points = {
+			7552 20
+		}
+	}
+	manpower=10570750
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

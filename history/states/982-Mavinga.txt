@@ -1,16 +1,21 @@
 state={
 	id=982
 	name="STATE_982"
+	resources={
+		rubber=15.000
+	}
 	provinces={
 		1552 4735 
 	}
 	history={
-		owner = POR
+		owner = GNA
+		add_core_of = GNA
 		buildings = {
 			infrastructure = 2
 		}
 	}
-	manpower=0
+	manpower=2545000
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 	local_supplies=0.000
 }
