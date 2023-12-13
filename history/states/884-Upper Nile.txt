@@ -4,17 +4,14 @@ state={
 	name="STATE_884"
 
 	history={
-		owner = ENG
-		add_core_of = SUD
+		owner = RWA
+		add_core_of = RWA
 		buildings = {
 			infrastructure = 2
-
 		}
-
 	}
-
 	provinces={
-		1914 2096 10795 10851 10859 10877 12744 12800 
+		10877 
 	}
 	manpower=1040121
 	buildings_max_level_factor=1.000

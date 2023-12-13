@@ -1,0 +1,15 @@
+state={
+	id=1018
+	name="STATE_1018"
+	provinces={
+		10851 12744 
+	}
+	history={
+		owner = BRD
+		add_core_of = BRD
+	}
+	manpower=1650000
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

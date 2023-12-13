@@ -34,6 +34,9 @@ CMR = "countries/Cameroon.txt"
 EQG = "countries/Equatorial Guinea.txt"
 NMB = "countries/Namibia.txt"
 BOT = "countries/Botswana.txt"
+KEN = "countries/Kenya.txt"
+BRD = "countries/Burundi.txt"
+RWA = "countries/Rwanda.txt"
 #Asia
 
 #Australasia

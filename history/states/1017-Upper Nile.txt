@@ -1,0 +1,15 @@
+state={
+	id=1017
+	name="STATE_1017"
+	provinces={
+		1914 10795 12800 
+	}
+	history={
+		owner = KEN
+		add_core_of = KEN
+	}
+	manpower=1650000
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
