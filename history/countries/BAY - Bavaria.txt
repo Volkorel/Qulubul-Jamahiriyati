@@ -1,5 +1,16 @@
 ﻿capital = 52
 
+create_faction = "catholic_war_criminals"
+add_to_faction = GRE
+add_to_faction = SYR
+add_to_faction = PAL
+add_to_faction = BOS
+add_to_faction = SER
+add_to_faction = ROM
+add_to_faction = MOL
+add_to_faction = BUL
+add_to_faction = UKR
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

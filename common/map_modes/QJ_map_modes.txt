@@ -48,4 +48,168 @@ scripted_map_modes = {
 
 		update_daily = yes
 	}
+	spheres_map_mode = {
+		top = {
+			type = country
+
+			color = {
+				FROM = {
+					set_temp_variable = { alpha = 1.0 }
+					set_temp_variable = { thickness = 10.0 }
+					if = {
+						limit = {
+							has_country_flag = QJ_In_Sphere_Vinlandic
+						}
+						set_temp_variable = { red = 0.737 }
+						set_temp_variable = { green = 0 }
+						set_temp_variable = { blue = 0 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = QJ_In_Sphere_Armagnacee
+						}
+						set_temp_variable = { red = 0.909 }
+						set_temp_variable = { green = 0.608 }
+						set_temp_variable = { blue = 0.608 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = QJ_In_Sphere_Opstandich
+						}
+						set_temp_variable = { red = 1 }
+						set_temp_variable = { green = 0.909 }
+						set_temp_variable = { blue = 0.749 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = QJ_In_Sphere_Mariafold
+						}
+						set_temp_variable = { red = 0.6 }
+						set_temp_variable = { green = 0.847 }
+						set_temp_variable = { blue = 0.847 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = QJ_In_Sphere_Gardaveldi
+						}
+						set_temp_variable = { red = 0.518 }
+						set_temp_variable = { green = 0.557 }
+						set_temp_variable = { blue = 0.557 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = QJ_In_Sphere_Shogun
+						}
+						set_temp_variable = { red = 0.647 }
+						set_temp_variable = { green = 0.141 }
+						set_temp_variable = { blue = 0.141 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = QJ_In_Sphere_Imperial
+						}
+						set_temp_variable = { red = 1 }
+						set_temp_variable = { green = 0.909 }
+						set_temp_variable = { blue = 0.953 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = QJ_In_Sphere_Shams
+						}
+						set_temp_variable = { red = 1 }
+						set_temp_variable = { green = 0.847 }
+						set_temp_variable = { blue = 0 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = QJ_In_Sphere_Frankia
+						}
+						set_temp_variable = { red = 0 }
+						set_temp_variable = { green = 0.482 }
+						set_temp_variable = { blue = 0.827 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = QJ_In_Sphere_Ifriqiyya
+						}
+						set_temp_variable = { red = 0.784 }
+						set_temp_variable = { green = 0.706 }
+						set_temp_variable = { blue = 0.353 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = QJ_In_Sphere_Triumvirate
+						}
+						set_temp_variable = { red = 0.498 }
+						set_temp_variable = { green = 0.829 }
+						set_temp_variable = { blue = 0.556 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = QJ_In_Sphere_Shamozighu
+						}
+						set_temp_variable = { red = 0 } #NEEDS COLOURS
+						set_temp_variable = { green = 0 }
+						set_temp_variable = { blue = 0 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = QJ_In_Sphere_Xiazhongpai
+						}
+						set_temp_variable = { red = 0 } #NEEDS COLOURS
+						set_temp_variable = { green = 0 }
+						set_temp_variable = { blue = 0 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = QJ_In_Sphere_Theedsland
+						}
+						set_temp_variable = { red = 0.627 }
+						set_temp_variable = { green = 0.604 }
+						set_temp_variable = { blue = 0.368 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = QJ_In_Sphere_Nikisetokako
+						}
+						set_temp_variable = { red = 0.294 }
+						set_temp_variable = { green = 0.463 }
+						set_temp_variable = { blue = 0.757 }
+					}
+					else_if = {
+						limit = {
+							has_country_flag = QJ_In_Sphere_Ezo
+						}
+						set_temp_variable = { red = 0.337 }
+						set_temp_variable = { green = 0.196 }
+						set_temp_variable = { blue = 0.196 }
+					}
+					else = {
+						set_temp_variable = { red = 0.502 }
+						set_temp_variable = { green = 0.502 }
+						set_temp_variable = { blue = 0.502 }
+					}
+
+				}
+
+			}
+			thickness = no
+		}
+
+		bottom = {
+			type = none 
+
+			color = {
+				set_temp_variable = { alpha = 0.4 }
+				set_temp_variable = { thickness = 10.0 }
+			}
+
+			thickness = yes
+		}
+
+		far_text = none
+		near_text = none
+
+		update_daily = yes
+	}
 }

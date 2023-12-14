@@ -4,3 +4,9 @@
  MAPMODE_OUTBREAKS_MAP_MODE_DESCRIPTION:0 "Shows countries currently suffering from a disease outbreak."
  outbreaks_map_mode_tooltip:0 "Countries in §Rred§! are currently suffering from a disease outbreak."
  outbreaks_map_mode_tooltip_delayed:0 "You should've been more careful buddy!"
+ 
+ MAPMODE_SPHERES_MAP_MODE_NAME:0 "Spheres"
+ MAPMODE_SPHERES_MAP_MODE:0 "§YSpheres§! map mode"
+ MAPMODE_SPHERES_MAP_MODE_DESCRIPTION:0 "Shows the sphere of influence each country belongs to."
+ spheres_map_mode_tooltip:0 ""
+ spheres_map_mode_tooltip_delayed:0 ""
