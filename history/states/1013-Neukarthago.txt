@@ -9,7 +9,7 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = CUB
+		add_core_of = CAN
 		#add_core_of = Neukarthago
 		victory_points = {
 			7552 20
