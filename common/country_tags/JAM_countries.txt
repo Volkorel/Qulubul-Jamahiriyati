@@ -37,6 +37,10 @@ BOT = "countries/Botswana.txt"
 KEN = "countries/Kenya.txt"
 BRD = "countries/Burundi.txt"
 RWA = "countries/Rwanda.txt"
+UGA = "countries/Uganda.txt"
+LIB = "countries/Liberia.txt"
+DJI = "countries/Djibouti.txt"
+ERI = "countries/Eritrea.txt"
 #Asia
 
 #Australasia

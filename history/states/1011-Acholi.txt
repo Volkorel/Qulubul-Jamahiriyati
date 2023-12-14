@@ -4,7 +4,12 @@ state={
 	provinces={
 		7133 8223 
 	}
-	manpower=0
+	history={
+		owner = UGA
+		add_core_of = UGA
+	}
+	manpower=5500121
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 	local_supplies=0.000
 }

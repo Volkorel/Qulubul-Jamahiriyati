@@ -4,7 +4,12 @@ state={
 	provinces={
 		10859 
 	}
-	manpower=0
+	history={
+		owner = DJI
+		add_core_of = DJI
+	}
+	manpower=5550500
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 	local_supplies=0.000
 }
