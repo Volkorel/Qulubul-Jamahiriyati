@@ -1,0 +1,29 @@
+﻿###################################################################
+# OH LAND, YOUR SOIL IS MY KAFOOR, IN THE TRENCH MY MAGAZINE SANG #
+###################################################################
+
+#Cordoba
+add_namespace = andalus_cordoba
+
+country_event = { #Election meddling and such, later on will tie this to Spanish player
+	id = andalus_cordoba.1
+	title = andalus_cordoba.1.t
+	desc = andalus_cordoba.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	#so far only the coup, later on as i said will add more options for Spanish palyer and shit
+	option = {
+		name = andalus_cordoba.1.a
+		effect_tooltip = {
+			retire_country_leader = yes
+		}
+		set_politics = { ruling_party = duemarism }
+		ADU_Ismail_ibn_Hashem = { promote_character = { ideology = duemarism_yahmadi_revivalism_subtype } }
+		hidden_effect = {
+			every_country = {
+				news_event = jam_world.1
+			}
+		}
+	}
+}

@@ -22,6 +22,14 @@ spriteTypes = {
 		name = "GFX_Portrait_ALG_Mohammad_Malik_Said_Atbaa"
 		texturefile = "gfx/leaders/ALG/Portrait_ALG_Mohammad_Malik_Said_Atbaa.dds"
 	}
+	spriteType = {
+		name = "GFX_Portrait_ADU_Faisal_elNawaz"
+		texturefile = "gfx/leaders/ADU/Portrait_ADU_Faisal_elNawaz.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_ADU_Ismail_ibn_Hashem"
+		texturefile = "gfx/leaders/ADU/Portrait_ADU_Ismail_ibn_Hashem.dds"
+	}
 	#SAN DIEGO LINE
 	#Süid Afrika
 	spriteType = {

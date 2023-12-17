@@ -7,9 +7,10 @@ state={
 	}
 
 	history={
-		owner = SPR
+		owner = MOR
 		add_core_of = MOR
 		add_core_of = RIF
+		add_core_of = ADU
 		victory_points = {
 			9945 3 
 		}
@@ -30,11 +31,8 @@ state={
 				naval_base = 3
 
 			}
-
 		}
-
 	}
-
 	provinces={
 		4199 10113 12087 
 	}

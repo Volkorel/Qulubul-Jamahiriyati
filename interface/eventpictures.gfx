@@ -1,0 +1,6 @@
+#spriteTypes = { ### Only for report/country event pictures, news events go in TNO_news_events.gfx
+#	spriteType = {
+#		name = "GFX_report_event_araguaia"
+#		texturefile = "gfx/event_pictures/report_event_araguaia.dds"
+#	}
+#}

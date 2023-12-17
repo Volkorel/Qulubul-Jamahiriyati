@@ -5,13 +5,19 @@ state={
 		3790 3866 6880 9765 
 	}
 	history={
-		owner = SPR
+		owner = ADU
+		victory_points = {
+			6880 1 
+		}
 		buildings = {
 			infrastructure = 3
 		}
 		add_core_of = SPR
+		add_core_of = ADU
+		add_core_of = POR
 	}
-	manpower=0
+	manpower=4650712
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
 }

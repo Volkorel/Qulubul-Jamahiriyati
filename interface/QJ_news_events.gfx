@@ -1,0 +1,17 @@
+#News Event Pics GFX
+
+#Index; Search for these names using CTRL+F and you'll find the section they entitle.
+#Subfolders of each section are ordered alphabetically
+#Event Pics names should be in format "GFX_news_event_TAG_name" with some exceptions for generic and global events
+spriteTypes = {
+
+	##############
+	### AFRICA ###
+	##############
+	#   Maghreb  #
+	##############
+	spriteType = {
+		name = "GFX_news_event_bayonets_waved"
+		texturefile = "gfx/event_pictures/news_event/news_event_bayonets_waved.dds"
+	}
+}

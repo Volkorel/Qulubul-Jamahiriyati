@@ -1,0 +1,8 @@
+spritetypes = {
+	spritetype = {
+		name = "GFX_generic_news_header"
+		texturefile = "gfx/interface/custom_news_headers/generic_news_header.dds"
+		legacy_lazy_load = no
+	}
+	## Custom headers go here ##
+}

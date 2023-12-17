@@ -5,13 +5,15 @@ state={
 		809 931 3930 6948 6954 11798 11851 
 	}
 	history={
-		owner = SPR
+		owner = ADU
 		buildings = {
 			infrastructure = 3
 		}
 		add_core_of = SPR
+		add_core_of = ADU
 	}
-	manpower=0
+	manpower=1500250
 	buildings_max_level_factor=1.000
+	state_category=large_town
 	local_supplies=0.000
 }

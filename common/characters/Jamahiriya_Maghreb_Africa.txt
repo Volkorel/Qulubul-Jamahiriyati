@@ -23,7 +23,34 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism_sunni_traditionalism_subtype #Beqtashi Mysticism
+			ideology=conservatism_beqtashi_mysticism_subtype #Beqtashi Mysticism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	#ADU
+	ADU_Faisal_elNawaz={
+		name="Faisal el-Nawaz"
+		portraits={
+			civilian={
+				large="GFX_Portrait_ADU_Faisal_elNawaz"
+			}
+		}
+		country_leader={
+			ideology=socialism_social_democracy_subtype #Arab Socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ADU_Ismail_ibn_Hashem={
+		name="Ismail ibn Hashim"
+		portraits={
+			civilian={
+				large="GFX_Portrait_ADU_Ismail_ibn_Hashem"
+			}
+		}
+		country_leader={
+			ideology=duemarism_yahmadi_revivalism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}

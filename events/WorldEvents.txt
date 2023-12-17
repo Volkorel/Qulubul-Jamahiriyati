@@ -1,0 +1,17 @@
+﻿###################################################################
+# OH LAND, YOUR SOIL IS MY KAFOOR, IN THE TRENCH MY MAGAZINE SANG #
+###################################################################
+
+#Cordoba
+add_namespace = jam_world
+
+news_event = { #Cordoban Duemarists forcefully take power after ousting the socialists
+	id = jam_world.1
+	title = jam_world.1.t
+	desc = jam_world.1.d
+	picture = GFX_news_event_bayonets_waved
+	is_triggered_only = yes
+	option = {
+		name = jam_world.99.a
+	}
+}

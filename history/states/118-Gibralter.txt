@@ -4,7 +4,7 @@ state={
 	name="STATE_118"
 
 	history={
-		owner = SPR
+		owner = ADU
 		victory_points = {
 			4135 10 
 		}
@@ -18,8 +18,8 @@ state={
 			}
 
 		}
-		add_core_of = SPR
-
+		add_core_of = ADU
+		#add_claim_of = SPR
 	}
 
 	provinces={
