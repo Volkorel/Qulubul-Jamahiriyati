@@ -6,11 +6,22 @@ state={
 	}
 	history={
 		owner = CAN
+		add_core_of = B03
 		buildings = {
 			infrastructure = 2
 		}
+		victory_points = {
+			12941 1 
+		}
+		buildings = {
+			infrastructure = 2
+			12941 = {
+				naval_base = 2
+			}
+		}
 	}
-	manpower=0
+	manpower=1250500
+	state_category = rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

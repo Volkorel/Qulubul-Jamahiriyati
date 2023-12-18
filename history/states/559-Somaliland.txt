@@ -3,11 +3,10 @@ state={
 	id=559
 	name="STATE_559"
 	resources={
-		steel=1.000
+		steel=8.000
 	}
-
 	history={
-		owner = ITA
+		owner = SOM
 		add_core_of = SOM
 		victory_points = {
 			12991 3 
@@ -19,15 +18,12 @@ state={
 				naval_base = 2
 
 			}
-
 		}
-
 	}
-
 	provinces={
-		1964 1966 2020 4909 10818 10891 12840 
+		1964 1966 4909 10818 10891 
 	}
-	manpower=771671
+	manpower=1771671
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

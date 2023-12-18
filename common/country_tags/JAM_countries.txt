@@ -43,7 +43,7 @@ DJI = "countries/Djibouti.txt"
 ERI = "countries/Eritrea.txt"
 ADU = "countries/Andalusia.txt"
 POR = "countries/Portugal.txt"
-#ty varflock :3
+SOM = "countries/Somalia.txt"
 B01 = "countries/B01.txt"
 B02 = "countries/B02.txt"
 B03 = "countries/B03.txt"

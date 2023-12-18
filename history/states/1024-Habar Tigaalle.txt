@@ -1,0 +1,15 @@
+state={
+	id=1024
+	name="STATE_1024"
+	provinces={
+		12840 
+	}
+	history={
+		owner = B02
+		add_core_of = B02
+	}
+	manpower=858570
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
