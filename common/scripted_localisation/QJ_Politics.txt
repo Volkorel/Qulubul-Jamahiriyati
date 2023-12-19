@@ -73,6 +73,10 @@ defined_text = {
 		localization_key = communism_foldlaegh_movement_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = communism_benghazi_subtype }
+		localization_key = communism_benghazi_subtype
+	}
+	text = {
 		localization_key = communism
 	}
 }
@@ -102,6 +106,10 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = socialism_enonoism_subtype }
 		localization_key = socialism_enonoism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = socialism_benghazi_subtype }
+		localization_key = socialism_benghazi_subtype
 	}
 	text = {
 		localization_key = socialism

@@ -12,6 +12,7 @@ ideologies = {
 			communism_thingfylgd_subtype = { can_be_randomly_selected = no }
 			communism_national_liberationism_subtype = { can_be_randomly_selected = no }
 			communism_foldlaegh_movement_subtype = { can_be_randomly_selected = no }
+			communism_benghazi_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 165 0 0 }
@@ -28,6 +29,7 @@ ideologies = {
 			socialism_leftist_nationalism_subtype = { can_be_randomly_selected = no }
 			socialism_leftist_agrarianism_subtype = { can_be_randomly_selected = no }
 			socialism_enonoism_subtype = { can_be_randomly_selected = no }
+			socialism_benghazi_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 204 0 74 }

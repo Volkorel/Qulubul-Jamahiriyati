@@ -46,6 +46,7 @@
  communism_thingfylgd_subtype:0 "Þingfylgð"
  communism_national_liberationism_subtype:0 "National Liberationism"
  communism_foldlaegh_movement_subtype:0 "Foldlægh Movement"
+ communism_benghazi_subtype:0 "Benghazi Communism"
  
  socialism_althydaism_subtype:0 "Alþýðaism"
  socialism_social_democracy_subtype:0 "Social Democracy"
@@ -53,6 +54,7 @@
  socialism_leftist_nationalism_subtype:0 "Leftist Nationalism"
  socialism_leftist_agrarianism_subtype:0 "Leftist Agrarianism"
  socialism_enonoism_subtype:0 "Enonoism"
+ socialism_benghazi_subtype:0 "Benghazi Socialism"
  
  liberalism_integral_reformism_subtype:0 "Integral Reformism"
  liberalism_liberal_conservatism_subtype:0 "Liberal Conservatism"
