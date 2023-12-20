@@ -1,0 +1,16 @@
+state={
+	id=1030
+	name="STATE_1030"
+	provinces={
+		211 
+	}
+	state_category = rural
+	history={
+		owner = SWE
+		victory_points = { 211 1 }
+		add_core_of = SWE
+	}
+	manpower=70500
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
