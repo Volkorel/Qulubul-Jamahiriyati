@@ -41,6 +41,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/communism_foldlaegh_movement_subtype.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_communism_benghazi_subtype"
+		texturefile = "gfx/interface/ideologies/communism_benghazi_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_socialism_subtype"
 		texturefile = "gfx/interface/ideologies/socialism_subtype.dds"
 	}
@@ -67,6 +71,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_socialism_enonoism_subtype"
 		texturefile = "gfx/interface/ideologies/socialism_enonoism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_socialism_benghazi_subtype"
+		texturefile = "gfx/interface/ideologies/socialism_benghazi_subtype.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_liberalism_subtype"
