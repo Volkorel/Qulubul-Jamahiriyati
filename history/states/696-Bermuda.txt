@@ -5,8 +5,8 @@ state={
 	state_category = small_island
 
 	history={
-		owner = CAN
-		add_core_of = CAN
+		owner = CUB
+		add_core_of = CUB
 		victory_points = {
 			13010 1
 		}
