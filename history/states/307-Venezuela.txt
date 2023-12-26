@@ -3,12 +3,9 @@ state={
 	id=307
 	name="STATE_307" # Miranda
 	
-	state_category = city
+	state_category = pastoral
 	
-	manpower = 1335010
-	resources={
-		oil=41 # was: 58
-	}
+	manpower = 245642
 
 	history={
 		owner = COL
@@ -17,22 +14,13 @@ state={
 			arms_factory = 1
 			industrial_complex = 5
 			air_base = 2
-			8113 = {
-				naval_base = 3
-			}
-			10912 = {
-				naval_base = 2
-			}
 		}
 		add_core_of = COL
-		victory_points = {
-			8113 5 
-		}
 
 	}
 
 	provinces={
-		4942 7968 8024 8080 8113 10767 10823 10912 5056 4892 5000
+		4942 5056 4892 5000 8050 5317 7915 10849 10736
 	}
 
 	local_supplies=0.0 
