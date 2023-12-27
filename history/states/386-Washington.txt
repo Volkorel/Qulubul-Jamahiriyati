@@ -2,17 +2,16 @@
 state={
 	id=386
 	name="STATE_386"
-	manpower = 1563395
+	manpower = 563395
 	
-	state_category = large_town
+	state_category = town
 
 	history={
 		owner = CAN
 		buildings = {
-			infrastructure = 3 #was: 6
-			arms_factory = 1
+			infrastructure = 3
 			industrial_complex = 1
-			dockyard = 1
+			dockyard = 2
 			air_base = 5
 			7315 = {
 				naval_base = 3

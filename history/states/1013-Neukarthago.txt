@@ -7,15 +7,16 @@ state={
 	history={
 		owner = CAN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
+			industrial_complex = 4
+			dockyard = 3
 		}
 		add_core_of = CAN
-		#add_core_of = Neukarthago
 		victory_points = {
 			7552 20
 		}
 	}
-	manpower=10570750
+	manpower=1570750
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 	local_supplies=0.000

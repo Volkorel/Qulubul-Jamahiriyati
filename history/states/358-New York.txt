@@ -10,9 +10,8 @@ state={
 		owner = CAN
 		buildings = {
 			infrastructure = 4
-			arms_factory = 2
-			industrial_complex = 7
-			dockyard = 3
+			arms_factory = 1
+			industrial_complex = 5
 			air_base = 10
 			3878 = {
 				naval_base = 6
@@ -33,8 +32,8 @@ state={
 	provinces={
 		598 734 1436 3602 3702 3733 3747 6707 6717 6778 6795 6916 9664 9708 9721 9754 10381 11650 11654 11662 11665 11680 11722 13157 
 	}
-	manpower=12588061
+	manpower=4488061
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=metropolis
 	local_supplies=0.000
 }

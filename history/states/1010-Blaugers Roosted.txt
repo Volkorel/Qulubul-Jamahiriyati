@@ -6,7 +6,11 @@ state={
 	}
 	history={
 		owner = CAN
-		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = CAN
 		victory_points = {
 			6696 15 
 		}
@@ -14,8 +18,8 @@ state={
 			4452 10 
 		}
 	}
-	manpower=850550
-	state_category=rural
+	manpower=1850550
+	state_category=city
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

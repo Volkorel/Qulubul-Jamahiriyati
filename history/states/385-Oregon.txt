@@ -6,7 +6,7 @@ state={
 	history={
 		owner = CAN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 1
 			air_base = 6
 			12211 = {
@@ -25,8 +25,8 @@ state={
 	provinces={
 		505 528 1414 3471 3513 4274 4328 4347 4380 4826 7398 7721 7865 10151 10305 10625 10687 11495 11733 12183 12211 12281 12553 
 	}
-	manpower=953785
+	manpower=453785
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 	local_supplies=0.000
 }
