@@ -407,9 +407,9 @@
  ARG:0 "Republic of Aremorica"
  ARG_DEF:0 "the Republic of Aremorica"
  ARG_ADJ:0 "Aremorican"
- CHL:0 "Hercegérsek Sztenfoldje"
- CHL_DEF:0 "Hercegérsek Sztenfoldje"
- CHL_ADJ:0 "Sztenfoldje"
+ CHL:0 "Hercegérsek Szentföldje"
+ CHL_DEF:0 "Hercegérsek Szentföldje"
+ CHL_ADJ:0 "Szentföldje"
 ### EUROPE ###
  ENG:0 "Bretonnic Empire"
  ENG_DEF:0 "the Bretonnic Empire"
