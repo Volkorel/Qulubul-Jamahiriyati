@@ -13,4 +13,60 @@ characters={
 			id=-1
 		}
 	}
+	#HROUDSTED
+	USA_Bune_Oosterhof={
+		name="Bune Oosterhof"
+		portraits={
+			civilian={
+				large="GFX_Portrait_USA_Bune_Oosterhof"
+			}
+		}
+		country_leader={
+			ideology=liberalism_progressive_liberalism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	#KUSABOSTED
+	CSA_Pieterjan_Van_Reid={
+		name="Pieterjan van Reid"
+		portraits={
+			civilian={
+				large="GFX_Portrait_CSA_Pieterjan_VanReid"
+			}
+		}
+		country_leader={
+			ideology=conservatism_conservative_populism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	#Mamiyajima
+	ELS_Akagi_Gekko={
+		name="Akagi Gekko"
+		portraits={
+			civilian={
+				large="GFX_Portrait_ELS_Akagi_Gekko"
+			}
+		}
+		country_leader={
+			ideology=liberalism_progressive_liberalism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	#Atatoshi
+	HON_Yashiro_Shigenaga={
+		name="Yashiro Shigenaga"
+		portraits={
+			civilian={
+				large="GFX_Portrait_HON_Yashiro_Shigenaga"
+			}
+		}
+		country_leader={
+			ideology=liberalism_economic_liberalism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 }

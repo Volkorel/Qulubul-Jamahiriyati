@@ -106,4 +106,24 @@ spriteTypes = {
 		name = "GFX_Portrait_CAN_Sigrídtr_Ragnsung"
 		texturefile = "gfx/leaders/CAN/Portrait_CAN_Sigrídtr_Ragnsung.dds"
 	}
+	#Hroudsted
+	spriteType = {
+		name = "GFX_Portrait_USA_Bune_Oosterhof"
+		texturefile = "gfx/leaders/USA/Portrait_USA_Bune_Oosterhof.dds"
+	}
+	#Kusabosted
+	spriteType = {
+		name = "GFX_Portrait_CSA_Pieterjan_VanReid"
+		texturefile = "gfx/leaders/CSA/Portrait_CSA_Pieterjan_VanReid.dds"
+	}
+	#Mamiyajima
+	spriteType = {
+		name = "GFX_Portrait_ELS_Akagi_Gekko"
+		texturefile = "gfx/leaders/ELS/Portrait_ELS_Akagi_Gekko.dds"
+	}
+	#Atatoshi
+	spriteType = {
+		name = "GFX_Portrait_HON_Yashiro_Shigenaga"
+		texturefile = "gfx/leaders/HON/Portrait_HON_Yashiro_Shigenaga.dds"
+	}
 }
