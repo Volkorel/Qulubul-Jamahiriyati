@@ -2,7 +2,7 @@ state=
 {
 	id=318
 	name="STATE_318"
-	manpower = 1880000
+	manpower = 1580000
 	
 	state_category = town
 	
@@ -13,7 +13,7 @@ state=
 	{
 		owner = PAN
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 2 
 			air_base = 1

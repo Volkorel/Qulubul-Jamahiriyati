@@ -2,7 +2,7 @@
 state={
 	id=511
 	name="STATE_511" # Mendoza
-	manpower = 1090274
+	manpower = 590274
 	
 	state_category = rural
 
@@ -10,7 +10,6 @@ state={
 		owner = ARG
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
 			air_base = 1
 		}
 		add_core_of = ARG

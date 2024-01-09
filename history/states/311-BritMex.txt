@@ -2,11 +2,10 @@ state=
 {
 	id=311
 	name="STATE_311"
-	manpower = 51000
+	manpower = 251000
 	
-	state_category = pastoral
-	history=
-	{
+	state_category = rural
+	history={
 		add_core_of = PAN
 		owner = PAN
 		victory_points = {
@@ -14,6 +13,7 @@ state=
 		}
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 			2077 = {
 				naval_base = 1
 			}

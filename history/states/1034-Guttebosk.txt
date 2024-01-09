@@ -12,7 +12,7 @@ state={
 		}
 		add_core_of = COL
 	}
-	manpower=117800
+	manpower=87800
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

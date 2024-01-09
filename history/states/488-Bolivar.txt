@@ -2,7 +2,7 @@
 state={
 	id=488
 	name="STATE_488"
-	manpower = 1335010
+	manpower = 1035010
 	
 	state_category = city
 	resources={
@@ -12,7 +12,9 @@ state={
 	history={
 		owner = SUR
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 			8113 = {
 				naval_base = 3
 			}

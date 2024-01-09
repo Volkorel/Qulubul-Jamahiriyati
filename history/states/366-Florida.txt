@@ -6,8 +6,8 @@ state={
 	history={
 		owner = HAI
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 3
+			infrastructure = 3
+			industrial_complex = 2
 			air_base = 8
 			1572 = {
 				naval_base = 2
@@ -37,7 +37,7 @@ state={
 	provinces={
 		866 1556 1572 1584 1843 1913 7388 7480 9834 10352 10380 10407 10489 10520 12381 12439 12752
 	}
-	manpower=1468210
+	manpower=768210
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=10.000

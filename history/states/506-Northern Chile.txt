@@ -2,7 +2,7 @@
 state={
 	id=506
 	name="STATE_506" # Antofagasta
-	manpower = 283605
+	manpower = 183605
 	
 	state_category = rural
 
@@ -10,7 +10,6 @@ state={
 		owner = ARG
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
 			air_base = 1
 			12994 = {
 				naval_base = 1

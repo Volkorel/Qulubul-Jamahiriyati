@@ -2,14 +2,14 @@
 state={
 	id=502
 	name="STATE_502"
-	manpower = 2959600
+	manpower = 959600
 	
 	state_category = town
 
 	history={
 		owner = ARG
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 2
 			air_base = 2
 			10447 = {
 				naval_base = 3
