@@ -47,6 +47,7 @@ ideologies = {
 			liberalism_progressive_liberalism_subtype = { can_be_randomly_selected = no }
 			liberalism_laeeradr_liberalism_subtype = { can_be_randomly_selected = no }
 			liberalism_prometheanism_subtype = { can_be_randomly_selected = no }
+			liberalism_meinwerkist_modernism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 0 184 216 }
@@ -70,6 +71,7 @@ ideologies = {
 			conservatism_serkadji_school_subtype = { can_be_randomly_selected = no }
 			conservatism_hercegersek_rule_subtype = { can_be_randomly_selected = no }
 			conservatism_pontifical_rule_subtype = { can_be_randomly_selected = no }
+			conservatism_haredi_conservatism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 55 86 137 }

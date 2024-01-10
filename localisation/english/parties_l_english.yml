@@ -63,6 +63,7 @@
  liberalism_progressive_liberalism_subtype:0 "Progressive Liberalism"
  liberalism_laeeradr_liberalism_subtype:0 "Laeradr Liberalism"
  liberalism_prometheanism_subtype:0 "Prometheanism"
+ liberalism_meinwerkist_modernism_subtype:0 "Meinwerkist Modernism"
  
  conservatism_integralism_subtype:0 "Integralism"
  conservatism_ultramonarchism_subtype:0 "Ultra-Monarchism"
@@ -77,6 +78,7 @@
  conservatism_serkadji_school_subtype:0 "Serkadji School"
  conservatism_hercegersek_rule_subtype:0 "Hercegérsek Rule"
  conservatism_pontifical_rule_subtype:0 "Pontifical Rule"
+ conservatism_haredi_conservatism_subtype:0 "Haredi Conservatism"
  
  jacobinism_gamleby_revivalism_subtype:0 "Gamleby Revivalism"
  jacobinism_heckerism_subtype:0 "Heckerism"
@@ -134,6 +136,7 @@
  liberalism_progressive_liberalism_subtype_desc:0 ""
  liberalism_laeeradr_liberalism_subtype_desc:0 ""
  liberalism_prometheanism_subtype_desc:0 ""
+ liberalism_meinwerkist_modernism_subtype_desc:0 ""
  
  conservatism_integralism_subtype_desc:0 ""
  conservatism_ultramonarchism_subtype_desc:0 ""
@@ -148,6 +151,7 @@
  conservatism_serkadji_school_subtype_desc:0 ""
  conservatism_hercegersek_rule_subtype_desc:0 ""
  conservatism_pontifical_rule_subtype_desc:0 ""
+ conservatism_haredi_conservatism_subtype_desc:0 ""
  
  jacobinism_gamleby_revivalism_subtype_desc:0 ""
  jacobinism_heckerism_subtype_desc:0 ""

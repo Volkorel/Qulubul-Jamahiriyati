@@ -22,7 +22,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism_progressive_liberalism_subtype
+			ideology=liberalism_meinwerkist_modernism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}

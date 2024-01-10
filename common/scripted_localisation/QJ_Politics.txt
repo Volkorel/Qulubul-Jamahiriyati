@@ -147,6 +147,10 @@ defined_text = {
 		localization_key = liberalism_prometheanism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = liberalism_meinwerkist_modernism_subtype }
+		localization_key = liberalism_meinwerkist_modernism_subtype
+	}
+	text = {
 		localization_key = liberalism
 	}
 }
@@ -204,6 +208,10 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = conservatism_pontifical_rule_subtype }
 		localization_key = conservatism_pontifical_rule_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = conservatism_haredi_conservatism_subtype }
+		localization_key = conservatism_haredi_conservatism_subtype
 	}
 	text = {
 		localization_key = conservatism
