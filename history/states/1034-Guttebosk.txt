@@ -11,6 +11,7 @@ state={
 			
 		}
 		add_core_of = COL
+		add_core_of = VEN
 	}
 	manpower=87800
 	buildings_max_level_factor=1.000

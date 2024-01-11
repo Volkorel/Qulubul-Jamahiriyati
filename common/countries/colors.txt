@@ -252,12 +252,20 @@ COL = {
 	color_ui = rgb { 255 232 191 }
 }
 COS = {
-	color = rgb { 152 128 43 }
-	color_ui = rgb { 152 128 43 }
+	color = rgb { 114 32 0 }
+	color_ui = rgb { 114 32 0 }
+}
+CRC = {
+	color = rgb { 153 79 105 }
+	color_ui = rgb { 153 79 105 }
+}
+JAM = {
+	color = rgb { 142 109 78 }
+	color_ui = rgb { 142 109 78 }
 }
 ECU = {
-	color = rgb { 249 146 98 }
-	color_ui = rgb { 255 190 127 }
+	color = rgb { 181 151 99 }
+	color_ui = rgb { 181 151 99 }
 }
 ELS = {
 	color = rgb { 193 131 108 }
@@ -360,8 +368,8 @@ URG = {
 	color_ui = rgb { 222 247 198 }
 }
 VEN = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 165 109 91 }
+	color_ui = rgb { 165 109 91 }
 }
 YUN = {
 	color = rgb { 217 140 201 }
@@ -404,8 +412,8 @@ CUB = {
 	color_ui = rgb { 76 132 103 }
 }
 DOM = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 58 142 58 }
+	color_ui = rgb { 58 142 58 }
 }
 HAI = {
 	color = rgb { 19 121 193 }

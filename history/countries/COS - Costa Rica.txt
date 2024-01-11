@@ -10,13 +10,22 @@ set_country_flag = monroe_doctrine
 set_war_support = 0.1
 set_convoys = 10
 
+recruit_character = COS_Rikuto_Kitagawa
+
 set_politics = {
-	ruling_party = conservatism
-	last_election = "1905.2.14"
+	ruling_party = communism
+	last_election = "1905.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	conservatism = 100
+	communism = 70
+	socialism = 15
+	liberalism = 0
+	conservatism = 0
+	jacobinism = 0
+	duemarism = 0
+	indigeneum = 15
+	suprarealisme = 0
 }

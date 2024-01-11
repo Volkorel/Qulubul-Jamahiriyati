@@ -574,4 +574,88 @@ characters={
 			id=-1
 		}
 	}
+	#Skogarland
+	COS_Rikuto_Kitagawa={
+		name="Rikuto Kitagawa"
+		portraits={
+			civilian={
+				large="GFX_Portrait_COS_Rikuto_Kitagawa"
+			}
+		}
+		country_leader={
+			ideology=communism_anarchism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	#Throngstkard
+	CRC_Waga_Iguibilikinyasdottir={
+		name="Waga Iguibilikinyasdottir"
+		portraits={
+			civilian={
+				large="GFX_Portrait_CRC_Waga_Iguibilikinyasdottir"
+			}
+		}
+		country_leader={
+			ideology=communism_national_communism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	#Fjallaeyja
+	DOM_Kayin_Abioyesson={
+		name="Kayin Abioyesson"
+		portraits={
+			civilian={
+				large="GFX_Portrait_DOM_Kayin_Abioyesson"
+			}
+		}
+		country_leader={
+			ideology=jacobinism_abolitionism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	#Vatnsinsland
+	JAM_Colm_O_Neillsson={
+		name="Colm Ó Néillsson"
+		portraits={
+			civilian={
+				large="GFX_Portrait_JAM_Colm_O_Neillsson"
+			}
+		}
+		country_leader={
+			ideology=communism_national_communism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	#Evener
+	ECU_Roan_Gerbrandy={
+		name="Roan Gerbrandy"
+		portraits={
+			civilian={
+				large="GFX_Portrait_ECU_Roan_Gerbrandy"
+			}
+		}
+		country_leader={
+			ideology=socialism_leftist_nationalism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	#Gruttebosk
+	VEN_Klaes_Terpstra={
+		name="Klaes Terpstra"
+		portraits={
+			civilian={
+				large="GFX_Portrait_VEN_Klaes_Terpstra"
+			}
+		}
+		country_leader={
+			ideology=liberalism_progressive_liberalism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 }
