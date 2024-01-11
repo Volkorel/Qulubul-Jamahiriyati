@@ -597,7 +597,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=communism_national_communism_subtype
+			ideology=communism_national_liberationism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -625,7 +625,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=communism_national_communism_subtype
+			ideology=communism_national_liberationism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
