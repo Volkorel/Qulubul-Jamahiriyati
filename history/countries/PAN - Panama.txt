@@ -17,5 +17,15 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	conservatism = 100
+	communism = 10
+	socialism = 30
+	liberalism = 0
+	conservatism = 30
+	jacobinism = 20
+	duemarism = 0
+	indigeneum = 10
+	suprarealisme = 0
 }
+
+recruit_character = PAN_Bohekio_Guamason
+recruit_character = PAN_Asa_Gunnarsdottir

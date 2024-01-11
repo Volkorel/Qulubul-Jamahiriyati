@@ -9,12 +9,24 @@ set_country_flag = monroe_doctrine
 set_war_support = 0.1
 set_convoys = 5
 
+recruit_character = HAI_Nikos_Michelakos
+recruit_character = HAI_Kyriakos_Argyris
+recruit_character = HAI_Vassilis_Antoniou
+recruit_character = HAI_Giannis_Antonis
+
 set_politics = {
-	ruling_party = conservatism
-	last_election = "1936.1.1"
+	ruling_party = liberalism
+	last_election = "1903.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	conservatism = 100
+	communism = 10
+	socialism = 20
+	liberalism = 30
+	conservatism = 30
+	jacobinism = 10
+	duemarism = 0
+	indigeneum = 0
+	suprarealisme = 0
 }

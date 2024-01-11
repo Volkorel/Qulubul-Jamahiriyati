@@ -7,11 +7,22 @@ set_technology = {
 
 set_convoys = 5
 set_politics = {
-	ruling_party = conservatism
-	last_election = "1936.1.1"
+	ruling_party = liberalism
+	last_election = "1901.6.7"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	conservatism = 100
+	communism = 0
+	socialism = 30
+	liberalism = 40
+	conservatism = 30
+	jacobinism = 0
+	duemarism = 0
+	indigeneum = 0
+	suprarealisme = 0
 }
+
+recruit_character = GYA_Chayat_Bomberg
+recruit_character = GYA_Soffer_Reimann
+recruit_character = GYA_Melamed_Chomski

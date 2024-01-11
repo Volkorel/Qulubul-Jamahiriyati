@@ -28,5 +28,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	conservatism = 100
+	communism = 10
+	socialism = 0
+	liberalism = 0
+	conservatism = 70
+	jacobinism = 20
+	duemarism = 0
+	indigeneum = 0
+	suprarealisme = 0
 }
+
+recruit_character = NIC_Abraham_Hochmuth
+recruit_character = NIC_Jason_Butaul
+recruit_character = NIC_Caleb_Samo
