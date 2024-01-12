@@ -658,4 +658,32 @@ characters={
 			id=-1
 		}
 	}
+	#Taysha
+	BLZ_Friedrich_Petersen={
+		name="Friedrich Petersen"
+		portraits={
+			civilian={
+				large="GFX_Portrait_BLZ_Friedrich_Petersen"
+			}
+		}
+		country_leader={
+			ideology=socialism_leftist_nationalism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	#Gruttebosk
+	BLZ_Pieter_Marx={
+		name="Pieter Marx"
+		portraits={
+			civilian={
+				large="GFX_Portrait_BLZ_Pieter_Marx"
+			}
+		}
+		country_leader={
+			ideology=liberalism_meinwerkist_modernism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 }

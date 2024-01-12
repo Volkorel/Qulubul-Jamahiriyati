@@ -371,6 +371,10 @@ VEN = {
 	color = rgb { 165 109 91 }
 	color_ui = rgb { 165 109 91 }
 }
+BLZ = {
+	color = rgb { 4 144 178 }
+	color_ui = rgb { 4 144 178 }
+}
 YUN = {
 	color = rgb { 217 140 201 }
 	color_ui = rgb { 217 140 201 }

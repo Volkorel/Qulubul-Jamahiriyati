@@ -403,6 +403,9 @@
  DOM:0 "Fjallaeyja"
  DOM_DEF:0 "the United Republic of Fjallaeyja"
  DOM_ADJ:0 "Fjallaeyja"
+ BLZ:0 "Taysha"
+ BLZ_DEF:0 "the Republic of Taysha"
+ BLZ_ADJ:0 "Tayshan"
 ### SOUTH/CENTRAL ERIKSLAND ###
  NIC:0 "Guadalupei Szuzanya"
  NIC_DEF:0 "Guadalupei Szuzanya"

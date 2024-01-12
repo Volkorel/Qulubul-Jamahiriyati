@@ -1,0 +1,165 @@
+﻿add_namespace = QJ_armagnacee
+
+country_event = { #1905 Elections
+	id = QJ_armagnacee.1
+	title = QJ_armagnacee.1.t
+	desc = QJ_armagnacee.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_armagnacee.1.a
+		set_popularities = {
+			communism = 15
+			socialism = 40
+			liberalism = 0
+			conservatism = 10
+			jacobinism = 5
+			duemarism = 20
+			indigeneum = 0
+			suprarealisme = 0
+		}
+		BLZ = {
+			transfer_state = 375
+		}
+		puppet = BLZ
+		BLZ = {
+			set_politics = {
+				ruling_party = liberalism
+			}
+			set_popularities = {
+				communism = 0
+				socialism = 40
+				liberalism = 60
+				conservatism = 0
+				jacobinism = 0
+				duemarism = 0
+				indigeneum = 0
+				suprarealisme = 0
+			}
+		}
+		CAN = {
+			give_guarantee = BLZ
+		}
+		country_event = {
+			id = QJ_armagnacee.2
+			days = 730
+		}
+	}
+	option = {
+		name = QJ_armagnacee.1.b
+		set_politics = {
+			ruling_party = conservatism
+		}
+		set_popularities = {
+			communism = 5
+			socialism = 30
+			liberalism = 0
+			conservatism = 35
+			jacobinism = 20
+			duemarism = 10
+			indigeneum = 0
+			suprarealisme = 0
+		}
+		country_event = {
+			id = QJ_armagnacee.3
+			days = 730
+		}
+	}
+	option = {
+		name = QJ_armagnacee.1.c
+		set_politics = {
+			ruling_party = duemarism
+		}
+		set_popularities = {
+			communism = 10
+			socialism = 5
+			liberalism = 0
+			conservatism = 5
+			jacobinism = 10
+			duemarism = 70
+			indigeneum = 0
+			suprarealisme = 0
+		}
+		country_event = {
+			id = QJ_armagnacee.4
+			days = 730
+		}
+	}
+}
+
+country_event = { #PTA and PB uprisings
+	id = QJ_armagnacee.2
+	title = QJ_armagnacee.2.t
+	desc = QJ_armagnacee.2.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_armagnacee.2.a
+		start_civil_war = {
+			ideology = communism
+			size = 0.6
+			capital = 313
+			states = {
+				474 475 313 314 312
+			}
+		}
+	}
+}
+
+country_event = { #PRR and Tayshan uprising
+	id = QJ_armagnacee.3
+	title = QJ_armagnacee.3.t
+	desc = QJ_armagnacee.3.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_armagnacee.3.a
+		start_civil_war = {
+			ideology = jacobinism
+			size = 0.3
+			capital = 478
+			states = {
+				478 481 482
+			}
+		}
+		BLZ = {
+			transfer_state = 375
+		}
+		declare_war_on = {
+			target = BLZ
+			type = independence_wargoal
+		}
+		CAN = {
+			give_guarantee = BLZ
+		}
+	}
+}
+
+country_event = { #Tayshan uprising
+	id = QJ_armagnacee.4
+	title = QJ_armagnacee.4.t
+	desc = QJ_armagnacee.4.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_armagnacee.4.a
+		BLZ = {
+			transfer_state = 375
+		}
+		declare_war_on = {
+			target = BLZ
+			type = independence_wargoal
+		}
+		CAN = {
+			give_guarantee = BLZ
+		}
+	}
+}

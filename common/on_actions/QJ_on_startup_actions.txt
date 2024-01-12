@@ -8,7 +8,13 @@ on_actions = {
 			CUB = { set_country_flag = QJ_In_Sphere_Vinlandic }
 			CSA = { set_country_flag = QJ_In_Sphere_Vinlandic }
 			PAN = { set_country_flag = QJ_In_Sphere_Vinlandic }
-			MEX = { set_country_flag = QJ_In_Sphere_Armagnacee }
+			MEX = {
+				set_country_flag = QJ_In_Sphere_Armagnacee
+				country_event = {
+					id = QJ_armagnacee.1
+					days = 150
+				}
+			}
 			COL = { set_country_flag = QJ_In_Sphere_Opstandich }
 			SUR = { set_country_flag = QJ_In_Sphere_Opstandich }
 			BAY = { set_country_flag = QJ_In_Sphere_Mariafold }

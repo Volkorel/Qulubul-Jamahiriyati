@@ -133,6 +133,7 @@ COS = "countries/Skogarland.txt"
 CRC = "countries/Throngskard.txt"
 JAM = "countries/Vatnsinsland.txt"
 DOM = "countries/Fjallaeyna.txt"
+BLZ = "countries/Taysha.txt"
 #South/Central Eriksland
 NIC = "countries/Guadalupei Szuzanya.txt"
 PAN = "countries/USCE.txt"

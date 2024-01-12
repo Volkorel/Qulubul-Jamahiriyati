@@ -24,6 +24,7 @@ state={
 
 		}
 		add_core_of = MEX
+		add_core_of = BLZ
 		victory_points = {
 			10337 10 
 		}
