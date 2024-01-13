@@ -1,0 +1,92 @@
+on_actions = {
+	on_capitulation  = {
+		effect = {
+			if = {
+				limit = {
+					FROM = {
+						original_tag = BLZ
+					}
+					ROOT = {
+						original_tag = MEX
+					}
+				}
+				BLZ = {
+					white_peace = MEX
+				}
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						is_dynamic_country = yes
+					}
+					ROOT = {
+						original_tag = MEX
+					}
+				}
+				MEX = {
+					if = {
+						limit = {
+							FROM = {
+								has_government = communism
+							}
+						}
+						set_politics = {
+							ruling_party = communism
+						}
+						set_popularities = {
+							communism = 80
+							socialism = 10
+							liberalism = 0
+							conservatism = 0
+							jacobinism = 10
+							duemarism = 0
+							indigeneum = 0
+							suprarealisme = 0
+						}
+						white_peace = BLZ
+						if = {
+							limit = {
+								OR = {
+									has_dlc = "Together for Victory"
+									has_dlc = "Man the Guns"
+								}
+							}
+							set_autonomy = {
+								target = BLZ
+								autonomous_state = autonomy_integrated_puppet
+							}
+							else = {
+								puppet = BLZ
+							}
+						}
+					}
+					else_if = {
+						limit = {
+							FROM = {
+								has_government = jacobinism
+							}
+						}
+						set_politics = {
+							ruling_party = jacobinism
+						}
+						set_popularities = {
+							communism = 10
+							socialism = 10
+							liberalism = 0
+							conservatism = 0
+							jacobinism = 70
+							duemarism = 10
+							indigeneum = 0
+							suprarealisme = 0
+						}
+						white_peace = BLZ
+					}
+					annex_country = {
+						target = FROM
+						transfer_troops = yes
+					}
+				}
+			}
+		}
+	}
+}

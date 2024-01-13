@@ -10,6 +10,9 @@ country_event = { #1905 Elections
 	
 	option = {
 		name = QJ_armagnacee.1.a
+		set_politics = {
+			ruling_party = socialism
+		}
 		set_popularities = {
 			communism = 15
 			socialism = 40
@@ -89,7 +92,7 @@ country_event = { #1905 Elections
 	}
 }
 
-country_event = { #PTA and PB uprisings
+country_event = { #PTA uprising
 	id = QJ_armagnacee.2
 	title = QJ_armagnacee.2.t
 	desc = QJ_armagnacee.2.d
@@ -106,6 +109,7 @@ country_event = { #PTA and PB uprisings
 			states = {
 				474 475 313 314 312
 			}
+			keep_all_characters = yes
 		}
 	}
 }
@@ -122,18 +126,19 @@ country_event = { #PRR and Tayshan uprising
 		name = QJ_armagnacee.3.a
 		start_civil_war = {
 			ideology = jacobinism
-			size = 0.3
+			size = 0.6
 			capital = 478
 			states = {
 				478 481 482
 			}
+			keep_all_characters = yes
 		}
 		BLZ = {
 			transfer_state = 375
 		}
 		declare_war_on = {
 			target = BLZ
-			type = independence_wargoal
+			type = annex_everything
 		}
 		CAN = {
 			give_guarantee = BLZ
@@ -156,10 +161,306 @@ country_event = { #Tayshan uprising
 		}
 		declare_war_on = {
 			target = BLZ
-			type = independence_wargoal
+			type = annex_everything
 		}
 		CAN = {
 			give_guarantee = BLZ
 		}
+	}
+}
+
+country_event = { #The Shitfuckery begins
+	id = QJ_armagnacee.5
+	title = QJ_armagnacee.5.t
+	desc = QJ_armagnacee.5.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_armagnacee.5.a
+		if = {
+			limit = {
+				has_government = communism
+			}
+			create_faction = "el_chavismo_prevalecera"
+			every_country = {
+				limit = {
+					capital_scope = {
+						OR = {
+							is_on_continent = north_america
+							is_on_continent = south_america
+						}
+					}
+					has_government = communism
+					is_in_faction = no
+				}
+				set_country_flag = QJ_In_Sphere_Armagnacee
+				MEX = {
+					add_to_faction = PREV
+				}
+			}
+			declare_war_on = {
+				target = PAN
+				type = liberate_wargoal
+			}
+			declare_war_on = {
+				target = NIC
+				type = topple_government
+			}
+		}
+		else_if = {
+			limit = {
+				has_government = jacobinism
+			}
+			COL = {
+				add_to_faction = MEX
+			}
+		}
+		else_if = {
+			limit = {
+				has_government = duemarism
+			}
+			create_faction = "napoleon_has_arrived"
+			declare_war_on = {
+				target = PAN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = NIC
+				type = annex_everything
+			}
+			if = {
+				limit = {
+					country_exists = BLZ
+				}
+				declare_war_on = {
+					target = BLZ
+					type = annex_everything
+				}
+			}
+		}
+	}
+}
+
+add_namespace = QJ_opstandich
+
+country_event = { #Caracie Accord created
+	id = QJ_opstandich.1
+	title = QJ_opstandich.1.t
+	desc = QJ_opstandich.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_opstandich.1.a
+		create_faction = "south_eriksland_libtards"
+		add_to_faction = SUR
+	}
+}
+
+add_namespace = QJ_septinsular
+
+country_event = { #First Elections
+	id = QJ_septinsular.1
+	title = QJ_septinsular.1.t
+	desc = QJ_septinsular.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_septinsular.1.a
+		set_politics = {
+			ruling_party = socialism
+		}
+		set_popularities = {
+			communism = 10
+			socialism = 30
+			liberalism = 20
+			conservatism = 30
+			jacobinism = 10
+			duemarism = 0
+			indigeneum = 0
+			suprarealisme = 0
+		}
+	}
+	option = {
+		name = QJ_septinsular.1.b
+		set_politics = {
+			ruling_party = liberalism
+		}
+		set_popularities = {
+			communism = 10
+			socialism = 20
+			liberalism = 30
+			conservatism = 30
+			jacobinism = 10
+			duemarism = 0
+			indigeneum = 0
+			suprarealisme = 0
+		}
+	}
+	option = {
+		name = QJ_septinsular.1.c
+		set_politics = {
+			ruling_party = conservatism
+		}
+		set_popularities = {
+			communism = 10
+			socialism = 25
+			liberalism = 20
+			conservatism = 35
+			jacobinism = 10
+			duemarism = 0
+			indigeneum = 0
+			suprarealisme = 0
+		}
+	}
+}
+
+country_event = { #Second Elections
+	id = QJ_septinsular.2
+	title = QJ_septinsular.2.t
+	desc = QJ_septinsular.2.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_septinsular.2.a
+		set_politics = {
+			ruling_party = communism
+		}
+		set_popularities = {
+			communism = 30
+			socialism = 10
+			liberalism = 25
+			conservatism = 25
+			jacobinism = 10
+			duemarism = 0
+			indigeneum = 0
+			suprarealisme = 0
+		}
+		CAN = {
+			country_event = QJ_septinsular.3
+		}
+	}
+	option = {
+		name = QJ_septinsular.2.b
+		set_politics = {
+			ruling_party = socialism
+		}
+		set_popularities = {
+			communism = 10
+			socialism = 30
+			liberalism = 20
+			conservatism = 30
+			jacobinism = 10
+			duemarism = 0
+			indigeneum = 0
+			suprarealisme = 0
+		}
+	}
+	option = {
+		name = QJ_septinsular.2.c
+		set_politics = {
+			ruling_party = liberalism
+		}
+		set_popularities = {
+			communism = 10
+			socialism = 20
+			liberalism = 30
+			conservatism = 30
+			jacobinism = 10
+			duemarism = 0
+			indigeneum = 0
+			suprarealisme = 0
+		}
+	}
+	option = {
+		name = QJ_septinsular.2.e
+		set_politics = {
+			ruling_party = conservatism
+		}
+		set_popularities = {
+			communism = 10
+			socialism = 25
+			liberalism = 20
+			conservatism = 35
+			jacobinism = 10
+			duemarism = 0
+			indigeneum = 0
+			suprarealisme = 0
+		}
+	}
+	option = {
+		name = QJ_septinsular.2.f
+		set_politics = {
+			ruling_party = jacobinism
+		}
+		set_popularities = {
+			communism = 10
+			socialism = 20
+			liberalism = 20
+			conservatism = 20
+			jacobinism = 30
+			duemarism = 0
+			indigeneum = 0
+			suprarealisme = 0
+		}
+		CAN = {
+			country_event = QJ_septinsular.3
+		}
+	}
+}
+
+country_event = { #Leaves ADL
+	id = QJ_septinsular.3
+	title = QJ_septinsular.3.t
+	desc = QJ_septinsular.3.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		HAI = {
+			leave_faction = yes
+			if = {
+				limit = {
+					has_government = communism
+					MEX = {
+						has_government = communism
+					}
+				}
+				MEX = {
+					add_to_faction = HAI
+				}
+			}
+			else_if = {
+				limit = {
+					has_government = jacobinism
+					COL = {
+						has_government = jacobinism
+					}
+				}
+				COL = {
+					add_to_faction = HAI
+				}
+			}
+		}
+	}
+	
+	option = { #YES! KILL! KIIIIILLLLLLLLLLL!
+		name = QJ_septinsular.3.a
+		declare_war_on = {
+			target = HAI
+			type = annex_everything
+		}
+	}
+	option = { #I let pathetic little liberals walk all over me because I'm a cuck
+		name = QJ_septinsular.3.b
+		
 	}
 }

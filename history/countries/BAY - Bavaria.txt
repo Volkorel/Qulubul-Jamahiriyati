@@ -110,3 +110,50 @@ set_popularities = {
 
 add_ideas = {
 }
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = NIC
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = CHL
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = NIC
+		puppet = CHL
+	}
+}
+
+NIC = {
+	set_popularities = {
+		communism = 10
+		socialism = 0
+		liberalism = 0
+		conservatism = 70
+		jacobinism = 20
+		duemarism = 0
+		indigeneum = 0
+		suprarealisme = 0
+	}
+}
+
+CHL = {
+	set_popularities = {
+		communism = 0
+		socialism = 0
+		liberalism = 0
+		conservatism = 60
+		jacobinism = 40
+		duemarism = 0
+		indigeneum = 0
+		suprarealisme = 0
+	}
+}

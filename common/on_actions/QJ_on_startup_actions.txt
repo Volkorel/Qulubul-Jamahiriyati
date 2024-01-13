@@ -4,7 +4,17 @@ on_actions = {
 			CAN = { set_country_flag = QJ_In_Sphere_Vinlandic }
 			HON = { set_country_flag = QJ_In_Sphere_Vinlandic }
 			ELS = { set_country_flag = QJ_In_Sphere_Vinlandic }
-			HAI = { set_country_flag = QJ_In_Sphere_Vinlandic }
+			HAI = {
+				set_country_flag = QJ_In_Sphere_Vinlandic
+				country_event = {
+					id = QJ_septinsular.1
+					days = 730
+				}
+				country_event = {
+					id = QJ_septinsular.2
+					days = 2190
+				}
+			}
 			CUB = { set_country_flag = QJ_In_Sphere_Vinlandic }
 			CSA = { set_country_flag = QJ_In_Sphere_Vinlandic }
 			PAN = { set_country_flag = QJ_In_Sphere_Vinlandic }
@@ -14,8 +24,18 @@ on_actions = {
 					id = QJ_armagnacee.1
 					days = 150
 				}
+				country_event = {
+					id = QJ_armagnacee.5
+					days = 2200
+				}
 			}
-			COL = { set_country_flag = QJ_In_Sphere_Opstandich }
+			COL = {
+				set_country_flag = QJ_In_Sphere_Opstandich
+				country_event = {
+					id = QJ_opstandich.1
+					days = 400
+				}
+			}
 			SUR = { set_country_flag = QJ_In_Sphere_Opstandich }
 			BAY = { set_country_flag = QJ_In_Sphere_Mariafold }
 			GRE = { set_country_flag = QJ_In_Sphere_Mariafold }
