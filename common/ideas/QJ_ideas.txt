@@ -1,0 +1,15 @@
+###A TIME OF AXES, A TIME OF SWORDS, A TIME OF WIND, A TIME OF WOLVES###
+ideas = {
+	country = {
+		QJ_no_call_in_allies_idea = {
+			allowed = { always = no }
+			#picture = 
+			removal_cost = -1
+
+			modifier = {
+				ai_call_ally_desire_factor = -2000
+				ai_join_ally_desire_factor = -2000
+			}
+		}
+	}
+}

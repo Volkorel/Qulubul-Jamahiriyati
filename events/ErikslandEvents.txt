@@ -456,11 +456,102 @@ country_event = { #Leaves ADL
 		name = QJ_septinsular.3.a
 		declare_war_on = {
 			target = HAI
-			type = annex_everything
+			type = topple_government
 		}
 	}
 	option = { #I let pathetic little liberals walk all over me because I'm a cuck
 		name = QJ_septinsular.3.b
 		
+	}
+}
+
+add_namespace = QJ_upce
+
+country_event = { #First Elections
+	id = QJ_upce.1
+	title = QJ_upce.1.t
+	desc = QJ_upce.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_upce.1.a
+		set_politics = {
+			ruling_party = socialism
+		}
+	}
+	option = {
+		name = QJ_upce.1.b
+		set_politics = {
+			ruling_party = conservatism
+		}
+	}
+}
+
+country_event = { #Skogarland and Vatnsinsland revolt
+	id = QJ_upce.2
+	title = QJ_upce.2.t
+	desc = QJ_upce.2.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_upce.2.a
+		COS = {
+			transfer_state = 316
+		}
+		JAM = {
+			transfer_state = 689
+		}
+		declare_war_on = {
+			target = COS
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = JAM
+			type = annex_everything
+		}
+		add_ideas = QJ_no_call_in_allies_idea
+		country_event = {
+			id = QJ_upce.3
+			days = 500
+		}
+	}
+}
+
+country_event = { #didya defeat them buddy?
+	id = QJ_upce.3
+	title = QJ_upce.3.t
+	desc = QJ_upce.3.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_upce.3.a
+		if = {
+			limit = {
+				1032 = {
+					is_fully_controlled_by = COS
+				}
+			}
+			COS = {
+				transfer_state = 1032
+				white_peace = PAN
+			}
+		}
+		if = {
+			limit = {
+				689 = {
+					is_fully_controlled_by = JAM
+				}
+			}
+			JAM = {
+				white_peace = PAN
+			}
+		}
+		remove_ideas = QJ_no_call_in_allies_idea
 	}
 }

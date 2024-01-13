@@ -1,5 +1,5 @@
 on_actions = {
-	on_capitulation  = {
+	on_capitulation = {
 		effect = {
 			if = {
 				limit = {
