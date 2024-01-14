@@ -1,4 +1,3 @@
-###A TIME OF AXES, A TIME OF SWORDS, A TIME OF WIND, A TIME OF WOLVES###
 ideas = {
 	country = {
 		QJ_no_call_in_allies_idea = {

@@ -169,7 +169,7 @@ country_event = { #Tayshan uprising
 	}
 }
 
-country_event = { #The Shitfuckery begins
+country_event = { #Joins faction
 	id = QJ_armagnacee.5
 	title = QJ_armagnacee.5.t
 	desc = QJ_armagnacee.5.d
@@ -200,14 +200,6 @@ country_event = { #The Shitfuckery begins
 					add_to_faction = PREV
 				}
 			}
-			declare_war_on = {
-				target = PAN
-				type = liberate_wargoal
-			}
-			declare_war_on = {
-				target = NIC
-				type = topple_government
-			}
 		}
 		else_if = {
 			limit = {
@@ -222,21 +214,47 @@ country_event = { #The Shitfuckery begins
 				has_government = duemarism
 			}
 			create_faction = "napoleon_has_arrived"
+		}
+	}
+}
+
+country_event = { #The Shitfuckery begins
+	id = QJ_armagnacee.6
+	title = QJ_armagnacee.6.t
+	desc = QJ_armagnacee.6.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_armagnacee.6.a
+		if = {
+			limit = {
+				OR = {
+					has_government = communism
+					has_government = duemarism
+				}
+			}
 			declare_war_on = {
 				target = PAN
-				type = annex_everything
+				type = liberate_wargoal
 			}
 			declare_war_on = {
 				target = NIC
-				type = annex_everything
+				type = topple_government
 			}
 			if = {
 				limit = {
-					country_exists = BLZ
+					has_government = duemarism
 				}
-				declare_war_on = {
-					target = BLZ
-					type = annex_everything
+				if = {
+					limit = {
+						country_exists = BLZ
+					}
+					declare_war_on = {
+						target = BLZ
+						type = annex_everything
+					}
 				}
 			}
 		}
@@ -553,5 +571,83 @@ country_event = { #didya defeat them buddy?
 			}
 		}
 		remove_ideas = QJ_no_call_in_allies_idea
+	}
+}
+
+country_event = { #Fjallaeyja revolt
+	id = QJ_upce.4
+	title = QJ_upce.4.t
+	desc = QJ_upce.4.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_upce.4.a
+		DOM = {
+			transfer_state = 319
+		}
+		declare_war_on = {
+			target = DOM
+			type = annex_everything
+		}
+		CAN = {
+			country_event = QJ_upce.5
+		}
+		if = {
+			limit = {
+				NOT = {
+					PAN = {
+						has_full_control_of_state = 1032
+					}
+				}
+			}
+			CRC = {
+				transfer_state = 304
+			}
+			declare_war_on = {
+				target = CRC
+				type = annex_everything
+			}
+			if = {
+				limit = {
+					MEX = {
+						has_government = communism
+						is_faction_leader = yes
+					}
+				}
+				MEX = {
+					add_to_faction = CRC
+				}
+			}
+		}
+	}
+}
+
+country_event = { #libtard ultimatum - withdraw from fjallaeyja or we will cry
+	id = QJ_upce.5
+	title = QJ_upce.5.t
+	desc = QJ_upce.5.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #no. die.
+		name = QJ_upce.5.a
+		COL = {
+			add_to_faction = DOM
+		}
+	}
+	option = { #we got bigger issues
+		name = QJ_upce.5.b
+		DOM = {
+			transfer_state = 318
+			transfer_state = 1033
+			white_peace = PAN
+			white_peace = CAN
+		}
+		COL = {
+			add_to_faction = DOM
+		}
 	}
 }

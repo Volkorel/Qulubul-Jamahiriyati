@@ -27,6 +27,10 @@ on_actions = {
 					id = QJ_upce.2
 					days = 770
 				}
+				country_event = {
+					id = QJ_upce.4
+					days = 2240
+				}
 			}
 			MEX = {
 				set_country_flag = QJ_In_Sphere_Armagnacee
@@ -36,7 +40,11 @@ on_actions = {
 				}
 				country_event = {
 					id = QJ_armagnacee.5
-					days = 2200
+					days = 1900
+				}
+				country_event = {
+					id = QJ_armagnacee.6
+					days = 2220
 				}
 			}
 			COL = {
