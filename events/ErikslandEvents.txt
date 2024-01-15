@@ -792,3 +792,201 @@ country_event = { #OOOOORAH TIME TO BRING BACK RACISM
 		}
 	}
 }
+
+add_namespace = QJ_sheni_nahra
+
+country_event = { #Elections
+	id = QJ_sheni_nahra.1
+	title = QJ_sheni_nahra.1.t
+	desc = QJ_sheni_nahra.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		country_event = {
+			id = QJ_sheni_nahra.1
+			days = 1460
+		}
+	}
+	
+	option = {
+		name = QJ_sheni_nahra.1.a
+		set_politics = {
+			ruling_party = socialism
+		}
+	}
+	option = {
+		name = QJ_sheni_nahra.1.b
+		set_politics = {
+			ruling_party = liberalism
+		}
+	}
+	option = {
+		name = QJ_sheni_nahra.1.c
+		set_politics = {
+			ruling_party = conservatism
+		}
+	}
+}
+
+country_event = { #LANGOBARDIA - do we make bid for Gvaejana?
+	id = QJ_sheni_nahra.2
+	title = QJ_sheni_nahra.2.t
+	desc = QJ_sheni_nahra.2.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #MORE SLAVES MORE SLAVES
+		name = QJ_sheni_nahra.2.a
+		SOV = {
+			country_event = {
+				id = QJ_sheni_nahra.3
+				days = 10
+			}
+		}
+		set_global_flag = QJ_Langobardia_Interest_In_Gvaejana
+	}
+	option = { #is it an island???? no???? then i don't care.
+		name = QJ_sheni_nahra.2.b
+		SOV = {
+			country_event = {
+				id = QJ_sheni_nahra.3
+				days = 10
+			}
+		}
+	}
+}
+
+country_event = { #GARDAVELDI - Svitjod has multiple offers to buy Gvaejana, what do we tell them?
+	id = QJ_sheni_nahra.3
+	title = QJ_sheni_nahra.3.t
+	desc = QJ_sheni_nahra.3.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #Sell it to Julesia
+		name = QJ_sheni_nahra.3.a
+		SWE = {
+			country_event = {
+				id = QJ_sheni_nahra.4
+				days = 10
+			}
+		}
+		set_global_flag = QJ_Gardaveldi_Julesia_Pressure
+	}
+	option = { #Keep it
+		name = QJ_sheni_nahra.3.b
+		SWE = {
+			country_event = {
+				id = QJ_sheni_nahra.4
+				days = 10
+			}
+		}
+		set_global_flag = QJ_Gardaveldi_Keep_Pressure
+	}
+	option = { #I don't care, lol
+		name = QJ_sheni_nahra.3.c
+		SWE = {
+			country_event = {
+				id = QJ_sheni_nahra.4
+				days = 10
+			}
+		}
+	}
+}
+
+country_event = { #SVITJOD - Who gets Gvaejana?
+	id = QJ_sheni_nahra.4
+	title = QJ_sheni_nahra.4.t
+	desc = QJ_sheni_nahra.4.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #Sheni Nahra
+		name = QJ_sheni_nahra.4.a
+		ai_will_do = {
+			base = 3
+		}
+		GYA = {
+			country_event = {
+				id = QJ_sheni_nahra.5
+				days = 10
+			}
+		}
+		add_timed_idea = {
+			idea = QJ_svitjod_gvaejana_loadsamoney_idea
+			days = 365
+		}
+	}
+	option = { #Julesia
+		name = QJ_sheni_nahra.4.b
+		ai_will_do = {
+			base = 1
+			modifier = {
+				has_global_flag = QJ_Gardaveldi_Julesia_Pressure
+				add = 4
+			}
+		}
+		SUR = {
+			country_event = {
+				id = QJ_sheni_nahra.5
+				days = 10
+			}
+		}
+		add_timed_idea = {
+			idea = QJ_svitjod_gvaejana_money_idea
+			days = 365
+		}
+	}
+	option = { #Langobardia
+		name = QJ_sheni_nahra.4.c
+		trigger = {
+			has_global_flag = QJ_Langobardia_Interest_In_Gvaejana
+		}
+		ai_will_do = {
+			base = 5
+		}
+		CUB = {
+			country_event = {
+				id = QJ_sheni_nahra.5
+				days = 10
+			}
+		}
+		add_timed_idea = {
+			idea = QJ_svitjod_gvaejana_loadsamoney_idea
+			days = 365
+		}
+	}
+	option = { #Svitjod (because we're fucking stupid)
+		name = QJ_sheni_nahra.4.e
+		ai_will_do = {
+			base = 0
+			modifier = {
+				has_global_flag = QJ_Gardaveldi_Keep_Pressure
+				add = 5
+			}
+		}
+	}
+}
+
+country_event = { #We got the shitty jungle!!!!
+	id = QJ_sheni_nahra.5
+	title = QJ_sheni_nahra.5.t
+	desc = QJ_sheni_nahra.5.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_sheni_nahra.5.a
+		transfer_state = 310
+		add_timed_idea = {
+			idea = QJ_payments_to_svitjod_idea
+			days = 365
+		}
+	}
+}

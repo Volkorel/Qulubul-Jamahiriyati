@@ -15,7 +15,13 @@ on_actions = {
 					days = 2190
 				}
 			}
-			CUB = { set_country_flag = QJ_In_Sphere_Vinlandic }
+			CUB = {
+				set_country_flag = QJ_In_Sphere_Vinlandic
+				country_event = {
+					id = QJ_sheni_nahra.2
+					days = 1200
+				}
+			}
 			CSA = { set_country_flag = QJ_In_Sphere_Vinlandic }
 			PAN = {
 				set_country_flag = QJ_In_Sphere_Vinlandic
@@ -67,6 +73,12 @@ on_actions = {
 				country_event = {
 					id = QJ_julesia.2
 					days = 1915
+				}
+			}
+			GYA = {
+				country_event = {
+					id = QJ_sheni_nahra.1
+					days = 125
 				}
 			}
 			BAY = { set_country_flag = QJ_In_Sphere_Mariafold }
