@@ -9,6 +9,10 @@ set_technology = {
 
 set_convoys = 5
 
+recruit_character = SUR_Samuel_Alexandre
+recruit_character = SUR_Fabienne_Benoit
+recruit_character = SUR_Rene_Martin
+
 set_politics = {
 	ruling_party = jacobinism
 	last_election = "1902.1.1"
@@ -25,7 +29,3 @@ set_popularities = {
 	indigeneum = 0
 	suprarealisme = 0
 }
-
-recruit_character = SUR_Samuel_Alexandre
-recruit_character = SUR_Fabienne_Benoit
-recruit_character = SUR_Rene_Martin

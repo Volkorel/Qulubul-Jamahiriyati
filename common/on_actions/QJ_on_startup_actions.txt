@@ -53,8 +53,22 @@ on_actions = {
 					id = QJ_opstandich.1
 					days = 400
 				}
+				country_event = {
+					id = QJ_opstandich.2
+					days = 2830
+				}
 			}
-			SUR = { set_country_flag = QJ_In_Sphere_Opstandich }
+			SUR = {
+				set_country_flag = QJ_In_Sphere_Opstandich
+				country_event = {
+					id = QJ_julesia.1
+					days = 455
+				}
+				country_event = {
+					id = QJ_julesia.2
+					days = 1915
+				}
+			}
 			BAY = { set_country_flag = QJ_In_Sphere_Mariafold }
 			GRE = { set_country_flag = QJ_In_Sphere_Mariafold }
 			SYR = { set_country_flag = QJ_In_Sphere_Mariafold }

@@ -278,6 +278,35 @@ country_event = { #Caracie Accord created
 	}
 }
 
+country_event = { #Evener potential revolt
+	id = QJ_opstandich.2
+	title = QJ_opstandich.2.t
+	desc = QJ_opstandich.2.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_opstandich.2.a
+		if = {
+			limit = {
+				has_war_with_major = yes
+			}
+			ECU = {
+				transfer_state = 305
+				transfer_state = 303
+			}
+			declare_war_on = {
+				target = ECU
+				type = annex_everything
+			}
+			CAN = {
+				give_guarantee = ECU
+			}
+		}
+	}
+}
+
 add_namespace = QJ_septinsular
 
 country_event = { #First Elections
@@ -637,6 +666,10 @@ country_event = { #libtard ultimatum - withdraw from fjallaeyja or we will cry
 		COL = {
 			add_to_faction = DOM
 		}
+		country_event = {
+			id = QJ_julesia.3
+			days = 10
+		}
 	}
 	option = { #we got bigger issues
 		name = QJ_upce.5.b
@@ -648,6 +681,114 @@ country_event = { #libtard ultimatum - withdraw from fjallaeyja or we will cry
 		}
 		COL = {
 			add_to_faction = DOM
+		}
+	}
+}
+
+add_namespace = QJ_julesia
+
+country_event = { #First Elections
+	id = QJ_julesia.1
+	title = QJ_julesia.1.t
+	desc = QJ_julesia.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_julesia.1.a
+		set_politics = {
+			ruling_party = socialism
+		}
+	}
+	option = {
+		name = QJ_julesia.1.b
+		set_politics = {
+			ruling_party = jacobinism
+		}
+	}
+}
+
+country_event = { #Second Elections
+	id = QJ_julesia.2
+	title = QJ_julesia.2.t
+	desc = QJ_julesia.2.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_julesia.2.a
+		set_politics = {
+			ruling_party = communism
+		}
+	}
+	option = {
+		name = QJ_julesia.2.b
+		set_politics = {
+			ruling_party = socialism
+		}
+	}
+	option = {
+		name = QJ_julesia.2.c
+		set_politics = {
+			ruling_party = jacobinism
+		}
+	}
+}
+
+country_event = { #WHITE FLOWER
+	id = QJ_julesia.3
+	title = QJ_julesia.3.t
+	desc = QJ_julesia.3.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #PUT ME IN COACH
+		name = QJ_julesia.3.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -2000
+			producer = CAN
+		}
+		country_event = {
+			id = QJ_julesia.4
+			days = 90
+		}
+	}
+	option = { #fuck off
+		name = QJ_julesia.3.a
+		
+	}
+}
+
+country_event = { #OOOOORAH TIME TO BRING BACK RACISM
+	id = QJ_julesia.4
+	title = QJ_julesia.4.t
+	desc = QJ_julesia.4.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = QJ_julesia.4.a
+		SUR = {
+			start_civil_war = {
+				ideology = conservatism
+				size = 0.3
+				capital = 691
+				states = {
+					691
+				}
+				set_country_flag = QJ_In_Sphere_Vinlandic
+				THIS = {
+					CAN = {
+						add_to_faction = PREV
+						give_guarantee = PREV
+					}
+				}
+			}
 		}
 	}
 }
