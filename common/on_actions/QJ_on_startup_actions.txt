@@ -81,6 +81,36 @@ on_actions = {
 					days = 125
 				}
 			}
+			BRA = {
+				country_event = {
+					id = QJ_califocasa.1
+					days = 80
+				}
+				country_event = {
+					id = QJ_califocasa.2
+					days = 1540
+				}
+				country_event = {
+					id = QJ_califocasa.3
+					days = 3000
+				}
+			}
+			PRU = {
+				country_event = {
+					id = QJ_brankou.1
+					days = 800
+				}
+				country_event = {
+					id = QJ_brankou.2
+					days = 820
+				}
+			}
+			ARG = {
+				country_event = {
+					id = QJ_aremorica.1
+					days = 560
+				}
+			}
 			BAY = { set_country_flag = QJ_In_Sphere_Mariafold }
 			GRE = { set_country_flag = QJ_In_Sphere_Mariafold }
 			SYR = { set_country_flag = QJ_In_Sphere_Mariafold }

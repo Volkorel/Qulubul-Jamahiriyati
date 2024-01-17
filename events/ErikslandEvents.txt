@@ -245,6 +245,27 @@ country_event = { #The Shitfuckery begins
 			}
 			if = {
 				limit = {
+					has_government = communism
+				}
+				every_country = {
+					limit = {
+						capital_scope = {
+							OR = {
+								is_on_continent = north_america
+								is_on_continent = south_america
+							}
+						}
+						has_government = communism
+						is_in_faction = no
+					}
+					set_country_flag = QJ_In_Sphere_Armagnacee
+					MEX = {
+						add_to_faction = PREV
+					}
+				}
+			}
+			if = {
+				limit = {
 					has_government = duemarism
 				}
 				if = {
@@ -484,6 +505,7 @@ country_event = { #Leaves ADL
 				MEX = {
 					add_to_faction = HAI
 				}
+				set_country_flag = QJ_In_Sphere_Armagnacee
 			}
 			else_if = {
 				limit = {
@@ -495,6 +517,7 @@ country_event = { #Leaves ADL
 				COL = {
 					add_to_faction = HAI
 				}
+				set_country_flag = QJ_In_Sphere_Opstandich
 			}
 		}
 	}
@@ -648,6 +671,9 @@ country_event = { #Fjallaeyja revolt
 				MEX = {
 					add_to_faction = CRC
 				}
+				CRC = {
+					set_country_flag = QJ_In_Sphere_Armagnacee
+				}
 			}
 		}
 	}
@@ -666,6 +692,9 @@ country_event = { #libtard ultimatum - withdraw from fjallaeyja or we will cry
 		COL = {
 			add_to_faction = DOM
 		}
+		DOM = {
+			set_country_flag = QJ_In_Sphere_Opstandich
+		}
 		country_event = {
 			id = QJ_julesia.3
 			days = 10
@@ -678,6 +707,7 @@ country_event = { #libtard ultimatum - withdraw from fjallaeyja or we will cry
 			transfer_state = 1033
 			white_peace = PAN
 			white_peace = CAN
+			set_country_flag = QJ_In_Sphere_Opstandich
 		}
 		COL = {
 			add_to_faction = DOM
@@ -869,7 +899,9 @@ country_event = { #GARDAVELDI - Svitjod has multiple offers to buy Gvaejana, wha
 	
 	option = { #Sell it to Julesia
 		name = QJ_sheni_nahra.3.a
+		add_political_power = -25
 		SWE = {
+			add_stability = -0.02
 			country_event = {
 				id = QJ_sheni_nahra.4
 				days = 10
@@ -879,7 +911,9 @@ country_event = { #GARDAVELDI - Svitjod has multiple offers to buy Gvaejana, wha
 	}
 	option = { #Keep it
 		name = QJ_sheni_nahra.3.b
+		add_political_power = -25
 		SWE = {
+			add_stability = -0.02
 			country_event = {
 				id = QJ_sheni_nahra.4
 				days = 10
@@ -987,6 +1021,506 @@ country_event = { #We got the shitty jungle!!!!
 		add_timed_idea = {
 			idea = QJ_payments_to_svitjod_idea
 			days = 365
+		}
+	}
+}
+
+country_event = { #let us in the ADL!!!!!!!!!!!!!
+	id = QJ_sheni_nahra.6
+	title = QJ_sheni_nahra.6.t
+	desc = QJ_sheni_nahra.6.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #hop in!!!!!!!!!!
+		name = QJ_sheni_nahra.6.a
+		CAN = {
+			add_to_faction = GYA
+		}
+		GYA = {
+			set_country_flag = QJ_In_Sphere_Vinlandic
+		}
+	}
+	option = { #united states foreign policy towards ukraine
+		name = QJ_sheni_nahra.6.b
+		
+	}
+}
+
+country_event = { #you fucked up! you couldn't defend us!!!
+	id = QJ_sheni_nahra.7
+	title = QJ_sheni_nahra.7.t
+	desc = QJ_sheni_nahra.7.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_sheni_nahra.7.a
+		GYA = {
+			leave_faction = yes
+			add_ideas = QJ_sheni_nahra_isolationism
+		}
+	}
+}
+
+add_namespace = QJ_califocasa
+
+country_event = { #First Elections
+	id = QJ_califocasa.1
+	title = QJ_califocasa.1.t
+	desc = QJ_califocasa.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_califocasa.1.a
+		set_politics = {
+			ruling_party = socialism
+		}
+	}
+	option = {
+		name = QJ_califocasa.1.b
+		set_politics = {
+			ruling_party = conservatism
+		}
+	}
+}
+
+country_event = { #Second Elections
+	id = QJ_califocasa.2
+	title = QJ_califocasa.2.t
+	desc = QJ_califocasa.2.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_califocasa.2.a
+		set_politics = {
+			ruling_party = jacobinism
+		}
+		COL = {
+			country_event = {
+				id = QJ_califocasa.4
+				days = 365
+			}
+		}
+	}
+	option = {
+		name = QJ_califocasa.2.b
+		set_politics = {
+			ruling_party = conservatism
+		}
+	}
+}
+
+country_event = { #Third Elections
+	id = QJ_califocasa.3
+	title = QJ_califocasa.3.t
+	desc = QJ_califocasa.3.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_califocasa.3.a
+		set_politics = {
+			ruling_party = jacobinism
+		}
+	}
+	option = {
+		name = QJ_califocasa.3.b
+		set_politics = {
+			ruling_party = socialism
+		}
+	}
+	option = {
+		name = QJ_califocasa.3.c
+		set_politics = {
+			ruling_party = conservatism
+		}
+	}
+}
+
+country_event = { #Joins Caracie
+	id = QJ_califocasa.4
+	title = QJ_califocasa.4.t
+	desc = QJ_califocasa.4.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_califocasa.4.a
+		add_to_faction = BRA
+		BRA = {
+			set_country_flag = QJ_In_Sphere_Opstandich
+		}
+	}
+}
+
+add_namespace = QJ_brankou
+
+country_event = { #Elections
+	id = QJ_brankou.1
+	title = QJ_brankou.1.t
+	desc = QJ_brankou.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		country_event = {
+			id = QJ_brankou.1
+			days = 1825
+		}
+	}
+	
+	option = {
+		name = QJ_brankou.1.a
+		trigger = {
+			NOT = {
+				OR = {
+					has_government = communism
+					has_government = jacobinism
+				}
+			}
+		}
+		set_politics = {
+			ruling_party = socialism
+		}
+	}
+	option = {
+		name = QJ_brankou.1.b
+		trigger = {
+			NOT = {
+				OR = {
+					has_government = communism
+					has_government = jacobinism
+				}
+			}
+		}
+		set_politics = {
+			ruling_party = liberalism
+		}
+	}
+	option = {
+		name = QJ_brankou.1.c
+		ai_will_do = {
+			base = 3
+		}
+		trigger = {
+			NOT = {
+				OR = {
+					has_government = communism
+					has_government = jacobinism
+				}
+			}
+		}
+		set_politics = {
+			ruling_party = conservatism
+		}
+	}
+	option = {
+		name = QJ_brankou.1.e
+		trigger = {
+			OR = {
+				has_government = communism
+				has_government = jacobinism
+			}
+		}
+	}
+}
+
+country_event = { #Civil War
+	id = QJ_brankou.2
+	title = QJ_brankou.2.t
+	desc = QJ_brankou.2.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_brankou.2.a
+		start_civil_war = {
+			ideology = communism
+			size = 0.5
+			capital = 492
+			states = {
+				490 491 494 492
+			}
+			keep_all_characters = yes
+		}
+	}
+	option = {
+		name = QJ_brankou.2.b
+		start_civil_war = {
+			ideology = jacobinism
+			size = 0.5
+			capital = 492
+			states = {
+				490 491 494 492
+			}
+			keep_all_characters = yes
+		}
+	}
+}
+
+country_event = { #Unification with Aremorica
+	id = QJ_brankou.3
+	title = QJ_brankou.3.t
+	desc = QJ_brankou.3.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #WAAAAAAAAAAAAAARRRRRRRRRRRRR
+		name = QJ_brankou.3.a
+		trigger = {
+			NOT = {
+				AND = {
+					ARG = {
+						has_government = jacobinism
+					}
+					has_government = jacobinism
+				}
+			}
+		}
+		declare_war_on = {
+			target = ARG
+			type = annex_everything
+		}
+	}
+	option = { #peace :)
+		name = QJ_brankou.3.b
+		trigger = {
+			has_government = jacobinism
+		}
+		annex_country = {
+			target = ARG
+			transfer_troops = yes
+		}
+		country_event = {
+			id = QJ_brankou.4
+			days = 60
+		}
+		set_cosmetic_tag = PRU_BRANKEMOR
+	}
+}
+
+country_event = { #Joins faction
+	id = QJ_brankou.4
+	title = QJ_brankou.4.t
+	desc = QJ_brankou.4.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = QJ_brankou.4.a
+		if = {
+			limit = {
+				has_government = jacobinism
+			}
+			COL = {
+				add_to_faction = PRU
+			}
+			PRU = {
+				set_country_flag = QJ_In_Sphere_Opstandich
+			}
+		}
+	}
+}
+
+add_namespace = QJ_aremorica
+
+country_event = { #Elections
+	id = QJ_aremorica.1
+	title = QJ_aremorica.1.t
+	desc = QJ_aremorica.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		country_event = {
+			id = QJ_aremorica.1
+			days = 1460
+		}
+	}
+	
+	option = {
+		name = QJ_aremorica.1.a
+		set_politics = {
+			ruling_party = socialism
+		}
+	}
+	option = {
+		name = QJ_aremorica.1.b
+		set_politics = {
+			ruling_party = liberalism
+		}
+	}
+	option = {
+		name = QJ_aremorica.1.c
+		set_politics = {
+			ruling_party = jacobinism
+		}
+	}
+}
+
+country_event = { #Join faction?
+	id = QJ_aremorica.2
+	title = QJ_aremorica.2.t
+	desc = QJ_aremorica.2.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #Intend to join Caracie
+		name = QJ_aremorica.2.a
+		trigger = {
+			NOT = {
+				PRU = {
+					has_government = jacobinism
+				}
+			}
+		}
+		CAN = {
+			country_event = {
+				id = QJ_aremorica.3
+				days = 10
+			}
+		}
+	}
+	option = { #Intend to join ADL
+		name = QJ_aremorica.2.b
+		CAN = {
+			country_event = {
+				id = QJ_aremorica.4
+				days = 10
+			}
+		}
+	}
+}
+
+country_event = { #Vinland - Aremorica wants to join CA, kill?
+	id = QJ_aremorica.3
+	title = QJ_aremorica.3.t
+	desc = QJ_aremorica.3.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #KILL!
+		name = QJ_aremorica.3.a
+		random_list = {
+			1 = {
+				country_event = {
+					id = QJ_aremorica.5
+					days = 10
+				}
+			}
+			1 = {
+				country_event = {
+					id = QJ_aremorica.6
+					days = 10
+				}
+			}
+		}
+	}
+	option = { #be cringe
+		name = QJ_aremorica.3.b
+		COL = {
+			add_to_faction = ARG
+		}
+		ARG = {
+			set_country_flag = QJ_In_Sphere_Opstandich
+		}
+	}
+}
+
+country_event = { #Vinland - Aremorica wants to join ADL
+	id = QJ_aremorica.4
+	title = QJ_aremorica.4.t
+	desc = QJ_aremorica.4.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #Hop in
+		name = QJ_aremorica.4.a
+		CAN = {
+			add_to_faction = ARG
+		}
+		ARG = {
+			set_country_flag = QJ_In_Sphere_Vinlandic
+		}
+	}
+	option = { #Fuck off
+		name = QJ_aremorica.4.b
+		
+	}
+}
+
+country_event = { #Vinland - Coup succeeded
+	id = QJ_aremorica.5
+	title = QJ_aremorica.5.t
+	desc = QJ_aremorica.5.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_aremorica.5.a
+		CAN = {
+			add_to_faction = ARG
+		}
+		ARG = {
+			set_politics = {
+				ruling_party = conservatism
+			}
+			set_popularities = {
+				communism = 0
+				socialism = 10
+				liberalism = 10
+				conservatism = 70
+				jacobinism = 10
+				duemarism = 0
+				indigeneum = 0
+				suprarealisme = 0
+			}
+			set_country_flag = QJ_In_Sphere_Vinlandic
+		}
+	}
+}
+
+country_event = { #Vinland - Coup failed
+	id = QJ_aremorica.6
+	title = QJ_aremorica.6.t
+	desc = QJ_aremorica.6.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_aremorica.6.a
+		COL = {
+			add_to_faction = ARG
+			add_opinion_modifier = {
+				target = CAN
+				modifier = condemn_aggression
+			}
+		}
+		ARG = {
+			set_country_flag = QJ_In_Sphere_Opstandich
+			add_opinion_modifier = {
+				target = CAN
+				modifier = condemn_aggression
+			}
 		}
 	}
 }

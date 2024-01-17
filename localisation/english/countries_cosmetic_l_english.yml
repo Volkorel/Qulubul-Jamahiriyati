@@ -1,2 +1,10 @@
 ﻿l_english:
- 
+ PRU_BRANKEMOR:0 "Empire of Brankemor"
+ PRU_BRANKEMOR_DEF:0 "the Empire of Brankemor"
+ PRU_BRANKEMOR_ADJ:0 "Brankemor"
+ PRU_BRANKEMOR_communism:0 "Socialist Union of Brankemor"
+ PRU_BRANKEMOR_communism_DEF:0 "the Socialist Union of Brankemor"
+ PRU_BRANKEMOR_communism_ADJ:0 "Brankemor"
+ PRU_BRANKEMOR_jacobinism:0 "United States of Brankemor"
+ PRU_BRANKEMOR_jacobinism_DEF:0 "the United States of Brankemor"
+ PRU_BRANKEMOR_jacobinism_ADJ:0 "Brankemor"

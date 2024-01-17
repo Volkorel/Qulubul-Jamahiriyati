@@ -87,6 +87,137 @@ on_actions = {
 					}
 				}
 			}
+			else_if = {
+				limit = {
+					FROM = {
+						is_dynamic_country = yes
+					}
+					ROOT = {
+						original_tag = PRU
+					}
+				}
+				PRU = {
+					if = {
+						limit = {
+							FROM = {
+								has_government = communism
+							}
+						}
+						set_politics = {
+							ruling_party = communism
+						}
+						set_popularities = {
+							communism = 75
+							socialism = 5
+							liberalism = 5
+							conservatism = 5
+							jacobinism = 10
+							duemarism = 0
+							indigeneum = 0
+							suprarealisme = 0
+						}
+						country_event = {
+							id = QJ_brankou.3
+							days = 60
+						}
+					}
+					else_if = {
+						limit = {
+							FROM = {
+								has_government = jacobinism
+							}
+						}
+						set_politics = {
+							ruling_party = jacobinism
+						}
+						set_popularities = {
+							communism = 10
+							socialism = 5
+							liberalism = 5
+							conservatism = 5
+							jacobinism = 75
+							duemarism = 0
+							indigeneum = 0
+							suprarealisme = 0
+						}
+						country_event = {
+							id = QJ_brankou.3
+							days = 60
+						}
+					}
+					annex_country = {
+						target = FROM
+						transfer_troops = yes
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						original_tag = PRU
+						has_government = conservatism
+					}
+					ROOT = {
+						is_dynamic_country = yes
+					}
+				}
+				PRU = {
+					country_event = {
+						id = QJ_brankou.3
+						days = 60
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = GYA
+						is_in_faction_with = CAN
+					}
+				}
+				CAN = {
+					country_event = QJ_sheni_nahra.7
+				}
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						original_tag = PRU
+					}
+					ROOT = {
+						original_tag = ARG
+					}
+				}
+				PRU = {
+					annex_country = {
+						target = ARG
+						transfer_troops = yes
+					}
+					set_cosmetic_tag = PRU_BRANKEMOR
+					country_event = {
+						id = QJ_brankou.4
+						days = 60
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						original_tag = ARG
+					}
+					ROOT = {
+						original_tag = PRU
+					}
+				}
+				ARG = {
+					white_peace = PRU
+					transfer_state = 504
+					country_event = {
+						id = QJ_aremorica.2
+						days = 60
+					}
+				}
+			}
 		}
 	}
 }

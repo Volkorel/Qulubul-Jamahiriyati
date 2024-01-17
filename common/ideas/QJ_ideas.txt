@@ -37,5 +37,14 @@ ideas = {
 				consumer_goods_factor = -0.15
 			}
 		}
+		QJ_sheni_nahra_isolationism = {
+			allowed = { always = no }
+			#picture = 
+			removal_cost = -1
+
+			modifier = {
+				ai_get_ally_desire_factor = -2000
+			}
+		}
 	}
 }

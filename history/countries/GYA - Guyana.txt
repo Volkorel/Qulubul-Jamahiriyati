@@ -5,6 +5,10 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+recruit_character = GYA_Chayat_Bomberg
+recruit_character = GYA_Soffer_Reimann
+recruit_character = GYA_Melamed_Chomski
+
 set_convoys = 5
 set_politics = {
 	ruling_party = liberalism
@@ -22,7 +26,3 @@ set_popularities = {
 	indigeneum = 0
 	suprarealisme = 0
 }
-
-recruit_character = GYA_Chayat_Bomberg
-recruit_character = GYA_Soffer_Reimann
-recruit_character = GYA_Melamed_Chomski
