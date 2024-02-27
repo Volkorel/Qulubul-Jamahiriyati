@@ -1,0 +1,890 @@
+focus_tree = {
+	id = langobard_focus
+	
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = CUB
+		}
+
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 0 y = 800 }
+
+	focus = {
+		id = CUB_Running_the_Slave_State
+		#icon = 
+		cost = 7
+		x = 5
+		y = 0
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_The_Aristocracy
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Running_the_Slave_State
+		}
+		x = -4
+		y = 1
+		relative_position_id = CUB_Running_the_Slave_State
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Break_Them
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_The_Aristocracy
+		}
+		x = -1
+		y = 1
+		relative_position_id = CUB_The_Aristocracy
+		mutually_exclusive = {
+			focus = CUB_Prop_Them_Up
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_The_State_Reigns_Supreme
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Break_Them
+		}
+		x = 0
+		y = 1
+		relative_position_id = CUB_Break_Them
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Prop_Them_Up
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_The_Aristocracy
+		}
+		x = 1
+		y = 1
+		relative_position_id = CUB_The_Aristocracy
+		mutually_exclusive = {
+			focus = CUB_Break_Them
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Good_for_Them_Good_for_Us
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Prop_Them_Up
+		}
+		x = 0
+		y = 1
+		relative_position_id = CUB_Prop_Them_Up
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_The_Free_Men
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Running_the_Slave_State
+		}
+		x = 0
+		y = 1
+		relative_position_id = CUB_Running_the_Slave_State
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_A_Free_Mans_Craftmanship
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_The_Free_Men
+		}
+		x = -1
+		y = 1
+		relative_position_id = CUB_The_Free_Men
+		mutually_exclusive = {
+			focus = CUB_A_Free_Mans_Prowess
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Per_Aspera_ad_Astra
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_A_Free_Mans_Craftmanship
+		}
+		x = 0
+		y = 1
+		relative_position_id = CUB_A_Free_Mans_Craftmanship
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_A_Free_Mans_Prowess
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_The_Free_Men
+		}
+		x = 1
+		y = 1
+		relative_position_id = CUB_The_Free_Men
+		mutually_exclusive = {
+			focus = CUB_A_Free_Mans_Craftmanship
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Per_Ardua_ad_Astra
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_A_Free_Mans_Prowess
+		}
+		x = 0
+		y = 1
+		relative_position_id = CUB_A_Free_Mans_Prowess
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = CUB_The_Slaves
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Running_the_Slave_State
+		}
+		x = 4
+		y = 1
+		relative_position_id = CUB_Running_the_Slave_State
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Better_Treatment
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_The_Slaves
+		}
+		x = -1
+		y = 1
+		relative_position_id = CUB_The_Slaves
+		mutually_exclusive = {
+			focus = CUB_Stronger_Oversight
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Its_Not_That_Bad
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Better_Treatment
+		}
+		x = 0
+		y = 1
+		relative_position_id = CUB_Better_Treatment
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Stronger_Oversight
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_The_Slaves
+		}
+		x = 1
+		y = 1
+		relative_position_id = CUB_The_Slaves
+		mutually_exclusive = {
+			focus = CUB_Better_Treatment
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Keep_Working
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Stronger_Oversight
+		}
+		x = 0
+		y = 1
+		relative_position_id = CUB_Stronger_Oversight
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_An_Unshakable_System
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_The_State_Reigns_Supreme
+			focus = CUB_Good_for_Them_Good_for_Us
+		}
+		prerequisite = {
+			focus = CUB_Per_Aspera_ad_Astra
+			focus = CUB_Per_Ardua_ad_Astra
+		}
+		prerequisite = {
+			focus = CUB_Its_Not_That_Bad
+			focus = CUB_Keep_Working
+		}
+		x = 1
+		y = 1
+		relative_position_id = CUB_Per_Aspera_ad_Astra
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Life_Blood_Of_The_Realm
+		#icon = 
+		cost = 7
+		x = 15
+		y = 0
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Modernizing_the_Ancient_Trade
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Life_Blood_Of_The_Realm
+		}
+		x = -1
+		y = 1
+		relative_position_id = CUB_Life_Blood_Of_The_Realm
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Transporting_Our_Property
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Life_Blood_Of_The_Realm
+		}
+		x = 1
+		y = 1
+		relative_position_id = CUB_Life_Blood_Of_The_Realm
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Cash_Crops_Will_Always_Be_In_Demand
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Modernizing_the_Ancient_Trade
+		}
+		x = -1
+		y = 1
+		relative_position_id = CUB_Modernizing_the_Ancient_Trade
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Islands_Covered_In_Plantations
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Modernizing_the_Ancient_Trade
+		}
+		prerequisite = {
+			focus = CUB_Transporting_Our_Property
+		}
+		x = 1
+		y = 1
+		relative_position_id = CUB_Modernizing_the_Ancient_Trade
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Trade_Millions_Make_Billions
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Transporting_Our_Property
+		}
+		x = 1
+		y = 1
+		relative_position_id = CUB_Transporting_Our_Property
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Center_of_the_Trade
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Cash_Crops_Will_Always_Be_In_Demand
+		}
+		prerequisite = {
+			focus = CUB_Islands_Covered_In_Plantations
+		}
+		prerequisite = {
+			focus = CUB_Trade_Millions_Make_Billions
+		}
+		x = 0
+		y = 1
+		relative_position_id = CUB_Islands_Covered_In_Plantations
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Men_of_Great_Means
+		#icon = 
+		cost = 7
+		x = 28
+		y = 0
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Defense_of_the_Langobards
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Life_Blood_Of_The_Realm
+		}
+		prerequisite = {
+			focus = CUB_Men_of_Great_Means
+		}
+		x = 6
+		y = 1
+		relative_position_id = CUB_Life_Blood_Of_The_Realm
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Offense_of_Sceafas_Sons
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Defense_of_the_Langobards
+		}
+		x = -1
+		y = 1
+		relative_position_id = CUB_Defense_of_the_Langobards
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_As_On_Land_So_At_Sea
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Defense_of_the_Langobards
+		}
+		x = 1
+		y = 1
+		relative_position_id = CUB_Defense_of_the_Langobards
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_As_the_Varangians
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Men_of_Great_Means
+		}
+		x = -1
+		y = 1
+		relative_position_id = CUB_Men_of_Great_Means
+		mutually_exclusive = {
+			focus = CUB_As_the_Landsknecht
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_As_the_Landsknecht
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Men_of_Great_Means
+		}
+		x = 1
+		y = 1
+		relative_position_id = CUB_Men_of_Great_Means
+		mutually_exclusive = {
+			focus = CUB_As_the_Varangians
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Wetwork
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_As_the_Varangians
+			focus = CUB_As_the_Landsknecht
+		}
+		x = -2
+		y = 1
+		relative_position_id = CUB_As_the_Varangians
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Slavery_Makes_the_World_Go_Round
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Trade_Millions_Make_Billions
+		}
+		x = 2
+		y = 1
+		relative_position_id = CUB_Trade_Millions_Make_Billions
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Break_the_Resistance
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Wetwork
+		}
+		x = -2
+		y = 1
+		relative_position_id = CUB_Wetwork
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_The_Right_Hand_of_the_Slave_Trade
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Slavery_Makes_the_World_Go_Round
+		}
+		prerequisite = {
+			focus = CUB_Break_the_Resistance
+		}
+		x = 2
+		y = 1
+		relative_position_id = CUB_Slavery_Makes_the_World_Go_Round
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Expanding_Our_Outposts
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_The_Right_Hand_of_the_Slave_Trade
+		}
+		x = -1
+		y = 1
+		relative_position_id = CUB_The_Right_Hand_of_the_Slave_Trade
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_An_Offer_of_Mutual_Profit
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_The_Right_Hand_of_the_Slave_Trade
+		}
+		x = 1
+		y = 1
+		relative_position_id = CUB_The_Right_Hand_of_the_Slave_Trade
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_A_Trip_to_Mafia_Island
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Expanding_Our_Outposts
+		}
+		x = -1
+		y = 1
+		relative_position_id = CUB_Expanding_Our_Outposts
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Foreign_Troublemakers
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Expanding_Our_Outposts
+		}
+		prerequisite = {
+			focus = CUB_An_Offer_of_Mutual_Profit
+		}
+		x = 1
+		y = 1
+		relative_position_id = CUB_Expanding_Our_Outposts
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Ever_Expanding
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_An_Offer_of_Mutual_Profit
+		}
+		x = 1
+		y = 1
+		relative_position_id = CUB_An_Offer_of_Mutual_Profit
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Overseers_of_the_Caribbean
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_A_Trip_to_Mafia_Island
+		}
+		prerequisite = {
+			focus = CUB_Foreign_Troublemakers
+		}
+		prerequisite = {
+			focus = CUB_Ever_Expanding
+		}
+		x = 0
+		y = 1
+		relative_position_id = CUB_Foreign_Troublemakers
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_We_Must_Have_More
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_An_Unshakable_System
+		}
+		prerequisite = {
+			focus = CUB_Center_of_the_Trade
+		}
+		prerequisite = {
+			focus = CUB_The_Right_Hand_of_the_Slave_Trade
+		}
+		x = 0
+		y = 2
+		relative_position_id = CUB_Center_of_the_Trade
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Industrial_Diversification
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_We_Must_Have_More
+		}
+		x = -1
+		y = 1
+		relative_position_id = CUB_We_Must_Have_More
+		mutually_exclusive = {
+			focus = CUB_Unfree_Hands_Build_Wonders
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Unfree_Hands_Build_Wonders
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_We_Must_Have_More
+		}
+		x = 1
+		y = 1
+		relative_position_id = CUB_We_Must_Have_More
+		mutually_exclusive = {
+			focus = CUB_Industrial_Diversification
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Insel_von_Eppstein
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Industrial_Diversification
+			focus = CUB_Unfree_Hands_Build_Wonders
+		}
+		x = 1
+		y = 1
+		relative_position_id = CUB_Industrial_Diversification
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_The_New_Pirates
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_As_the_Varangians
+			focus = CUB_As_the_Landsknecht
+		}
+		x = 1
+		y = 2
+		relative_position_id = CUB_As_the_Varangians
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Coming_Ashore
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_The_New_Pirates
+		}
+		x = -1
+		y = 2
+		relative_position_id = CUB_The_New_Pirates
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Break_Your_Backs
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_The_New_Pirates
+		}
+		x = 1
+		y = 2
+		relative_position_id = CUB_The_New_Pirates
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Death_on_the_Waves
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Coming_Ashore
+		}
+		prerequisite = {
+			focus = CUB_Break_Your_Backs
+		}
+		x = 1
+		y = 2
+		relative_position_id = CUB_Coming_Ashore
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Overseers_of_the_Atlantic
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Overseers_of_the_Caribbean
+		}
+		prerequisite = {
+			focus = CUB_Death_on_the_Waves
+		}
+		x = 4
+		y = 1
+		relative_position_id = CUB_Overseers_of_the_Caribbean
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Best_of_the_Best
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_As_the_Varangians
+			focus = CUB_As_the_Landsknecht
+		}
+		x = 4
+		y = 1
+		relative_position_id = CUB_As_the_Landsknecht
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Kings_of_the_Sky
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Best_of_the_Best
+		}
+		x = -2
+		y = 1
+		relative_position_id = CUB_Best_of_the_Best
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Coronation_in_the_Heavens
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Kings_of_the_Sky
+		}
+		x = 0
+		y = 1
+		relative_position_id = CUB_Kings_of_the_Sky
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Machines_of_the_Future
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Best_of_the_Best
+		}
+		x = 0
+		y = 1
+		relative_position_id = CUB_Best_of_the_Best
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_Crushed_Beneath_the_Tracks
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Machines_of_the_Future
+		}
+		x = -1
+		y = 2
+		relative_position_id = CUB_Machines_of_the_Future
+		mutually_exclusive = {
+			focus = CUB_The_Missing_Link_of_Artillery_and_Infantry
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_The_Missing_Link_of_Artillery_and_Infantry
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Machines_of_the_Future
+		}
+		x = 1
+		y = 2
+		relative_position_id = CUB_Machines_of_the_Future
+		mutually_exclusive = {
+			focus = CUB_Crushed_Beneath_the_Tracks
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_No_Such_Thing_As_A_War_Crime
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_Best_of_the_Best
+		}
+		x = 2
+		y = 1
+		relative_position_id = CUB_Best_of_the_Best
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = CUB_The_Greatest_Defense
+		#icon = 
+		cost = 7
+		prerequisite = {
+			focus = CUB_No_Such_Thing_As_A_War_Crime
+		}
+		x = 0
+		y = 1
+		relative_position_id = CUB_No_Such_Thing_As_A_War_Crime
+		completion_reward = {
+			
+		}
+	}
+}
