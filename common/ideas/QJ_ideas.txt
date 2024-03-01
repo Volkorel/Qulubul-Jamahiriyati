@@ -46,5 +46,214 @@ ideas = {
 				ai_get_ally_desire_factor = -2000
 			}
 		}
+		### LANGOBARD IDEAS ###
+		QJ_CUB_Islands_of_Slaves = {
+			allowed = { always = no }
+			#picture = 
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.8
+				production_speed_buildings_factor = 0.3
+				production_factory_efficiency_gain_factor = -0.2
+				industrial_capacity_factory = 0.3
+			}
+		}
+		QJ_CUB_Islands_of_Slaves_Teatment = {
+			allowed = { always = no }
+			#picture = 
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.8
+				production_speed_buildings_factor = 0.2
+				production_factory_efficiency_gain_factor = -0.1
+				industrial_capacity_factory = 0.4
+			}
+		}
+		QJ_CUB_Islands_of_Slaves_Oversight = {
+			allowed = { always = no }
+			#picture = 
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.8
+				production_speed_buildings_factor = 0.3
+				production_factory_efficiency_gain_factor = -0.25
+				industrial_capacity_factory = 0.5
+			}
+		}
+		QJ_CUB_The_Woes_of_Free_Labor = {
+			allowed = { always = no }
+			#picture = 
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				production_factory_max_efficiency_factor = -0.2
+			}
+		}
+		QJ_CUB_A_Free_Mans_Craftsmanship = {
+			allowed = { always = no }
+			#picture = 
+			removal_cost = -1
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.3
+				production_factory_efficiency_gain_factor = 0.2
+			}
+		}
+		QJ_CUB_A_Free_Mans_Prowess = {
+			allowed = { always = no }
+			#picture = 
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				conscription_factor = 0.2
+				army_morale_factor = 0.3
+				experience_gain_army_unit = 0.5
+				special_forces_cap = 0.5
+			}
+		}
+		QJ_CUB_The_ULFL = {
+			allowed = { always = no }
+			#picture = 
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.5
+				weekly_manpower = -25
+			}
+		}
+		QJ_CUB_Aristocratic_Dominance = {
+			allowed = { always = no }
+			#picture = 
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.1
+				research_speed_factor = -0.3
+			}
+		}
+		QJ_CUB_State_Monopolies = {
+			allowed = { always = no }
+			#picture = 
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+		}
+		QJ_CUB_Aristocratic_Cooperation = {
+			allowed = { always = no }
+			#picture = 
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.15
+				research_speed_factor = -0.1
+				command_power_gain_mult = 0.5
+				army_leader_start_level = 3
+				army_leader_start_attack_level = 3
+				army_leader_start_planning_level = 3
+				navy_leader_start_level = 3
+				navy_leader_start_attack_level = 3
+				navy_leader_start_maneuvering_level = 3
+			}
+		}
+		QJ_CUB_Made_in_Langobardia = {
+			allowed = { always = no }
+			#picture = 
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.1
+				min_export = 0.5
+				faction_trade_opinion_factor = 0.5
+				base_fuel_gain = 100
+			}
+		}
+		QJ_CUB_Insel_von_Eppstein = {
+			allowed = { always = no }
+			#picture = 
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.15
+				min_export = 0.5
+				faction_trade_opinion_factor = 1
+				base_fuel_gain = 200
+			}
+		}
+		QJ_CUB_The_New_Varangians = {
+			allowed = { always = no }
+			#picture = 
+			removal_cost = -1
+
+			modifier = {
+				weekly_manpower = 1000
+				army_attack_factor = 0.3
+				army_strength_factor = 0.2
+				breakthrough_factor = 0.3
+			}
+		}
+		QJ_CUB_The_New_Landsknecht = {
+			allowed = { always = no }
+			#picture = 
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.1
+				army_attack_factor = 0.2
+				army_strength_factor = 0.4
+				army_org_factor = 0.3
+			}
+		}
+		QJ_CUB_The_Anti_Revolutionary_Army_1 = {
+			allowed = { always = no }
+			#picture = 
+			removal_cost = -1
+
+			modifier = {
+				duemarism_acceptance = -1000
+				jacobinism_acceptance = -1000
+				communism_acceptance = -1000
+				naval_invasion_prep_speed = 10
+			}
+		}
+		QJ_CUB_The_Anti_Revolutionary_Army_2 = {
+			allowed = { always = no }
+			#picture = 
+			removal_cost = -1
+
+			modifier = {
+				duemarism_acceptance = -1000
+				jacobinism_acceptance = -1000
+				communism_acceptance = -1000
+				naval_invasion_prep_speed = 10
+				naval_invasion_capacity = 5
+			}
+			targeted_modifier = { tag = COL attack_bonus_against = 0.25 }
+			targeted_modifier = { tag = SUR attack_bonus_against = 0.25 }
+		}
+		QJ_CUB_The_Anti_Revolutionary_Army_3 = {
+			allowed = { always = no }
+			#picture = 
+			removal_cost = -1
+
+			modifier = {
+				duemarism_acceptance = -1000
+				jacobinism_acceptance = -1000
+				communism_acceptance = -1000
+				naval_invasion_prep_speed = 10
+				naval_invasion_capacity = 10
+			}
+			targeted_modifier = { tag = COL attack_bonus_against = 0.25 }
+			targeted_modifier = { tag = SUR attack_bonus_against = 0.25 }
+			targeted_modifier = { tag = SOV attack_bonus_against = 0.25 }
+			targeted_modifier = { tag = FRA attack_bonus_against = 0.25 }
+			targeted_modifier = { tag = GER attack_bonus_against = 0.25 }
+		}
 	}
 }

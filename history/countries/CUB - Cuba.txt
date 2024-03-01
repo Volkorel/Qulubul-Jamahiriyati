@@ -41,3 +41,8 @@ set_popularities = {
 	indigeneum = 0
 	suprarealisme = 0
 }
+
+add_ideas = QJ_CUB_Islands_of_Slaves
+add_ideas = QJ_CUB_The_Woes_of_Free_Labor
+add_ideas = QJ_CUB_The_ULFL
+add_ideas = QJ_CUB_Aristocratic_Dominance

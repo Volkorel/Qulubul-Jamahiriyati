@@ -21,8 +21,11 @@ focus_tree = {
 		cost = 7
 		x = 5
 		y = 0
+		available = {
+			always = no
+		}
 		completion_reward = {
-			
+			custom_effect_tooltip = CUB_Running_the_Slave_State_tt
 		}
 	}
 	focus = {
@@ -36,7 +39,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = CUB_Running_the_Slave_State
 		completion_reward = {
-			
+			add_political_power = 150
 		}
 	}
 	focus = {
@@ -53,7 +56,10 @@ focus_tree = {
 			focus = CUB_Prop_Them_Up
 		}
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = QJ_CUB_Aristocratic_Dominance
+				add_idea = QJ_CUB_State_Monopolies
+			}
 		}
 	}
 	focus = {
@@ -67,7 +73,11 @@ focus_tree = {
 		y = 1
 		relative_position_id = CUB_Break_Them
 		completion_reward = {
-			
+			add_offsite_building = { type = industrial_complex level = 2 }
+			add_popularity = {
+				ideology = liberalism
+				popularity = -0.1
+			}
 		}
 	}
 	focus = {
@@ -84,7 +94,10 @@ focus_tree = {
 			focus = CUB_Break_Them
 		}
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = QJ_CUB_Aristocratic_Dominance
+				add_idea = QJ_CUB_Aristocratic_Cooperation
+			}
 		}
 	}
 	focus = {
@@ -98,7 +111,13 @@ focus_tree = {
 		y = 1
 		relative_position_id = CUB_Prop_Them_Up
 		completion_reward = {
-			
+			add_war_support = 0.2
+			army_experience = 100
+			navy_experience = 100
+			add_popularity = {
+				ideology = liberalism
+				popularity = 0.1
+			}
 		}
 	}
 	focus = {
@@ -112,7 +131,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = CUB_Running_the_Slave_State
 		completion_reward = {
-			
+			add_war_support = 0.1
 		}
 	}
 	focus = {
@@ -129,7 +148,10 @@ focus_tree = {
 			focus = CUB_A_Free_Mans_Prowess
 		}
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = QJ_CUB_The_Woes_of_Free_Labor
+				add_idea = QJ_CUB_A_Free_Mans_Craftsmanship
+			}
 		}
 	}
 	focus = {
@@ -143,7 +165,20 @@ focus_tree = {
 		y = 1
 		relative_position_id = CUB_A_Free_Mans_Craftmanship
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.1
+			}
+			add_equipment_to_stockpile = {
+				type = light_airframe
+				amount = 100
+				producer = CUB
+			}
+			add_equipment_to_stockpile = {
+				type = motorized_equipment
+				amount = 100
+				producer = CUB
+			}
 		}
 	}
 	focus = {
@@ -160,7 +195,10 @@ focus_tree = {
 			focus = CUB_A_Free_Mans_Craftmanship
 		}
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = QJ_CUB_The_Woes_of_Free_Labor
+				add_idea = QJ_CUB_A_Free_Mans_Prowess
+			}
 		}
 	}
 	focus = {
@@ -174,7 +212,11 @@ focus_tree = {
 		y = 1
 		relative_position_id = CUB_A_Free_Mans_Prowess
 		completion_reward = {
-			
+			add_manpower = 10000
+			add_popularity = {
+				ideology = socialism
+				popularity = -0.1
+			}
 		}
 	}
 	
@@ -189,7 +231,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = CUB_Running_the_Slave_State
 		completion_reward = {
-			
+			add_stability = 0.1
 		}
 	}
 	focus = {
@@ -206,7 +248,10 @@ focus_tree = {
 			focus = CUB_Stronger_Oversight
 		}
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = QJ_CUB_Islands_of_Slaves
+				add_idea = QJ_CUB_Islands_of_Slaves_Teatment
+			}
 		}
 	}
 	focus = {
@@ -220,7 +265,17 @@ focus_tree = {
 		y = 1
 		relative_position_id = CUB_Better_Treatment
 		completion_reward = {
-			
+			custom_effect_tooltip = CUB_Its_Not_That_Bad_tt
+			if = {
+				limit = {
+					has_completed_focus = CUB_Break_the_Resistance
+				}
+				remove_ideas = QJ_CUB_The_ULFL
+			}
+			add_popularity = {
+				ideology = jacobinism
+				popularity = -0.1
+			}
 		}
 	}
 	focus = {
@@ -237,7 +292,10 @@ focus_tree = {
 			focus = CUB_Better_Treatment
 		}
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = QJ_CUB_Islands_of_Slaves
+				add_idea = QJ_CUB_Islands_of_Slaves_Oversight
+			}
 		}
 	}
 	focus = {
@@ -251,7 +309,17 @@ focus_tree = {
 		y = 1
 		relative_position_id = CUB_Stronger_Oversight
 		completion_reward = {
-			
+			custom_effect_tooltip = CUB_Its_Not_That_Bad_tt
+			if = {
+				limit = {
+					has_completed_focus = CUB_Break_the_Resistance
+				}
+				remove_ideas = QJ_CUB_The_ULFL
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = -0.1
+			}
 		}
 	}
 	focus = {
@@ -274,7 +342,8 @@ focus_tree = {
 		y = 1
 		relative_position_id = CUB_Per_Aspera_ad_Astra
 		completion_reward = {
-			
+			add_stability = 0.2
+			add_political_power = 100
 		}
 	}
 	focus = {
@@ -326,7 +395,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = CUB_Modernizing_the_Ancient_Trade
 		completion_reward = {
-			
+			add_ideas = QJ_CUB_Made_in_Langobardia
 		}
 	}
 	focus = {
@@ -449,7 +518,11 @@ focus_tree = {
 			focus = CUB_As_the_Landsknecht
 		}
 		completion_reward = {
-			
+			add_ideas = QJ_CUB_The_New_Varangians
+			add_popularity = {
+				ideology = liberalism
+				popularity = -0.1
+			}
 		}
 	}
 	focus = {
@@ -466,7 +539,11 @@ focus_tree = {
 			focus = CUB_As_the_Varangians
 		}
 		completion_reward = {
-			
+			add_ideas = QJ_CUB_The_New_Landsknecht
+			add_popularity = {
+				ideology = liberalism
+				popularity = 0.1
+			}
 		}
 	}
 	focus = {
@@ -509,7 +586,18 @@ focus_tree = {
 		y = 1
 		relative_position_id = CUB_Wetwork
 		completion_reward = {
-			
+			custom_effect_tooltip = CUB_Break_the_Resistance_tt
+			if = {
+				limit = {
+					OR = {
+						has_completed_focus = CUB_Its_Not_That_Bad
+						has_completed_focus = CUB_Keep_Working
+					}
+				}
+				remove_ideas = QJ_CUB_The_ULFL
+			}
+			add_manpower = -1000
+			add_stability = 0.1
 		}
 	}
 	focus = {
@@ -526,7 +614,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = CUB_Slavery_Makes_the_World_Go_Round
 		completion_reward = {
-			
+			add_ideas = QJ_CUB_The_Anti_Revolutionary_Army_1
 		}
 	}
 	focus = {
@@ -585,7 +673,10 @@ focus_tree = {
 		y = 1
 		relative_position_id = CUB_Expanding_Our_Outposts
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = QJ_CUB_The_Anti_Revolutionary_Army_1
+				add_idea = QJ_CUB_The_Anti_Revolutionary_Army_2
+			}
 		}
 	}
 	focus = {
@@ -656,7 +747,14 @@ focus_tree = {
 			focus = CUB_Unfree_Hands_Build_Wonders
 		}
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = conservatism
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = liberalism
+				popularity = -0.05
+			}
 		}
 	}
 	focus = {
@@ -673,7 +771,14 @@ focus_tree = {
 			focus = CUB_Industrial_Diversification
 		}
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = conservatism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = liberalism
+				popularity = 0.05
+			}
 		}
 	}
 	focus = {
@@ -688,7 +793,10 @@ focus_tree = {
 		y = 1
 		relative_position_id = CUB_Industrial_Diversification
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = QJ_CUB_Made_in_Langobardia
+				add_idea = QJ_CUB_Insel_von_Eppstein
+			}
 		}
 	}
 	focus = {
@@ -765,7 +873,10 @@ focus_tree = {
 		y = 1
 		relative_position_id = CUB_Overseers_of_the_Caribbean
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = QJ_CUB_The_Anti_Revolutionary_Army_2
+				add_idea = QJ_CUB_The_Anti_Revolutionary_Army_3
+			}
 		}
 	}
 	focus = {

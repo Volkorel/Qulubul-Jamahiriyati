@@ -1,6 +1,7 @@
 ﻿l_english:
  CUB_Running_the_Slave_State:0 "Running the Slave State"
  CUB_Running_the_Slave_State_desc:0 ""
+ CUB_Running_the_Slave_State_tt:0 "§RWill be completed automatically following the 1907 elections.§!"
  CUB_The_Aristocracy:0 "The Aristocracy"
  CUB_The_Aristocracy_desc:0 ""
  CUB_Break_Them:0 "Break Them"
@@ -27,6 +28,7 @@
  CUB_Better_Treatment_desc:0 ""
  CUB_Its_Not_That_Bad:0 "It's Not That Bad!"
  CUB_Its_Not_That_Bad_desc:0 ""
+ CUB_Its_Not_That_Bad_tt:0 "§RIf completed alongside "Break the Resistance", removes national spirit "The ULFL" and prevents ULFL revolt.§!"
  CUB_Stronger_Oversight:0 "Stronger Oversight"
  CUB_Stronger_Oversight_desc:0 ""
  CUB_Keep_Working:0 "Keep Working!"
@@ -65,6 +67,7 @@
  CUB_Slavery_Makes_the_World_Go_Round_desc:0 ""
  CUB_Break_the_Resistance:0 "Break the Resistance"
  CUB_Break_the_Resistance_desc:0 ""
+ CUB_Break_the_Resistance_tt:0 "§RIf completed alongside "It's Not That Bad!" or "Keep Working!", removes national spirit "The ULFL" and prevents ULFL revolt.§!"
  CUB_The_Right_Hand_of_the_Slave_Trade:0 "The Right Hand of the Slave Trade"
  CUB_The_Right_Hand_of_the_Slave_Trade_desc:0 ""
  CUB_Expanding_Our_Outposts:0 "Expanding Our Outposts"
