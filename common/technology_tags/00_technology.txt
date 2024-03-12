@@ -9,6 +9,8 @@ technology_categories = {
 	cat_light_armor
 	cat_medium_armor
 	cat_heavy_armor
+	mecha_tech
+	war_crimes_tech
 	artillery
 	cat_anti_tank
 	cat_anti_air

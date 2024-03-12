@@ -947,6 +947,7 @@ technologies = {
 		
 		categories = {
 			armor
+			mecha_tech
 		}
 	}
 	
@@ -979,6 +980,7 @@ technologies = {
 		
 		categories = {
 			armor
+			mecha_tech
 		}
 	}
 	
@@ -1006,6 +1008,7 @@ technologies = {
 		
 		categories = {
 			armor
+			mecha_tech
 		}
 	}
 

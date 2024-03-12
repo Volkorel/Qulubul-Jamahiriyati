@@ -154,6 +154,10 @@
  ITA_modernized_cavalry_tech:0 "Modernized Cavalry"
  ITA_savari_tech:0 "Savari"
  
+ mecha_tech:0 "Mecha Technology"
+ airship:0 "Airship Technology"
+ war_crimes_tech:0 "State-Based Weapons Technology"
+ 
  passive_fortification:0 "Passive Fortification"
  passive_fortification_desc:0 ""
  landmines:0 "Landmines"

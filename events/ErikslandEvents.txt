@@ -982,7 +982,7 @@ country_event = { #SVITJOD - Who gets Gvaejana?
 			has_global_flag = QJ_Langobardia_Interest_In_Gvaejana
 		}
 		ai_will_do = {
-			base = 5
+			base = 10
 		}
 		CUB = {
 			country_event = {
@@ -1521,6 +1521,67 @@ country_event = { #Vinland - Coup failed
 				target = CAN
 				modifier = condemn_aggression
 			}
+		}
+	}
+}
+
+add_namespace = QJ_langobardia
+#THE BLOOD OF THE WINNILI RUNS PROUD AND STRONG
+
+country_event = { #Elections
+	id = QJ_langobardia.1
+	title = QJ_langobardia.1.t
+	desc = QJ_langobardia.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				NOT = {
+					has_completed_focus = CUB_Running_the_Slave_State
+				}
+			}
+			complete_national_focus = CUB_Running_the_Slave_State
+		}
+		country_event = {
+			id = QJ_langobardia.1
+			days = 1460
+		}
+	}
+	
+	option = {
+		name = QJ_langobardia.1.a
+		custom_effect_tooltip = QJ_CUB_PNF_desc_tt
+		set_politics = {
+			ruling_party = socialism
+		}
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.1
+		}
+	}
+	option = {
+		name = QJ_langobardia.1.b
+		custom_effect_tooltip = QJ_CUB_LLS_desc_tt
+		set_politics = {
+			ruling_party = liberalism
+		}
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.1
+		}
+	}
+	option = {
+		name = QJ_langobardia.1.c
+		custom_effect_tooltip = QJ_CUB_PNR_desc_tt
+		set_politics = {
+			ruling_party = conservatism
+		}
+		add_popularity = {
+			ideology = conservatism
+			popularity = 0.1
 		}
 	}
 }

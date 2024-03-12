@@ -18,6 +18,10 @@ on_actions = {
 			CUB = {
 				set_country_flag = QJ_In_Sphere_Vinlandic
 				country_event = {
+					id = QJ_langobardia.1
+					days = 400
+				}
+				country_event = {
 					id = QJ_sheni_nahra.2
 					days = 1200
 				}

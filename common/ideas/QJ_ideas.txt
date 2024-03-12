@@ -192,10 +192,10 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				weekly_manpower = 1000
-				army_attack_factor = 0.3
+				weekly_manpower = 500
+				army_attack_factor = 0.4
 				army_strength_factor = 0.2
-				breakthrough_factor = 0.3
+				breakthrough_factor = 0.4
 			}
 		}
 		QJ_CUB_The_New_Landsknecht = {
@@ -206,7 +206,7 @@ ideas = {
 			modifier = {
 				conscription = 0.1
 				army_attack_factor = 0.2
-				army_strength_factor = 0.4
+				army_strength_factor = 0.3
 				army_org_factor = 0.3
 			}
 		}

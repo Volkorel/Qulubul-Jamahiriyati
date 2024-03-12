@@ -890,6 +890,7 @@ technologies = {
 		}		
 		categories = {
 			electronics
+			war_crimes_tech
 		}
 	}
 	landmines = {
@@ -907,6 +908,7 @@ technologies = {
 		}		
 		categories = {
 			electronics
+			war_crimes_tech
 		}
 	}
 	
@@ -937,6 +939,7 @@ technologies = {
 		}		
 		categories = {
 			electronics
+			war_crimes_tech
 		}
 	}
 	basic_chemical_agents = {
@@ -958,6 +961,7 @@ technologies = {
 		}		
 		categories = {
 			electronics
+			war_crimes_tech
 		}
 	}
 	nerve_agents = {
@@ -975,6 +979,7 @@ technologies = {
 		}		
 		categories = {
 			electronics
+			war_crimes_tech
 		}
 	}
 	anthrax = {
@@ -996,6 +1001,7 @@ technologies = {
 		}		
 		categories = {
 			electronics
+			war_crimes_tech
 		}
 	}
 	smallpox = {
@@ -1013,6 +1019,7 @@ technologies = {
 		}		
 		categories = {
 			electronics
+			war_crimes_tech
 		}
 	}
 	artillery_shells = {
@@ -1034,6 +1041,7 @@ technologies = {
 		}		
 		categories = {
 			electronics
+			war_crimes_tech
 		}
 	}
 	aircraft_bombs = {
@@ -1051,6 +1059,7 @@ technologies = {
 		}		
 		categories = {
 			electronics
+			war_crimes_tech
 		}
 	}
 	
@@ -1073,6 +1082,7 @@ technologies = {
 		}		
 		categories = {
 			electronics
+			war_crimes_tech
 		}
 	}
 	mass_smallpox_vaccination = {
@@ -1110,6 +1120,7 @@ technologies = {
 		}		
 		categories = {
 			electronics
+			war_crimes_tech
 		}
 	}
 }
