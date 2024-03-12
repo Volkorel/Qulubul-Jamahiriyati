@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = {
 		id = CUB_Running_the_Slave_State
-		#icon = 
+		icon = GFX_Running_the_Slave_State
 		cost = 7
 		x = 5
 		y = 0
@@ -30,7 +30,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_The_Aristocracy
-		#icon = 
+		icon = GFX_The_Aristocracy
 		cost = 7
 		prerequisite = {
 			focus = CUB_Running_the_Slave_State
@@ -44,7 +44,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Break_Them
-		#icon = 
+		icon = GFX_Break_Them
 		cost = 7
 		prerequisite = {
 			focus = CUB_The_Aristocracy
@@ -64,7 +64,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_The_State_Reigns_Supreme
-		#icon = 
+		icon = GFX_The_State_Reigns_Supreme
 		cost = 7
 		prerequisite = {
 			focus = CUB_Break_Them
@@ -82,7 +82,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Prop_Them_Up
-		#icon = 
+		icon = GFX_Prop_Them_Up
 		cost = 7
 		prerequisite = {
 			focus = CUB_The_Aristocracy
@@ -102,7 +102,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Good_for_Them_Good_for_Us
-		#icon = 
+		icon = GFX_Good_For_Them_Good_For_Us
 		cost = 7
 		prerequisite = {
 			focus = CUB_Prop_Them_Up
@@ -122,7 +122,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_The_Free_Men
-		#icon = 
+		icon = GFX_The_Free_Men
 		cost = 7
 		prerequisite = {
 			focus = CUB_Running_the_Slave_State
@@ -136,7 +136,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_A_Free_Mans_Craftmanship
-		#icon = 
+		icon = GFX_Free_Mans_Craftsmanship
 		cost = 7
 		prerequisite = {
 			focus = CUB_The_Free_Men
@@ -156,7 +156,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Per_Aspera_ad_Astra
-		#icon = 
+		icon = GFX_Per_Aspera_Ad_Astra
 		cost = 7
 		prerequisite = {
 			focus = CUB_A_Free_Mans_Craftmanship
@@ -183,7 +183,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_A_Free_Mans_Prowess
-		#icon = 
+		icon = GFX_Free_Mans_Prowess
 		cost = 7
 		prerequisite = {
 			focus = CUB_The_Free_Men
@@ -203,7 +203,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Per_Ardua_ad_Astra
-		#icon = 
+		icon = GFX_Per_Ardua_Ad_Astra
 		cost = 7
 		prerequisite = {
 			focus = CUB_A_Free_Mans_Prowess
@@ -222,7 +222,7 @@ focus_tree = {
 	
 	focus = {
 		id = CUB_The_Slaves
-		#icon = 
+		icon = GFX_The_Slaves
 		cost = 7
 		prerequisite = {
 			focus = CUB_Running_the_Slave_State
@@ -236,7 +236,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Better_Treatment
-		#icon = 
+		icon = GFX_Better_Treatment
 		cost = 7
 		prerequisite = {
 			focus = CUB_The_Slaves
@@ -256,7 +256,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Its_Not_That_Bad
-		#icon = 
+		icon = GFX_Its_Not_That_Bad
 		cost = 7
 		prerequisite = {
 			focus = CUB_Better_Treatment
@@ -280,7 +280,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Stronger_Oversight
-		#icon = 
+		icon = GFX_Stronger_Oversight
 		cost = 7
 		prerequisite = {
 			focus = CUB_The_Slaves
@@ -300,7 +300,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Keep_Working
-		#icon = 
+		icon = GFX_Keep_Working
 		cost = 7
 		prerequisite = {
 			focus = CUB_Stronger_Oversight
@@ -324,7 +324,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_An_Unshakable_System
-		#icon = 
+		icon = GFX_An_Unshakable_System
 		cost = 7
 		prerequisite = {
 			focus = CUB_The_State_Reigns_Supreme
@@ -348,17 +348,17 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Life_Blood_Of_The_Realm
-		#icon = 
+		icon = GFX_Life_Blood_of_the_Realm
 		cost = 7
 		x = 15
 		y = 0
 		completion_reward = {
-			
+			add_offsite_building = { type = industrial_complex level = 2 }
 		}
 	}
 	focus = {
 		id = CUB_Modernizing_the_Ancient_Trade
-		#icon = 
+		icon = GFX_Modernising_the_Ancient_Trade
 		cost = 7
 		prerequisite = {
 			focus = CUB_Life_Blood_Of_The_Realm
@@ -372,7 +372,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Transporting_Our_Property
-		#icon = 
+		icon = GFX_Transporting_Our_Property
 		cost = 7
 		prerequisite = {
 			focus = CUB_Life_Blood_Of_The_Realm
@@ -386,7 +386,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Cash_Crops_Will_Always_Be_In_Demand
-		#icon = 
+		icon = GFX_Cash_Crops_Will_Always_Be_In_Demand
 		cost = 7
 		prerequisite = {
 			focus = CUB_Modernizing_the_Ancient_Trade
@@ -400,7 +400,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Islands_Covered_In_Plantations
-		#icon = 
+		icon = GFX_Islands_Covered_in_Plantations
 		cost = 7
 		prerequisite = {
 			focus = CUB_Modernizing_the_Ancient_Trade
@@ -417,7 +417,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Trade_Millions_Make_Billions
-		#icon = 
+		icon = GFX_Trade_Millions_Make_Billions
 		cost = 7
 		prerequisite = {
 			focus = CUB_Transporting_Our_Property
@@ -431,7 +431,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Center_of_the_Trade
-		#icon = 
+		icon = GFX_Center_of_the_Trade
 		cost = 7
 		prerequisite = {
 			focus = CUB_Cash_Crops_Will_Always_Be_In_Demand
@@ -446,12 +446,12 @@ focus_tree = {
 		y = 1
 		relative_position_id = CUB_Islands_Covered_In_Plantations
 		completion_reward = {
-			
+			add_offsite_building = { type = industrial_complex level = 3 }
 		}
 	}
 	focus = {
 		id = CUB_Men_of_Great_Means
-		#icon = 
+		icon = GFX_Men_of_Great_Means
 		cost = 7
 		x = 28
 		y = 0
@@ -461,7 +461,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Defense_of_the_Langobards
-		#icon = 
+		icon = GFX_Defense_of_the_Langobards
 		cost = 7
 		prerequisite = {
 			focus = CUB_Life_Blood_Of_The_Realm
@@ -478,7 +478,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Offense_of_Sceafas_Sons
-		#icon = 
+		icon = GFX_Offense_of_Sceafas_Sons
 		cost = 7
 		prerequisite = {
 			focus = CUB_Defense_of_the_Langobards
@@ -492,7 +492,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_As_On_Land_So_At_Sea
-		#icon = 
+		icon = GFX_As_on_Land_So_at_Sea
 		cost = 7
 		prerequisite = {
 			focus = CUB_Defense_of_the_Langobards
@@ -506,7 +506,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_As_the_Varangians
-		#icon = 
+		icon = GFX_As_the_Varangians
 		cost = 7
 		prerequisite = {
 			focus = CUB_Men_of_Great_Means
@@ -527,7 +527,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_As_the_Landsknecht
-		#icon = 
+		icon = GFX_As_the_Landsknecht
 		cost = 7
 		prerequisite = {
 			focus = CUB_Men_of_Great_Means
@@ -548,7 +548,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Wetwork
-		#icon = 
+		icon = GFX_Wetwork
 		cost = 7
 		prerequisite = {
 			focus = CUB_As_the_Varangians
@@ -563,7 +563,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Slavery_Makes_the_World_Go_Round
-		#icon = 
+		icon = GFX_Slavery_Makes_the_World_Go_Round
 		cost = 7
 		prerequisite = {
 			focus = CUB_Trade_Millions_Make_Billions
@@ -577,7 +577,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Break_the_Resistance
-		#icon = 
+		icon = GFX_Break_the_Resistance
 		cost = 7
 		prerequisite = {
 			focus = CUB_Wetwork
@@ -602,7 +602,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_The_Right_Hand_of_the_Slave_Trade
-		#icon = 
+		icon = GFX_The_Right_Hand_of_the_Slave_Trade
 		cost = 7
 		prerequisite = {
 			focus = CUB_Slavery_Makes_the_World_Go_Round
@@ -619,7 +619,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Expanding_Our_Outposts
-		#icon = 
+		icon = GFX_Expanding_Our_Outposts
 		cost = 7
 		prerequisite = {
 			focus = CUB_The_Right_Hand_of_the_Slave_Trade
@@ -633,7 +633,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_An_Offer_of_Mutual_Profit
-		#icon = 
+		icon = GFX_An_Offer_of_Mutual_Profit
 		cost = 7
 		prerequisite = {
 			focus = CUB_The_Right_Hand_of_the_Slave_Trade
@@ -647,7 +647,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_A_Trip_to_Mafia_Island
-		#icon = 
+		icon = GFX_A_Trip_to_Mafia_Island
 		cost = 7
 		prerequisite = {
 			focus = CUB_Expanding_Our_Outposts
@@ -661,7 +661,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Foreign_Troublemakers
-		#icon = 
+		icon = GFX_Foreign_Troublemakers
 		cost = 7
 		prerequisite = {
 			focus = CUB_Expanding_Our_Outposts
@@ -681,7 +681,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Ever_Expanding
-		#icon = 
+		icon = GFX_Ever_Expanding
 		cost = 7
 		prerequisite = {
 			focus = CUB_An_Offer_of_Mutual_Profit
@@ -695,7 +695,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Overseers_of_the_Caribbean
-		#icon = 
+		icon = GFX_Overseers_of_the_Caribbean
 		cost = 7
 		prerequisite = {
 			focus = CUB_A_Trip_to_Mafia_Island
@@ -715,7 +715,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_We_Must_Have_More
-		#icon = 
+		icon = GFX_We_Must_Have_More
 		cost = 7
 		prerequisite = {
 			focus = CUB_An_Unshakable_System
@@ -735,7 +735,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Industrial_Diversification
-		#icon = 
+		icon = GFX_Industrial_Diversification
 		cost = 7
 		prerequisite = {
 			focus = CUB_We_Must_Have_More
@@ -759,7 +759,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Unfree_Hands_Build_Wonders
-		#icon = 
+		icon = GFX_Unfree_Hands_Build_Wonders
 		cost = 7
 		prerequisite = {
 			focus = CUB_We_Must_Have_More
@@ -783,7 +783,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Insel_von_Eppstein
-		#icon = 
+		icon = GFX_Insel_von_Eppstein
 		cost = 7
 		prerequisite = {
 			focus = CUB_Industrial_Diversification
@@ -801,7 +801,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_The_New_Pirates
-		#icon = 
+		icon = GFX_The_New_Pirates
 		cost = 7
 		prerequisite = {
 			focus = CUB_As_the_Varangians
@@ -816,7 +816,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Coming_Ashore
-		#icon = 
+		icon = GFX_Coming_Ashore
 		cost = 7
 		prerequisite = {
 			focus = CUB_The_New_Pirates
@@ -830,7 +830,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Break_Your_Backs
-		#icon = 
+		icon = GFX_Break_Your_Backs
 		cost = 7
 		prerequisite = {
 			focus = CUB_The_New_Pirates
@@ -844,7 +844,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Death_on_the_Waves
-		#icon = 
+		icon = GFX_Death_on_the_Waves
 		cost = 7
 		prerequisite = {
 			focus = CUB_Coming_Ashore
@@ -861,7 +861,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Overseers_of_the_Atlantic
-		#icon = 
+		icon = GFX_Overseers_of_the_Atlantic
 		cost = 7
 		prerequisite = {
 			focus = CUB_Overseers_of_the_Caribbean
@@ -881,7 +881,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Best_of_the_Best
-		#icon = 
+		icon = GFX_Best_of_the_Best
 		cost = 7
 		prerequisite = {
 			focus = CUB_As_the_Varangians
@@ -896,7 +896,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Kings_of_the_Sky
-		#icon = 
+		icon = GFX_Kings_of_the_Sky
 		cost = 7
 		prerequisite = {
 			focus = CUB_Best_of_the_Best
@@ -910,7 +910,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Coronation_in_the_Heavens
-		#icon = 
+		icon = GFX_Coronation_in_the_Heavens
 		cost = 7
 		prerequisite = {
 			focus = CUB_Kings_of_the_Sky
@@ -924,7 +924,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Machines_of_the_Future
-		#icon = 
+		icon = GFX_Machines_of_the_Future
 		cost = 7
 		prerequisite = {
 			focus = CUB_Best_of_the_Best
@@ -938,7 +938,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_Crushed_Beneath_the_Tracks
-		#icon = 
+		icon = GFX_Crushed_Beneath_the_Tracks
 		cost = 7
 		prerequisite = {
 			focus = CUB_Machines_of_the_Future
@@ -955,7 +955,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_The_Missing_Link_of_Artillery_and_Infantry
-		#icon = 
+		icon = GFX_The_Missing_Link_of_Artillery_and_Infantry
 		cost = 7
 		prerequisite = {
 			focus = CUB_Machines_of_the_Future
@@ -972,7 +972,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_No_Such_Thing_As_A_War_Crime
-		#icon = 
+		icon = GFX_No_Such_Thing_as_a_War_Crime
 		cost = 7
 		prerequisite = {
 			focus = CUB_Best_of_the_Best
@@ -986,7 +986,7 @@ focus_tree = {
 	}
 	focus = {
 		id = CUB_The_Greatest_Defense
-		#icon = 
+		icon = GFX_The_Greatest_Defense
 		cost = 7
 		prerequisite = {
 			focus = CUB_No_Such_Thing_As_A_War_Crime

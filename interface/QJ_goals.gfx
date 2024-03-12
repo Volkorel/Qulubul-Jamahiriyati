@@ -1,0 +1,231 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_Wetwork"
+		texturefile = "gfx/interface/goals/Wetwork.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Better_Treatment"
+		texturefile = "gfx/interface/goals/Better_Treatment.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Break_Them"
+		texturefile = "gfx/interface/goals/Break_Them.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Free_Mans_Craftsmanship"
+		texturefile = "gfx/interface/goals/Free_Mans_Craftsmanship.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Free_Mans_Prowess"
+		texturefile = "gfx/interface/goals/Free_Mans_Prowess.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Good_For_Them_Good_For_Us"
+		texturefile = "gfx/interface/goals/Good_For_Them_Good_For_Us.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Its_Not_That_Bad"
+		texturefile = "gfx/interface/goals/Its_Not_That_Bad.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Keep_Working"
+		texturefile = "gfx/interface/goals/Keep_Working.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Per_Ardua_Ad_Astra"
+		texturefile = "gfx/interface/goals/Per_Ardua_Ad_Astra.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Per_Aspera_Ad_Astra"
+		texturefile = "gfx/interface/goals/Per_Aspera_Ad_Astra.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Prop_Them_Up"
+		texturefile = "gfx/interface/goals/Prop_Them_Up.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Running_the_Slave_State"
+		texturefile = "gfx/interface/goals/Running_the_Slave_State.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Stronger_Oversight"
+		texturefile = "gfx/interface/goals/Stronger_Oversight.dds"			
+	}
+	SpriteType = {
+		name = "GFX_The_Aristocracy"
+		texturefile = "gfx/interface/goals/The_Aristocracy.dds"			
+	}
+	SpriteType = {
+		name = "GFX_The_Free_Men"
+		texturefile = "gfx/interface/goals/The_Free_Men.dds"			
+	}
+	SpriteType = {
+		name = "GFX_The_Slaves"
+		texturefile = "gfx/interface/goals/The_Slaves.dds"			
+	}
+	SpriteType = {
+		name = "GFX_The_State_Reigns_Supreme"
+		texturefile = "gfx/interface/goals/The_State_Reigns_Supreme.dds"			
+	}
+	SpriteType = {
+		name = "GFX_An_Unshakable_System"
+		texturefile = "gfx/interface/goals/An_Unshakable_System.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Men_of_Great_Means"
+		texturefile = "gfx/interface/goals/Men_of_Great_Means.dds"			
+	}
+	SpriteType = {
+		name = "GFX_As_the_Varangians"
+		texturefile = "gfx/interface/goals/As_the_Varangians.dds"			
+	}
+	SpriteType = {
+		name = "GFX_As_the_Landsknecht"
+		texturefile = "gfx/interface/goals/As_the_Landsknecht.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Best_of_the_Best"
+		texturefile = "gfx/interface/goals/Best_of_the_Best.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Break_the_Resistance"
+		texturefile = "gfx/interface/goals/Break_the_Resistance.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Break_Your_Backs"
+		texturefile = "gfx/interface/goals/Break_Your_Backs.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Coming_Ashore"
+		texturefile = "gfx/interface/goals/Coming_Ashore.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Coronation_in_the_Heavens"
+		texturefile = "gfx/interface/goals/Coronation_in_the_Heavens.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Crushed_Beneath_the_Tracks"
+		texturefile = "gfx/interface/goals/Crushed_Beneath_the_Tracks.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Death_on_the_Waves"
+		texturefile = "gfx/interface/goals/Death_on_the_Waves.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Kings_of_the_Sky"
+		texturefile = "gfx/interface/goals/Kings_of_the_Sky.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Machines_of_the_Future"
+		texturefile = "gfx/interface/goals/Machines_of_the_Future.dds"			
+	}
+	SpriteType = {
+		name = "GFX_No_Such_Thing_as_a_War_Crime"
+		texturefile = "gfx/interface/goals/No_Such_Thing_as_a_War_Crime.dds"			
+	}
+	SpriteType = {
+		name = "GFX_The_Greatest_Defense"
+		texturefile = "gfx/interface/goals/The_Greatest_Defense.dds"			
+	}
+	SpriteType = {
+		name = "GFX_The_Missing_Link_of_Artillery_and_Infantry"
+		texturefile = "gfx/interface/goals/The_Missing_Link_of_Artillery_and_Infantry.dds"			
+	}
+	SpriteType = {
+		name = "GFX_The_New_Pirates"
+		texturefile = "gfx/interface/goals/The_New_Pirates.dds"			
+	}
+	SpriteType = {
+		name = "GFX_A_Trip_to_Mafia_Island"
+		texturefile = "gfx/interface/goals/A_Trip_to_Mafia_Island.dds"			
+	}
+	SpriteType = {
+		name = "GFX_An_Offer_of_Mutual_Profit"
+		texturefile = "gfx/interface/goals/An_Offer_of_Mutual_Profit.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Ever_Expanding"
+		texturefile = "gfx/interface/goals/Ever_Expanding.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Expanding_Our_Outposts"
+		texturefile = "gfx/interface/goals/Expanding_Our_Outposts.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Foreign_Troublemakers"
+		texturefile = "gfx/interface/goals/Foreign_Troublemakers.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Overseers_of_the_Atlantic"
+		texturefile = "gfx/interface/goals/Overseers_of_the_Atlantic.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Overseers_of_the_Caribbean"
+		texturefile = "gfx/interface/goals/Overseers_of_the_Caribbean.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Slavery_Makes_the_World_Go_Round"
+		texturefile = "gfx/interface/goals/Slavery_Makes_the_World_Go_Round.dds"			
+	}
+	SpriteType = {
+		name = "GFX_The_Right_Hand_of_the_Slave_Trade"
+		texturefile = "gfx/interface/goals/The_Right_Hand_of_the_Slave_Trade.dds"			
+	}
+	SpriteType = {
+		name = "GFX_As_on_Land_So_at_Sea"
+		texturefile = "gfx/interface/goals/As_on_Land_So_at_Sea.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Cash_Crops_Will_Always_Be_In_Demand"
+		texturefile = "gfx/interface/goals/Cash_Crops_Will_Always_Be_In_Demand.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Center_of_the_Trade"
+		texturefile = "gfx/interface/goals/Center_of_the_Trade.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Defense_of_the_Langobards"
+		texturefile = "gfx/interface/goals/Defense_of_the_Langobards.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Industrial_Diversification"
+		texturefile = "gfx/interface/goals/Industrial_Diversification.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Insel_von_Eppstein"
+		texturefile = "gfx/interface/goals/Insel_von_Eppstein.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Life_Blood_of_the_Realm"
+		texturefile = "gfx/interface/goals/Life_Blood_of_the_Realm.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Modernising_the_Ancient_Trade"
+		texturefile = "gfx/interface/goals/Modernising_the_Ancient_Trade.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Offense_of_Sceafas_Sons"
+		texturefile = "gfx/interface/goals/Offense_of_Sceafas_Sons.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Trade_Millions_Make_Billions"
+		texturefile = "gfx/interface/goals/Trade_Millions_Make_Billions.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Transporting_Our_Property"
+		texturefile = "gfx/interface/goals/Transporting_Our_Property.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Unfree_Hands_Build_Wonders"
+		texturefile = "gfx/interface/goals/Unfree_Hands_Build_Wonders.dds"			
+	}
+	SpriteType = {
+		name = "GFX_We_Must_Have_More"
+		texturefile = "gfx/interface/goals/We_Must_Have_More.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Islands_Covered_in_Plantations"
+		texturefile = "gfx/interface/goals/Islands_Covered_in_Plantations.dds"			
+	}
+}
