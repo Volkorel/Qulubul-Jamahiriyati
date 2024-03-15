@@ -795,6 +795,9 @@ focus_tree = {
 		relative_position_id = CUB_The_Right_Hand_of_the_Slave_Trade
 		completion_reward = {
 			custom_effect_tooltip = CUB_An_Offer_of_Mutual_Profit_tt
+			CAN = {
+				country_event = QJ_langobardia.2
+			}
 		}
 	}
 	focus = {
@@ -856,6 +859,9 @@ focus_tree = {
 		relative_position_id = CUB_An_Offer_of_Mutual_Profit
 		completion_reward = {
 			custom_effect_tooltip = CUB_Ever_Expanding_tt
+			CAN = {
+				country_event = QJ_langobardia.5
+			}
 		}
 	}
 	focus = {

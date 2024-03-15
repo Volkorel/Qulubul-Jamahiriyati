@@ -41,6 +41,7 @@ country_event = { #1905 Elections
 				indigeneum = 0
 				suprarealisme = 0
 			}
+			add_ideas = BLZ_The_Sint_Antonius_Compromise
 		}
 		CAN = {
 			give_guarantee = BLZ
@@ -85,6 +86,9 @@ country_event = { #1905 Elections
 			indigeneum = 0
 			suprarealisme = 0
 		}
+		remove_ideas = MEX_Rampant_Corruption
+		remove_ideas = MEX_Legacy_of_the_Penglai_War
+		add_ideas = MEX_Armagnacee_Resurgent
 		country_event = {
 			id = QJ_armagnacee.4
 			days = 730
@@ -135,6 +139,7 @@ country_event = { #PRR and Tayshan uprising
 		}
 		BLZ = {
 			transfer_state = 375
+			add_ideas = BLZ_REMEMBER_THE_HILLIGE
 		}
 		declare_war_on = {
 			target = BLZ
@@ -158,6 +163,7 @@ country_event = { #Tayshan uprising
 		name = QJ_armagnacee.4.a
 		BLZ = {
 			transfer_state = 375
+			add_ideas = BLZ_REMEMBER_THE_HILLIGE
 		}
 		declare_war_on = {
 			target = BLZ
@@ -571,9 +577,11 @@ country_event = { #Skogarland and Vatnsinsland revolt
 		name = QJ_upce.2.a
 		COS = {
 			transfer_state = 316
+			add_ideas = QJ_Karibic_Slave_Revolt
 		}
 		JAM = {
 			transfer_state = 689
+			add_ideas = QJ_Karibic_Slave_Revolt
 		}
 		declare_war_on = {
 			target = COS
@@ -638,6 +646,7 @@ country_event = { #Fjallaeyja revolt
 		name = QJ_upce.4.a
 		DOM = {
 			transfer_state = 319
+			add_ideas = QJ_Karibic_Slave_Revolt
 		}
 		declare_war_on = {
 			target = DOM
@@ -656,6 +665,7 @@ country_event = { #Fjallaeyja revolt
 			}
 			CRC = {
 				transfer_state = 304
+				add_ideas = QJ_Karibic_Slave_Revolt
 			}
 			declare_war_on = {
 				target = CRC
@@ -1293,6 +1303,7 @@ country_event = { #Unification with Aremorica
 			target = ARG
 			type = annex_everything
 		}
+		add_ideas = PRU_Dreams_of_Brankemor
 	}
 	option = { #peace :)
 		name = QJ_brankou.3.b
@@ -1308,6 +1319,14 @@ country_event = { #Unification with Aremorica
 			days = 60
 		}
 		set_cosmetic_tag = PRU_BRANKEMOR
+		every_state = {
+			limit = {
+				is_core_of = ARG
+			}
+			add_state_core = PRU
+		}
+		remove_ideas = PRU_Mountain_Insurgencies
+		add_ideas = PRU_Brankemor_United
 	}
 }
 
@@ -1537,17 +1556,19 @@ country_event = { #Elections
 	is_triggered_only = yes
 	
 	immediate = {
-		if = {
-			limit = {
-				NOT = {
-					has_completed_focus = CUB_Running_the_Slave_State
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = {
+						has_completed_focus = CUB_Running_the_Slave_State
+					}
 				}
+				complete_national_focus = CUB_Running_the_Slave_State
 			}
-			complete_national_focus = CUB_Running_the_Slave_State
-		}
-		country_event = {
-			id = QJ_langobardia.1
-			days = 1460
+			country_event = {
+				id = QJ_langobardia.1
+				days = 1460
+			}
 		}
 	}
 	
@@ -1582,6 +1603,154 @@ country_event = { #Elections
 		add_popularity = {
 			ideology = conservatism
 			popularity = 0.1
+		}
+	}
+}
+
+country_event = { #Vinland - Offer to purchase Vatnsinsland
+	id = QJ_langobardia.2
+	title = QJ_langobardia.2.t
+	desc = QJ_langobardia.2.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_langobardia.2.a
+		add_offsite_building = { type = industrial_complex level = 2 }
+		CUB = {
+			transfer_state = 689
+			add_state_core = 689
+			country_event = QJ_langobardia.3
+		}
+		hidden_effect = {
+			BAH = {
+				add_state_core = 689
+			}
+		}
+		PAN = {
+			remove_state_core = 689
+		}
+	}
+	option = {
+		name = QJ_langobardia.2.b
+		CUB = {
+			country_event = QJ_langobardia.4
+		}
+	}
+}
+
+country_event = { #Langobardia - We got Vatnsinsland
+	id = QJ_langobardia.3
+	title = QJ_langobardia.3.t
+	desc = QJ_langobardia.3.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_langobardia.3.a
+		add_political_power = 20
+	}
+}
+
+country_event = { #Langobardia - We don't got Vatnsinsland
+	id = QJ_langobardia.4
+	title = QJ_langobardia.4.t
+	desc = QJ_langobardia.4.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_langobardia.4.a
+		add_political_power = -20
+	}
+}
+
+country_event = { #Vinland - Offer to purchase Borikaen
+	id = QJ_langobardia.5
+	title = QJ_langobardia.5.t
+	desc = QJ_langobardia.5.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_langobardia.5.a
+		add_offsite_building = { type = industrial_complex level = 2 }
+		CUB = {
+			transfer_state = 686
+			add_state_core = 686
+			country_event = QJ_langobardia.6
+		}
+		hidden_effect = {
+			BAH = {
+				add_state_core = 686
+			}
+		}
+	}
+	option = {
+		name = QJ_langobardia.5.b
+		CUB = {
+			country_event = QJ_langobardia.7
+		}
+	}
+}
+
+country_event = { #Langobardia - We got Borikaen
+	id = QJ_langobardia.6
+	title = QJ_langobardia.6.t
+	desc = QJ_langobardia.6.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_langobardia.6.a
+		add_political_power = 20
+	}
+}
+
+country_event = { #Langobardia - We don't got Borikaen
+	id = QJ_langobardia.7
+	title = QJ_langobardia.7.t
+	desc = QJ_langobardia.7.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_langobardia.7.a
+		add_political_power = -20
+	}
+}
+
+country_event = { #ULFL Revolt
+	id = QJ_langobardia.8
+	title = QJ_langobardia.8.t
+	desc = QJ_langobardia.8.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			BAH = {
+				transfer_state = 690
+				transfer_state = 693
+				add_ideas = QJ_Karibic_Slave_Revolt
+			}
+		}
+	}
+	
+	option = {
+		name = QJ_langobardia.8.a
+		BAH = {
+			declare_war_on = {
+				target = CUB
+				type = annex_everything
+			}
 		}
 	}
 }

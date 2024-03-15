@@ -69,3 +69,6 @@ set_popularities = {
 	indigeneum = 0
 	suprarealisme = 0
 }
+
+add_ideas = COL_The_Great_Jacobin_Crusade
+add_ideas = COL_United_Front

@@ -140,6 +140,8 @@ set_popularities = {
 set_convoys = 100
 set_stability = 0.75
 
+add_ideas = CAN_Treaty_of_Murabaegh
+
 ### VARIANTS ###
 # 1936 Start #
 if = {

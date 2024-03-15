@@ -375,6 +375,10 @@ BLZ = {
 	color = rgb { 4 144 178 }
 	color_ui = rgb { 4 144 178 }
 }
+BAH = {
+	color = rgb { 150 150 0 }
+	color_ui = rgb { 150 150 0 }
+}
 YUN = {
 	color = rgb { 217 140 201 }
 	color_ui = rgb { 217 140 201 }

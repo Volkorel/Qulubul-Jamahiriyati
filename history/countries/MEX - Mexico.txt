@@ -75,6 +75,9 @@ set_popularities = {
 	suprarealisme = 0
 }
 
+add_ideas = MEX_Rampant_Corruption
+add_ideas = MEX_Legacy_of_the_Penglai_War
+
 ### VARIANTS ###
 # 1936 Start #
 if = {

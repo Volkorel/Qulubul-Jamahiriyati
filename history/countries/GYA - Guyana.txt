@@ -26,3 +26,5 @@ set_popularities = {
 	indigeneum = 0
 	suprarealisme = 0
 }
+
+add_ideas = GYA_Prosperity_in_New_Zion

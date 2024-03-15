@@ -4,4 +4,116 @@ spriteTypes = {
 		name = "GFX_idea_outbreak"
 		texturefile = "gfx/interface/ideas/QJ_outbreak.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_anti_revolutionary_army"
+		texturefile = "gfx/interface/ideas/idea_anti_revolutionary_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aristocratic_cooperation"
+		texturefile = "gfx/interface/ideas/idea_aristocratic_cooperation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aristocratic_dominance"
+		texturefile = "gfx/interface/ideas/idea_aristocratic_dominance.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_free_mans_craftsmanship"
+		texturefile = "gfx/interface/ideas/idea_free_mans_craftsmanship.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_free_mans_prowess"
+		texturefile = "gfx/interface/ideas/idea_free_mans_prowess.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_insel_von_eppstein"
+		texturefile = "gfx/interface/ideas/idea_insel_von_eppstein.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_islands_of_slaves"
+		texturefile = "gfx/interface/ideas/idea_islands_of_slaves.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_made_in_langobardia"
+		texturefile = "gfx/interface/ideas/idea_made_in_langobardia.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_new_landsknecht"
+		texturefile = "gfx/interface/ideas/idea_new_landsknecht.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_new_varangians"
+		texturefile = "gfx/interface/ideas/idea_new_varangians.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_state_monopolies"
+		texturefile = "gfx/interface/ideas/idea_state_monopolies.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ulfl"
+		texturefile = "gfx/interface/ideas/idea_ulfl.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_woes_of_free_labor"
+		texturefile = "gfx/interface/ideas/idea_woes_of_free_labor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_armagnacee_resurgente"
+		texturefile = "gfx/interface/ideas/idea_armagnacee_resurgente.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_brankemor"
+		texturefile = "gfx/interface/ideas/idea_brankemor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_great_jacobin_crusade"
+		texturefile = "gfx/interface/ideas/idea_great_jacobin_crusade.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_legacy_of_the_penglai_war"
+		texturefile = "gfx/interface/ideas/idea_legacy_of_the_penglai_war.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mountain_insurgencies"
+		texturefile = "gfx/interface/ideas/idea_mountain_insurgencies.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_never_another_master"
+		texturefile = "gfx/interface/ideas/idea_never_another_master.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_no_call_in_allies"
+		texturefile = "gfx/interface/ideas/idea_no_call_in_allies.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_prosperity_in_new_zion"
+		texturefile = "gfx/interface/ideas/idea_prosperity_in_new_zion.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rampant_corruption"
+		texturefile = "gfx/interface/ideas/idea_rampant_corruption.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_REMEMBER_THE_HILLIGE"
+		texturefile = "gfx/interface/ideas/idea_REMEMBER_THE_HILLIGE.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_sint_antonius_compromise"
+		texturefile = "gfx/interface/ideas/idea_sint_antonius_compromise.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slave_revolt"
+		texturefile = "gfx/interface/ideas/idea_slave_revolt.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_tightrope_diplomacy"
+		texturefile = "gfx/interface/ideas/idea_tightrope_diplomacy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_treaty_of_murabaegh"
+		texturefile = "gfx/interface/ideas/idea_treaty_of_murabaegh.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_united_front"
+		texturefile = "gfx/interface/ideas/idea_united_front.dds"
+	}
 }

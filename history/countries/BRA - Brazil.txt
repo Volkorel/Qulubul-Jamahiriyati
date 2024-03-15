@@ -90,6 +90,17 @@ set_popularities = {
 	suprarealisme = 0
 }
 
+add_ideas = BRA_Treaty_of_Murabaegh
+CAN = {
+	add_opinion_modifier = {
+		target = ROOT
+		modifier = QJ_Treaty_of_Murabaegh_Opinion
+	}
+	reverse_add_opinion_modifier = {
+		target = ROOT
+		modifier = QJ_Treaty_of_Murabaegh_Opinion 
+	}
+}
 
 set_convoys = 40
 

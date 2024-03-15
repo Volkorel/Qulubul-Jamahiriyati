@@ -65,6 +65,8 @@ set_popularities = {
 	suprarealisme = 0
 }
 
+add_ideas = ARG_Tightrope_Diplomacy
+
 ### VARIANTS ###
 # 1936 Start #
 if = {

@@ -29,3 +29,5 @@ set_popularities = {
 	indigeneum = 10
 	suprarealisme = 0
 }
+
+add_ideas = PAN_Instability_in_the_Union

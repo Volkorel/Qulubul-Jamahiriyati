@@ -233,6 +233,25 @@ characters={
 			id=-1
 		}
 	}
+	#ULFL
+	BAH_Hildwin_Schwarzmann={
+		name="Hildwin Schwarzmann"
+		portraits={
+			civilian={
+				large="GFX_Portrait_BAH_Hildwin_Schwarzmann"
+			}
+		}
+		country_leader={
+			ideology=communism_national_liberationism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=jacobinism_abolitionism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 	#UPCE
 	PAN_Bohekio_Guamason={
 		name="Bohekío Guamáson"

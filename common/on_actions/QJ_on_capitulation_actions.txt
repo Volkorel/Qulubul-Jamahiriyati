@@ -44,6 +44,9 @@ on_actions = {
 							suprarealisme = 0
 						}
 						white_peace = BLZ
+						remove_ideas = MEX_Rampant_Corruption
+						remove_ideas = MEX_Legacy_of_the_Penglai_War
+						add_ideas = MEX_Armagnacee_Resurgent
 						if = {
 							limit = {
 								OR = {
@@ -80,6 +83,9 @@ on_actions = {
 							suprarealisme = 0
 						}
 						white_peace = BLZ
+						remove_ideas = MEX_Rampant_Corruption
+						remove_ideas = MEX_Legacy_of_the_Penglai_War
+						add_ideas = MEX_Armagnacee_Resurgent
 					}
 					annex_country = {
 						target = FROM
@@ -198,6 +204,15 @@ on_actions = {
 						id = QJ_brankou.4
 						days = 60
 					}
+					every_state = {
+						limit = {
+							is_core_of = ARG
+						}
+						add_state_core = PRU
+					}
+					remove_ideas = PRU_Mountain_Insurgencies
+					remove_ideas = PRU_Dreams_of_Brankemor
+					add_ideas = PRU_Brankemor_United
 				}
 			}
 			else_if = {

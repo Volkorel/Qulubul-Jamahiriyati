@@ -2,7 +2,7 @@ ideas = {
 	country = {
 		QJ_no_call_in_allies_idea = {
 			allowed = { always = no }
-			#picture = 
+			picture = no_call_in_allies
 			removal_cost = -1
 
 			modifier = {
@@ -12,34 +12,34 @@ ideas = {
 		}
 		QJ_payments_to_svitjod_idea = {
 			allowed = { always = no }
-			#picture = 
+			picture = NOR_printing_money
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_factor = 0.15
 			}
 		}
 		QJ_svitjod_gvaejana_money_idea = {
 			allowed = { always = no }
-			#picture = 
+			picture = NOR_printing_money
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.1
 			}
 		}
 		QJ_svitjod_gvaejana_loadsamoney_idea = {
 			allowed = { always = no }
-			#picture = 
+			picture = NOR_printing_money
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.15
+				consumer_goods_factor = -0.2
 			}
 		}
 		QJ_sheni_nahra_isolationism = {
 			allowed = { always = no }
-			#picture = 
+			picture = isolation
 			removal_cost = -1
 
 			modifier = {
@@ -49,7 +49,7 @@ ideas = {
 		### LANGOBARD IDEAS ###
 		QJ_CUB_Islands_of_Slaves = {
 			allowed = { always = no }
-			#picture = 
+			picture = islands_of_slaves
 			removal_cost = -1
 
 			modifier = {
@@ -61,7 +61,7 @@ ideas = {
 		}
 		QJ_CUB_Islands_of_Slaves_Teatment = {
 			allowed = { always = no }
-			#picture = 
+			picture = islands_of_slaves
 			removal_cost = -1
 
 			modifier = {
@@ -73,7 +73,7 @@ ideas = {
 		}
 		QJ_CUB_Islands_of_Slaves_Oversight = {
 			allowed = { always = no }
-			#picture = 
+			picture = islands_of_slaves
 			removal_cost = -1
 
 			modifier = {
@@ -85,7 +85,7 @@ ideas = {
 		}
 		QJ_CUB_The_Woes_of_Free_Labor = {
 			allowed = { always = no }
-			#picture = 
+			picture = woes_of_free_labor
 			removal_cost = -1
 
 			modifier = {
@@ -95,7 +95,7 @@ ideas = {
 		}
 		QJ_CUB_A_Free_Mans_Craftsmanship = {
 			allowed = { always = no }
-			#picture = 
+			picture = free_mans_craftsmanship
 			removal_cost = -1
 
 			modifier = {
@@ -105,7 +105,7 @@ ideas = {
 		}
 		QJ_CUB_A_Free_Mans_Prowess = {
 			allowed = { always = no }
-			#picture = 
+			picture = free_mans_prowess
 			removal_cost = -1
 
 			modifier = {
@@ -118,7 +118,7 @@ ideas = {
 		}
 		QJ_CUB_The_ULFL = {
 			allowed = { always = no }
-			#picture = 
+			picture = ulfl
 			removal_cost = -1
 
 			modifier = {
@@ -128,7 +128,7 @@ ideas = {
 		}
 		QJ_CUB_Aristocratic_Dominance = {
 			allowed = { always = no }
-			#picture = 
+			picture = aristocratic_dominance
 			removal_cost = -1
 
 			modifier = {
@@ -138,7 +138,7 @@ ideas = {
 		}
 		QJ_CUB_State_Monopolies = {
 			allowed = { always = no }
-			#picture = 
+			picture = state_monopolies
 			removal_cost = -1
 
 			modifier = {
@@ -147,7 +147,7 @@ ideas = {
 		}
 		QJ_CUB_Aristocratic_Cooperation = {
 			allowed = { always = no }
-			#picture = 
+			picture = aristocratic_cooperation
 			removal_cost = -1
 
 			modifier = {
@@ -164,7 +164,7 @@ ideas = {
 		}
 		QJ_CUB_Made_in_Langobardia = {
 			allowed = { always = no }
-			#picture = 
+			picture = made_in_langobardia
 			removal_cost = -1
 
 			modifier = {
@@ -176,7 +176,7 @@ ideas = {
 		}
 		QJ_CUB_Insel_von_Eppstein = {
 			allowed = { always = no }
-			#picture = 
+			picture = insel_von_eppstein
 			removal_cost = -1
 
 			modifier = {
@@ -188,7 +188,7 @@ ideas = {
 		}
 		QJ_CUB_The_New_Varangians = {
 			allowed = { always = no }
-			#picture = 
+			picture = new_varangians
 			removal_cost = -1
 
 			modifier = {
@@ -200,7 +200,7 @@ ideas = {
 		}
 		QJ_CUB_The_New_Landsknecht = {
 			allowed = { always = no }
-			#picture = 
+			picture = new_landsknecht
 			removal_cost = -1
 
 			modifier = {
@@ -212,7 +212,7 @@ ideas = {
 		}
 		QJ_CUB_The_Anti_Revolutionary_Army_1 = {
 			allowed = { always = no }
-			#picture = 
+			picture = anti_revolutionary_army
 			removal_cost = -1
 
 			modifier = {
@@ -224,7 +224,7 @@ ideas = {
 		}
 		QJ_CUB_The_Anti_Revolutionary_Army_2 = {
 			allowed = { always = no }
-			#picture = 
+			picture = anti_revolutionary_army
 			removal_cost = -1
 
 			modifier = {
@@ -239,7 +239,7 @@ ideas = {
 		}
 		QJ_CUB_The_Anti_Revolutionary_Army_3 = {
 			allowed = { always = no }
-			#picture = 
+			picture = anti_revolutionary_army
 			removal_cost = -1
 
 			modifier = {
@@ -254,6 +254,230 @@ ideas = {
 			targeted_modifier = { tag = SOV attack_bonus_against = 0.25 }
 			targeted_modifier = { tag = FRA attack_bonus_against = 0.25 }
 			targeted_modifier = { tag = GER attack_bonus_against = 0.25 }
+		}
+		### CALIFOCASAN IDEAS ###
+		BRA_Treaty_of_Murabaegh = {
+			allowed = { always = no }
+			picture = treaty_of_murabaegh
+			removal_cost = -1
+			
+			on_remove = {
+				CAN = {
+					remove_opinion_modifier = {
+						target = ROOT
+						modifier = QJ_Treaty_of_Murabaegh_Opinion
+					}
+					ROOT = {
+						remove_opinion_modifier = {
+							target = PREV
+							modifier = QJ_Treaty_of_Murabaegh_Opinion 
+						}
+					}
+					remove_ideas = CAN_Treaty_of_Murabaegh
+				}
+			}
+			modifier = {
+				convoy_raiding_efficiency_factor = 0.25
+				custom_modifier_tooltip = BRA_Treaty_of_Murabaegh_tt
+			}
+		}
+		### VINLANDIC IDEAS ###
+		CAN_Treaty_of_Murabaegh = {
+			allowed = { always = no }
+			picture = treaty_of_murabaegh
+			removal_cost = -1
+			
+			on_remove = {
+				BRA = {
+					remove_opinion_modifier = {
+						target = ROOT
+						modifier = QJ_Treaty_of_Murabaegh_Opinion
+					}
+					ROOT = {
+						remove_opinion_modifier = {
+							target = PREV
+							modifier = QJ_Treaty_of_Murabaegh_Opinion 
+						}
+					}
+					remove_ideas = BRA_Treaty_of_Murabaegh
+				}
+			}
+			modifier = {
+				convoy_raiding_efficiency_factor = 0.25
+				custom_modifier_tooltip = CAN_Treaty_of_Murabaegh_tt
+			}
+		}
+		### TAYSHAN IDEAS ###
+		BLZ_REMEMBER_THE_HILLIGE = {
+			allowed = { always = no }
+			picture = REMEMBER_THE_HILLIGE
+			removal_cost = -1
+
+			modifier = {
+				army_core_attack_factor = 0.3
+				army_core_defence_factor = 0.3
+				army_morale_factor = 0.5
+				war_support_factor = 0.5
+			}
+		}
+		BLZ_The_Sint_Antonius_Compromise = {
+			allowed = { always = no }
+			picture = sint_antonius_compromise
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.1
+				stability_factor = 0.3
+				war_support_factor = -0.3
+			}
+		}
+		# Armagnacée
+		MEX_Rampant_Corruption = {
+			allowed = { always = no }
+			picture = rampant_corruption
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.1
+				stability_factor = -0.1
+				consumer_goods_factor = 0.2
+			}
+		}
+		MEX_Legacy_of_the_Penglai_War = {
+			allowed = { always = no }
+			picture = legacy_of_the_penglai_war
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = -0.25
+				ai_focus_aggressive_factor = -0.5
+			}
+		}
+		MEX_Armagnacee_Resurgent = {
+			allowed = { always = no }
+			picture = armagnacee_resurgente
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = 0.2
+				war_support_factor = 0.1
+				ai_focus_aggressive_factor = 1
+			}
+		}
+		# UPCE
+		PAN_Instability_in_the_Union = {
+			allowed = { always = no }
+			picture = ulfl
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.2
+				army_core_defence_factor = -0.1
+			}
+		}
+		# Opstandich
+		COL_The_Great_Jacobin_Crusade = {
+			allowed = { always = no }
+			picture = great_jacobin_crusade
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.03
+				war_support_factor = 0.2
+				army_morale_factor = 0.3
+				ai_focus_aggressive_factor = 0.5
+			}
+		}
+		COL_United_Front = {
+			allowed = { always = no }
+			picture = united_front
+			removal_cost = -1
+
+			modifier = {
+				communism_acceptance = 100
+				jacobinism_acceptance = 100
+				opinion_gain_monthly_same_ideology_factor = 0.3
+			}
+		}
+		# Julesia
+		SUR_Never_Another_Master = {
+			allowed = { always = no }
+			picture = never_another_master
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+				army_core_defence_factor = 0.3
+			}
+		}
+		# Sheni Nahra
+		GYA_Prosperity_in_New_Zion = {
+			allowed = { always = no }
+			picture = prosperity_in_new_zion
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = 0.3
+			}
+		}
+		# Brankou
+		PRU_Mountain_Insurgencies = {
+			allowed = { always = no }
+			picture = mountain_insurgencies
+			removal_cost = -1
+
+			modifier = {
+				attrition = 0.3
+				army_core_defence_factor = -0.1
+			}
+		}
+		PRU_Dreams_of_Brankemor = {
+			allowed = { always = no }
+			picture = brankemor
+			removal_cost = -1
+
+			modifier = {
+				army_morale_factor = 0.3
+				army_speed_factor = 0.3
+				ai_focus_aggressive_factor = 0.25
+			}
+		}
+		PRU_Brankemor_United = {
+			allowed = { always = no }
+			picture = brankemor
+			removal_cost = -1
+
+			modifier = {
+				army_morale_factor = 0.3
+				political_power_gain = 0.1
+			}
+		}
+		# Aremorica
+		ARG_Tightrope_Diplomacy = {
+			allowed = { always = no }
+			picture = tightrope_diplomacy
+			removal_cost = -1
+
+			modifier = {
+				socialism_acceptance = 100
+				liberalism_acceptance = 100
+				conservatism_acceptance = 100
+				jacobinism_acceptance = 100
+				opinion_gain_monthly_factor = 0.3
+			}
+		}
+		# Slave Revolts
+		QJ_Karibic_Slave_Revolt = {
+			allowed = { always = no }
+			picture = slave_revolt"
+			removal_cost = -1
+
+			modifier = {
+				army_core_defence_factor = 0.2
+				army_core_defence_factor = 0.2
+				cas_damage_reduction = 0.5
+			}
 		}
 	}
 }

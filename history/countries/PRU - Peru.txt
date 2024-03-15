@@ -55,11 +55,7 @@ set_popularities = {
 	suprarealisme = 0
 }
 
-1939.1.1 = {
-	recruit_character = PRU_manuel_prado_ugarteche
-	promote_character = PRU_manuel_prado_ugarteche
-	retire_character = PRU_Óscar_benavides
-}
+add_ideas = PRU_Mountain_Insurgencies
 
 
 ### VARIANTS ###
