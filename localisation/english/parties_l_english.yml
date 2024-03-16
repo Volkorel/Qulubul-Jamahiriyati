@@ -103,6 +103,7 @@
  duemarism_anotatis_subtype:0 "Anotatis School of Thought"
  duemarism_buonapartism_subtype:0 "Buonapartism"
  duemarism_foldlaegh_movement_subtype:0 "Foldlægh Movement"
+ duemarism_karibic_imperial_liberation_subtype:0 "Karibic Imperial Liberation"
  
  suprarealisme_apocalypticism_subtype:0 "Challengers of Babylon"
  suprarealisme_erliks_disciples_subtype:0 "Erlik's Disciples"
@@ -176,6 +177,7 @@
  duemarism_anotatis_subtype_desc:0 ""
  duemarism_buonapartism_subtype_desc:0 ""
  duemarism_foldlaegh_movement_subtype_desc:0 ""
+ duemarism_karibic_imperial_liberation_subtype_desc:0 ""
  
  suprarealisme_apocalypticism_subtype_desc:0 ""
  suprarealisme_erliks_disciples_subtype_desc:0 ""

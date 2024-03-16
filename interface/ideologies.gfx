@@ -269,6 +269,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/duemarism_foldlaegh_movement_subtype.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_duemarism_karibic_imperial_liberation_subtype"
+		texturefile = "gfx/interface/ideologies/duemarism_karibic_imperial_liberation_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_suprarealisme_subtype"
 		texturefile = "gfx/interface/ideologies/suprarealisme_subtype.dds"
 	}

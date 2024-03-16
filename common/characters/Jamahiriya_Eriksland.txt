@@ -242,12 +242,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=communism_national_liberationism_subtype
-			expire="1965.1.1.1"
-			id=-1
-		}
-		country_leader={
-			ideology=jacobinism_abolitionism_subtype
+			ideology=duemarism_karibic_imperial_liberation_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}

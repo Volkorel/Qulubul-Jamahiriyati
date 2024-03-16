@@ -114,6 +114,7 @@ ideologies = {
 			duemarism_anotatis_subtype = { can_be_randomly_selected = no }
 			duemarism_buonapartism_subtype = { can_be_randomly_selected = no }
 			duemarism_foldlaegh_movement_subtype = { can_be_randomly_selected = no }
+			duemarism_karibic_imperial_liberation_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 0 133 66 }

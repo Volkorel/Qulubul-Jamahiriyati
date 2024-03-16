@@ -12,18 +12,18 @@ set_convoys = 5
 recruit_character = BAH_Hildwin_Schwarzmann
 
 set_politics = {
-	ruling_party = jacobinism
+	ruling_party = duemarism
 	last_election = "1902.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	communism = 45
-	socialism = 10
+	communism = 15
+	socialism = 5
 	liberalism = 0
 	conservatism = 0
-	jacobinism = 45
-	duemarism = 0
+	jacobinism = 20
+	duemarism = 60
 	indigeneum = 0
 	suprarealisme = 0
 }

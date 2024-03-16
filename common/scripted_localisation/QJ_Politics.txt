@@ -316,6 +316,10 @@ defined_text = {
 		localization_key = duemarism_foldlaegh_movement_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = duemarism_karibic_imperial_liberation_subtype }
+		localization_key = duemarism_karibic_imperial_liberation_subtype
+	}
+	text = {
 		localization_key = duemarism
 	}
 }

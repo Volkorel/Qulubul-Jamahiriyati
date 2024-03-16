@@ -397,6 +397,8 @@
  BAH:0 "Free Karibic Republic"
  BAH_DEF:0 "the Free Karibic Republic"
  BAH_ADJ:0 "Karibic"
+ BAH_duemarism:0 "Free Karibic Empire"
+ BAH_duemarism_DEF:0 "the Free Karibic Empire"
  COS:0 "Skógarland"
  COS_DEF:0 "the Free Territory of Skógarland"
  COS_ADJ:0 "Skógarlandic"
