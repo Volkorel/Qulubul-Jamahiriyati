@@ -8,17 +8,17 @@ state={
 
 	history={
 		victory_points = {
-			8066 1
+			5075 1
 		}
-		owner = PAK
-		add_core_of = PAK
+		owner = PER
+		add_core_of = PER
 		buildings = {
 			infrastructure = 1
 		}
 	}
 
 	provinces={
-		1179 5043 5075 7917 8013 8066 12761 12774 
+		5043 5075 7917 12761 12774 
 	}
 
 	local_supplies=0.0 

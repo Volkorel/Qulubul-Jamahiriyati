@@ -10,6 +10,9 @@ state={
 		victory_points = {
 			5105 1
 		}
+		victory_points = {
+			5064 1 
+		}
 		owner = PAK
 		add_core_of = PAK
 		buildings = {
@@ -19,7 +22,7 @@ state={
 	}
 
 	provinces={
-		1107 4990 5105 7847 7903 7975 8044 8098 10813 
+		1107 4990 5105 7847 7903 7975 8044 8098 10813 8013 8066 1179 5020 5064 8090 
 	}
 
 	local_supplies=0.0 

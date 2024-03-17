@@ -1,0 +1,24 @@
+state={
+	id=1035
+	name="STATE_1035"
+	provinces={
+		9975
+	}
+	history={
+		owner = PAK
+		buildings = {
+			infrastructure = 3
+			9975 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = PAK
+		victory_points = {
+			9975 1 
+		}
+	}
+	manpower=4087800
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

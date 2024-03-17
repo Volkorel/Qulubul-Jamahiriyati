@@ -10,7 +10,7 @@ state={
 		tungsten=3 # was: 3
 	}
 	history={
-		owner = TAJ
+		owner = AFG
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
@@ -22,12 +22,11 @@ state={
 		victory_points = {
 			12248 1
 		}
-		add_core_of = TAJ
 		add_core_of = AFG
 	}
 
 	provinces={
-		5082 7448 7519 7584 7916 7984 10476 10737 10781 10826 10852 10896 12248 12314 12653 12769 12831 12877 
+		5082 7448 7519 7584 7916 7984 10476 10737 10781 10826 10852 10896 12248 12314 12653 12769 12831 12877 8053 12788 2017 2078 10789 1995 
 	}
 
 	local_supplies=0.0 
