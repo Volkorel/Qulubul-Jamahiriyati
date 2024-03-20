@@ -1,0 +1,18 @@
+state={
+	id=1043
+	name="STATE_1043"
+	provinces={
+		1934 4996 12789 
+	}
+	history={
+		owner = NEP
+		add_core_of = NEP
+		add_core_of = XSM
+		add_core_of = BAN
+		add_core_of = YUN
+	}
+	manpower=5676218
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

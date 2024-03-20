@@ -1,0 +1,16 @@
+state={
+	id=1047
+	name="STATE_1047"
+	provinces={
+		1082 8063 10386 12335 12464 12492 
+	}
+	history={
+		owner = BAN
+		add_core_of = BAN
+		add_core_of = YUN
+	}
+	manpower=6585955
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

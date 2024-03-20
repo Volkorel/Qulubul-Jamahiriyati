@@ -1,0 +1,16 @@
+state={
+	id=1049
+	name="STATE_1049"
+	provinces={
+		4175 4210 5009 7400 7647 7909 7974 7976 10413 12317 
+	}
+	history={
+		owner = YUN
+		add_core_of = XSM
+		add_core_of = YUN
+	}
+	manpower=1270157
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

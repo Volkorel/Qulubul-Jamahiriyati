@@ -1,0 +1,16 @@
+state={
+	id=1054
+	name="STATE_1054"
+	provinces={
+		1403 4408 12125 12238 
+	}
+	history={
+		owner = SIA
+		add_core_of = SIA
+		add_core_of = BAN
+	}
+	manpower=48100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

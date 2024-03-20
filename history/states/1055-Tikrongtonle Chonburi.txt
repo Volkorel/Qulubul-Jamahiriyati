@@ -1,0 +1,16 @@
+state={
+	id=1055
+	name="STATE_1055"
+	provinces={
+		1244 4433 7225 7292 7408 10250 10293 12224 
+	}
+	history={
+		owner = CAM
+		add_core_of = CAM
+		add_core_of = SIA
+	}
+	manpower=4800100
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

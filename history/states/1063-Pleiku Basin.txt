@@ -1,0 +1,16 @@
+state={
+	id=1063
+	name="STATE_1063"
+	provinces={
+		1248 4255 7229 10137 10180 
+	}
+	history={
+		owner = LAO
+		add_core_of = LAO
+		add_core_of = VIN
+	}
+	manpower=2597900
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

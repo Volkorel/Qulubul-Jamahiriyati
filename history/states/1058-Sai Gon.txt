@@ -1,0 +1,16 @@
+state={
+	id=1058
+	name="STATE_1058"
+	provinces={
+		4401 
+	}
+	history={
+		owner = CAM
+		add_core_of = LAO
+		add_core_of = VIN
+	}
+	manpower=7500555
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

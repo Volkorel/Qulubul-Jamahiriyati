@@ -1,0 +1,19 @@
+state={
+	id=1045
+	name="STATE_1045"
+	state_category = wasteland
+	resources={
+		tungsten=50
+	}
+	provinces={
+		1525 1553 4318 7455 10349 
+	}
+	history={
+		owner = BAN
+		add_core_of = BAN
+		#add_core_of Kingdom of Ahom
+	}
+	manpower=2670550
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

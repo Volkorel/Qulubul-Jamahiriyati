@@ -1,0 +1,15 @@
+state={
+	id=1060
+	name="STATE_1060"
+	provinces={
+		1620 4330 7376 7645 10204 12260 
+	}
+	history={
+		owner = CAM
+		add_core_of = CAM
+	}
+	manpower=6570900
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
