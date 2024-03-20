@@ -577,8 +577,8 @@ ANG = {
 }
 
 COG = {
-	color = rgb { 152 159 209 }
-	color_ui = rgb { 152 159 209 }
+	color = rgb { 153 108 124 }
+	color_ui = rgb { 153 108 124 }
 }
 MZB = {
 	color = rgb { 138 148 206 }

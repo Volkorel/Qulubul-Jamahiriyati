@@ -4,7 +4,7 @@ state={
 	name="STATE_547"
 
 	history={
-		owner = ENG
+		owner = B17
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -13,12 +13,12 @@ state={
 		victory_points = {
 			1939 2 
 		}
-		add_core_of = KEN
+		add_core_of = B17
 
 	}
 
 	provinces={
-		1939 5079 10962 13135 
+		1939 10962 
 	}
 	manpower=1085440
 	buildings_max_level_factor=1.000

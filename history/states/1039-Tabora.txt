@@ -1,0 +1,21 @@
+state={
+	id=1039
+	name="STATE_1039"
+	provinces={
+		2176 5180 8144 
+	}
+	resources={
+		rubber=25.000
+	}
+	history={
+		owner = B14
+		add_core_of = B14
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=7875850
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

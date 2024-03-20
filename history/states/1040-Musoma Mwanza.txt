@@ -1,0 +1,25 @@
+
+state={
+	id=1040
+	name="STATE_1040"
+	provinces={
+		2308 10932 11017 
+	}
+	resources={
+		rubber=2.000
+	}
+	history={
+		owner = B15
+		victory_points = {
+			11017 1 
+		}
+		victory_points = {
+			10932 1 
+		}
+		add_core_of = B15
+	}
+	manpower=3599000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

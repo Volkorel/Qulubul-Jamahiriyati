@@ -3,21 +3,17 @@ state={
 	id=890
 	name="STATE_890"
 	resources={
-		rubber=3.000
+		rubber=8.000
 	}
-
 	history={
-		owner = BEL
+		owner = CAR
 		buildings = {
 			infrastructure = 1
-
 		}
-		add_core_of = COG
-
+		add_core_of = CAR
 	}
-
 	provinces={
-		1181 4201 4941 10766 12783 13176 
+		4941 10766 
 	}
 	manpower=710035
 	buildings_max_level_factor=1.000

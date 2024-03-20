@@ -1,0 +1,18 @@
+state={
+	id=1038
+	name="STATE_1038"
+	provinces={
+		4171 
+	}
+	resources={
+		rubber=2.000
+	}
+	history={
+		owner = B13
+		add_core_of = B13
+	}
+	manpower=1115520
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

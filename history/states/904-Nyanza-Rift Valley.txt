@@ -2,19 +2,15 @@
 state={
 	id=904
 	name="STATE_904"
-
 	history={
-		owner = ENG
+		owner = B17
 		buildings = {
 			infrastructure = 1
-
 		}
-		add_core_of = KEN
-
+		add_core_of = B17
 	}
-
 	provinces={
-		5160 10860 
+		5160 10860 12929 
 	}
 	manpower=678400
 	buildings_max_level_factor=1.000

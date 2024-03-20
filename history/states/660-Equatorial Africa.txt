@@ -7,18 +7,15 @@ state={
 	}
 
 	history={
-		owner = FRA
-		add_core_of = CAR
+		owner = COG
+		add_core_of = COG
 		victory_points = {
 			12830 1 
 		}
 		buildings = {
 			infrastructure = 1
-
 		}
-
 	}
-
 	provinces={
 		1883 1974 3165 5084 8078 11108 12719 12830 
 	}

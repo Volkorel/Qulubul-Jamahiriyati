@@ -1,15 +1,19 @@
+
 state={
 	id=1029
 	name="STATE_1029"
-	provinces={
-		2066 8062 13247 
-	}
+
 	history={
 		owner = B07
 		add_core_of = B07
+
+	}
+
+	provinces={
+		2066 5079 8062 13135 13247 
 	}
 	manpower=856800
-	state_category = rural
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
 }

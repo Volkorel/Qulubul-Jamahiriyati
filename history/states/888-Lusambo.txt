@@ -2,17 +2,13 @@
 state={
 	id=888
 	name="STATE_888"
-
 	history={
-		owner = BEL
+		owner = CAR
 		buildings = {
 			infrastructure = 1
-
 		}
-		add_core_of = COG
-
+		add_core_of = CAR
 	}
-
 	provinces={
 		1731 1929 2024 4128 7161 7716 8016 9986 10858 
 	}
