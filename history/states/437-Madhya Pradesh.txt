@@ -9,6 +9,7 @@ state={
 	history={
 		owner = PAK
 		add_core_of = PAK
+		add_core_of = A03
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

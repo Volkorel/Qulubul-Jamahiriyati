@@ -1,0 +1,30 @@
+﻿add_namespace = QJ_seljuks
+
+country_event = { #
+	id = QJ_seljuks.1
+	title = QJ_seljuks.1.t
+	desc = QJ_seljuks.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	option = {
+		name = QJ_seljuks.1.a
+		A01 = {
+			transfer_state = 1035
+			set_politics = {
+				ruling_party = liberalism
+			}
+			set_popularities = {
+				communism = 0
+				socialism = 0
+				liberalism = 100
+				conservatism = 0
+				jacobinism = 0
+				duemarism = 0
+				indigeneum = 0
+				suprarealisme = 0
+			}
+			set_cosmetic_tag = A01_YENICESME
+		}
+	}
+}

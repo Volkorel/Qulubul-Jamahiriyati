@@ -1018,3 +1018,23 @@ GRN = {
 	color = rgb { 255 80 80 }
 	color_ui = rgb { 179 0 0 }
 }
+A01 = { #Gujarat
+	color = rgb { 100 120 20 }
+	color_ui = rgb { 100 120 20 }
+}
+A02 = { #Ergenekon
+	color = rgb { 0 181 204 }
+	color_ui = rgb { 0 181 204 }
+}
+A03 = { #Hindustan
+	color = rgb { 230 170 40 }
+	color_ui = rgb { 230 170 40 }
+}
+A04 = { #Maratha
+	color = rgb { 60 60 200 }
+	color_ui = rgb { 60 60 200 }
+}
+A05 = { #Tibet
+	color = rgb { 220 220 260 }
+	color_ui = rgb { 220 220 260 }
+}

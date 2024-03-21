@@ -1,24 +1,27 @@
 
 state = {
 	id = 850
-	name = "STATE_850" # Trentino
-	manpower = 370739 # South Tyrol state was 641650 before split (669k according to sources)
+	name = "STATE_850"
+	manpower = 2182000
 	
 	state_category = town
 
 	history = {
-		victory_points = { #Trento
-			9598 1
-		}
 		owner = BAY
 		buildings = {
 			infrastructure = 2 #was 3 before split
 		}
-		add_core_of = BAY
+		victory_points = { #Padova
+			3604 3 
+		}
+		victory_points = { #Verona
+			603 1
+		}
+		add_core_of = ITA
 	}
 
 	provinces = {
-		6631 9598 
+		603 628 3604 3657 6656 9613
 	}
 
 	local_supplies = 0.0 
