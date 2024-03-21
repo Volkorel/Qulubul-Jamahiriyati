@@ -1,0 +1,28 @@
+state={
+	id=1074
+	name="STATE_1074"
+	provinces={
+		6873 6994 9859 
+	}
+	resources={
+		steel=27.000
+	}
+	history={
+		owner = TAY
+		add_core_of = TAY
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2
+			fuel_silo = 1
+			infrastructure = 2
+			air_base = 6
+		}
+		victory_points = {
+			6994 5 
+		}
+	}
+	manpower=1575000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=9.000
+}

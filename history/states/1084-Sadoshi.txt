@@ -1,0 +1,22 @@
+state={
+	id=1084
+	name="STATE_1084"
+	provinces={
+		9952 
+	}
+	history={
+		owner = YAM
+		add_core_of = YAM
+		buildings = {
+			infrastructure =  2
+			dockyard = 2
+			9952 = {
+				naval_base = 3
+			}
+		}
+	}
+	manpower=1933000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=1070
+	name="STATE_1070"
+
+	history={
+		owner = GXC
+		add_core_of = GXC
+		victory_points = {
+			12076 1 
+		}
+		buildings = {
+			infrastructure = 2
+			12076 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		7014 12076 
+	}
+	manpower=3557805
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=1.000
+}

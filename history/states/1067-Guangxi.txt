@@ -1,0 +1,26 @@
+state={
+	id=1067
+	name="STATE_1067"
+	provinces={
+		1131 4023 4121 7039 7044 10004 10105 11926 11983 12023 
+	}
+	resources={
+		tungsten=8.000
+		steel=15.000
+		chromium=3.000
+	}
+
+	history={
+		owner = XSM
+		add_core_of = XSM
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
+		}
+	}
+	manpower=7835200
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=1.000
+}

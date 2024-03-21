@@ -1,0 +1,22 @@
+state={
+	id=1086
+	name="STATE_1086"
+	provinces={
+		11989 
+	}
+	history={
+		owner = YAM
+		add_core_of = YAM
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
+			fuel_silo = 1
+
+		}
+	}
+	manpower=1254000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

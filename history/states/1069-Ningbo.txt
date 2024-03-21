@@ -1,0 +1,23 @@
+state={
+	id=1069
+	name="STATE_1069"
+	provinces={
+		9974 
+	}
+	manpower = 157805
+	state_category = enclave
+	history={
+		owner = GXC
+		add_core_of = GXC
+		victory_points = {
+			9974 1 
+		}
+		buildings = {
+			infrastructure = 2
+			9974 = {
+				naval_base = 1
+			}
+		}
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,22 @@
+state={
+	id=1075
+	name="STATE_1075"
+	provinces={
+		1165 6870 9807 11847 12056 
+	}
+	history={
+		owner = TAY
+		add_core_of = TAY
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2
+			fuel_silo = 1
+			infrastructure = 2
+			air_base = 2
+		}
+	}
+	manpower=1575000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=9.000
+}

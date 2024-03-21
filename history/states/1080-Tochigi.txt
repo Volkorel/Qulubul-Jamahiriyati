@@ -1,0 +1,24 @@
+state={
+	id=1080
+	name="STATE_1080"
+	provinces={
+		993 1113 
+	}
+	resources={
+		aluminium=1.000
+	}
+	history={
+		owner = YAM
+		add_core_of = YAM
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	manpower=2700000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

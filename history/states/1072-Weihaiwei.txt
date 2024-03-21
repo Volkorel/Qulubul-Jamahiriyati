@@ -1,0 +1,24 @@
+state={
+	id=1072
+	name="STATE_1072"
+	provinces={
+		4205 
+	}
+	history={
+		owner = GXC
+		add_core_of = GXC
+		victory_points = {
+			4205 1 
+		}
+		buildings = {
+			infrastructure = 2
+			4205 = {
+				naval_base = 2
+			}
+		}
+	}
+	manpower=1057805
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=1.000
+}
