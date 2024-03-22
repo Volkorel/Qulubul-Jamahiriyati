@@ -30,6 +30,14 @@ on_actions = {
 								has_government = communism
 							}
 						}
+						set_nationality = {
+							target_country = MEX
+							character = MEX_Mathys_Lestrange
+						}
+						promote_character = {
+							character = MEX_Mathys_Lestrange
+							ideology = communism_spartacism_subtype
+						}
 						set_politics = {
 							ruling_party = communism
 						}
@@ -68,6 +76,14 @@ on_actions = {
 							FROM = {
 								has_government = jacobinism
 							}
+						}
+						set_nationality = {
+							target_country = MEX
+							character = MEX_Mateo_Robin
+						}
+						promote_character = {
+							character = MEX_Mateo_Robin
+							ideology = jacobinism_left_jacobinism_subtype
 						}
 						set_politics = {
 							ruling_party = jacobinism
@@ -109,6 +125,14 @@ on_actions = {
 								has_government = communism
 							}
 						}
+						set_nationality = {
+							target_country = PRU
+							character = PRU_Briac_Savidan
+						}
+						promote_character = {
+							character = PRU_Briac_Savidan
+							ideology = communism_vanguard_socialism_subtype
+						}
 						set_politics = {
 							ruling_party = communism
 						}
@@ -132,6 +156,14 @@ on_actions = {
 							FROM = {
 								has_government = jacobinism
 							}
+						}
+						set_nationality = {
+							target_country = PRU
+							character = PRU_Armel_Rault
+						}
+						promote_character = {
+							character = PRU_Armel_Rault
+							ideology = jacobinism_national_jacobinism_subtype
 						}
 						set_politics = {
 							ruling_party = jacobinism
@@ -342,6 +374,31 @@ on_actions = {
 				}
 				A05 = {
 					white_peace = PAK
+				}
+			}
+			else_if = {
+				limit = {
+					FROM = {
+						OR = {
+							AND = {
+								is_dynamic_country = yes
+								has_government = duemarism
+							}
+							original_tag = ITA
+						}
+					}
+					ROOT = {
+						OR = {
+							AND = {
+								is_dynamic_country = yes
+								has_government = duemarism
+							}
+							original_tag = ITA
+						}
+					}
+				}
+				ITA = {
+					country_event = QJ_italian_federation.2
 				}
 			}
 		}

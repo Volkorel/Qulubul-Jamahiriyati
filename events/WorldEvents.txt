@@ -48,3 +48,25 @@ news_event = { #Arslan Insurrection - Foreigners expelled
 		name = jam_world.4.a
 	}
 }
+
+news_event = { #Civil War in the Italian Federation
+	id = jam_world.5
+	title = jam_world.5.t
+	desc = jam_world.5.d
+	picture = GFX_news_event_italian_civil_war
+	is_triggered_only = yes
+	option = {
+		name = jam_world.5.a
+	}
+}
+
+news_event = { #Italian Federation Reconciliation
+	id = jam_world.6
+	title = jam_world.6.t
+	desc = jam_world.6.d
+	picture = GFX_news_event_italian_reconciliation
+	is_triggered_only = yes
+	option = {
+		name = jam_world.6.a
+	}
+}

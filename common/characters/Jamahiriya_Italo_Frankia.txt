@@ -1,0 +1,94 @@
+characters={
+	#ITALIAN FEDERATION
+	ITA_Emmanuel_Luigi_Aonzo={
+		name="Emmanuel Luigi Aonzo"
+		portraits={
+			civilian={
+				large="GFX_Portrait_ITA_Emmanuel_Luigi_Aonzo"
+			}
+		}
+		country_leader={
+			ideology=conservatism_military_junta_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ITA_Ferruccio_Cesario={
+		name="Ferruccio Cesario"
+		portraits={
+			civilian={
+				large="GFX_Portrait_ITA_Ferruccio_Cesario"
+			}
+		}
+		country_leader={
+			ideology=duemarism_siqqiliyyan_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	#SIQILIYYA
+	TTS_Umr_ibn_Tawwalad={
+		name="Umr ibn Tawwalad"
+		portraits={
+			civilian={
+				large="GFX_Portrait_TTS_Umr_ibn_Tawwalad"
+			}
+		}
+		country_leader={
+			ideology=liberalism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	TTS_Ibrahim_Yousouf_ibn_Mukhtar={
+		name="Ibrahim Yousouf ibn Mukhtar"
+		portraits={
+			civilian={
+				large="GFX_Portrait_TTS_Ibrahim_Yousouf_ibn_Mukhtar"
+			}
+		}
+		country_leader={
+			ideology=duemarism_siqqiliyyan_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	#SAVOY
+	SPM_Eutalia_II={
+		name="Eutalia II"
+		portraits={
+			civilian={
+				large="GFX_Portrait_SPM_Eutalia_II"
+			}
+		}
+		country_leader={
+			ideology=socialism_social_democracy_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=liberalism_progressive_liberalism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=conservatism_national_conservatism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	#MILANO
+	LBV_Vittorio_II={
+		name="Vittorio II"
+		portraits={
+			civilian={
+				large="GFX_Portrait_LBV_Vittorio_II"
+			}
+		}
+		country_leader={
+			ideology=conservatism_ultramonarchism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -113,7 +113,6 @@ country_event = { #PTA uprising
 			states = {
 				474 475 313 314 312
 			}
-			keep_all_characters = yes
 		}
 	}
 }
@@ -135,7 +134,6 @@ country_event = { #PRR and Tayshan uprising
 			states = {
 				478 481 482
 			}
-			keep_all_characters = yes
 		}
 		BLZ = {
 			transfer_state = 375
@@ -1262,7 +1260,6 @@ country_event = { #Civil War
 			states = {
 				490 491 494 492
 			}
-			keep_all_characters = yes
 		}
 	}
 	option = {
@@ -1274,7 +1271,6 @@ country_event = { #Civil War
 			states = {
 				490 491 494 492
 			}
-			keep_all_characters = yes
 		}
 	}
 }

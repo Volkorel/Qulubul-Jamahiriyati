@@ -31,4 +31,17 @@ spriteTypes = {
 		name = "GFX_news_event_seljuk_victory"
 		texturefile = "gfx/event_pictures/news_event/news_event_seljuk_victory.dds"
 	}
+	##############
+	### EUROPE ###
+	##############
+	#    Italy   #
+	##############
+	spriteType = {
+		name = "GFX_news_event_italian_civil_war"
+		texturefile = "gfx/event_pictures/news_event/news_event_italian_civil_war.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_italian_reconciliation"
+		texturefile = "gfx/event_pictures/news_event/news_event_italian_reconciliation.dds"
+	}
 }

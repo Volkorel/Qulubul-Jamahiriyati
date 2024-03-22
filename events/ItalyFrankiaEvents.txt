@@ -1,0 +1,125 @@
+﻿#############################
+### AUT CESARIO AUT NIHIL ###
+###  HIC ABUNDANT LEONES  ###
+###    HIC SUNT LEONES    ###
+###    ALEA IACTA EST!    ###
+#############################
+
+add_namespace = QJ_siqiliyya
+
+country_event = { #Duemarist coup d'etat
+	id = QJ_siqiliyya.1
+	title = QJ_siqiliyya.1.t
+	desc = QJ_siqiliyya.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_siqiliyya.1.a
+		set_politics = {
+			ruling_party = duemarism
+		}
+		set_popularities = {
+			communism = 0
+			socialism = 0
+			liberalism = 17
+			conservatism = 0
+			jacobinism = 0
+			duemarism = 83
+			indigeneum = 0
+			suprarealisme = 0
+		}
+	}
+}
+
+add_namespace = QJ_italian_federation
+
+country_event = { #Civil War
+	id = QJ_italian_federation.1
+	title = QJ_italian_federation.1.t
+	desc = QJ_italian_federation.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_italian_federation.1.a
+		start_civil_war = {
+			ideology = duemarism
+			size = 0.5
+			capital = 117
+			states = {
+				117 849 160
+			}
+			TTS = {
+				add_to_war = {
+					targeted_alliance = PREV
+					enemy = ITA
+					hostility_reason = asked_to_join
+				}
+			}
+		}
+		country_event = {
+			id = QJ_italian_federation.2
+			days = 35
+		}
+		hidden_effect = {
+			every_country = {
+				news_event = jam_world.5
+			}
+		}
+	}
+}
+
+country_event = { #Reconciliation
+	id = QJ_italian_federation.2
+	title = QJ_italian_federation.2.t
+	desc = QJ_italian_federation.2.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_italian_federation.2.a
+		every_country = {
+			limit = {
+				has_war_with = ITA
+				is_dynamic_country = yes
+			}
+			ITA = {
+				annex_country = {
+					target = PREV
+					transfer_troops = yes
+				}
+			}
+		}
+		white_peace = TTS
+		set_nationality = {
+			target_country = ITA
+			character = ITA_Ferruccio_Cesario
+		}
+		promote_character = {
+			character = ITA_Ferruccio_Cesario
+			ideology = duemarism_siqqiliyyan_subtype
+		}
+		set_politics = {
+			ruling_party = duemarism
+		}
+		set_popularities = {
+			communism = 0
+			socialism = 0
+			liberalism = 0
+			conservatism = 30
+			jacobinism = 0
+			duemarism = 70
+			indigeneum = 0
+			suprarealisme = 0
+		}
+		hidden_effect = {
+			every_country = {
+				news_event = jam_world.6
+			}
+		}
+	}
+}

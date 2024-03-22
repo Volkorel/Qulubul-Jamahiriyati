@@ -145,6 +145,18 @@ on_actions = {
 					days = 1920
 				}
 			}
+			ITA = {
+				country_event = {
+					id = QJ_italian_federation.1
+					days = 216
+				}
+			}
+			TTS = {
+				country_event = {
+					id = QJ_siqiliyya.1
+					days = 101
+				}
+			}
 		}
 	}
 }
