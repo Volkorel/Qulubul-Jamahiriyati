@@ -64,6 +64,7 @@
  liberalism_laeeradr_liberalism_subtype:0 "Laeradr Liberalism"
  liberalism_prometheanism_subtype:0 "Prometheanism"
  liberalism_meinwerkist_modernism_subtype:0 "Meinwerkist Modernism"
+ liberalism_tengri_revivalism_subtype:0 "Tengri Revivalism"
  
  conservatism_integralism_subtype:0 "Integralism"
  conservatism_ultramonarchism_subtype:0 "Ultra-Monarchism"
@@ -86,6 +87,7 @@
  jacobinism_left_jacobinism_subtype:0 "Left-Jacobinism"
  jacobinism_national_jacobinism_subtype:0 "National Jacobinism"
  jacobinism_siegfredism_subtype:0 "Siegfredism"
+ jacobinism_enlightened_jacobinism_subtype:0 "Enlightened Jacobinism"
  
  duemarism_wahhabism_subtype:0 "Wahhabism"
  duemarism_barakzaism_subtype:0 "Barakzaism"
@@ -138,6 +140,7 @@
  liberalism_laeeradr_liberalism_subtype_desc:0 ""
  liberalism_prometheanism_subtype_desc:0 ""
  liberalism_meinwerkist_modernism_subtype_desc:0 ""
+ liberalism_tengri_revivalism_subtype_desc:0 ""
  
  conservatism_integralism_subtype_desc:0 ""
  conservatism_ultramonarchism_subtype_desc:0 ""
@@ -160,6 +163,7 @@
  jacobinism_left_jacobinism_subtype_desc:0 ""
  jacobinism_national_jacobinism_subtype_desc:0 ""
  jacobinism_siegfredism_subtype_desc:0 ""
+ jacobinism_enlightened_jacobinism_subtype_desc:0 ""
  
  duemarism_wahhabism_subtype_desc:0 ""
  duemarism_barakzaism_subtype_desc:0 ""

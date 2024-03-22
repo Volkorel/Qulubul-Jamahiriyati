@@ -151,6 +151,10 @@ defined_text = {
 		localization_key = liberalism_meinwerkist_modernism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = liberalism_tengri_revivalism_subtype }
+		localization_key = liberalism_tengri_revivalism_subtype
+	}
+	text = {
 		localization_key = liberalism
 	}
 }
@@ -243,6 +247,10 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = jacobinism_siegfredism_subtype }
 		localization_key = jacobinism_siegfredism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = jacobinism_enlightened_jacobinism_subtype }
+		localization_key = jacobinism_enlightened_jacobinism_subtype
 	}
 	text = {
 		localization_key = jacobinism

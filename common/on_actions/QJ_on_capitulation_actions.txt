@@ -208,7 +208,9 @@ on_actions = {
 						limit = {
 							is_core_of = ARG
 						}
-						add_state_core = PRU
+						PRU = {
+							add_state_core = PREV
+						}
 					}
 					remove_ideas = PRU_Mountain_Insurgencies
 					remove_ideas = PRU_Dreams_of_Brankemor
@@ -231,6 +233,115 @@ on_actions = {
 						id = QJ_aremorica.2
 						days = 60
 					}
+				}
+			}
+			else_if = { #Seljuk victory in the Arslan Insurrection
+				limit = {
+					FROM = {
+						original_tag = PAK
+					}
+					ROOT = {
+						original_tag = A01
+					}
+				}
+				PAK = {
+					set_global_flag = QJ_Arslan_Insurrection_Over
+					A01 = {
+						drop_cosmetic_tag = yes
+						retire_country_leader = yes
+					}
+					annex_country = {
+						target = A01
+						transfer_troops = no
+					}
+					hidden_effect = {
+						every_country = {
+							news_event = jam_world.4
+						}
+					}
+				}
+			}
+			else_if = { #Seljuk defeat in the Arslan Insurrection
+				limit = {
+					FROM = {
+						original_tag = A01
+					}
+					ROOT = {
+						original_tag = PAK
+					}
+				}
+				PAK = {
+					set_global_flag = QJ_Arslan_Insurrection_Over
+					A01 = {
+						drop_cosmetic_tag = yes
+						retire_country_leader = yes
+					}
+					annex_country = {
+						target = A01
+						transfer_troops = no
+					}
+					add_stability = -0.5
+					country_event = {
+						id = QJ_seljuks.5
+						days = 910
+					}
+					hidden_effect = {
+						every_country = {
+							news_event = jam_world.3
+						}
+					}
+				}
+			}
+			else_if = { #Turks defeated by Indian revolt
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = A03
+							original_tag = A04
+						}
+					}
+					ROOT = {
+						OR = {
+							original_tag = PAK
+							original_tag = A02
+						}
+					}
+				}
+				if = {
+					limit = {
+						country_exists = PAK
+					}
+					PAK = {
+						country_event = QJ_seljuks.7
+					}
+				}
+				else = {
+					A02 = {
+						country_event = QJ_seljuks.7
+					}
+				}
+			}
+			else_if = { #Turks defeated by Second wave of revolts
+				limit = {
+					FROM = {
+						has_global_flag = QJ_Arslan_Insurrection_Over
+						OR = {
+							original_tag = A01
+							original_tag = A05
+						}
+					}
+					ROOT = {
+						OR = {
+							original_tag = A02
+							original_tag = PAK
+						}
+					}
+				}
+				A01 = {
+					white_peace = PAK
+				}
+				A05 = {
+					white_peace = PAK
 				}
 			}
 		}

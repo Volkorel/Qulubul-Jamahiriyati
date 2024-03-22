@@ -9,6 +9,8 @@ set_technology = {
 	infantry_weapons = 1
 }
 
+recruit_character = A03_Ajay_Khatri
+
 set_politics = {
 	ruling_party = jacobinism
 	last_election = "1905.1.1"

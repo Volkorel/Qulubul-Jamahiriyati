@@ -13,5 +13,8 @@ opinion_modifiers = {
 	QJ_Treaty_of_Murabaegh_Opinion = {
 		value = 30
 	}
+	QJ_Legation_Garrison_Opinion = {
+		value = 100
+	}
 
 }

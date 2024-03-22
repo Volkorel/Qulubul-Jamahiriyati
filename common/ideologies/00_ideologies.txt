@@ -16,6 +16,15 @@ ideologies = {
 		}
 		dynamic_faction_names = {}
 		color = { 165 0 0 }
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+		}
 		ai_neutral = yes
 		can_be_boosted = no
 	}
@@ -33,6 +42,15 @@ ideologies = {
 		}
 		dynamic_faction_names = {}
 		color = { 204 0 74 }
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+		}
 		ai_neutral = yes
 		can_be_boosted = no
 	}
@@ -48,9 +66,19 @@ ideologies = {
 			liberalism_laeeradr_liberalism_subtype = { can_be_randomly_selected = no }
 			liberalism_prometheanism_subtype = { can_be_randomly_selected = no }
 			liberalism_meinwerkist_modernism_subtype = { can_be_randomly_selected = no }
+			liberalism_tengri_revivalism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 0 184 216 }
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+		}
 		ai_neutral = yes
 		can_be_boosted = no
 	}
@@ -75,6 +103,15 @@ ideologies = {
 		}
 		dynamic_faction_names = {}
 		color = { 55 86 137 }
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+		}
 		ai_neutral = yes
 		can_be_boosted = no
 	}
@@ -88,9 +125,19 @@ ideologies = {
 			jacobinism_left_jacobinism_subtype = { can_be_randomly_selected = no }
 			jacobinism_national_jacobinism_subtype = { can_be_randomly_selected = no }
 			jacobinism_siegfredism_subtype = { can_be_randomly_selected = no }
+			jacobinism_enlightened_jacobinism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 216 216 0 }
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+		}
 		ai_neutral = yes
 		can_be_boosted = no
 	}
@@ -118,6 +165,15 @@ ideologies = {
 		}
 		dynamic_faction_names = {}
 		color = { 0 133 66 }
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+		}
 		ai_neutral = yes
 		can_be_boosted = no
 	}
@@ -127,6 +183,15 @@ ideologies = {
 		}
 		dynamic_faction_names = {}
 		color = { 190 190 190 }
+		rules = {
+			can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = yes
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = no
+			can_guarantee_other_ideologies = no
+		}
 		ai_neutral = yes
 		can_be_boosted = no
 	}
@@ -142,6 +207,15 @@ ideologies = {
 		}
 		dynamic_faction_names = {}
 		color = { 25 25 25 }
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+		}
 		ai_neutral = yes
 		can_be_boosted = no
 	}

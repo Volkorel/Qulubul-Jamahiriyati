@@ -12,6 +12,39 @@ news_event = { #Cordoban Duemarists forcefully take power after ousting the soci
 	picture = GFX_news_event_bayonets_waved
 	is_triggered_only = yes
 	option = {
-		name = jam_world.99.a
+		name = jam_world.1.a
+	}
+}
+
+news_event = { #Arslan Insurrection
+	id = jam_world.2
+	title = jam_world.2.t
+	desc = jam_world.2.d
+	picture = GFX_news_event_insurrection
+	is_triggered_only = yes
+	option = {
+		name = jam_world.2.a
+	}
+}
+
+news_event = { #Arslan Insurrection - Seljuks sign treaty
+	id = jam_world.3
+	title = jam_world.3.t
+	desc = jam_world.3.d
+	picture = GFX_news_event_seljuk_defeat
+	is_triggered_only = yes
+	option = {
+		name = jam_world.3.a
+	}
+}
+
+news_event = { #Arslan Insurrection - Foreigners expelled
+	id = jam_world.4
+	title = jam_world.4.t
+	desc = jam_world.4.d
+	picture = GFX_news_event_seljuk_victory
+	is_triggered_only = yes
+	option = {
+		name = jam_world.4.a
 	}
 }

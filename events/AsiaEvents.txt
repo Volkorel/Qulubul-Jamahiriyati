@@ -1,6 +1,6 @@
 ﻿add_namespace = QJ_seljuks
 
-country_event = { #
+country_event = { #Arslan insurrection begins
 	id = QJ_seljuks.1
 	title = QJ_seljuks.1.t
 	desc = QJ_seljuks.1.d
@@ -9,6 +9,62 @@ country_event = { #
 	is_triggered_only = yes
 	option = {
 		name = QJ_seljuks.1.a
+		every_country = {
+			limit = {
+				OR = {
+					original_tag = CAN
+					original_tag = FRA
+					original_tag = ENG
+					original_tag = GRE
+					original_tag = BAY
+					original_tag = SAF
+					original_tag = SOV
+					original_tag = GUM
+				}
+			}
+			country_event = {
+				id = QJ_seljuks.2
+				days = 2
+			}
+		}
+		country_event = {
+			id = QJ_seljuks.3
+			days = 7
+		}
+		hidden_effect = {
+			every_country = {
+				news_event = jam_world.2
+			}
+		}
+	}
+}
+
+country_event = { #Foreign response event
+	id = QJ_seljuks.2
+	title = QJ_seljuks.2.t
+	desc = QJ_seljuks.2.d
+	#picture = 
+	
+	is_triggered_only = yes
+	option = { #Bombom bombom bombombom
+		name = QJ_seljuks.2.a
+		
+	}
+	option = { #Cringe
+		name = QJ_seljuks.2.b
+		
+	}
+}
+
+country_event = { #Diplomatic quarter besieged
+	id = QJ_seljuks.3
+	title = QJ_seljuks.3.t
+	desc = QJ_seljuks.3.d
+	#picture = 
+	
+	is_triggered_only = yes
+	option = {
+		name = QJ_seljuks.3.a
 		A01 = {
 			transfer_state = 1035
 			set_politics = {
@@ -25,6 +81,310 @@ country_event = { #
 				suprarealisme = 0
 			}
 			set_cosmetic_tag = A01_YENICESME
+			add_timed_idea = {
+				idea = QJ_Legation_Garrison
+				days = 15
+			}
+			every_country = {
+				limit = {
+					OR = {
+						original_tag = CAN
+						original_tag = FRA
+						original_tag = ENG
+						original_tag = GRE
+						original_tag = BAY
+						original_tag = SAF
+						original_tag = SOV
+						original_tag = GUM
+					}
+				}
+				add_opinion_modifier = {
+					target = A01
+					modifier = QJ_Legation_Garrison_Opinion
+				}
+				reverse_add_opinion_modifier = {
+					target = A01
+					modifier = QJ_Legation_Garrison_Opinion
+				}
+			}
+		}
+		declare_war_on = {
+			target = A01
+			type = annex_everything
+		}
+		country_event = {
+			id = QJ_seljuks.4
+			days = 70
+		}
+	}
+}
+
+country_event = { #Arslan Insurrection ends
+	id = QJ_seljuks.4
+	title = QJ_seljuks.4.t
+	desc = QJ_seljuks.4.d
+	#picture = 
+	
+	is_triggered_only = yes
+	option = { #
+		name = QJ_seljuks.4.a
+		if = {
+			limit = {
+				NOT = {
+					has_global_flag = QJ_Arslan_Insurrection_Over
+				}
+			}
+			set_global_flag = QJ_Arslan_Insurrection_Over
+			A01 = {
+				drop_cosmetic_tag = yes
+				retire_country_leader = yes
+			}
+			annex_country = {
+				target = A01
+				transfer_troops = no
+			}
+			add_stability = -0.5
+			country_event = {
+				id = QJ_seljuks.5
+				days = 910
+			}
+			hidden_effect = {
+				every_country = {
+					news_event = jam_world.3
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Sultan assassinated
+	id = QJ_seljuks.5
+	title = QJ_seljuks.5.t
+	desc = QJ_seljuks.5.d
+	#picture = 
+	
+	is_triggered_only = yes
+	option = { #Keykubat's coup fails
+		name = QJ_seljuks.5.a
+		kill_country_leader = yes
+		promote_character = {
+			character = PAK_Fahrettin_III
+			ideology = conservatism_shia_traditionalism_subtype
+		}
+		set_politics = {
+			ruling_party = conservatism
+		}
+		set_popularities = {
+			communism = 0
+			socialism = 5
+			liberalism = 20
+			conservatism = 55
+			jacobinism = 20
+			duemarism = 0
+			indigeneum = 0
+			suprarealisme = 0
+		}
+		country_event = {
+			id = QJ_seljuks.6
+			days = 370
+		}
+	}
+	option = { #Keykubat's coup succeeds
+		name = QJ_seljuks.5.b
+		kill_country_leader = yes
+		promote_character = {
+			character = PAK_Fahrettin_III
+			ideology = conservatism_shia_traditionalism_subtype
+		}
+		set_politics = {
+			ruling_party = liberalism
+		}
+		set_popularities = {
+			communism = 0
+			socialism = 15
+			liberalism = 45
+			conservatism = 20
+			jacobinism = 20
+			duemarism = 0
+			indigeneum = 0
+			suprarealisme = 0
+		}
+		country_event = {
+			id = QJ_seljuks.8
+			days = 30
+		}
+	}
+}
+
+country_event = { #Huge Hindu revolt against Sultan's Islamization attempt
+	id = QJ_seljuks.6
+	title = QJ_seljuks.6.t
+	desc = QJ_seljuks.6.d
+	#picture = 
+	
+	is_triggered_only = yes
+	option = { #
+		name = QJ_seljuks.6.a
+		A03 = {
+			transfer_state = 435
+			declare_war_on = {
+				target = PAK
+				type = independence_wargoal
+			}
+		}
+		A04 = {
+			transfer_state = 429
+			declare_war_on = {
+				target = PAK
+				type = independence_wargoal
+			}
+		}
+		country_event = {
+			id = QJ_seljuks.7
+			days = 150
+		}
+	}
+}
+
+country_event = { #Gujarat and Guge revolt if the war is still ongoing
+	id = QJ_seljuks.7
+	title = QJ_seljuks.7.t
+	desc = QJ_seljuks.7.d
+	#picture = 
+	
+	is_triggered_only = yes
+	option = { #
+		name = QJ_seljuks.7.a
+		if = {
+			limit = {
+				has_war = yes
+			}
+			A03 = {
+				white_peace = PAK
+				if = {
+					limit = {
+						country_exists = A02
+					}
+					white_peace = A02
+				}
+				transfer_state = 435
+				transfer_state = 438
+				transfer_state = 437
+			}
+			A04 = {
+				white_peace = PAK
+				if = {
+					limit = {
+						country_exists = A02
+					}
+					white_peace = A02
+				}
+				transfer_state = 429
+				transfer_state = 436
+			}
+			A01 = {
+				set_politics = {
+					ruling_party = conservatism
+				}
+				set_popularities = {
+					communism = 0
+					socialism = 0
+					liberalism = 0
+					conservatism = 100
+					jacobinism = 0
+					duemarism = 0
+					indigeneum = 0
+					suprarealisme = 0
+				}
+				transfer_state = 1035
+				transfer_state = 428
+				declare_war_on = {
+					target = PAK
+					type = independence_wargoal
+				}
+				if = {
+					limit = {
+						country_exists = A02
+					}
+					declare_war_on = {
+						target = A02
+						type = independence_wargoal
+					}
+				}
+			}
+			A05 = {
+				transfer_state = 758
+				transfer_state = 441
+				transfer_state = 787
+				declare_war_on = {
+					target = PAK
+					type = independence_wargoal
+				}
+				if = {
+					limit = {
+						country_exists = A02
+					}
+					declare_war_on = {
+						target = A02
+						type = independence_wargoal
+					}
+				}
+			}
+			PAK = {
+				set_politics = {
+					ruling_party = jacobinism
+				}
+				set_popularities = {
+					communism = 0
+					socialism = 20
+					liberalism = 0
+					conservatism = 0
+					jacobinism = 80
+					duemarism = 0
+					indigeneum = 0
+					suprarealisme = 0
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Alptigin begins civil war
+	id = QJ_seljuks.8
+	title = QJ_seljuks.8.t
+	desc = QJ_seljuks.8.d
+	#picture = 
+	
+	is_triggered_only = yes
+	option = { #
+		name = QJ_seljuks.8.a
+		A02 = {
+			transfer_state = 445
+			transfer_state = 443
+			transfer_state = 442
+			declare_war_on = {
+				target = PAK
+				type = civil_war
+			}
+		}
+		every_state = {
+			limit = {
+				is_core_of = PAK
+			}
+			A02 = {
+				add_state_core = PREV
+			}
+		}
+		A03 = {
+			transfer_state = 435
+			declare_war_on = {
+				target = PAK
+				type = independence_wargoal
+			}
+			declare_war_on = {
+				target = A02
+				type = independence_wargoal
+			}
 		}
 	}
 }

@@ -1,15 +1,5 @@
 ﻿l_english:
- QJ_apocalypse.1.t:0 "Nationwide Smallpox Outbreak!"
- QJ_apocalypse.1.d:0 ""
- QJ_apocalypse.1.a:0 "Oh shit"
- 
- QJ_apocalypse.2.t:0 "Smallpox Spreads from [FROM.GetName]!"
- QJ_apocalypse.2.d:0 ""
- QJ_apocalypse.2.a:0 "We may have done too much gaming"
- 
- QJ_apocalypse.3.t:0 "Pandemic Hits Our Nation!"
- QJ_apocalypse.3.d:0 ""
- QJ_apocalypse.3.a:0 "It's joever"
+ ### WORLD EVENTS ###
  
  QJ_apocalypse.99.t:0 "Global Pandemic!"
  QJ_apocalypse.99.d:0 "me sowing: haha, fuck yeah!"
@@ -23,7 +13,33 @@
  
  jam_world.1.t:0 "Bayonets Waved!"
  jam_world.1.d:0 "In the heart of Cordoba, under a canopy of darkness punctuated only by the transient glow of musket fire echoing in the night, a hush fell over the cityscape. Amidst this chaos, the esteemed banner of the Republic of Cordoba was solemnly brought down, making way for the emerging banner of the Andalusian populace. This new symbol, set against a backdrop as white as milk, was adorned with inscriptions in a rich brown hue that sang praises to unity amongst our Arab brethren.\n\nThe mastermind believed to be behind this seismic shift, Major-General Ismail ibn Hashim, stepped forth as the messenger of this new dawn. With words measured yet laden with an uncanny power, he announced that this upheaval was none other than the physical manifestation of the collective will and passion of our Andalusian kin. He argued that such a move was necessitated by our current reality—a bold stance to counter threats from both Carlist and Spanish monarchist factions. In his oration, Major-General Ismail ibn Hashim emphasized that securing Andalusia's safety and sovereignty was paramount amidst these turbulent political seas.\n\n"
- jam_world.99.a:0 "Shimmering between hillocks."
+ jam_world.1.a:0 "Shimmering between hillocks."
+ 
+ jam_world.2.t:0 "Insurrection in the Seljuk Sultanate!"
+ jam_world.2.d:0 ""
+ jam_world.2.a:0 "And do not consider the ignorant ones as real men, nor the untalented ones as knowledgeable."
+ 
+ jam_world.3.t:0 "Seljuks Sign Treaty with the Eight Nations!"
+ jam_world.3.d:0 ""
+ jam_world.3.a:0 "And thus he spoke: \"alas! alas!\", thy drums are hushed, thy larums have rung truce."
+ 
+ jam_world.4.t:0 "Foreigners Expelled from the Seljuk Sultanate!"
+ jam_world.4.d:0 "In cities across the Seljuk Sultanate, the same scene plays out: foreigners, Christians, Jews, and pagans alike are driven out of their homes and slaughtered by the vengeful mob. Churches, homes, and legations are put to the torch. Shops are ransacked. Men and women are lured in by a bey's promise of safety, only to face beheading by his guards' swords. No protections in Islamic or secular law can save these people from the wrath of the spurned Turks, who have declared an end to their humiliation by the imperial powers. Many of the great powers' navies have been dispatched, attempting to evacuate their citizens and the other refugees, yet with limited time and capacity, thousands must be left to their fates on the shore.\n\nThe following day, the corpses are cleared from the streets. In the next few months, the destroyed districts will be rebuilt for Turkish residents and businesses. For years to come, the Sultanate will be closed off to outsiders - isolated, but stable. The Seljuks have taken control of their own destiny, paying the price in foreigners' blood.\n\n"
+ jam_world.4.a:0 "When the drums beat, hearts swell and desires rise!"
+ 
+ ### COUNTRY EVENTS ###
+ 
+ QJ_apocalypse.1.t:0 "Nationwide Smallpox Outbreak!"
+ QJ_apocalypse.1.d:0 ""
+ QJ_apocalypse.1.a:0 "Oh shit"
+ 
+ QJ_apocalypse.2.t:0 "Smallpox Spreads from [FROM.GetName]!"
+ QJ_apocalypse.2.d:0 ""
+ QJ_apocalypse.2.a:0 "We may have done too much gaming"
+ 
+ QJ_apocalypse.3.t:0 "Pandemic Hits Our Nation!"
+ QJ_apocalypse.3.d:0 ""
+ QJ_apocalypse.3.a:0 "It's joever"
  
  QJ_septinsular.3.t:0 "The Septinsular Republic Withdraws from the ADL"
  QJ_septinsular.3.d:0 "those bastards!"
@@ -124,3 +140,8 @@
  QJ_langobardia.8.t:0 ""
  QJ_langobardia.8.d:0 ""
  QJ_langobardia.8.a:0 ""
+ 
+ QJ_seljuks.2.t:0 ""
+ QJ_seljuks.2.d:0 ""
+ QJ_seljuks.2.a:0 ""
+ QJ_seljuks.2.b:0 ""

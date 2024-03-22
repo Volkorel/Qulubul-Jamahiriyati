@@ -23,11 +23,10 @@ if = {
 	}
 }
 
-if = {
-	limit = { has_dlc = "Together for Victory" }
-
-	add_to_tech_sharing_group = commonwealth_research
-}
+recruit_character = PAK_Keyhusrev_II
+recruit_character = PAK_Fahrettin_III
+recruit_character = PAK_Keykubat_VI
+recruit_character = PAK_Omer_Sahin_Pasha
 
 set_convoys = 20
 
@@ -38,5 +37,12 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	conservatism = 100
+	communism = 0
+	socialism = 5
+	liberalism = 30
+	conservatism = 45
+	jacobinism = 20
+	duemarism = 0
+	indigeneum = 0
+	suprarealisme = 0
 }

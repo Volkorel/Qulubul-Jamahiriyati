@@ -14,4 +14,21 @@ spriteTypes = {
 		name = "GFX_news_event_bayonets_waved"
 		texturefile = "gfx/event_pictures/news_event/news_event_bayonets_waved.dds"
 	}
+	############
+	### ASIA ###
+	############
+	#   India  #
+	############
+	spriteType = {
+		name = "GFX_news_event_insurrection"
+		texturefile = "gfx/event_pictures/news_event/news_event_insurrection.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_seljuk_defeat"
+		texturefile = "gfx/event_pictures/news_event/news_event_seljuk_defeat.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_seljuk_victory"
+		texturefile = "gfx/event_pictures/news_event/news_event_seljuk_victory.dds"
+	}
 }

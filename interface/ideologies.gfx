@@ -113,6 +113,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/liberalism_meinwerkist_modernism_subtype.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_liberalism_tengri_revivalism_subtype"
+		texturefile = "gfx/interface/ideologies/liberalism_tengri_revivalism_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_conservatism_subtype"
 		texturefile = "gfx/interface/ideologies/conservatism_subtype.dds"
 	}
@@ -199,6 +203,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_jacobinism_siegfredism_subtype"
 		texturefile = "gfx/interface/ideologies/jacobinism_siegfredism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_jacobinism_enlightened_jacobinism_subtype"
+		texturefile = "gfx/interface/ideologies/jacobinism_enlightened_jacobinism_subtype.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_duemarism_subtype"
