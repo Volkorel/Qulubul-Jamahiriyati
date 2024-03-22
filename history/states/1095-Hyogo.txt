@@ -1,0 +1,23 @@
+state={
+	id=1095
+	name="STATE_1095"
+	provinces={
+		9985 12031 
+	}
+	resources={
+		aluminium=3.000
+	}
+	history={
+		owner = KOM
+		add_core_of = KOM
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+	}
+	manpower=1254550
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=9.000
+}

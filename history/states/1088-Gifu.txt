@@ -1,0 +1,21 @@
+state={
+	id=1088
+	name="STATE_1088"
+	provinces={
+		4069 4172 7187 
+	}
+	history={
+		owner = OVO
+		add_core_of = OVO
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+	}
+	manpower=1174000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

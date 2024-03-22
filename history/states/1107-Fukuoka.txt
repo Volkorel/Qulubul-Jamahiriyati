@@ -1,0 +1,27 @@
+state={
+	id=1107
+	name="STATE_1107"
+	provinces={
+		1025 4164 
+	}
+	resources={
+		chromium=22.000
+	}
+	history={
+		owner = GUM
+		add_core_of = GUM
+		victory_points = {
+			1025 10 
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			arms_factory = 2
+			industrial_complex = 2
+		}
+	}
+	manpower=1489950
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=10.000
+}

@@ -1,0 +1,23 @@
+state={
+	id=1104
+	name="STATE_1104"
+	provinces={
+		4198 
+	}
+	history={
+		owner = GUM
+		add_core_of = GUM
+		buildings = {
+			infrastructure = 1
+			dockyard = 4
+			4198 = {
+				naval_base = 5
+
+			}
+		}
+	}
+	manpower=19000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=10.000
+}

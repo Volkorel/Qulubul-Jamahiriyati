@@ -1,0 +1,23 @@
+state={
+	id=1092
+	name="STATE_1092"
+	provinces={
+		1051 
+	}
+	resources={
+		aluminium=3.000
+	}
+	history={
+		owner = GUM
+		add_core_of = GUM
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+	}
+	manpower=1755000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=9.000
+}

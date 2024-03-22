@@ -1,0 +1,20 @@
+state={
+	id=1100
+	name="STATE_1100"
+	provinces={
+		1191 7050 
+	}
+	history={
+		owner = KOM
+		add_core_of = KOM
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	manpower=2341000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

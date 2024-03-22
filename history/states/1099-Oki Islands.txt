@@ -1,0 +1,15 @@
+state={
+	id=1099
+	name="STATE_1099"
+	provinces={
+		7145 
+	}
+	history={
+		owner = KOM
+		add_core_of = KOM
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
