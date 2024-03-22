@@ -188,6 +188,7 @@ country_event = { #Sultan assassinated
 			id = QJ_seljuks.6
 			days = 370
 		}
+		set_country_flag = QJ_In_Sphere_Triumvirate
 	}
 	option = { #Keykubat's coup succeeds
 		name = QJ_seljuks.5.b
@@ -311,6 +312,7 @@ country_event = { #Gujarat and Guge revolt if the war is still ongoing
 						type = independence_wargoal
 					}
 				}
+				set_country_flag = QJ_In_Sphere_Triumvirate
 			}
 			A05 = {
 				transfer_state = 758
@@ -344,6 +346,7 @@ country_event = { #Gujarat and Guge revolt if the war is still ongoing
 					indigeneum = 0
 					suprarealisme = 0
 				}
+				clr_country_flag = QJ_In_Sphere_Triumvirate
 			}
 		}
 	}
@@ -384,6 +387,31 @@ country_event = { #Alptigin begins civil war
 			declare_war_on = {
 				target = A02
 				type = independence_wargoal
+			}
+		}
+	}
+}
+
+country_event = { #Seljuks join Hormuz Coalition
+	id = QJ_seljuks.9
+	title = QJ_seljuks.9.t
+	desc = QJ_seljuks.9.d
+	#picture = 
+	
+	is_triggered_only = yes
+	option = { #
+		name = QJ_seljuks.9.a
+		if = {
+			limit = {
+				PAK_Fahrettin_III = {
+					is_country_leader = yes
+				}
+				SAU = {
+					is_faction_leader = yes
+				}
+			}
+			SAU = {
+				add_to_faction = PAK
 			}
 		}
 	}

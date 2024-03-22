@@ -135,6 +135,16 @@ on_actions = {
 			SAU = { set_country_flag = QJ_In_Sphere_Triumvirate }
 			PER = { set_country_flag = QJ_In_Sphere_Triumvirate }
 			BUK = { set_country_flag = QJ_In_Sphere_Triumvirate }
+			PAK = {
+				country_event = {
+					id = QJ_seljuks.1
+					days = 305
+				}
+				country_event = {
+					id = QJ_seljuks.9
+					days = 1920
+				}
+			}
 		}
 	}
 }
