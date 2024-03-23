@@ -2,7 +2,7 @@ state={
 	id=1022
 	name="STATE_1022"
 	provinces={
-		11145 13316 
+		11145 13299 
 	}
 	history={
 		owner = ERI

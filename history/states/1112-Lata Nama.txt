@@ -2,16 +2,13 @@ state={
 	id=1112
 	name="STATE_1112"
 	provinces={
-		7390 
-	}
-	resources={
-		chromium=90.000
+		1903 
 	}
 	history={
-		owner = AST
+		owner = CAN
 	}
-	manpower=51876
+	manpower=81876
 	buildings_max_level_factor=1.000
-	state_category=small_island
+	state_category=island
 	local_supplies=0.000
 }

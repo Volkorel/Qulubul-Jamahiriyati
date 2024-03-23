@@ -14,7 +14,7 @@ state={
 		add_core_of = CAN
 	}
 	manpower=62200
-	state_category = desert
+	state_category = wasteland
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
