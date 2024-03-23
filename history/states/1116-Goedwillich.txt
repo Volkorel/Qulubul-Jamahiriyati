@@ -1,0 +1,28 @@
+state={
+	id=1116
+	name="STATE_1116"
+	provinces={
+		10191 12162 
+	}
+	resources={
+		rubber=72.000
+	}
+	history={
+		owner = INS
+		#United of Sumbawaese Sultanates | USS
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			dockyard = 1
+			arms_factory = 1
+			industrial_complex = 1
+			10191 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=4141000
+	buildings_max_level_factor=5.000
+	state_category=town
+	local_supplies=0.000
+}

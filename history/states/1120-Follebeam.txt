@@ -1,0 +1,23 @@
+state={
+	id=1120
+	name="STATE_1120"
+	provinces={
+		7369 
+	}
+	history={
+		owner = INS
+		add_core_of = INS #Republic of Follebeam in case FEK dissolves | the island is primary Frisk thanks to colonial... 'stuff'
+		buildings = {
+			infrastructure = 2
+			7369 = {
+				naval_base = 2
+
+			}
+		}
+
+	}
+	manpower=9100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

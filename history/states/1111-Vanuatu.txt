@@ -1,40 +1,26 @@
-
 state={
-	id=635
-	name="STATE_635"
+	id=1111
+	name="STATE_1111"
+	provinces={
+		1237 4247 12120 
+	}
 	resources={
 		chromium=90.000
 	}
-
 	history={
-		owner = FRA
-		victory_points = {
-			4268 1 
-		}
+		owner = AST
 		victory_points = {
 			12120 1 
 		}
 		buildings = {
 			infrastructure = 2
-			4268 = {
-				naval_base = 1
-
-			}
 			1237 = {
 				naval_base = 1
-
 			}
 			4247 = {
 				naval_base = 1
-
 			}
-
 		}
-
-	}
-
-	provinces={
-		1263 4231 4268 7264 10160 12132 
 	}
 	manpower=51876
 	buildings_max_level_factor=1.000

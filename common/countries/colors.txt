@@ -216,8 +216,8 @@ ARG = {
 	color_ui = rgb { 132 133 154 }
 }
 AST = {
-	color = rgb { 57 143 97 }
-	color_ui = rgb { 74 186 126 }
+	color = rgb { 186 87 87 }
+	color_ui = rgb { 186 87 87 }
 }
 BHU = {
 	color = rgb { 124 33 0 }
@@ -543,8 +543,8 @@ LAO = {
 }
 
 INS = {
-	color = rgb { 40  50  120 }
-	color_ui = rgb { 40  50  120 }
+	color = rgb { 102 108 135 }
+	color_ui = rgb { 102 108 135 }
 }
 
 VIN = {

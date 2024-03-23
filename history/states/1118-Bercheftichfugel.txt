@@ -1,0 +1,23 @@
+state={
+	id=1118
+	name="STATE_1118"
+	provinces={
+		1574 10409 
+	}
+	history={
+		owner = INS
+		#add_core_of = Republic of Bercheftichfugel | Although this island has been the HQ for anti-FEK revolts, it's now mostly handled by communist abolitionists. 
+		buildings = {
+			infrastructure = 1
+			1574 = {
+				naval_base = 1
+
+			}
+		}
+
+	}
+	manpower=579100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

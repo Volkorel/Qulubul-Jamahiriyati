@@ -1,0 +1,26 @@
+state={
+	id=1117
+	name="STATE_1117"
+	provinces={
+		10219 
+	}
+	resources={
+		rubber=22.000
+	}
+	history={
+		owner = INS
+		#Wetar Sultanate
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+			industrial_complex = 1
+			10219 = {
+				naval_base = 2
+			}
+		}
+	}
+	manpower=6041000
+	buildings_max_level_factor=5.000
+	state_category=large_town
+	local_supplies=0.000
+}

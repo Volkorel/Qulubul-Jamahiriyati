@@ -1,0 +1,17 @@
+state={
+	id=1112
+	name="STATE_1112"
+	provinces={
+		7390 
+	}
+	resources={
+		chromium=90.000
+	}
+	history={
+		owner = AST
+	}
+	manpower=51876
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

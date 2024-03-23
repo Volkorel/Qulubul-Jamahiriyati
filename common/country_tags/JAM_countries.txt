@@ -131,6 +131,8 @@ A09 = "countries/A09.txt"
 A10 = "countries/A10.txt"
 #Australasia
 
+#I need lots of tags for Indonesian stuff, so please make around 15-ish unused tags :3 Or I can just tell you what tags I need with names >w<
+
 #North Eriksland
 CAN = "countries/Vinland.txt"
 HON = "countries/Atatoshi.txt"
