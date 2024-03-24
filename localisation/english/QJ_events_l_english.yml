@@ -35,6 +35,18 @@
  jam_world.6.d:0 ""
  jam_world.6.a:0 "Aut Cesario aut nihil!"
  
+ jam_world.7.t:0 "Savoyards Seize Frankish Border Territories!"
+ jam_world.7.d:0 ""
+ jam_world.7.a:0 "Together we will be reborn, on the morning of a better day..."
+ 
+ jam_world.8.t:0 "Franks Defeat Savoyard Incursion!"
+ jam_world.8.d:0 ""
+ jam_world.8.a:0 "Halte là! On ne passe pas!"
+ 
+ jam_world.9.t:0 "Frankia Declares War on Savoy!"
+ jam_world.9.d:0 ""
+ jam_world.9.a:0 "Come on, friend, let's weep together, waiting for a better future..."
+ 
  ### COUNTRY EVENTS ###
  
  QJ_apocalypse.1.t:0 "Nationwide Smallpox Outbreak!"
@@ -154,4 +166,32 @@
  QJ_seljuks.2.a:0 ""
  QJ_seljuks.2.b:0 ""
  
- QJ_COULD_BECOME_WORLD_WAR_LOL:0 "§RIf the Franks do not back down, we will be brought into a major war in Europe (just a week away).§!"
+ QJ_savoy.2.t:0 ""
+ QJ_savoy.2.d:0 ""
+ QJ_savoy.2.a:0 ""
+ QJ_savoy.2.b:0 ""
+ 
+ QJ_savoy.3.t:0 ""
+ QJ_savoy.3.d:0 ""
+ QJ_savoy.3.a:0 ""
+ QJ_savoy.3.b:0 ""
+ 
+ QJ_savoy.9.t:0 ""
+ QJ_savoy.9.d:0 ""
+ QJ_savoy.9.a:0 ""
+ QJ_savoy.9.b:0 ""
+ 
+ QJ_savoy.10.t:0 ""
+ QJ_savoy.10.d:0 ""
+ QJ_savoy.10.a:0 ""
+ QJ_savoy.10.b:0 ""
+ 
+ QJ_COULD_BECOME_WORLD_WAR_LOL:0 "§RUnless the Franks back down, we will be brought into a major war in Europe (just a week away).§!"
+ 
+ QJ_savoy.12.t:0 ""
+ QJ_savoy.12.d:0 ""
+ QJ_savoy.12.a:0 ""
+ 
+ QJ_savoy.13.t:0 ""
+ QJ_savoy.13.d:0 ""
+ QJ_savoy.13.a:0 ""

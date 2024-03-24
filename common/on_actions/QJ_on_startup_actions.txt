@@ -157,6 +157,12 @@ on_actions = {
 					days = 101
 				}
 			}
+			SPM = {
+				country_event = {
+					id = QJ_savoy.1
+					days = 497
+				}
+			}
 		}
 	}
 }

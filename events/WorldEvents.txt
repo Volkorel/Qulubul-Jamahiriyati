@@ -70,3 +70,36 @@ news_event = { #Italian Federation Reconciliation
 		name = jam_world.6.a
 	}
 }
+
+news_event = { #Savoyard victory in border clashes
+	id = jam_world.7
+	title = jam_world.7.t
+	desc = jam_world.7.d
+	picture = GFX_news_event_savoyard_victory
+	is_triggered_only = yes
+	option = {
+		name = jam_world.7.a
+	}
+}
+
+news_event = { #Frankish victory in border clashes
+	id = jam_world.8
+	title = jam_world.8.t
+	desc = jam_world.8.d
+	picture = GFX_news_event_frankish_victory
+	is_triggered_only = yes
+	option = {
+		name = jam_world.8.a
+	}
+}
+
+news_event = { #Frankia declares war on Savoy
+	id = jam_world.9
+	title = jam_world.9.t
+	desc = jam_world.9.d
+	picture = GFX_news_event_savoyard_frankish_war
+	is_triggered_only = yes
+	option = {
+		name = jam_world.9.a
+	}
+}

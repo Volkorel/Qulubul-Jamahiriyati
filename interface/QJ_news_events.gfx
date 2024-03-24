@@ -44,4 +44,16 @@ spriteTypes = {
 		name = "GFX_news_event_italian_reconciliation"
 		texturefile = "gfx/event_pictures/news_event/news_event_italian_reconciliation.dds"
 	}
+	spriteType = {
+		name = "GFX_news_event_savoyard_victory"
+		texturefile = "gfx/event_pictures/news_event/news_event_savoyard_victory.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_frankish_victory"
+		texturefile = "gfx/event_pictures/news_event/news_event_frankish_victory.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_savoyard_frankish_war"
+		texturefile = "gfx/event_pictures/news_event/news_event_savoyard_frankish_war.dds"
+	}
 }
