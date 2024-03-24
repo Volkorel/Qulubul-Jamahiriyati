@@ -281,6 +281,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/duemarism_karibic_imperial_liberation_subtype.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_indigeneum_subtype"
+		texturefile = "gfx/interface/ideologies/indigeneum_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_suprarealisme_subtype"
 		texturefile = "gfx/interface/ideologies/suprarealisme_subtype.dds"
 	}

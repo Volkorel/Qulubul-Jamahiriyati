@@ -472,7 +472,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "Title"
-				position = { x = 31 y = -9 }
+				position = { x = 31 y = 40 }
 				font = "hoi4_typewriter22"
 				borderSize = {x = 0 y = 0}
 				text = "Title text here!"
@@ -492,7 +492,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "midsection"
-			position = { x=0 y=121 }
+			position = { x=0 y=80 }
 			size = { width = 580 height = 385 }
 			Orientation = UPPER_LEFT
 

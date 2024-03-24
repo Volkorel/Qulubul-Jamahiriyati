@@ -61,6 +61,12 @@
  ARG_Tightrope_Diplomacy:0 "Tightrope Diplomacy"
  QJ_Karibic_Slave_Revolt:0 "Karibic Slave Revolt"
  QJ_Legation_Garrison:0 "Defence of the Legation Garrison"
+ QJ_Savoy_Crisis_Support_1:0 "Foreign Support in Crisis"
+ QJ_Savoy_Crisis_Support_2:0 "Foreign Support in Crisis"
+ QJ_Savoy_Crisis_Support_3:0 "Foreign Support in Crisis"
+ QJ_Frankia_Crisis_Support_1:0 "Foreign Support in Crisis"
+ QJ_Frankia_Crisis_Support_2:0 "Foreign Support in Crisis"
+ QJ_Frankia_Crisis_Support_3:0 "Foreign Support in Crisis"
  
  # Idea Modifiers
  socialism_acceptance:0 "Acceptance of Socialist Diplomacy"

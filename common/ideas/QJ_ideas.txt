@@ -491,5 +491,67 @@ ideas = {
 				ai_focus_aggressive_factor = -1
 			}
 		}
+		# Savoy
+		QJ_Savoy_Crisis_Support_1 = {
+			allowed = { always = no }
+			picture = armagnacee_resurgente
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = 0.15
+				army_org_factor = 0.1
+			}
+		}
+		QJ_Savoy_Crisis_Support_2 = {
+			allowed = { always = no }
+			picture = armagnacee_resurgente
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = 0.3
+				army_org_factor = 0.2
+			}
+		}
+		QJ_Savoy_Crisis_Support_3 = {
+			allowed = { always = no }
+			picture = armagnacee_resurgente
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = 0.45
+				army_org_factor = 0.3
+			}
+		}
+		# Frankia
+		QJ_Frankia_Crisis_Support_1 = {
+			allowed = { always = no }
+			picture = anti_revolutionary_army
+			removal_cost = -1
+
+			modifier = {
+				army_defence_factor = 0.15
+				army_org_factor = 0.1
+			}
+		}
+		QJ_Frankia_Crisis_Support_2 = {
+			allowed = { always = no }
+			picture = anti_revolutionary_army
+			removal_cost = -1
+
+			modifier = {
+				army_defence_factor = 0.3
+				army_org_factor = 0.2
+			}
+		}
+		QJ_Frankia_Crisis_Support_3 = {
+			allowed = { always = no }
+			picture = anti_revolutionary_army
+			removal_cost = -1
+
+			modifier = {
+				army_defence_factor = 0.45
+				army_org_factor = 0.3
+			}
+		}
 	}
 }

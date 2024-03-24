@@ -22,7 +22,6 @@ ideologies = {
 			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
-			can_lower_tension = yes
 			can_guarantee_other_ideologies = yes
 		}
 		ai_neutral = yes
@@ -48,7 +47,6 @@ ideologies = {
 			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
-			can_lower_tension = yes
 			can_guarantee_other_ideologies = yes
 		}
 		ai_neutral = yes
@@ -76,7 +74,6 @@ ideologies = {
 			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
-			can_lower_tension = yes
 			can_guarantee_other_ideologies = yes
 		}
 		ai_neutral = yes
@@ -109,7 +106,6 @@ ideologies = {
 			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
-			can_lower_tension = yes
 			can_guarantee_other_ideologies = yes
 		}
 		ai_neutral = yes
@@ -135,7 +131,6 @@ ideologies = {
 			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
-			can_lower_tension = yes
 			can_guarantee_other_ideologies = yes
 		}
 		ai_neutral = yes
@@ -171,7 +166,6 @@ ideologies = {
 			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
-			can_lower_tension = yes
 			can_guarantee_other_ideologies = yes
 		}
 		ai_neutral = yes
@@ -213,7 +207,6 @@ ideologies = {
 			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
-			can_lower_tension = yes
 			can_guarantee_other_ideologies = yes
 		}
 		ai_neutral = yes

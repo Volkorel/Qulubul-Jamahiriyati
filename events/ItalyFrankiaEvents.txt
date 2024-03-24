@@ -22,8 +22,8 @@ country_event = { #Duemarist coup d'etat
 		}
 		set_popularities = {
 			communism = 0
-			socialism = 0
-			liberalism = 17
+			socialism = 10
+			liberalism = 7
 			conservatism = 0
 			jacobinism = 0
 			duemarism = 83
@@ -116,10 +116,488 @@ country_event = { #Reconciliation
 			indigeneum = 0
 			suprarealisme = 0
 		}
+		country_event = {
+			id = QJ_italian_federation.3
+			days = 180
+		}
 		hidden_effect = {
 			every_country = {
 				news_event = jam_world.6
 			}
+		}
+	}
+}
+
+country_event = { #Unification with Siqiliyya
+	id = QJ_italian_federation.3
+	title = QJ_italian_federation.3.t
+	desc = QJ_italian_federation.3.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_italian_federation.3.a
+		annex_country = {
+			target = TTS
+			transfer_troops = yes
+		}
+		country_event = {
+			id = QJ_italian_federation.4
+			days = 550
+		}
+	}
+}
+
+country_event = { #War between Savoy and the Federation
+	id = QJ_italian_federation.4
+	title = QJ_italian_federation.4.t
+	desc = QJ_italian_federation.4.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_italian_federation.4.a
+		declare_war_on = {
+			target = SPM
+			type = annex_everything
+		}
+		#Duemarist militias spawn if Savoy accepted their support earlier
+	}
+}
+
+add_namespace = QJ_savoy
+
+country_event = { #Border raids against Frankia
+	id = QJ_savoy.1
+	title = QJ_savoy.1.t
+	desc = QJ_savoy.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_savoy.1.a
+		GRE = {
+			country_event = QJ_savoy.2
+		}
+		BAY = {
+			country_event = QJ_savoy.2
+		}
+		GER = {
+			country_event = QJ_savoy.2
+		}
+		ENG = {
+			country_event = QJ_savoy.3
+		}
+		HOL = {
+			country_event = QJ_savoy.3
+		}
+		ITA = {
+			country_event = QJ_savoy.3
+		}
+		country_event = {
+			id = QJ_savoy.5
+			days = 10
+		}
+	}
+}
+
+country_event = { #Response event - do we support Frankia?
+	id = QJ_savoy.2
+	title = QJ_savoy.2.t
+	desc = QJ_savoy.2.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_savoy.2.a
+		FRA = {
+			if = {
+				limit = {
+					has_idea = QJ_Frankia_Crisis_Support_1
+				}
+				swap_ideas = {
+					remove_idea = QJ_Frankia_Crisis_Support_1
+					add_idea = QJ_Frankia_Crisis_Support_2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = QJ_Frankia_Crisis_Support_2
+				}
+				swap_ideas = {
+					remove_idea = QJ_Frankia_Crisis_Support_2
+					add_idea = QJ_Frankia_Crisis_Support_3
+				}
+			}
+			else = {
+				add_timed_idea = {
+					idea = QJ_Frankia_Crisis_Support_1
+					days = 90
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					original_tag = BAY
+					original_tag = GRE
+				}
+			}
+			add_to_variable = { QJ_SOA_support_for_frankia = 1 }
+			FRA = {
+				add_popularity = {
+					ideology = liberalism
+					popularity = 0.05
+				}
+			}
+		}
+	}
+	option = { #no lol
+		name = QJ_savoy.2.b
+		
+	}
+}
+
+country_event = { #Response event - do we support Savoy?
+	id = QJ_savoy.3
+	title = QJ_savoy.3.t
+	desc = QJ_savoy.3.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_savoy.3.a
+		if = {
+			limit = {
+				original_tag = ITA
+			}
+			SPM = {
+				country_event = QJ_savoy.4
+			}
+		}
+		else = {
+			SPM = {
+				if = {
+					limit = {
+						has_idea = QJ_Savoy_Crisis_Support_1
+					}
+					swap_ideas = {
+						remove_idea = QJ_Savoy_Crisis_Support_1
+						add_idea = QJ_Savoy_Crisis_Support_2
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = QJ_Savoy_Crisis_Support_2
+					}
+					swap_ideas = {
+						remove_idea = QJ_Savoy_Crisis_Support_2
+						add_idea = QJ_Savoy_Crisis_Support_3
+					}
+				}
+				else = {
+					add_timed_idea = {
+						idea = QJ_Savoy_Crisis_Support_1
+						days = 90
+					}
+				}
+			}
+		}
+	}
+	option = { #no lol
+		name = QJ_savoy.3.b
+		
+	}
+}
+
+country_event = { #Savoy - do we accept duemarist support?
+	id = QJ_savoy.4
+	title = QJ_savoy.4.t
+	desc = QJ_savoy.4.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #sure buddy hop on
+		name = QJ_savoy.4.a
+		set_country_flag = SPM_duemarist_support
+		add_popularity = {
+			ideology = duemarism
+			popularity = 0.05
+		}
+		SPM = {
+			if = {
+				limit = {
+					has_idea = QJ_Savoy_Crisis_Support_1
+				}
+				swap_ideas = {
+					remove_idea = QJ_Savoy_Crisis_Support_1
+					add_idea = QJ_Savoy_Crisis_Support_2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = QJ_Savoy_Crisis_Support_2
+				}
+				swap_ideas = {
+					remove_idea = QJ_Savoy_Crisis_Support_2
+					add_idea = QJ_Savoy_Crisis_Support_3
+				}
+			}
+			else = {
+				add_timed_idea = {
+					idea = QJ_Savoy_Crisis_Support_1
+					days = 90
+				}
+			}
+		}
+	}
+	option = { #eww... republicans...
+		name = QJ_savoy.4.b
+		add_political_power = 20
+	}
+}
+
+country_event = { #Border clashes escalate
+	id = QJ_savoy.5
+	title = QJ_savoy.5.t
+	desc = QJ_savoy.5.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_savoy.5.a
+		start_border_war = {
+			change_state_after_war = no
+			attacker = {
+				state = 158
+				num_provinces = 6
+				on_win = QJ_savoy.6
+				on_lose = QJ_savoy.7
+			}	
+			defender = {
+				state = 735
+				num_provinces = 6
+			}
+		}
+	}
+}
+
+country_event = { #Savoyard victory
+	id = QJ_savoy.6
+	title = QJ_savoy.6.t
+	desc = QJ_savoy.6.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_savoy.6.a
+		SPM = {
+			transfer_state = 735
+			transfer_state = 847
+		}
+		FRA = {
+			country_event = {
+				id = QJ_savoy.8
+				days = 10
+			}
+		}
+	}
+}
+
+country_event = { #Frankish victory
+	id = QJ_savoy.7
+	title = QJ_savoy.7.t
+	desc = QJ_savoy.7.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_savoy.7.a
+		FRA = {
+			country_event = {
+				id = QJ_savoy.8
+				days = 10
+			}
+		}
+	}
+}
+
+country_event = { #Frankia - do we punish Savoy?
+	id = QJ_savoy.8
+	title = QJ_savoy.8.t
+	desc = QJ_savoy.8.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #kill them
+		name = QJ_savoy.8.a
+		GRE = {
+			country_event = QJ_savoy.9
+		}
+		BAY = {
+			country_event = QJ_savoy.9
+		}
+		GER = {
+			country_event = QJ_savoy.9
+		}
+		ENG = {
+			country_event = QJ_savoy.10
+		}
+		HOL = {
+			country_event = QJ_savoy.10
+		}
+		ITA = {
+			country_event = QJ_savoy.10
+		}
+		country_event = {
+			id = QJ_savoy.11
+			days = 7 #just a week away. you know how it goes.
+		}
+	}
+	option = { #i have no enemies :)
+		name = QJ_savoy.8.b
+		
+	}
+}
+
+country_event = { #Frankish supporters - DO YOU WANT TOTAL WAR?
+	id = QJ_savoy.9
+	title = QJ_savoy.9.t
+	desc = QJ_savoy.9.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #millions must die
+		name = QJ_savoy.9.a
+		add_to_variable = { QJ_savoy_crisis_war_chance = 1 }
+		custom_effect_tooltip = QJ_COULD_BECOME_WORLD_WAR_LOL
+		set_country_flag = QJ_Savoy_Crisis_FRANKIA_TOTAL_WAR
+	}
+	option = { #millions must live :)
+		name = QJ_savoy.9.b
+		
+	}
+}
+
+country_event = { #Savoyard supporters - DO YOU WANT TOTAL WAR?
+	id = QJ_savoy.10
+	title = QJ_savoy.10.t
+	desc = QJ_savoy.10.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #millions must die
+		name = QJ_savoy.10.a
+		add_to_variable = { QJ_savoy_crisis_war_chance = -1 }
+		custom_effect_tooltip = QJ_COULD_BECOME_WORLD_WAR_LOL
+		set_country_flag = QJ_Savoy_Crisis_SAVOY_TOTAL_WAR
+	}
+	option = { #millions must live :)
+		name = QJ_savoy.10.b
+		
+	}
+}
+
+country_event = { #Frankia - War in Europe?
+	id = QJ_savoy.11
+	title = QJ_savoy.11.t
+	desc = QJ_savoy.11.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #it got here so fast!
+		name = QJ_savoy.11.a
+		ai_chance = {
+			base = 1
+			modifier = {
+				add = -1
+				check_variable = { QJ_savoy_crisis_war_chance < 0 }
+			}
+			modifier = {
+				add = 1
+				check_variable = { QJ_savoy_crisis_war_chance = 1 }
+			}
+			modifier = {
+				add = 3
+				check_variable = { QJ_savoy_crisis_war_chance = 2 }
+			}
+			modifier = {
+				add = 5
+				check_variable = { QJ_savoy_crisis_war_chance = 3 }
+			}
+		}
+		FRA = {
+			declare_war_on = {
+				target = SPM
+				type = annex_everything
+			}
+			every_country = {
+				limit = {
+					has_country_flag = QJ_Savoy_Crisis_FRANKIA_TOTAL_WAR
+				}
+				country_event = QJ_savoy.12
+			}
+			every_country = {
+				limit = {
+					has_country_flag = QJ_Savoy_Crisis_SAVOY_TOTAL_WAR
+				}
+				country_event = QJ_savoy.13
+			}
+		}
+	}
+	option = { #not yet
+		name = QJ_savoy.11.b
+		ai_chance = {
+			base = 1
+		}
+	}
+}
+
+country_event = { #Frankish supporters - The boogaloo begins
+	id = QJ_savoy.12
+	title = QJ_savoy.12.t
+	desc = QJ_savoy.12.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = QJ_savoy.12.a
+		add_to_war = {
+			targeted_alliance = FRA
+			enemy = SPM
+			hostility_reason = asked_to_join
+		}
+	}
+}
+
+country_event = { #Savoyard supporters - The boogaloo begins
+	id = QJ_savoy.13
+	title = QJ_savoy.13.t
+	desc = QJ_savoy.13.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = QJ_savoy.13.a
+		add_to_war = {
+			targeted_alliance = SPM
+			enemy = FRA
+			hostility_reason = asked_to_join
 		}
 	}
 }
