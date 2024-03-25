@@ -12,9 +12,9 @@ state={
 		add_core_of = GUM
 		buildings = {
 			infrastructure = 1
-			dockyard = 5
-			arms_factory = 5
-			industrial_complex = 5
+			dockyard = 2
+			arms_factory = 2
+			industrial_complex = 2
 		}
 	}
 	manpower=245950
