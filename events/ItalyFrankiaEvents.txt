@@ -149,7 +149,7 @@ country_event = { #Unification with Siqiliyya
 	}
 }
 
-country_event = { #War between Savoy and the Federation
+country_event = { #Feds form their funny alliance
 	id = QJ_italian_federation.4
 	title = QJ_italian_federation.4.t
 	desc = QJ_italian_federation.4.d
@@ -159,11 +159,18 @@ country_event = { #War between Savoy and the Federation
 	
 	option = {
 		name = QJ_italian_federation.4.a
-		declare_war_on = {
-			target = SPM
-			type = annex_everything
+		create_faction = "true_true_but_the_azov_pact_signees_must_be_slaughtered"
+		every_country = {
+			limit = {
+				OR = { #List of tags that can join, should be updated once there's more Mediterranean Duemarists
+					original_tag = ADU
+				}
+				has_government = duemarism
+			}
+			ITA = {
+				add_to_faction = PREV
+			}
 		}
-		#Duemarist militias spawn if Savoy accepted their support earlier
 	}
 }
 
@@ -777,6 +784,7 @@ country_event = { #War breaks out between Savoy and Feds
 				target = SPM
 				type = annex_everything
 			}
+			#Duemarist militias spawn if Savoy accepted their support earlier
 		}
 	}
 }
@@ -889,9 +897,72 @@ country_event = { #Kingdom of Italy seeks to join ADL
 	option = { #Hop on!!!
 		name = QJ_savoy.20.a
 		add_to_faction = SPM
+		add_opinion_modifier = {
+			target = BAY
+			modifier = QJ_Suspicious_Decision_There_Buddy_Opinion
+		}
+		reverse_add_opinion_modifier = {
+			target = BAY
+			modifier = QJ_Suspicious_Decision_There_Buddy_Opinion
+		}
 	}
 	option = { #erm how will we defend you buddy?
 		name = QJ_savoy.20.b
 		
+	}
+}
+
+add_namespace = QJ_milano
+
+country_event = { #itawians awe scawy pwease hewp us sacwed oath awwiance uwu
+	id = QJ_milano.1
+	title = QJ_milano.1.t
+	desc = QJ_milano.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_milano.1.a
+		add_to_faction = LBV
+	}
+	option = {
+		name = QJ_milano.1.b
+		country_event = {
+			id = QJ_milano.2
+			days = 30
+		}
+	}
+}
+
+country_event = { #actually just no reason for bavaria-mariafold to do this lol
+	id = QJ_milano.2
+	title = QJ_milano.2.t
+	desc = QJ_milano.2.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_milano.2.a
+		if = {
+			limit = {
+				country_exists = SPM
+			}
+			SPM = {
+				declare_war_on = {
+					target = LBV
+					type = annex_everything
+				}
+			}
+		}
+		else = {
+			ITA = {
+				declare_war_on = {
+					target = LBV
+					type = annex_everything
+				}
+			}
+		]
 	}
 }

@@ -22,7 +22,7 @@ opinion_modifiers = {
 	}
 	QJ_Suspicious_Decision_There_Buddy_Opinion = {
 		value = -30
-		decay = 1
+		decay = 0.5
 	}
 
 }

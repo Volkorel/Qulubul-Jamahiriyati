@@ -413,6 +413,35 @@ on_actions = {
 				SPM = {
 					country_event = QJ_savoy.18
 				}
+				BAY = {
+					if = {
+						limit = {
+							is_faction_leader = yes
+						}
+						country_event = QJ_milano.1
+					}
+				}
+			}
+			else_if = { #Italian Federation annexes Savoy
+				limit = {
+					FROM = {
+						original_tag = ITA
+					}
+					ROOT = {
+						original_tag = SPM
+					}
+				}
+				ITA = {
+					country_event = QJ_italian_federation.4
+				}
+				BAY = {
+					if = {
+						limit = {
+							is_faction_leader = yes
+						}
+						country_event = QJ_milano.1
+					}
+				}
 			}
 		}
 	}
