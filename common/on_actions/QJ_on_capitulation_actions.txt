@@ -401,6 +401,19 @@ on_actions = {
 					country_event = QJ_italian_federation.2
 				}
 			}
+			else_if = { #Savoy annexes Italian Federation
+				limit = {
+					FROM = {
+						original_tag = SPM
+					}
+					ROOT = {
+						original_tag = ITA
+					}
+				}
+				SPM = {
+					country_event = QJ_savoy.18
+				}
+			}
 		}
 	}
 } 

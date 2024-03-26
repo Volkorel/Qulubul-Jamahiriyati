@@ -1,0 +1,4 @@
+SPM_ITALIA = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 67 127 63 }
+}

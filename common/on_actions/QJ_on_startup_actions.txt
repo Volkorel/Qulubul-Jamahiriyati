@@ -162,6 +162,14 @@ on_actions = {
 					id = QJ_savoy.1
 					days = 497
 				}
+				country_event = {
+					id = QJ_savoy.14
+					days = 981
+				}
+				country_event = {
+					id = QJ_savoy.18
+					days = 1439
+				}
 			}
 		}
 	}

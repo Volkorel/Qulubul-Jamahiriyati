@@ -16,5 +16,13 @@ opinion_modifiers = {
 	QJ_Legation_Garrison_Opinion = {
 		value = 100
 	}
+	QJ_Aided_In_Crisis_Opinion = {
+		value = 30
+		decay = 0.5
+	}
+	QJ_Suspicious_Decision_There_Buddy_Opinion = {
+		value = -30
+		decay = 1
+	}
 
 }
