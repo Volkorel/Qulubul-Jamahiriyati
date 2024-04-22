@@ -1,0 +1,20 @@
+state={
+	id=1122
+	name="STATE_1122"
+	provinces={
+		1015 7176 11970 
+	}
+	history={
+		owner = PAL
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+		}
+		add_core_of = PAL
+	}
+	manpower=125142
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
