@@ -1,0 +1,19 @@
+state={
+	id=1133
+	name="STATE_1133"
+	provinces={
+		901 1634 
+	}
+	history={
+		owner = SYR
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SYR
+	}
+	manpower=24110
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

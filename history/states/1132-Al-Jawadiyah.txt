@@ -1,26 +1,26 @@
 
 state={
-	id=675
-	name="STATE_675"
+	id=1132
+	name="STATE_1132"
 
 	history={
-		owner = SAU
+		owner = SYR
 		victory_points = {
-			12413 1 
+			1549 1 
 		}
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = SAU
+		add_core_of = SYR
 
 	}
 
 	provinces={
-		10744 12879 
+		1549 1578 10804 10882 
 	}
-	manpower=122093
+	manpower=824110
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=rural
 	local_supplies=0.000
 }

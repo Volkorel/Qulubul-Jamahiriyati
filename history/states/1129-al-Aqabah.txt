@@ -1,27 +1,22 @@
-
 state={
-	id=455
-	name="STATE_455"
-
+	id=1129
+	name="STATE_1129"
+	provinces={
+		4017 4115 10089 
+	}
 	history={
 		owner = SAU
+		victory_points = {
+			4115 3 
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-
-		}
-		victory_points = {
-			11976 1 
 		}
 		add_core_of = SAU
-
 	}
-
-	provinces={
-		1544 4562 4574 4591 4603 11976 
-	}
-	manpower=432000
+	manpower=507797
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 	local_supplies=0.000
 }

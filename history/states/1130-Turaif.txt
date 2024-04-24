@@ -1,7 +1,7 @@
 
 state={
-	id=854
-	name="STATE_854"
+	id=1130
+	name="STATE_1130"
 
 	history={
 		owner = SAU
@@ -10,9 +10,9 @@ state={
 	}
 
 	provinces={
-		2057 4974 8101 10901 
+		1631 4440 4951 10815 12413 
 	}
-	manpower=5000
+	manpower=97797
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000
