@@ -1,4 +1,4 @@
-﻿capital = 298
+﻿capital = 4995
 
 set_politics = {
 	ruling_party = indigeneum

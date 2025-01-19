@@ -1,7 +1,7 @@
 ﻿capital = 844
 
 set_politics = {
-	ruling_party = indigeneum
+	ruling_party = conservatism
 	last_election = "1905.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -10,9 +10,9 @@ set_popularities = {
 	communism = 0
 	socialism = 0
 	liberalism = 0
-	conservatism = 0
+	conservatism = 70
 	jacobinism = 0
 	duemarism = 0
-	indigeneum = 100
+	indigeneum = 30
 	suprarealisme = 0
 }
