@@ -29,16 +29,10 @@ state={
 
 		}
 		add_core_of = HOL
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-				dockyard = 3
-			}
-		}
 	}
 
 	provinces={
-		241 247 309 336 3234 9281 11233 11264 11360 11388 
+		241 247 309 336 9281 11233 11264 11360 11388 
 	}
 
 	local_supplies=14.0 
