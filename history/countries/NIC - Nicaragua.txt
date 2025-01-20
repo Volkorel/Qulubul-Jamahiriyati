@@ -37,7 +37,3 @@ set_popularities = {
 	indigeneum = 0
 	suprarealisme = 0
 }
-
-recruit_character = NIC_Abraham_Hochmuth
-recruit_character = NIC_Jason_Butaul
-recruit_character = NIC_Caleb_Samo

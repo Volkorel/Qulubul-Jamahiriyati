@@ -188,13 +188,8 @@ focus_tree = {
 				popularity = 0.1
 			}
 			add_equipment_to_stockpile = {
-				type = light_airframe
-				amount = 100
-				producer = CUB
-			}
-			add_equipment_to_stockpile = {
 				type = motorized_equipment
-				amount = 100
+				amount = 1000
 				producer = CUB
 			}
 		}

@@ -83,22 +83,18 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = conservatism
+	last_election = "1905.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
-
 set_popularities = {
-	democratic = 70
-	fascism = 10
-	communism = 10
-	neutrality = 10
+	communism = 0
+	socialism = 30
+	liberalism = 0
+	conservatism = 60
+	jacobinism = 10
+	duemarism = 0
+	indigeneum = 0
+	suprarealisme = 0
 }
-
-recruit_character = BUK_mohammed_alim_khan
-recruit_character = BUK_polat_usmon
-
-
-
-

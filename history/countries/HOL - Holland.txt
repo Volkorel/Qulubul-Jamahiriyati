@@ -74,6 +74,25 @@ if = {
 	}
 }
 
+INS = {
+	set_politics = {
+		ruling_party = liberalism
+		last_election = "1905.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		communism = 20
+		socialism = 0
+		liberalism = 50
+		conservatism = 0
+		jacobinism = 20
+		duemarism = 0
+		indigeneum = 10
+		suprarealisme = 0
+	}
+}
+
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
