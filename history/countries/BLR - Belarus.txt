@@ -86,56 +86,12 @@ if = {
 	}
 }
 
+set_politics = {
+	ruling_party = conservatism
+	last_election = "1905.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 set_popularities = {
-	democratic = 15
-	neutrality = 20
-	communism = 60
-	fascism = 5
+	conservatism = 100
 }
-
-create_country_leader = {
-    name = "Vasil Zacharka"
-    desc = ""
-	picture = GFX_portrait_Vasil_Zacharka
-    expire = "1965.1.1"
-    ideology = centrism
-    traits = {
-        #
-    }
-}
-
-create_country_leader = {
-    name = "Radasłaŭ Astroŭski"
-    desc = ""
-	picture = GFX_portrait_Radasłau_Astrouski
-    expire = "1965.1.1"
-    ideology = fascism_ideology
-    traits = {
-        #
-    }
-}
-
-create_country_leader = {
-    name = "Panteleimon Ponomarenko"
-    desc = ""
-	picture = GFX_portrait_Panteleimon_Ponomarenko
-    expire = "1965.1.1"
-    ideology = stalinism
-    traits = {
-        #
-    }
-}
-
-create_country_leader = {
-    name = "Adam Stankievič"
-    desc = ""
-	picture = GFX_portrait_Adam_Stankievic
-    expire = "1965.1.1"
-    ideology = socialism
-    traits = {
-        #
-    }
-}
-
-
-
