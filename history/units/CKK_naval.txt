@@ -1,0 +1,396 @@
+﻿
+units = {
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Dai-Nippon Teikoku Kaigun"
+		naval_base = 12446 # Yokosuka
+		task_force = {			
+			name = "1 Sentai"			
+			location = 12446 # Yokosuka
+			ship = {
+				name = "IJN Okinoshima" #General-Admiral Apraksin
+				definition = battleship
+				start_experience_factor = 0.4
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = JAP version_name = "Admiral Ushakov Class" } }
+			}
+			ship = {
+				name = "IJN Sagami" #Peresvet
+				definition = battleship
+				start_experience_factor = 0.4
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = JAP version_name = "Peresvet Class" } }
+			}
+			ship = {
+				name = "IJN Suwo" #Pobeda
+				definition = battleship
+				start_experience_factor = 0.4
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = JAP version_name = "Peresvet Class" } }
+			}
+			ship = {
+				name = "IJN Chinen"
+				definition = battleship
+				start_experience_factor = 0.4
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = QIN version_name = "Dingyuan Class" } }
+			}
+			ship = {
+				name = "IJN Yakumo"
+				definition = heavy_cruiser
+				start_experience_factor = 0.5
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Yakumo Class" } }
+			}
+			ship = {
+				name = "IJN Azuma"
+				definition = heavy_cruiser
+				start_experience_factor = 0.5
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Azuma Class" } }
+			}
+			ship = {
+				name = "IJN Kasuga"
+				definition = heavy_cruiser
+				start_experience_factor = 0.5
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Kasuga Class" } }
+			}
+			ship = {
+				name = "IJN Nisshin"
+				definition = heavy_cruiser
+				start_experience_factor = 0.5
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Kasuga Class" } }
+			}
+			ship = {
+				name = "IJN Aso"
+				definition = heavy_cruiser
+				start_experience_factor = 0.4
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Bayan Class" } }
+			}
+			ship = {
+				name = "IJN Soya"
+				definition = heavy_cruiser
+				start_experience_factor = 0.4
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Varyag Class" } }
+			}
+			ship = {
+				name = "IJN Otowa"
+				definition = light_cruiser
+				start_experience_factor = 0.5
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Otowa Class" } }
+			}
+			ship = {
+				name = "IJN Yodo"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Yodo Class" } }
+			}
+			ship = {
+				name = "IJN Mogami"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Yodo Class" } }
+			}
+			ship = {
+				name = "IJN Tatsuta"
+				definition = light_cruiser
+				start_experience_factor = 0.5
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Tatsuta Class" } }
+			}
+			ship = {
+				name = "IJN Chihaya"
+				definition = light_cruiser
+				start_experience_factor = 0.5
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Chihaya Class" } }
+			}
+			ship = {
+				name = "IJN Akagi"
+				definition = light_cruiser
+				start_experience_factor = 0.5
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Maya Class" } }
+			}
+			ship = {
+				name = "IJN Uji"
+				definition = light_cruiser
+				start_experience_factor = 0.5
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Uji Class" } }
+			}
+			ship = {
+				name = "IJN Saien"
+				definition = light_cruiser
+				start_experience_factor = 0.4
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = QIN version_name = "Jiyuan Class" } }
+			}
+			ship = {
+				name = "IJN No. 45"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 22 Class" } }
+			}
+			ship = {
+				name = "IJN No. 46"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 22 Class" } }
+			}
+			ship = {
+				name = "IJN No. 47"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 22 Class" } }
+			}
+			ship = {
+				name = "IJN No. 49"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 22 Class" } }
+			}
+			ship = {
+				name = "IJN No. 60"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 22 Class" } }
+			}
+			ship = {
+				name = "IJN No. 61"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 22 Class" } }
+			}
+			ship = {
+				name = "IJN No. 29"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 29 Class" } }
+			}
+			ship = {
+				name = "IJN No. 30"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 29 Class" } }
+			}
+			ship = {
+				name = "IJN No. 39"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 29 Class" } }
+			}
+			ship = {
+				name = "IJN No. 40"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 29 Class" } }
+			}
+			ship = {
+				name = "IJN No. 41"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 29 Class" } }
+			}
+			ship = {
+				name = "IJN No. 43"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 29 Class" } }
+			}
+			ship = {
+				name = "IJN No. 62"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 29 Class" } }
+			}
+			ship = {
+				name = "IJN No. 63"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 29 Class" } }
+			}
+			ship = {
+				name = "IJN No. 64"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 29 Class" } }
+			}
+			ship = {
+				name = "IJN No. 65"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 29 Class" } }
+			}
+			ship = {
+				name = "IJN No. 66"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 29 Class" } }
+			}
+			ship = {
+				name = "IJN No. 67"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 67 Class" } }
+			}
+			ship = {
+				name = "IJN No. 68"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 67 Class" } }
+			}
+			ship = {
+				name = "IJN No. 70"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 67 Class" } }
+			}
+			ship = {
+				name = "IJN No. 71"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 67 Class" } }
+			}
+			ship = {
+				name = "IJN No. 72"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 67 Class" } }
+			}
+			ship = {
+				name = "IJN No. 73"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 67 Class" } }
+			}
+			ship = {
+				name = "IJN No. 74"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 67 Class" } }
+			}
+			ship = {
+				name = "IJN No. 75"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 67 Class" } }
+			}
+			ship = {
+				name = "IJN No. 7"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 5 Class" } }
+			}
+			ship = {
+				name = "IJN No. 8"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 5 Class" } }
+			}
+			ship = {
+				name = "IJN No. 11"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 5 Class" } }
+			}
+			ship = {
+				name = "IJN No. 12"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 5 Class" } }
+			}
+			ship = {
+				name = "IJN No. 13"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 5 Class" } }
+			}
+			ship = {
+				name = "IJN No. 17"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 5 Class" } }
+			}
+			ship = {
+				name = "IJN No. 18"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 5 Class" } }
+			}
+			ship = {
+				name = "IJN No. 19"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 5 Class" } }
+			}
+			ship = {
+				name = "IJN No. 15"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 15 Class" } }
+			}
+			ship = {
+				name = "IJN No. 20"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 15 Class" } }
+			}
+			ship = {
+				name = "IJN No. 50"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 50 Class" } }
+			}
+			ship = {
+				name = "IJN No. 52"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 50 Class" } }
+			}
+			ship = {
+				name = "IJN No. 54"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 50 Class" } }
+			}
+			ship = {
+				name = "IJN No. 55"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 50 Class" } }
+			}
+			ship = {
+				name = "IJN No. 56"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 50 Class" } }
+			}
+			ship = {
+				name = "IJN No. 57"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 50 Class" } }
+			}
+			ship = {
+				name = "IJN No. 58"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 50 Class" } }
+			}
+			ship = {
+				name = "IJN No. 59"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "No. 50 Class" } }
+			}
+			ship = {
+				name = "Yamabiko"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "Sokol Class" } }
+			}
+			ship = {
+				name = "Fumizuki"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "Sokol Class" } }
+			}
+			ship = { 
+				name = "Satzuki"
+				definition = destroyer
+				start_experience_factor = 0.5
+				equipment = { ship_hull_light_2 = { amount = 1 owner = JAP version_name = "Buinyi Class" } } 
+			}
+		}
+	}
+}

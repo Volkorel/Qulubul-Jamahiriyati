@@ -1,0 +1,253 @@
+﻿
+units= {
+	##### NAVAL UNITS #####
+	### ITALY ###
+	fleet = {
+		name = "Comando Navale Mar Ionio"
+		naval_base = 6788 #Taranto
+		task_force = { 
+			name = "Divisione Marina Scuola"
+			location = 6788 #Taranto
+			ship = {
+				name = "RN Re Umberto"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = ITA version_name = "Re Umberto Class" } }
+			}
+			ship = {
+				name = "RN Sardegna"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = ITA version_name = "Re Umberto Class" } }
+			}
+			ship = {
+				name = "RN Sicilia"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = ITA version_name = "Re Umberto Class" } }
+			}
+			ship = {
+				name = "RN Vettor Pisani"
+				definition = heavy_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Vettor Pisani Class" } }
+			}
+			ship = {
+				name = "RN Carlo Alberto"
+				definition = heavy_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Vettor Pisani Class" } }
+			}
+		}
+		task_force = { 
+			name = "1a Squadra Navale"
+			location = 6788 #Taranto
+			ship = {
+				name = "RN Napoli"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = ITA version_name = "Regina Elena Class" } }
+			}
+			ship = {
+				name = "RN Regina Elena"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = ITA version_name = "Regina Elena Class" } }
+			}
+			ship = {
+				name = "RN Roma"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = ITA version_name = "Regina Elena Class" } }
+			}
+			ship = {
+				name = "RN Vittorio Emanuele"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = ITA version_name = "Regina Elena Class" } }
+			}
+			ship = {
+				name = "RN Pisa"
+				definition = heavy_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Pisa Class" } }
+			}
+			ship = {
+				name = "RN Amalfi"
+				definition = heavy_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Pisa Class" } }
+			}
+			ship = {
+				name = "RN Tripoli"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA } }
+			}
+			ship = {
+				name = "RN Goito"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Goito Class" } }
+			}
+			ship = {
+				name = "RN Montebello"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Goito Class" } }
+			}
+			ship = {
+				name = "RN Aretusa"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Partenope Class" } }
+			}
+			ship = {
+				name = "RN Caprera"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Partenope Class" } }
+			}
+			ship = {
+				name = "RN Euridice"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Partenope Class" } }
+			}
+			ship = {
+				name = "RN Iride"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Partenope Class" } }
+			}
+			ship = {
+				name = "RN Minerva"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Partenope Class" } }
+			}
+			ship = {
+				name = "RN Partenope"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Partenope Class" } }
+			}
+			ship = {
+				name = "RN Urania"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Partenope Class" } }
+			}
+			ship = {
+				name = "RN Agordat"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Agordat Class" } }
+			}
+			ship = {
+				name = "RN Giovanni Bausan"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Giovanni Bausan Class" } }
+			}
+		}
+		task_force = { 
+			name = "2a Squadra Navale"
+			location = 6788 #Taranto
+			ship = {
+				name = "RN Ammiraglio di Saint Bon"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = ITA version_name = "Ammiraglio di Saint Bon Class" } }
+			}
+			ship = {
+				name = "RN Emanuele Filiberto"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = ITA version_name = "Ammiraglio di Saint Bon Class" } }
+			}
+			ship = {
+				name = "RN Benedetto Brin"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = ITA } }
+			}
+			ship = {
+				name = "RN Regina Margherita"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = ITA } }
+			}
+			ship = {
+				name = "RN Giuseppe Garibaldi"
+				definition = heavy_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Giuseppe Garibaldi Class" } }
+			}
+			ship = {
+				name = "RN Varese"
+				definition = heavy_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Giuseppe Garibaldi Class" } }
+			}
+			ship = {
+				name = "RN Francesco Ferruccio"
+				definition = heavy_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Giuseppe Garibaldi Class" } }
+			}
+			ship = {
+				name = "RN Marco Polo"
+				definition = heavy_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Marco Polo Class" } }
+			}
+			ship = {
+				name = "RN Coatit"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Agordat Class" } }
+			}
+		}
+		task_force = { 
+			name = "RN Calabria"
+			location = 6788 #Taranto
+			ship = {
+				name = "RN Calabria"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Calabria Class" } }
+			}
+		}
+		task_force = { 
+			name = "RN Eruria"
+			location = 6788 #Taranto
+			ship = {
+				name = "RN Etruria"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Regioni Class" } }
+			}
+		}
+		task_force = {
+			name = "RN Umbria"
+			location = 6788 #Taranto
+			ship = {
+				name = "RN Umbria"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Regioni Class" } }
+			}
+		}
+		task_force = {
+			name = "RN Vesuvio"
+			location = 6788 #Taranto
+			ship = {
+				name = "RN Vesuvio"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Etna Class" } }
+			}
+		}
+	}
+}

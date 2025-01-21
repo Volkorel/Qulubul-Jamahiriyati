@@ -1,0 +1,67 @@
+﻿
+###################################################################
+
+division_template = {
+	name = "Shidan"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+		artillery_brigade = { x = 4 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Kihei Ryodan"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+}
+
+###################################################################
+
+units = {
+	division = { 
+			name = "Dai Jūyon Shidan"
+			location=1117 # Utsonomiya
+			division_template="Shidan"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.7
+	}
+	division = {
+			name = "Konoe Shidan"
+			location=1117 # Tokyo
+			division_template="Shidan"
+			start_experience_factor=1
+			start_equipment_factor = 1
+	}
+	division = { 
+			name = "Dai-ichi Shidan"
+			location=1117 # Tokyo
+			division_template="Shidan"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.8
+	}
+	division = { 
+			name = "Dai-san Shidan"
+			location=1117 # Nagoya
+			division_template="Shidan"
+			start_experience_factor=0.1
+			start_equipment_factor = 0.7
+	}
+}

@@ -18,7 +18,7 @@ bookmarks = {
 		}
 		"SAF"={
 			history = "ENG_GATHERING_STORM_DESC"
-			ideology = conservatism
+			ideology = liberalism
 			ideas = {
 			}
 			focuses = {

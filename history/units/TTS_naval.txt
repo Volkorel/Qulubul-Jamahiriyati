@@ -1,0 +1,55 @@
+﻿
+units= {
+	##### NAVAL UNITS #####
+	### ITALY ###
+	fleet = {
+		name = "Comando Navale Mar Rosso"
+		naval_base = 10074 #Asmara
+		task_force = { 
+			name = "Comando Navale Mar Rosso"
+			location = 10074 #Asmara
+			ship = {
+				name = "RN Elba"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Regioni Class" } }
+			}
+			ship = {
+				name = "RN Puglia"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Regioni Class" } }
+			}
+			ship = {
+				name = "RN Etna"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Etna Class" } }
+			}
+			ship = {
+				name = "RN Stromboli"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Etna Class" } }
+			}
+			ship = {
+				name = "RN Piemonte"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Piemonte Class" } }
+			}
+			ship = {
+				name = "RN Liguria"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Regioni Class" } }
+			}
+			ship = {
+				name = "RN Lombardia"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ITA version_name = "Regioni Class" } }
+			}
+		}
+	}
+}

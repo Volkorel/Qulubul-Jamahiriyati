@@ -1,9 +1,6 @@
 ﻿capital = 638
 
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
+set_research_slots = 3
 
 set_convoys = 20
 
@@ -23,3 +20,272 @@ set_popularities = {
 	indigeneum = 0
 	suprarealisme = 0
 }
+set_technology = {
+	#infantry
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	bicycle_infantry = 1
+	
+	#support
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	
+	#artillery
+	gw_artillery = 1
+	
+	#engineering
+	electrical_engineering = 1
+	mechanical_engineering = 1
+	generator_battery = 1
+	basic_train = 1
+	basic_railways = 1
+    construction0 = 1
+	powder_type_b = 1
+	narrow_gauge_railway = 1
+	early_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	transport = 1
+}
+create_equipment_variant = {
+	name = "Kawachi Class"
+	type = battleship_1
+	parent_version = 0
+}
+create_equipment_variant = {
+	name = "Fuji Class"
+	type = battleship_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Shikishima Class"
+	type = battleship_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Katori Class"
+	type = battleship_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Satsuma Class"
+	type = battleship_1
+	parent_version = 0
+}
+create_equipment_variant = {
+	name = "Tsukuba Class"
+	type = heavy_cruiser_1
+	parent_version = 0
+}
+create_equipment_variant = {
+	name = "Ibuki Class"
+	type = heavy_cruiser_1
+	parent_version = 0
+}
+create_equipment_variant = {
+	name = "Asama Class"
+	type = heavy_cruiser_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Izumo Class"
+	type = heavy_cruiser_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Yakumo Class"
+	type = heavy_cruiser_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Azuma Class"
+	type = heavy_cruiser_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Kasuga Class"
+	type = heavy_cruiser_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Naniwa Class"
+	type = light_cruiser_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Chiyoda Class"
+	type = light_cruiser_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Matsushima Class"
+	type = light_cruiser_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Akitsushima Class"
+	type = light_cruiser_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Suma Class"
+	type = light_cruiser_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Kasagi Class"
+	type = light_cruiser_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Niitaka Class"
+	type = light_cruiser_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Otowa Class"
+	type = light_cruiser_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Yodo Class"
+	type = light_cruiser_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Tatsuta Class"
+	type = light_cruiser_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Chihaya Class"
+	type = light_cruiser_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Maya Class"
+	type = light_cruiser_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Uji Class"
+	type = light_cruiser_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Ikazuchi Class"
+	type = destroyer_2
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Murakumo Class"
+	type = destroyer_2
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Shirakumo Class"
+	type = destroyer_2
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Harusame Class"
+	type = destroyer_2
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Kamikaze Class"
+	type = destroyer_2
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Hayabusa Class"
+	type = destroyer_1
+	parent_version = 0
+}
+create_equipment_variant = {
+	name = "Shirataka Class"
+	type = destroyer_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "No. 21 Class"
+	type = destroyer_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "No. 22 Class"
+	type = destroyer_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "No. 29 Class"
+	type = destroyer_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "No. 39 Class"
+	type = destroyer_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "No. 67 Class"
+	type = destroyer_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "No. 5 Class"
+	type = destroyer_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "No. 15 Class"
+	type = destroyer_1
+	parent_version = 0
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "No. 50 Class"
+	type = destroyer_1
+	parent_version = 0
+	obsolete = yes
+}
+oob = "GUM"
+set_naval_oob = "GUM_naval"
