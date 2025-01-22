@@ -47,6 +47,10 @@
  jam_world.9.d:0 "The Republic of Frankia has formally declared war on the Kingdom of Savoy, marking a dramatic escalation in tensions that have gripped Europe in recent months. In a fiery address to the National Assembly, President Pierre-Isaïe Asselineau denounced Savoy’s harboring of exiled nobles and its recent military provocations, vowing to \"eradicate the last vestige of feudal oppression from Frankish soil.\"\n\nQueen Eutalia II, for her part, has called the declaration an act of aggression, asserting Savoy's right to sovereignty and accusing Frankia of pursuing expansionist aims under the guise of republicanism.\n\nThe conflict has sent ripples through the continent, with both nations calling upon their allies to honor their promises of support and join the war.\n\nAs both armies mobilize, the specter of battle looms over the Alps, with Europe left to watch as the peace of the 20th century is already slipping away.\n\n"
  jam_world.9.a:0 "Come on, friend, let's weep together, waiting for a better future..."
  
+ jam_world.10.t:0 "Terror in the Heart of Darkness!"
+ jam_world.10.d:0 "The colonial outpost in Vinlandic Somalia was astir yesterday as Frysk explorer Atsert Gerbrandy staggered into the settlement with an astonishing tale of discovery and peril deep in the uncharted African interior. Gerbrandy, bedraggled and visibly shaken, recounted his encounter with a mysterious kingdom of pygmies, ruled by a figure known as \"Ínà Mapiti\", or \"The Black Leopard\". According to his account, the diminutive warriors of this realm are fearsome combatants and fanatically expansionist, subjugating neighboring tribes in unrelenting campaigns of conquest. Most troubling, Gerbrandy warned, is their vehement hatred for Europeans.\n\nCaptured by the warriors and brought before their enigmatic king, Gerbrandy narrowly escaped execution. \"Their king's gaze was piercing, as though he could see through one’s soul,\" he said. \"I would not be standing here if not for fortune’s grace.\"\n\nColonial officials are taking Gerbrandy’s account seriously, viewing this mysterious kingdom as a potential threat to colonial interests in the region.\n\n"
+ jam_world.10.a:0 "Horrid! Such terror only reinforces the need for a civilizing mission."
+ 
  ### COUNTRY EVENTS ###
  
  QJ_apocalypse.1.t:0 "Nationwide Smallpox Outbreak!"
@@ -165,6 +169,7 @@
  QJ_seljuks.2.d:0 ""
  QJ_seljuks.2.a:0 ""
  QJ_seljuks.2.b:0 ""
+ QJ_bombombom_tt:0 "§RThe legation quarter will be assaulted in five days; be ready to send volunteers!§!"
  
  QJ_savoy.2.t:0 ""
  QJ_savoy.2.d:0 ""

@@ -1,0 +1,634 @@
+
+units = {
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "United States Navy"
+		naval_base = 7361 #Norfolk
+		task_force = {
+			name = "Atlantic Fleet"
+			location = 7361 #Norfolk
+			ship = {
+				name = "VS Delaware"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_heavy_1 = { amount = 1 owner = CAN version_name = "Sudtrvatn Class" } }
+			}
+			ship = {
+				name = "VS North Dakota"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_heavy_1 = { amount = 1 owner = CAN version_name = "Sudtrvatn Class" } }
+			}
+			ship = {
+				name = "VS South Carolina"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_heavy_1 = { amount = 1 owner = CAN version_name = "Þórrbryggja Class" } }
+			}
+			ship = {
+				name = "VS Michigan"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_heavy_1 = { amount = 1 owner = CAN version_name = "Þórrbryggja Class" } }
+			}
+			ship = {
+				name = "VS Connecticut"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "Miðlivatn Class" } }
+			}
+			ship = {
+				name = "VS Louisiana"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "Miðlivatn Class" } }
+			}
+			ship = {
+				name = "VS Vermont"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "Miðlivatn Class" } }
+			}
+			ship = {
+				name = "VS Kansas"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "Miðlivatn Class" } }
+			}
+			ship = {
+				name = "VS Minnesota"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "Miðlivatn Class" } }
+			}
+			ship = {
+				name = "VS New Hampshire"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "Miðlivatn Class" } }
+			}
+			ship = {
+				name = "VS Virginia"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "Hásteinnsdys Class" } }
+			}
+			ship = {
+				name = "VS Nebraska"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "Hásteinnsdys Class" } }
+			}
+			ship = {
+				name = "VS Georgia"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "Hásteinnsdys Class" } }
+			}
+			ship = {
+				name = "VS New Jersey"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "Hásteinnsdys Class" } }
+			}
+			ship = {
+				name = "VS Rhode Island"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "Hásteinnsdys Class" } }
+			}
+			ship = {
+				name = "VS Maine"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "Harðazherja Class" } }
+			}
+			ship = {
+				name = "VS Missouri"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "Harðazherja Class" } }
+			}
+			ship = {
+				name = "VS Ohio"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "Harðazherja Class" } }
+			}
+			ship = {
+				name = "VS Illinois"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "Vestanframar Class" } }
+			}
+			ship = {
+				name = "VS Alabama"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "Vestanframar Class" } }
+			}
+			ship = {
+				name = "VS Kearsarge"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "Dýrveiða Class" } }
+			}
+			ship = {
+				name = "VS Kentucky"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "Dýrveiða Class" } }
+			}
+			ship = {
+				name = "VS Iowa"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "Stórrhiminn Class" } }
+			}
+			ship = {
+				name = "VS Indiana"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "VinfengisgrunUllr Class" } }
+			}
+			ship = {
+				name = "VS Massachusetts"
+				definition = battleship
+				start_experience_factor = 0.4
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "VinfengisgrunUllr Class" } }
+			}
+			ship = {
+				name = "VS North Carolina"
+				definition = heavy_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Vágrjaðarr Class" } }
+			}
+			ship = {
+				name = "VS Montana"
+				definition = heavy_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Vágrjaðarr Class" } }
+			}
+			ship = {
+				name = "VS Brooklyn"
+				definition = heavy_cruiser
+				start_experience_factor = 0.5
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Ivarsmerkjum Class" } }
+			}
+			ship = {
+				name = "VS New York"
+				definition = heavy_cruiser
+				start_experience_factor = 0.5
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Kenaz Class" } }
+			}
+			ship = {
+				name = "VS Des Moines"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Ansuz Class" } }
+			}
+			ship = {
+				name = "VS Chattanooga"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Ansuz Class" } }
+			}
+			ship = {
+				name = "VS Tacoma"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Ansuz Class" } }
+			}
+			ship = {
+				name = "VS Columbia"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Wunjo Class" } }
+			}
+			ship = {
+				name = "VS Minneapolis"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Wunjo Class" } }
+			}
+			ship = {
+				name = "VS Olympia"
+				definition = light_cruiser
+				start_experience_factor = 0.6
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Valhǫll Class" } }
+			}
+			ship = {
+				name = "VS San Fransisco"
+				definition = light_cruiser
+				start_experience_factor = 0.4
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Thurisaz Class" } }
+			}
+			ship = {
+				name = "VS Baltimore"
+				definition = light_cruiser
+				start_experience_factor = 0.4
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Hagalaz Class" } }
+			}
+			ship = {
+				name = "VS Chicago"
+				definition = light_cruiser
+				start_experience_factor = 0.4
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Uruz Class" } }
+			}
+			ship = {
+				name = "VS Chester"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Valkyrja Class" } }
+			}
+			ship = {
+				name = "VS Birmingham"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Valkyrja Class" } }
+			}
+			ship = {
+				name = "VS Salem"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Valkyrja Class" } }
+			}
+			ship = {
+				name = "VS Montgomery"
+				definition = light_cruiser
+				start_experience_factor = 0.4
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Berserkir Class" } }
+			}
+			ship = {
+				name = "VS Detroit"
+				definition = light_cruiser
+				start_experience_factor = 0.4
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Berserkir Class" } }
+			}
+			ship = {
+				name = "VS Smith"
+				definition = destroyer
+				start_experience_factor = 0.2
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Hengist Class" } }
+			}
+			ship = {
+				name = "VS Lamson"
+				definition = destroyer
+				start_experience_factor = 0.2
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Hengist Class" } }
+			}
+			ship = {
+				name = "VS Preston"
+				definition = destroyer
+				start_experience_factor = 0.2
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Hengist Class" } }
+			}
+			ship = {
+				name = "VS Flusser"
+				definition = destroyer
+				start_experience_factor = 0.2
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Hengist Class" } }
+			}
+			ship = {
+				name = "VS Reid"
+				definition = destroyer
+				start_experience_factor = 0.2
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Hengist Class" } }
+			}
+			ship = {
+				name = "VS Worden"
+				definition = destroyer
+				start_experience_factor = 0.2
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Horsa Class" } }
+			}
+			ship = {
+				name = "VS Macdonough"
+				definition = destroyer
+				start_experience_factor = 0.2
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Njörun Class" } }
+			}
+			ship = {
+				name = "VS Narwhal"
+				definition = submarine
+				start_experience_factor = 0.2
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "Ullr Class" } }
+			}
+			ship = {
+				name = "VS Grayling"
+				definition = submarine
+				start_experience_factor = 0.2
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "Ullr Class" } }
+			}
+			ship = {
+				name = "VS Octopus"
+				definition = submarine
+				start_experience_factor = 0.2
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "Heimdallr Class" } }
+			}
+			ship = {
+				name = "VS Stingray"
+				definition = submarine
+				start_experience_factor = 0.2
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "Heimdallr Class" } }
+			}
+			ship = {
+				name = "VS Tarpon"
+				definition = submarine
+				start_experience_factor = 0.2
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "Heimdallr Class" } }
+			}
+			ship = {
+				name = "VS Bonita"
+				definition = submarine
+				start_experience_factor = 0.2
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "Heimdallr Class" } }
+			}
+			ship = {
+				name = "VS Snapper"
+				definition = submarine
+				start_experience_factor = 0.2
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "Heimdallr Class" } }
+			}
+			ship = {
+				name = "VS Viper"
+				definition = submarine
+				start_experience_factor = 0.2
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "Vihansa Class" } }
+			}
+			ship = {
+				name = "VS Cuttlefish"
+				definition = submarine
+				start_experience_factor = 0.2
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "Vihansa Class" } }
+			}
+			ship = {
+				name = "VS Tarantula"
+				definition = submarine
+				start_experience_factor = 0.2
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "Vihansa Class" } }
+			}
+			ship = {
+				name = "VS Plunger"
+				definition = submarine
+				start_experience_factor = 0.2
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "Thule Class" } }
+			}
+		}
+		task_force = {
+			name = "Pacific Fleet"
+			location = 7361 #Honolulu
+			ship = {
+				name = "VS Wisconsin"
+				definition = battleship
+				start_experience_factor = 0.2
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "Vestanframar Class" } }
+			}
+			ship = {
+				name = "VS Oregon"
+				definition = battleship
+				start_experience_factor = 0.4
+				equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = CAN version_name = "VinfengisgrunUllr Class" } }
+			}
+			ship = {
+				name = "VS Tennessee"
+				definition = heavy_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Vágrjaðarr Class" } }
+			}
+			ship = {
+				name = "VS Washington"
+				definition = heavy_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Vágrjaðarr Class" } }
+			}
+			ship = {
+				name = "VS Pennsylvania"
+				definition = heavy_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Rauðskeggjaði Class" } }
+			}
+			ship = {
+				name = "VS West Virginia"
+				definition = heavy_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Rauðskeggjaði Class" } }
+			}
+			ship = {
+				name = "VS California"
+				definition = heavy_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Rauðskeggjaði Class" } }
+			}
+			ship = {
+				name = "VS Colorado"
+				definition = heavy_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Rauðskeggjaði Class" } }
+			}
+			ship = {
+				name = "VS Maryland"
+				definition = heavy_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Rauðskeggjaði Class" } }
+			}
+			ship = {
+				name = "VS South Dakota"
+				definition = heavy_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Rauðskeggjaði Class" } }
+			}
+			ship = {
+				name = "VS St. Louis"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Þurrsinni Class" } }
+			}
+			ship = {
+				name = "VS Milwaukee"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Þurrsinni Class" } }
+			}
+			ship = {
+				name = "VS Charleston"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Þurrsinni Class" } }
+			}
+			ship = {
+				name = "VS Denver"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Ansuz Class" } }
+			}
+			ship = {
+				name = "VS Galveston"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Ansuz Class" } }
+			}
+			ship = {
+				name = "VS Cleveland"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Ansuz Class" } }
+			}
+			ship = {
+				name = "VS New Orleans"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Gebo Class" } }
+			}
+			ship = {
+				name = "VS Albany"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Gebo Class" } }
+			}
+			ship = {
+				name = "VS Cincinnati"
+				definition = light_cruiser
+				start_experience_factor = 0.4
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Raidho Class" } }
+			}
+			ship = {
+				name = "VS Raleigh"
+				definition = light_cruiser
+				start_experience_factor = 0.4
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Raidho Class" } }
+			}
+			ship = {
+				name = "VS Boston"
+				definition = light_cruiser
+				start_experience_factor = 0.4
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Isa Class" } }
+			}
+			ship = {
+				name = "VS Marblehead"
+				definition = light_cruiser
+				start_experience_factor = 0.4
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Berserkir Class" } }
+			}
+			ship = {
+				name = "VS Truxtun"
+				definition = destroyer
+				start_experience_factor = 0.2
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Horsa Class" } }
+			}
+			ship = {
+				name = "VS Whipple"
+				definition = destroyer
+				start_experience_factor = 0.2
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Horsa Class" } }
+			}
+			ship = {
+				name = "VS Bainbridge"
+				definition = destroyer
+				start_experience_factor = 0.4
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Njörun Class" } }
+			}
+			ship = {
+				name = "VS Barry"
+				definition = destroyer
+				start_experience_factor = 0.4
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Njörun Class" } }
+			}
+			ship = {
+				name = "VS Chauncey"
+				definition = destroyer
+				start_experience_factor = 0.2
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Njörun Class" } }
+			}
+			ship = {
+				name = "VS Dale"
+				definition = destroyer
+				start_experience_factor = 0.2
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Njörun Class" } }
+			}
+			ship = {
+				name = "VS Decatur"
+				definition = destroyer
+				start_experience_factor = 0.2
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Njörun Class" } }
+			}
+			ship = {
+				name = "VS Hopkins"
+				definition = destroyer
+				start_experience_factor = 0.2
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Njörun Class" } }
+			}
+			ship = {
+				name = "VS Hull"
+				definition = destroyer
+				start_experience_factor = 0.2
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Njörun Class" } }
+			}
+			ship = {
+				name = "VS Lawrence"
+				definition = destroyer
+				start_experience_factor = 0.2
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Njörun Class" } }
+			}
+			ship = {
+				name = "VS Paul Jones"
+				definition = destroyer
+				start_experience_factor = 0.2
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Njörun Class" } }
+			}
+			ship = {
+				name = "VS Perry"
+				definition = destroyer
+				start_experience_factor = 0.2
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Njörun Class" } }
+			}
+			ship = {
+				name = "VS Preble"
+				definition = destroyer
+				start_experience_factor = 0.2
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Njörun Class" } }
+			}
+			ship = {
+				name = "VS Stewart"
+				definition = destroyer
+				start_experience_factor = 0.2
+				equipment = { ship_hull_light_2 = { amount = 1 owner = CAN version_name = "Njörun Class" } }
+			}
+			ship = {
+				name = "VS Adder"
+				definition = submarine
+				start_experience_factor = 0.2
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "Thule Class" } }
+			}
+			ship = {
+				name = "VS Grampus"
+				definition = submarine
+				start_experience_factor = 0.2
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "Thule Class" } }
+			}
+			ship = {
+				name = "VS Moccasin"
+				definition = submarine
+				start_experience_factor = 0.2
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "Thule Class" } }
+			}
+			ship = {
+				name = "VS Pike"
+				definition = submarine
+				start_experience_factor = 0.2
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "Thule Class" } }
+			}
+			ship = {
+				name = "VS Porpoise"
+				definition = submarine
+				start_experience_factor = 0.2
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "Thule Class" } }
+			}
+			ship = {
+				name = "VS Shark"
+				definition = submarine
+				start_experience_factor = 0.2
+				equipment = { ship_hull_submarine_1 = { amount = 1 owner = CAN version_name = "Thule Class" } }
+			}
+		}
+	}
+}

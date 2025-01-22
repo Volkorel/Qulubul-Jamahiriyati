@@ -29,9 +29,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				monthly_population = -0.8
-				stability_factor = -0.4
-				war_support_factor = -0.5
+				monthly_population = -20
+				stability_factor = -0.6
+				war_support_factor = -0.6
 			}
 		}
 		QJ_global_outbreak_reduced_idea = {
@@ -40,9 +40,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				monthly_population = -0.4
-				stability_factor = -0.2
-				war_support_factor = -0.25
+				monthly_population = -10
+				stability_factor = -0.3
+				war_support_factor = -0.3
 			}
 		}
 	}

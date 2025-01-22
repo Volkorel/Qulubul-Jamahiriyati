@@ -443,6 +443,31 @@ on_actions = {
 					}
 				}
 			}
+			else_if = { #Kongolese Empire dies
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = B19
+							original_tag = B20
+						}
+					}
+					ROOT = {
+						original_tag = COG
+					}
+				}
+				B20 = {	
+					transfer_state = 660
+					transfer_state = 774
+					transfer_state = 539
+				}
+				B19 = {
+					annex_country = {
+						target = COG
+						transfer_troops = no
+					}
+					country_event = QJ_pygmies.6
+				}
+			}
 		}
 	}
 } 

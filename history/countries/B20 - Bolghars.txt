@@ -1,12 +1,11 @@
-﻿capital = 1041
+﻿capital = 12830
 
 set_research_slots = 3
 
-recruit_character = B19_Tribal_Elders
-recruit_character = B19_Ínà_Mapiti
+recruit_character = B20_Ajjar
 
 set_politics = {
-	ruling_party = indigeneum
+	ruling_party = suprarealisme
 	last_election = "1905.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -17,9 +16,9 @@ set_popularities = {
 	liberalism = 0
 	conservatism = 0
 	jacobinism = 0
-	duemarism = 0
-	indigeneum = 100
-	suprarealisme = 0
+	duemarism = 20
+	indigeneum = 10
+	suprarealisme = 70
 }
 
 set_technology = {

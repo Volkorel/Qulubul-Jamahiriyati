@@ -171,6 +171,12 @@ on_actions = {
 					days = 1439
 				}
 			}
+			B19 = {
+				country_event = {
+					id = QJ_pygmies.1
+					days = 820
+				}
+			}
 		}
 	}
 }

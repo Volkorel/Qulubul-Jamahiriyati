@@ -14,6 +14,13 @@ spriteTypes = {
 		name = "GFX_news_event_bayonets_waved"
 		texturefile = "gfx/event_pictures/news_event/news_event_bayonets_waved.dds"
 	}
+	#####################
+	#   Central Africa  #
+	#####################
+	spriteType = {
+		name = "GFX_news_event_pygmy_paramountcy"
+		texturefile = "gfx/event_pictures/news_event/news_event_pygmy_paramountcy.dds"
+	}
 	############
 	### ASIA ###
 	############

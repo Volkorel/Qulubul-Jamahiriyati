@@ -70,4 +70,45 @@ characters={
 			id=-4
 		}
 	}
+	#B19
+	B19_Tribal_Elders={
+		name="Tribal Elders"
+#		portraits={
+#			civilian={
+#				large=""
+#			}
+#		}
+		country_leader={
+			ideology=indigeneum_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	B19_Ínà_Mapiti={
+		name="Ínà Mapiti"
+#		portraits={
+#			civilian={
+#				large=""
+#			}
+#		}
+		country_leader={
+			ideology=duemarism_autochtonist_ascensionism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	#B20
+	B20_Ajjar={
+		name="Ajjar, 'Pale Death of the Europeans'"
+#		portraits={
+#			civilian={
+#				large=""
+#			}
+#		}
+		country_leader={
+			ideology=suprarealisme_erliks_disciples_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 }

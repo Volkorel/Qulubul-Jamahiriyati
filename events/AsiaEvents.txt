@@ -48,7 +48,7 @@ country_event = { #Foreign response event
 	is_triggered_only = yes
 	option = { #Bombom bombom bombombom
 		name = QJ_seljuks.2.a
-		
+		custom_effect_tooltip = QJ_bombombom_tt
 	}
 	option = { #Cringe
 		name = QJ_seljuks.2.b

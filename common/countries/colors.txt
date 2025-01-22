@@ -1038,3 +1038,7 @@ A05 = { #Tibet
 	color = rgb { 220 220 260 }
 	color_ui = rgb { 220 220 260 }
 }
+B20 = { #Bolghars
+	color = rgb { 15 140 136 }
+	color_ui = rgb { 15 140 136 }
+}

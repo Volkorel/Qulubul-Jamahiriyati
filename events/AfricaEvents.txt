@@ -1,0 +1,175 @@
+﻿add_namespace = QJ_pygmies
+
+country_event = { #Border raid against Bunyoro
+	id = QJ_pygmies.1
+	title = QJ_pygmies.1.t
+	desc = QJ_pygmies.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	option = {
+		name = QJ_pygmies.1.a
+		load_oob = B19
+		start_border_war = {
+			change_state_after_war = no
+			attacker = {
+				state = 1041
+				num_provinces = 1
+				on_win = QJ_pygmies.2
+				on_lose = QJ_pygmies.3
+			}	
+			defender = {
+				state = 1042
+				num_provinces = 1
+			}
+		}
+	}
+}
+
+country_event = { #Won
+	id = QJ_pygmies.2
+	title = QJ_pygmies.2.t
+	desc = QJ_pygmies.2.d
+	#picture = 
+	
+	is_triggered_only = yes
+	option = {
+		name = QJ_pygmies.2.a
+		B19 = {
+			transfer_state = 1042
+			add_state_core = 1042
+			set_cosmetic_tag = B19_PARAMOUNTCY
+			set_politics = {
+				ruling_party = duemarism
+			}
+			set_popularities = {
+				communism = 0
+				socialism = 0
+				liberalism = 0
+				conservatism = 0
+				jacobinism = 0
+				duemarism = 90
+				indigeneum = 10
+				suprarealisme = 0
+			}
+			country_event = {
+				id = QJ_pygmies.4
+				days = 30
+			}
+		}
+	}
+}
+
+country_event = { #Lost
+	id = QJ_pygmies.3
+	title = QJ_pygmies.3.t
+	desc = QJ_pygmies.3.d
+	#picture = 
+	
+	is_triggered_only = yes
+	option = {
+		name = QJ_pygmies.3.a
+		B19 = {
+			set_cosmetic_tag = B19_PARAMOUNTCY
+			set_politics = {
+				ruling_party = duemarism
+			}
+			set_popularities = {
+				communism = 0
+				socialism = 0
+				liberalism = 0
+				conservatism = 0
+				jacobinism = 0
+				duemarism = 90
+				indigeneum = 10
+				suprarealisme = 0
+			}
+			country_event = {
+				id = QJ_pygmies.4
+				days = 30
+			}
+		}
+	}
+}
+
+country_event = { #Paramountcy invades neighbours
+	id = QJ_pygmies.4
+	title = QJ_pygmies.4.t
+	desc = QJ_pygmies.4.d
+	#picture = 
+	
+	is_triggered_only = yes
+	option = {
+		name = QJ_pygmies.4.a
+		B19 = {
+			declare_war_on = {
+				target = B18
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = B10
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = B13
+				type = annex_everything
+			}
+			country_event = {
+				id = QJ_pygmies.5
+				days = 120
+			}
+		}
+		every_country = {
+			news_event = jam_world.10
+		}
+	}
+}
+
+country_event = { #Paramountcy invades empires
+	id = QJ_pygmies.5
+	title = QJ_pygmies.5.t
+	desc = QJ_pygmies.5.d
+	#picture = 
+	
+	is_triggered_only = yes
+	option = {
+		name = QJ_pygmies.5.a
+		B19 = {
+			declare_war_on = {
+				target = COG
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = RCG
+				type = annex_everything
+			}
+		}
+		B20 = {
+			transfer_state = 660
+			add_state_core = 660
+			add_state_core = 774
+			add_state_core = 539
+			declare_war_on = {
+				target = COG
+				type = annex_everything
+			}
+			load_oob = B20
+		}
+	}
+}
+
+country_event = { #Faction created
+	id = QJ_pygmies.6
+	title = QJ_pygmies.6.t
+	desc = QJ_pygmies.6.d
+	#picture = 
+	
+	is_triggered_only = yes
+	option = {
+		name = QJ_pygmies.6.a
+		B19 = {
+			create_faction = "kill_the_white_man"
+			add_to_faction = B20
+		}
+	}
+}

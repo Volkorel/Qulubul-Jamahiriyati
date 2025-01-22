@@ -103,3 +103,14 @@ news_event = { #Frankia declares war on Savoy
 		name = jam_world.9.a
 	}
 }
+
+news_event = { #Pygmies be scary n shit
+	id = jam_world.10
+	title = jam_world.10.t
+	desc = jam_world.10.d
+	picture = GFX_news_event_pygmy_paramountcy
+	is_triggered_only = yes
+	option = {
+		name = jam_world.10.a
+	}
+}

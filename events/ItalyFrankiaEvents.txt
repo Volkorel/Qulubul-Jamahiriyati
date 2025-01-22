@@ -332,11 +332,11 @@ country_event = { #Savoy - do we accept duemarist support?
 	
 	option = { #sure buddy hop on
 		name = QJ_savoy.4.a
-		set_country_flag = SPM_duemarist_support
 		add_popularity = {
 			ideology = duemarism
 			popularity = 0.05
 		}
+		add_stability = -0.2
 		SPM = {
 			if = {
 				limit = {
@@ -784,7 +784,6 @@ country_event = { #War breaks out between Savoy and Feds
 				target = SPM
 				type = annex_everything
 			}
-			#Duemarist militias spawn if Savoy accepted their support earlier
 		}
 	}
 }
