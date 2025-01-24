@@ -115,7 +115,7 @@ country_event = { #Smallpox spreads to neighbouring countries
 							news_event = QJ_apocalypse.99
 							news_event = {
 								id = QJ_apocalypse.100
-								days = 365
+								days = 720
 							}
 						}
 						380 = {
@@ -123,7 +123,7 @@ country_event = { #Smallpox spreads to neighbouring countries
 								country_event = {
 									id = QJ_apocalypse.50
 									days = 90
-									random_days = 180
+									random_days = 270
 								}
 							}
 						}
@@ -132,7 +132,7 @@ country_event = { #Smallpox spreads to neighbouring countries
 								country_event = {
 									id = QJ_apocalypse.51
 									days = 90
-									random_days = 180
+									random_days = 270
 								}
 							}
 						}
@@ -141,7 +141,7 @@ country_event = { #Smallpox spreads to neighbouring countries
 								country_event = {
 									id = QJ_apocalypse.52
 									days = 90
-									random_days = 180
+									random_days = 270
 								}
 							}
 						}
@@ -150,7 +150,7 @@ country_event = { #Smallpox spreads to neighbouring countries
 								country_event = {
 									id = QJ_apocalypse.53
 									days = 90
-									random_days = 180
+									random_days = 270
 								}
 							}
 						}
@@ -159,7 +159,7 @@ country_event = { #Smallpox spreads to neighbouring countries
 								country_event = {
 									id = QJ_apocalypse.54
 									days = 90
-									random_days = 180
+									random_days = 270
 								}
 							}
 						}
@@ -168,7 +168,7 @@ country_event = { #Smallpox spreads to neighbouring countries
 								country_event = {
 									id = QJ_apocalypse.55
 									days = 90
-									random_days = 180
+									random_days = 270
 								}
 							}
 						}
@@ -177,7 +177,7 @@ country_event = { #Smallpox spreads to neighbouring countries
 								country_event = {
 									id = QJ_apocalypse.56
 									days = 90
-									random_days = 180
+									random_days = 270
 								}
 							}
 						}
@@ -186,7 +186,7 @@ country_event = { #Smallpox spreads to neighbouring countries
 								country_event = {
 									id = QJ_apocalypse.57
 									days = 90
-									random_days = 180
+									random_days = 270
 								}
 							}
 						}
@@ -195,7 +195,7 @@ country_event = { #Smallpox spreads to neighbouring countries
 								country_event = {
 									id = QJ_apocalypse.58
 									days = 90
-									random_days = 180
+									random_days = 270
 								}
 							}
 						}
@@ -204,7 +204,7 @@ country_event = { #Smallpox spreads to neighbouring countries
 								country_event = {
 									id = QJ_apocalypse.59
 									days = 90
-									random_days = 180
+									random_days = 270
 								}
 							}
 						}
@@ -213,7 +213,7 @@ country_event = { #Smallpox spreads to neighbouring countries
 								country_event = {
 									id = QJ_apocalypse.60
 									days = 90
-									random_days = 180
+									random_days = 270
 								}
 							}
 						}
@@ -222,7 +222,7 @@ country_event = { #Smallpox spreads to neighbouring countries
 								country_event = {
 									id = QJ_apocalypse.61
 									days = 90
-									random_days = 180
+									random_days = 270
 								}
 							}
 						}
@@ -231,7 +231,7 @@ country_event = { #Smallpox spreads to neighbouring countries
 								country_event = {
 									id = QJ_apocalypse.62
 									days = 90
-									random_days = 180
+									random_days = 270
 								}
 							}
 						}
@@ -433,6 +433,11 @@ country_event = { #
 				type = annex_everything
 			}
 			load_oob = S01
+			add_ideas = QJ_apocalypticist_movement
+			add_timed_idea = {
+				idea = QJ_global_outbreak_idea
+				days = 720
+			}
 		}
 	}
 }
@@ -467,6 +472,11 @@ country_event = { #
 				type = annex_everything
 			}
 			load_oob = S02
+			add_ideas = QJ_apocalypticist_movement
+			add_timed_idea = {
+				idea = QJ_global_outbreak_idea
+				days = 720
+			}
 		}
 	}
 }
@@ -504,6 +514,11 @@ country_event = { #
 				type = annex_everything
 			}
 			load_oob = S03
+			add_ideas = QJ_apocalypticist_movement
+			add_timed_idea = {
+				idea = QJ_global_outbreak_idea
+				days = 720
+			}
 		}
 	}
 }
@@ -533,6 +548,11 @@ country_event = { #
 				type = annex_everything
 			}
 			load_oob = S04
+			add_ideas = QJ_apocalypticist_movement
+			add_timed_idea = {
+				idea = QJ_global_outbreak_idea
+				days = 720
+			}
 		}
 	}
 }
@@ -555,10 +575,31 @@ country_event = { #
 				type = annex_everything
 			}
 			declare_war_on = {
-				target = GER
+				target = BAY
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = POL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SLO
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = UKR
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = LIT
 				type = annex_everything
 			}
 			load_oob = S05
+			add_ideas = QJ_apocalypticist_movement
+			add_timed_idea = {
+				idea = QJ_global_outbreak_idea
+				days = 720
+			}
 		}
 	}
 }
@@ -593,6 +634,11 @@ country_event = { #
 				type = annex_everything
 			}
 			load_oob = S06
+			add_ideas = QJ_apocalypticist_movement
+			add_timed_idea = {
+				idea = QJ_global_outbreak_idea
+				days = 720
+			}
 		}
 	}
 }
@@ -626,7 +672,20 @@ country_event = { #
 				target = XSM
 				type = annex_everything
 			}
+			declare_war_on = {
+				target = BUK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = TAN
+				type = annex_everything
+			}
 			load_oob = S07
+			add_ideas = QJ_apocalypticist_movement
+			add_timed_idea = {
+				idea = QJ_global_outbreak_idea
+				days = 720
+			}
 		}
 	}
 }
@@ -669,6 +728,11 @@ country_event = { #
 				type = annex_everything
 			}
 			load_oob = S08
+			add_ideas = QJ_apocalypticist_movement
+			add_timed_idea = {
+				idea = QJ_global_outbreak_idea
+				days = 720
+			}
 		}
 	}
 }
@@ -699,6 +763,11 @@ country_event = { #
 				type = annex_everything
 			}
 			load_oob = S09
+			add_ideas = QJ_apocalypticist_movement
+			add_timed_idea = {
+				idea = QJ_global_outbreak_idea
+				days = 720
+			}
 		}
 	}
 }
@@ -756,6 +825,11 @@ country_event = { #
 				type = annex_everything
 			}
 			load_oob = S10
+			add_ideas = QJ_apocalypticist_movement
+			add_timed_idea = {
+				idea = QJ_global_outbreak_idea
+				days = 720
+			}
 		}
 	}
 }
@@ -822,6 +896,11 @@ country_event = { #
 				type = annex_everything
 			}
 			load_oob = S11
+			add_ideas = QJ_apocalypticist_movement
+			add_timed_idea = {
+				idea = QJ_global_outbreak_idea
+				days = 720
+			}
 		}
 	}
 }
@@ -876,6 +955,11 @@ country_event = { #
 				type = annex_everything
 			}
 			load_oob = S12
+			add_ideas = QJ_apocalypticist_movement
+			add_timed_idea = {
+				idea = QJ_global_outbreak_idea
+				days = 720
+			}
 		}
 	}
 }
@@ -909,6 +993,11 @@ country_event = { #
 				type = annex_everything
 			}
 			load_oob = S13
+			add_ideas = QJ_apocalypticist_movement
+			add_timed_idea = {
+				idea = QJ_global_outbreak_idea
+				days = 720
+			}
 		}
 	}
 }

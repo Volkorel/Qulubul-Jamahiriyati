@@ -95,26 +95,4 @@ units = {
 		start_experience_factor=0.2
 		start_equipment_factor = 0.80
 	}
-	
-	division= { 
-		division_name = {
-			is_name_ordered = yes
-			name_order = 7
-		}
-		location=8136 
-		division_template="Spirit Awakeners"
-		start_experience_factor=0.2
-		start_equipment_factor = 0.80
-	}
-	
-	division= { 
-		division_name = {
-			is_name_ordered = yes
-			name_order = 8
-		}
-		location=8136 
-		division_template="Spirit Awakeners"
-		start_experience_factor=0.2
-		start_equipment_factor = 0.80
-	}
 }

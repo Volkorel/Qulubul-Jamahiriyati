@@ -316,8 +316,8 @@ NIC = {
 	color_ui = rgb { 178 255 247 }
 }
 NZL = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 224 137 83 }
+	color_ui = rgb { 224 137 83 }
 }
 PAN = {
 	color = rgb { 0 186 170 }

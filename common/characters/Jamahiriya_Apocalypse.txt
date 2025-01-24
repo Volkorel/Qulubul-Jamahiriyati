@@ -86,11 +86,11 @@ characters={
 	#S07
 	S07_Nergüi={
 		name="Nergüi"
-#		portraits={
-#			civilian={
-#				large=""
-#			}
-#		}
+		portraits={
+			civilian={
+				large="GFX_Portrait_S07_Nergüi"
+			}
+		}
 		country_leader={
 			ideology=suprarealisme_erliks_disciples_subtype
 			expire="1965.1.1.1"
@@ -100,11 +100,11 @@ characters={
 	#S08
 	S08_Muhammad_ibn_Hasan_al_Mahdi={
 		name="Muhammad ibn Hasan al-Mahdi"
-#		portraits={
-#			civilian={
-#				large=""
-#			}
-#		}
+		portraits={
+			civilian={
+				large="GFX_Portrait_S08_Muhammad_ibn_Hasan_al_Mahdi"
+			}
+		}
 		country_leader={
 			ideology=suprarealisme_mukashifoun_subtype
 			expire="1965.1.1.1"
@@ -114,11 +114,11 @@ characters={
 	#S09
 	S09_Luphelo={
 		name="Luphelo"
-#		portraits={
-#			civilian={
-#				large=""
-#			}
-#		}
+		portraits={
+			civilian={
+				large="GFX_Portrait_S09_Luphelo"
+			}
+		}
 		country_leader={
 			ideology=suprarealisme_spirit_awakeners_subtype
 			expire="1965.1.1.1"
@@ -128,11 +128,11 @@ characters={
 	#S10
 	S10_Kandukuri_Krishnayya_Raju={
 		name="Kandukuri Krishnayya Raju"
-#		portraits={
-#			civilian={
-#				large=""
-#			}
-#		}
+		portraits={
+			civilian={
+				large="GFX_Portrait_S10_Kandukuri_Krishnayya_Rajuy"
+			}
+		}
 		country_leader={
 			ideology=suprarealisme_kalkis_faithful_subtype
 			expire="1965.1.1.1"
@@ -142,11 +142,11 @@ characters={
 	#S11
 	S11_Sūn_Xinlu={
 		name="Sūn Xinlu"
-#		portraits={
-#			civilian={
-#				large=""
-#			}
-#		}
+		portraits={
+			civilian={
+				large="GFX_Portrait_S11_Sūn_Xinlu"
+			}
+		}
 		country_leader={
 			ideology=suprarealisme_perfect_warriors_subtype
 			expire="1965.1.1.1"
@@ -156,11 +156,11 @@ characters={
 	#S12
 	S12_Saidani_Matsusuke={
 		name="Saidani Matsusuke"
-#		portraits={
-#			civilian={
-#				large=""
-#			}
-#		}
+		portraits={
+			civilian={
+				large="GFX_Portrait_S12_Saidani_Matsusuke"
+			}
+		}
 		country_leader={
 			ideology=suprarealisme_boddhisatvaism_subtype
 			expire="1965.1.1.1"
@@ -170,11 +170,11 @@ characters={
 	#S13
 	S13_Helga_Hrafnsdóttir={
 		name="Helga Hrafnsdóttir"
-#		portraits={
-#			civilian={
-#				large=""
-#			}
-#		}
+		portraits={
+			civilian={
+				large="GFX_Portrait_S13_Helga_Hrafnsdóttir"
+			}
+		}
 		country_leader={
 			ideology=suprarealisme_einherjarlid_subtype
 			expire="1965.1.1.1"

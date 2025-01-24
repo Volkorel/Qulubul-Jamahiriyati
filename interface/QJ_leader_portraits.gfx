@@ -157,4 +157,39 @@ spriteTypes = {
 		name = "GFX_Portrait_S06_Þórir_Dýrs_hjarta"
 		texturefile = "gfx/leaders/Apocalypse/Portrait_S06_Þórir_Dýrs_hjarta.dds"
 	}
+	#Erlik's Riders
+	spriteType = {
+		name = "GFX_Portrait_S07_Nergüi"
+		texturefile = "gfx/leaders/Apocalypse/Portrait_S07_Nergüi.dds"
+	}
+	#Mahdist State
+	spriteType = {
+		name = "GFX_Portrait_S08_Muhammad_ibn_Hasan_al_Mahdi"
+		texturefile = "gfx/leaders/Apocalypse/Portrait_S08_Muhammad_ibn_Hasan_al_Mahdi.dds"
+	}
+	#Spirit Awakeners
+	spriteType = {
+		name = "GFX_Portrait_S09_Luphelo"
+		texturefile = "gfx/leaders/Apocalypse/Portrait_S09_Luphelo.dds"
+	}
+	#Kali Yuga Uber Alles
+	spriteType = {
+		name = "GFX_Portrait_S10_Kandukuri_Krishnayya_Rajuy"
+		texturefile = "gfx/leaders/Apocalypse/Portrait_S10_Kandukuri_Krishnayya_Rajuy.dds"
+	}
+	#Perfect Warriors
+	spriteType = {
+		name = "GFX_Portrait_S11_Sūn_Xinlu"
+		texturefile = "gfx/leaders/Apocalypse/Portrait_S11_Sūn_Xinlu.dds"
+	}
+	#Bodhisattvas
+	spriteType = {
+		name = "GFX_Portrait_S12_Saidani_Matsusuke"
+		texturefile = "gfx/leaders/Apocalypse/Portrait_S12_Saidani_Matsusuke.dds"
+	}
+	#Freyja's Host
+	spriteType = {
+		name = "GFX_Portrait_S13_Helga_Hrafnsdóttir"
+		texturefile = "gfx/leaders/Apocalypse/Portrait_S13_Helga_Hrafnsdóttir.dds"
+	}
 }
