@@ -308,4 +308,32 @@ spriteTypes = {
 		name = "GFX_ideology_suprarealisme_mukashifoun_subtype"
 		texturefile = "gfx/interface/ideologies/suprarealisme_mukashifoun_subtype.dds"
 	}
+	spriteType = {
+		name = "GFX_ideology_suprarealisme_true_messiah_judaism_subtype"
+		texturefile = "gfx/interface/ideologies/suprarealisme_true_messiah_judaism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_suprarealisme_spirit_awakeners_subtype"
+		texturefile = "gfx/interface/ideologies/suprarealisme_spirit_awakeners_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_suprarealisme_kalkis_faithful_subtype"
+		texturefile = "gfx/interface/ideologies/suprarealisme_kalkis_faithful_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_suprarealisme_feathered_serpent_warriors_subtype"
+		texturefile = "gfx/interface/ideologies/suprarealisme_feathered_serpent_warriors_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_suprarealisme_boddhisatvaism_subtype"
+		texturefile = "gfx/interface/ideologies/suprarealisme_boddhisatvaism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservatism_unregulated_corporatism_subtype"
+		texturefile = "gfx/interface/ideologies/conservatism_unregulated_corporatism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_suprarealisme_perfect_warriors_subtype"
+		texturefile = "gfx/interface/ideologies/suprarealisme_perfect_warriors_subtype.dds"
+	}
 }

@@ -1042,3 +1042,55 @@ B20 = { #Bolghars
 	color = rgb { 15 140 136 }
 	color_ui = rgb { 15 140 136 }
 }
+S01 = { #Kingdom of God on Earth
+	color = rgb { 90 90 50 }
+	color_ui = rgb { 90 90 50 }
+}
+S02 = { #Feathered Serpent Warriors
+	color = rgb { 6 60 0 }
+	color_ui = rgb { 6 60 0 }
+}
+S03 = { #Mahdi Army
+	color = rgb { 70 100 20 }
+	color_ui = rgb { 70 100 20 }
+}
+S04 = { #Army of the True Messiah
+	color = rgb { 50 100 115 }
+	color_ui = rgb { 50 100 115 }
+}
+S05 = { #Milites Christi
+	color = rgb { 100 100 30 }
+	color_ui = rgb { 100 100 30 }
+}
+S06 = { #Einherjar
+	color = rgb { 30 30 100 }
+	color_ui = rgb { 30 30 100 }
+}
+S07 = { #Erlik's Riders
+	color = rgb { 70 30 100 }
+	color_ui = rgb { 70 30 100 }
+}
+S08 = { #Mahdist State
+	color = rgb { 30 100 10 }
+	color_ui = rgb { 30 100 10 }
+}
+S09 = { #Spirit Awakeners
+	color = rgb { 100 60 10 }
+	color_ui = rgb { 100 60 10 }
+}
+S10 = { #Banishers of Kali Yuga
+	color = rgb { 0 100 75 }
+	color_ui = rgb { 0 100 75 }
+}
+S11 = { #Perfect Warriors of the Tao
+	color = rgb { 100 0 30 }
+	color_ui = rgb { 100 0 30 }
+}
+S12 = { #Boddhisatva Shinrikyo
+	color = rgb { 90 40 0 }
+	color_ui = rgb { 90 40 0 }
+}
+S13 = { #Folkvangrlid
+	color = rgb { 90 0 60 }
+	color_ui = rgb { 90 0 60 }
+}

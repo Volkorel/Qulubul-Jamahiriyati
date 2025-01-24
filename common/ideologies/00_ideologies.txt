@@ -97,6 +97,7 @@ ideologies = {
 			conservatism_hercegersek_rule_subtype = { can_be_randomly_selected = no }
 			conservatism_pontifical_rule_subtype = { can_be_randomly_selected = no }
 			conservatism_haredi_conservatism_subtype = { can_be_randomly_selected = no }
+			conservatism_unregulated_corporatism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 55 86 137 }
@@ -198,6 +199,12 @@ ideologies = {
 			suprarealisme_crusaders_of_the_white_band_subtype = { can_be_randomly_selected = no }
 			suprarealisme_einherjarlid_subtype = { can_be_randomly_selected = no }
 			suprarealisme_mukashifoun_subtype = { can_be_randomly_selected = no }
+			suprarealisme_true_messiah_judaism_subtype = { can_be_randomly_selected = no }
+			suprarealisme_spirit_awakeners_subtype = { can_be_randomly_selected = no }
+			suprarealisme_kalkis_faithful_subtype = { can_be_randomly_selected = no }
+			suprarealisme_feathered_serpent_warriors_subtype = { can_be_randomly_selected = no }
+			suprarealisme_boddhisatvaism_subtype = { can_be_randomly_selected = no }
+			suprarealisme_perfect_warriors_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {}
 		color = { 25 25 25 }

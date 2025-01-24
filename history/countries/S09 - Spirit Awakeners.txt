@@ -1,0 +1,61 @@
+﻿capital = 331
+
+set_research_slots = 3
+set_war_support = 1
+set_convoys = 100
+
+recruit_character = S09_Luphelo
+
+set_politics = {
+	ruling_party = suprarealisme
+	last_election = "1905.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	socialism = 0
+	liberalism = 0
+	conservatism = 0
+	jacobinism = 0
+	duemarism = 0
+	indigeneum = 30
+	suprarealisme = 70
+}
+
+set_technology = {
+	#infantry
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	motorised_infantry = 1
+	
+	#support
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	
+	#armor
+	early_armored_car = 1
+	
+	#artillery
+	gw_artillery = 1
+	
+	#doctrine
+	
+	#air
+	scout_plane = 1
+	
+	#engineering
+	electrical_engineering = 1
+	radio = 1
+	analytical_engine = 1
+	mechanical_engineering = 1
+	magneto_ignition = 1
+	aircraft_engine = 1
+	generator_battery = 1
+	basic_train = 1
+	basic_railways = 1
+	construction0 = 1
+	powder_type_b = 1
+}

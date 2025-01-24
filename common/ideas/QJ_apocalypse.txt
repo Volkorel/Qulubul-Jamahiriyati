@@ -45,5 +45,19 @@ ideas = {
 				war_support_factor = -0.3
 			}
 		}
+		QJ_apocalypticist_movement = {
+			allowed = { always = no }
+			picture = chi_war_of_resistance3
+			removal_cost = -1
+
+			modifier = {
+				surrender_limit = -1
+				defence = 0.5
+				army_speed_factor = -0.25
+				pocket_penalty = 0.75
+				ai_get_ally_desire_factor = -1000
+				ai_badass_factor = 5
+			}
+		}
 	}
 }

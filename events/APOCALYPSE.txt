@@ -118,8 +118,125 @@ country_event = { #Smallpox spreads to neighbouring countries
 								days = 365
 							}
 						}
+						380 = {
+							controller = {
+								country_event = {
+									id = QJ_apocalypse.50
+									days = 90
+									random_days = 180
+								}
+							}
+						}
+						311 = {
+							controller = {
+								country_event = {
+									id = QJ_apocalypse.51
+									days = 90
+									random_days = 180
+								}
+							}
+						}
+						498 = {
+							controller = {
+								country_event = {
+									id = QJ_apocalypse.52
+									days = 90
+									random_days = 180
+								}
+							}
+						}
+						123 = {
+							controller = {
+								country_event = {
+									id = QJ_apocalypse.53
+									days = 90
+									random_days = 180
+								}
+							}
+						}
+						74 = {
+							controller = {
+								country_event = {
+									id = QJ_apocalypse.54
+									days = 90
+									random_days = 180
+								}
+							}
+						}
+						209 = {
+							controller = {
+								country_event = {
+									id = QJ_apocalypse.55
+									days = 90
+									random_days = 180
+								}
+							}
+						}
+						588 = {
+							controller = {
+								country_event = {
+									id = QJ_apocalypse.56
+									days = 90
+									random_days = 180
+								}
+							}
+						}
+						677 = {
+							controller = {
+								country_event = {
+									id = QJ_apocalypse.57
+									days = 90
+									random_days = 180
+								}
+							}
+						}
+						895 = {
+							controller = {
+								country_event = {
+									id = QJ_apocalypse.58
+									days = 90
+									random_days = 180
+								}
+							}
+						}
+						423 = {
+							controller = {
+								country_event = {
+									id = QJ_apocalypse.59
+									days = 90
+									random_days = 180
+								}
+							}
+						}
+						1067 = {
+							controller = {
+								country_event = {
+									id = QJ_apocalypse.60
+									days = 90
+									random_days = 180
+								}
+							}
+						}
+						1102 = {
+							controller = {
+								country_event = {
+									id = QJ_apocalypse.61
+									days = 90
+									random_days = 180
+								}
+							}
+						}
+						521 = {
+							controller = {
+								country_event = {
+									id = QJ_apocalypse.62
+									days = 90
+									random_days = 180
+								}
+							}
+						}
 					}
-					9 = {
+					19 = {
 						#World doesn't end just yet
 					}
 				}
@@ -278,6 +395,520 @@ country_event = { #Global Pandemic Spreads
 					}
 				}
 			}
+		}
+	}
+}
+
+country_event = { #
+	id = QJ_apocalypse.50
+	title = QJ_apocalypse.50.t
+	desc = QJ_apocalypse.50.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = QJ_apocalypse.50.a
+		S01 = {
+			transfer_state = 380
+			transfer_state = 382
+			declare_war_on = {
+				target = ROOT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CAN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = GUA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BLZ
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = MEX
+				type = annex_everything
+			}
+			load_oob = S01
+		}
+	}
+}
+
+country_event = { #
+	id = QJ_apocalypse.51
+	title = QJ_apocalypse.51.t
+	desc = QJ_apocalypse.51.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = QJ_apocalypse.51.a
+		S02 = {
+			transfer_state = 311
+			transfer_state = 474
+			declare_war_on = {
+				target = ROOT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = MEX
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = NIC
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = PAN
+				type = annex_everything
+			}
+			load_oob = S02
+		}
+	}
+}
+
+country_event = { #
+	id = QJ_apocalypse.52
+	title = QJ_apocalypse.52.t
+	desc = QJ_apocalypse.52.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = QJ_apocalypse.52.a
+		S03 = {
+			transfer_state = 498
+			declare_war_on = {
+				target = ROOT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BRA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = GYA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SUR
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SWE
+				type = annex_everything
+			}
+			load_oob = S03
+		}
+	}
+}
+
+country_event = { #
+	id = QJ_apocalypse.53
+	title = QJ_apocalypse.53.t
+	desc = QJ_apocalypse.53.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = QJ_apocalypse.53.a
+		S04 = {
+			transfer_state = 123
+			declare_war_on = {
+				target = ROOT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ENG
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = FRA
+				type = annex_everything
+			}
+			load_oob = S04
+		}
+	}
+}
+
+country_event = { #
+	id = QJ_apocalypse.54
+	title = QJ_apocalypse.54.t
+	desc = QJ_apocalypse.54.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = QJ_apocalypse.54.a
+		S05 = {
+			transfer_state = 74
+			transfer_state = 67
+			declare_war_on = {
+				target = ROOT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = GER
+				type = annex_everything
+			}
+			load_oob = S05
+		}
+	}
+}
+
+country_event = { #
+	id = QJ_apocalypse.55
+	title = QJ_apocalypse.55.t
+	desc = QJ_apocalypse.55.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = QJ_apocalypse.55.a
+		S06 = {
+			transfer_state = 191
+			transfer_state = 209
+			declare_war_on = {
+				target = ROOT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SOV
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = LAT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = EST
+				type = annex_everything
+			}
+			load_oob = S06
+		}
+	}
+}
+
+country_event = { #
+	id = QJ_apocalypse.56
+	title = QJ_apocalypse.56.t
+	desc = QJ_apocalypse.56.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = QJ_apocalypse.56.a
+		S07 = {
+			transfer_state = 618
+			transfer_state = 818
+			declare_war_on = {
+				target = ROOT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SOV
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SIK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = XSM
+				type = annex_everything
+			}
+			load_oob = S07
+		}
+	}
+}
+
+country_event = { #
+	id = QJ_apocalypse.57
+	title = QJ_apocalypse.57.t
+	desc = QJ_apocalypse.57.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = QJ_apocalypse.57.a
+		S08 = {
+			transfer_state = 1127
+			transfer_state = 554
+			declare_war_on = {
+				target = ROOT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = GRE
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SAU
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = PAL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SYR
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = IRQ
+				type = annex_everything
+			}
+			load_oob = S08
+		}
+	}
+}
+
+country_event = { #
+	id = QJ_apocalypse.58
+	title = QJ_apocalypse.58.t
+	desc = QJ_apocalypse.58.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = QJ_apocalypse.58.a
+		S09 = {
+			transfer_state = 895
+			transfer_state = 894
+			declare_war_on = {
+				target = ROOT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SAF
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = HER
+				type = annex_everything
+			}
+			load_oob = S09
+		}
+	}
+}
+
+country_event = { #
+	id = QJ_apocalypse.59
+	title = QJ_apocalypse.59.t
+	desc = QJ_apocalypse.59.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = QJ_apocalypse.59.a
+		S10 = {
+			transfer_state = 423
+			declare_war_on = {
+				target = ROOT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = RAJ
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SRL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BAN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = PAK
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = A01
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = A02
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = A03
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = A04
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = A05
+				type = annex_everything
+			}
+			load_oob = S10
+		}
+	}
+}
+
+country_event = { #
+	id = QJ_apocalypse.60
+	title = QJ_apocalypse.60.t
+	desc = QJ_apocalypse.60.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = QJ_apocalypse.60.a
+		S11 = {
+			transfer_state = 1067
+			transfer_state = 594
+			declare_war_on = {
+				target = ROOT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = XSM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = GXC
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = PRC
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SHX
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = MEN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = TAH
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CHI
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = HAW
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = FIJ
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = MAN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KOR
+				type = annex_everything
+			}
+			load_oob = S11
+		}
+	}
+}
+
+country_event = { #
+	id = QJ_apocalypse.61
+	title = QJ_apocalypse.61.t
+	desc = QJ_apocalypse.61.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = QJ_apocalypse.61.a
+		S12 = {
+			transfer_state = 1102
+			transfer_state = 1103
+			declare_war_on = {
+				target = ROOT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = GUM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KOM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = NEN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = JAP
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = OVO
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = YAM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = TAY
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CKK
+				type = annex_everything
+			}
+			load_oob = S12
+		}
+	}
+}
+
+country_event = { #
+	id = QJ_apocalypse.62
+	title = QJ_apocalypse.62.t
+	desc = QJ_apocalypse.62.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = QJ_apocalypse.62.a
+		S13 = {
+			transfer_state = 521
+			declare_war_on = {
+				target = ROOT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = AST
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = NZL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = INS
+				type = annex_everything
+			}
+			load_oob = S13
 		}
 	}
 }

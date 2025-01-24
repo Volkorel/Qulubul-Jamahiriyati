@@ -218,6 +218,10 @@ defined_text = {
 		localization_key = conservatism_haredi_conservatism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = conservatism_unregulated_corporatism_subtype }
+		localization_key = conservatism_unregulated_corporatism_subtype
+	}
+	text = {
 		localization_key = conservatism
 	}
 }
@@ -360,6 +364,30 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = suprarealisme_mukashifoun_subtype }
 		localization_key = suprarealisme_mukashifoun_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = suprarealisme_true_messiah_judaism_subtype }
+		localization_key = suprarealisme_true_messiah_judaism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = suprarealisme_spirit_awakeners_subtype }
+		localization_key = suprarealisme_spirit_awakeners_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = suprarealisme_kalkis_faithful_subtype }
+		localization_key = suprarealisme_kalkis_faithful_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = suprarealisme_feathered_serpent_warriors_subtype }
+		localization_key = suprarealisme_feathered_serpent_warriors_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = suprarealisme_boddhisatvaism_subtype }
+		localization_key = suprarealisme_boddhisatvaism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = suprarealisme_perfect_warriors_subtype }
+		localization_key = suprarealisme_perfect_warriors_subtype
 	}
 	text = {
 		localization_key = suprarealisme

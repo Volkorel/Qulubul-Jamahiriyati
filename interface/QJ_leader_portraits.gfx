@@ -126,4 +126,35 @@ spriteTypes = {
 		name = "GFX_Portrait_HON_Yashiro_Shigenaga"
 		texturefile = "gfx/leaders/HON/Portrait_HON_Yashiro_Shigenaga.dds"
 	}
+	#APOCALYPSE
+	#Kingdom of God on Earth
+	spriteType = {
+		name = "GFX_Portrait_S01_Third_Coming"
+		texturefile = "gfx/leaders/Apocalypse/Portrait_S01_Third_Coming.dds"
+	}
+	#Feathered Serpent Warriors
+	spriteType = {
+		name = "GFX_Portrait_S02_Tizocicatzin"
+		texturefile = "gfx/leaders/Apocalypse/Portrait_S02_Tizocicatzin.dds"
+	}
+	#Mahdi Army
+	spriteType = {
+		name = "GFX_Portrait_S03_Abu_Bakr_al_Murabaeghi"
+		texturefile = "gfx/leaders/Apocalypse/Portrait_S03_Abu_Bakr_al_Murabaeghi.dds"
+	}
+	#Messiah
+	spriteType = {
+		name = "GFX_Portrait_S04_Melekh_Mashiach"
+		texturefile = "gfx/leaders/Apocalypse/Portrait_S04_Melekh_Mashiach.dds"
+	}
+	#Milites Christi
+	spriteType = {
+		name = "GFX_Portrait_S05_Ruprecht_Wildegraf"
+		texturefile = "gfx/leaders/Apocalypse/Portrait_S05_Ruprecht_Wildegraf.dds"
+	}
+	#Odin's Host
+	spriteType = {
+		name = "GFX_Portrait_S06_Þórir_Dýrs_hjarta"
+		texturefile = "gfx/leaders/Apocalypse/Portrait_S06_Þórir_Dýrs_hjarta.dds"
+	}
 }
