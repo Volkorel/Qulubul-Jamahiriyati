@@ -1,0 +1,23 @@
+units = {
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Naval Service of Hroudsted"
+		naval_base = 3957
+		task_force = {
+			name = "Maritime Forces Atlantic"
+			location = 3957
+			ship = {
+				name = "HMCS Rainbow"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Valkyrja Class" } }
+			}
+			ship = {
+				name = "HMCS Niobe"
+				definition = light_cruiser
+				start_experience_factor = 0.2
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CAN version_name = "Valkyrja Class" } }
+			}
+		}
+	}
+}

@@ -594,6 +594,10 @@ country_event = { #
 				target = LIT
 				type = annex_everything
 			}
+			declare_war_on = {
+				target = GER
+				type = annex_everything
+			}
 			load_oob = S05
 			add_ideas = QJ_apocalypticist_movement
 			add_timed_idea = {

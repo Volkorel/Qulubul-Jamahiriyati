@@ -1,0 +1,46 @@
+
+units = {
+	fleet = {
+		name = "UPCE Skipguardi"
+		naval_base = 4641
+		task_force = {
+			name = "UPCE Skipguardi"
+			location = 4641
+			ship = {
+				name = "NMS Slafi Handil"
+				definition = light_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CUB version_name = "Slafi Handil Class" } }
+			}
+			ship = {
+				name = "NMS Sēazīe"
+				definition = light_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CUB version_name = "Sēazīe Class" } }
+			}
+			ship = {
+				name = "NMS Frīmann"
+				definition = light_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CUB version_name = "Frīmann Class" } }
+			}
+			ship = {
+				name = "NMS Allīkswīc Gud"
+				definition = light_cruiser
+				equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CUB version_name = "Allīkswīc Gud Class" } }
+			}
+			ship = {
+				name = "NMS Backa-Brok"
+				definition = destroyer
+				equipment = { ship_hull_light_1 = { amount = 1 owner = CUB version_name = "Backa-Brok Class" } }
+			}
+			ship = {
+				name = "NMS Ūberwīsan"
+				definition = destroyer
+				equipment = { ship_hull_light_1 = { amount = 1 owner = CUB version_name = "Ūberwīsan Class" } }
+			}
+			ship = {
+				name = "NMS Feld Planta"
+				definition = destroyer
+				equipment = { ship_hull_light_1 = { amount = 1 owner = CUB version_name = "Feld Planta Class" } }
+			}
+		}
+	}
+}
