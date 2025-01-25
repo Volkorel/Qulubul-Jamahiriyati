@@ -2,7 +2,7 @@ state={
 	id=1002
 	name="STATE_1002"
 	provinces={
-		13290 13291 13296 
+		13290 13291 13293
 	}
 	history={
 		owner = LBA
