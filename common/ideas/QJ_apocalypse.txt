@@ -51,12 +51,11 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				surrender_limit = -1
-				defence = 0.5
-				army_speed_factor = -0.25
-				pocket_penalty = 0.75
+				surrender_limit = 1
+				defence = 0.35
+				army_speed_factor = -0.5
+				pocket_penalty = -0.75
 				ai_get_ally_desire_factor = -1000
-				ai_badass_factor = 5
 			}
 		}
 	}
