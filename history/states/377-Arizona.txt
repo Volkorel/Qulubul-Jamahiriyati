@@ -9,24 +9,29 @@ state={
 	}
 
 	history={
-		owner = GUA
+		owner = P01
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			air_base = 2
-
+			4908 = {
+				naval_base = 3
+			}
 		}
+		add_core_of = P01
 		add_core_of = GUA
 		victory_points = {
 			853 3 
 		}
-
+		victory_points = {
+			10765 5
+		}
 	}
 
 	provinces={
-		853 1793 3834 4796 6897 7747 7818 7821 7920 8115 10573 10783 11814 12765 
+		853 1793 3834 4796 6897 7747 7818 7821 7920 8115 10573 10783 11814 12765 2069 4908 4977 5071 8012 8033 10765 10848 12833 13214
 	}
-	manpower=435572
+	manpower=1035572
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=8.000

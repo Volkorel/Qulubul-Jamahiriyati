@@ -6,3 +6,27 @@ B19_PARAMOUNTCY = {
 	color = rgb { 140 15 15 }
 	color_ui = rgb { 140 15 15 }
 }
+S01_NRC = {
+	color = rgb { 67 118 181 }
+	color_ui = rgb { 67 118 181 }
+}
+S03_TA = {
+	color = rgb { 161 58 29 }
+	color_ui = rgb { 161 58 29 }
+}
+S04_SRA = {
+	color = rgb { 89 112 15 }
+	color_ui = rgb { 89 112 15 }
+}
+GUA_REPUBLIC = {
+	color = rgb { 55 101 158 }
+	color_ui = rgb { 55 101 158 }
+}
+GUA_SOCIALIST = {
+	color = rgb { 150 48 23 }
+	color_ui = rgb { 150 48 23 }
+}
+GUA_DUEMARIST = {
+	color = rgb { 68 107 4 }
+	color_ui = rgb { 68 107 4 }
+}

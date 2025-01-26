@@ -1750,3 +1750,45 @@ country_event = { #ULFL Revolt
 		}
 	}
 }
+
+add_namespace = QJ_penglai
+
+country_event = { #Penglai test
+	id = QJ_penglai.0
+	title = QJ_penglai.0.t
+	desc = QJ_penglai.0.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_penglai.0.a
+		P01 = {
+			set_cosmetic_tag = S01_NRC
+		}
+		P03 = {
+			set_cosmetic_tag = S03_TA
+		}
+		P04 = {
+			set_cosmetic_tag = S04_SRA
+		}
+	}
+	option = {
+		name = QJ_penglai.0.b
+		GUA = {
+			set_cosmetic_tag = GUA_REPUBLIC
+		}
+	}
+	option = {
+		name = QJ_penglai.0.c
+		GUA = {
+			set_cosmetic_tag = GUA_SOCIALIST
+		}
+	}
+	option = {
+		name = QJ_penglai.0.e
+		GUA = {
+			set_cosmetic_tag = GUA_DUEMARIST
+		}
+	}
+}

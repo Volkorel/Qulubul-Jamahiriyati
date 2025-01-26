@@ -6,26 +6,6 @@ set_technology = {
 	gw_artillery = 1
 }
 
-recruit_character = GUA_jorge_ubico
-recruit_character = GUA_justo_arbenz
-recruit_character = GUA_máximo_arbenz
-recruit_character = GUA_diego_barahona
-recruit_character = GUA_jorge_torriello_garrido
-recruit_character = GUA_carlos_diaz_de_leon
-recruit_character = GUA_jacopo_arbenz_guzman
-recruit_character = GUA_w_tesch_orlando
-recruit_character = GUA_r_buenaventure_pineda
-recruit_character = GUA_tomas_mendoza_urribe
-recruit_character = GUA_miguel_garcia_granados
-recruit_character = GUA_jose_ezuira_abel
-recruit_character = GUA_m_ydigaras_fuentes
-recruit_character = GUA_federico_ponce_vaides
-recruit_character = GUA_manuel_orellana
-recruit_character = GUA_francisco_javier_arana
-recruit_character = GUA_juan_arevalo_bermejo
-recruit_character = GUA_eduardo_villagran_ariza
-recruit_character = GUA_manuel_arroyo
-
 
 set_country_flag = monroe_doctrine
 set_war_support = 0.1
@@ -33,10 +13,48 @@ set_convoys = 5
 
 set_politics = {
 	ruling_party = conservatism
-	last_election = "1931.2.8"
+	last_election = "1905.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	conservatism = 100
+	communism = 0
+	socialism = 0
+	liberalism = 0
+	conservatism = 70
+	jacobinism = 0
+	duemarism = 0
+	indigeneum = 30
+	suprarealisme = 0
+}
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = P01
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = P02
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = P03
+		autonomous_state = autonomy_puppet
+	}
+	set_autonomy = {
+		target = P04
+		autonomous_state = autonomy_puppet
+	}
+	else = {
+		puppet = P01
+		puppet = P02
+		puppet = P03
+		puppet = P04
+	}
 }

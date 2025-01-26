@@ -9,11 +9,12 @@ state={
 	}
 
 	history={
-		owner = GUA
+		owner = P02
 		buildings = {
 			infrastructure = 2
 
 		}
+		add_core_of = P02
 		add_core_of = GUA
 
 	}
@@ -21,7 +22,7 @@ state={
 	provinces={
 		1862 4521 4607 4736 4799 7756 7827 10422 12134 12399 12425 
 	}
-	manpower=91057
+	manpower=491057
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

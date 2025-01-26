@@ -6,10 +6,11 @@ state={
 		850 1740 4742 4816 7879 10591 10651 10662 12573 12699 
 	}
 	history={
-		owner = GUA
+		owner = P02
 		buildings = {
 			infrastructure = 1
 		}
+		add_core_of = P02
 		add_core_of = GUA
 	}
 	manpower=62200

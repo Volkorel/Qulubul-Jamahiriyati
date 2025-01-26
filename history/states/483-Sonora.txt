@@ -2,35 +2,27 @@
 state={
 	id=483
 	name="STATE_483"
-	manpower = 303987
+	manpower = 1103987
 	
 	state_category = rural
 
 	history={
-		owner = GUA
+		owner = P03
 		buildings = {
 			infrastructure = 2
-			4908 = {
-				naval_base = 3
+			610 = {
+				naval_base = 1
 			}
 		}
+		add_core_of = P03
 		add_core_of = GUA
-		#victory_points = {
-		#	4977 3
-		#}
-		#victory_points = {
-		#	4908 1
-		#}
-		#victory_points = {
-		#	5071 1
-		#}
 		victory_points = {
-			10765 5
+			9713 1 
 		}
 	}
 
 	provinces={
-		2069 4908 4977 5071 8012 8033 10765 10848 12833 13214
+		610 677 6681 11658 9713 710 9697 6745 6757 9730 6772 768 766 11698 3588 781 3644 6482 10159 4331 6665
 	}
 	
 

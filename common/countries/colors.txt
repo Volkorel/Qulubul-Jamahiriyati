@@ -1094,3 +1094,19 @@ S13 = { #Folkvangrlid
 	color = rgb { 90 0 60 }
 	color_ui = rgb { 90 0 60 }
 }
+P01 = { #Penglai Republicans
+	color = rgb { 230 195 92 }
+	color_ui = rgb { 230 195 92 }
+}
+P02 = { #Penglai Warlord
+	color = rgb { 156 135 76 }
+	color_ui = rgb { 156 135 76 }
+}
+P03 = { #Penglai Socialists
+	color = rgb { 161 115 29 }
+	color_ui = rgb { 161 115 29 }
+}
+P04 = { #Penglai Duemarists
+	color = rgb { 153 135 15 }
+	color_ui = rgb { 153 135 15 }
+}
