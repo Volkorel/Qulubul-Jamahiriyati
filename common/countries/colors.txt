@@ -1110,3 +1110,11 @@ P04 = { #Penglai Duemarists
 	color = rgb { 153 135 15 }
 	color_ui = rgb { 153 135 15 }
 }
+P05 = { #Lantang
+	color = rgb { 212 191 59 }
+	color_ui = rgb { 212 191 59 }
+}
+P06 = { #Nij Sion
+	color = rgb { 62 199 199 }
+	color_ui = rgb { 62 199 199 }
+}

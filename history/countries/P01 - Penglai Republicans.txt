@@ -1,4 +1,4 @@
-﻿capital = 313
+﻿capital = 377
 
 # Starting tech
 set_technology = {
@@ -12,18 +12,18 @@ set_war_support = 0.1
 set_convoys = 5
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = liberalism
 	last_election = "1905.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	communism = 0
-	socialism = 0
-	liberalism = 0
-	conservatism = 70
-	jacobinism = 0
+	socialism = 10
+	liberalism = 50
+	conservatism = 10
+	jacobinism = 30
 	duemarism = 0
-	indigeneum = 30
+	indigeneum = 0
 	suprarealisme = 0
 }

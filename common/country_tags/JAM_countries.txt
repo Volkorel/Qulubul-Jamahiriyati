@@ -154,6 +154,8 @@ P01 = "countries/P01.txt"
 P02 = "countries/P02.txt"
 P03 = "countries/P03.txt"
 P04 = "countries/P04.txt"
+P05 = "countries/P05.txt"
+P06 = "countries/P06.txt"
 #South/Central Eriksland
 NIC = "countries/Guadalupei Szuzanya.txt"
 PAN = "countries/USCE.txt"

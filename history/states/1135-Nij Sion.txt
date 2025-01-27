@@ -1,0 +1,29 @@
+
+state={
+	id=1135
+	name="STATE_1135"
+	resources={
+		steel=20.000
+		tungsten=12.000
+	}
+
+	history={
+		owner = P02
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = P02
+		add_core_of = P05
+		add_core_of = GUA
+
+	}
+
+	provinces={
+		7756 7827 12134
+	}
+	manpower=101057
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

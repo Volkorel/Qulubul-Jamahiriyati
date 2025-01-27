@@ -1,4 +1,4 @@
-﻿capital = 313
+﻿capital = 379
 
 # Starting tech
 set_technology = {
@@ -21,9 +21,9 @@ set_popularities = {
 	communism = 0
 	socialism = 0
 	liberalism = 0
-	conservatism = 70
+	conservatism = 90
 	jacobinism = 0
 	duemarism = 0
-	indigeneum = 30
-	suprarealisme = 0
+	indigeneum = 0
+	suprarealisme = 10
 }

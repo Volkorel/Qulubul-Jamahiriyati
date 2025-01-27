@@ -11,6 +11,7 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = P02
+		add_core_of = P06
 		add_core_of = GUA
 	}
 	manpower=62200

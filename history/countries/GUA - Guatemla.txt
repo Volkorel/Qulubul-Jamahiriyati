@@ -1,4 +1,4 @@
-﻿capital = 313
+﻿capital = 378
 
 # Starting tech
 set_technology = {
@@ -18,13 +18,13 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 0
+	communism = 10
 	socialism = 0
 	liberalism = 0
 	conservatism = 70
-	jacobinism = 0
-	duemarism = 0
-	indigeneum = 30
+	jacobinism = 10
+	duemarism = 10
+	indigeneum = 0
 	suprarealisme = 0
 }
 
@@ -51,10 +51,15 @@ if = {
 		target = P04
 		autonomous_state = autonomy_puppet
 	}
+	set_autonomy = {
+		target = P05
+		autonomous_state = autonomy_puppet
+	}
 	else = {
 		puppet = P01
 		puppet = P02
 		puppet = P03
 		puppet = P04
+		puppet = P05
 	}
 }
