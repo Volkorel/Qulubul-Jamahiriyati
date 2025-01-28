@@ -80,7 +80,7 @@
  conservatism_hercegersek_rule_subtype:0 "Hercegérsek Rule"
  conservatism_pontifical_rule_subtype:0 "Pontifical Rule"
  conservatism_haredi_conservatism_subtype:0 "Haredi Conservatism"
- conservatism_unregulated_corporatism_subtype:0 "Haredi Conservatism"
+ conservatism_unregulated_corporatism_subtype:0 "Unregulated Corporatism"
  
  jacobinism_gamleby_revivalism_subtype:0 "Gamleby Revivalism"
  jacobinism_heckerism_subtype:0 "Heckerism"
@@ -101,7 +101,7 @@
  duemarism_autochtonist_ascensionism_subtype:0 "Autochthonist Ascensionism"
  duemarism_sanyi_taiji_subtype:0 "Sanyi Taiji"
  duemarism_yogaku_subtype:0 "Yōgaku"
- duemarism_hongjin_qiyi_subtype:0 "Hóngjīn Qǐyì"
+ duemarism_hongjin_qiyi_subtype:0 "Hóngjin Qiyì"
  duemarism_nyljohaed_subtype:0 "Neukarthago School of Thought"
  duemarism_anotatis_subtype:0 "Anotatis School of Thought"
  duemarism_buonapartism_subtype:0 "Buonapartism"

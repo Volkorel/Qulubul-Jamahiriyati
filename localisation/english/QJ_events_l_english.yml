@@ -51,6 +51,10 @@
  jam_world.10.d:0 "The colonial outpost in Vinlandic Somalia was astir yesterday as Frysk explorer Atsert Gerbrandy staggered into the settlement with an astonishing tale of discovery and peril deep in the uncharted African interior. Gerbrandy, bedraggled and visibly shaken, recounted his encounter with a mysterious kingdom of pygmies, ruled by a figure known as \"Ínà Mapiti\", or \"The Black Leopard\". According to his account, the diminutive warriors of this realm are fearsome combatants and fanatically expansionist, subjugating neighboring tribes in unrelenting campaigns of conquest. Most troubling, Gerbrandy warned, is their vehement hatred for Europeans.\n\nCaptured by the warriors and brought before their enigmatic king, Gerbrandy narrowly escaped execution. \"Their king's gaze was piercing, as though he could see through one’s soul,\" he said. \"I would not be standing here if not for fortune’s grace.\"\n\nColonial officials are taking Gerbrandy’s account seriously, viewing this mysterious kingdom as a potential threat to colonial interests in the region.\n\n"
  jam_world.10.a:0 "Horrid! Such terror only reinforces the need for a civilizing mission."
  
+ jam_world.11.t:0 "Illusion of Penglai Order Collapses!"
+ jam_world.11.d:0 ""
+ jam_world.11.a:0 "Warlordism followed the Chinese to Eriksland, it seems..."
+ 
  ### COUNTRY EVENTS ###
  
  QJ_apocalypse.1.t:0 "Nationwide Smallpox Outbreak!"
@@ -220,3 +224,24 @@
  QJ_milano.1.d:0 ""
  QJ_milano.1.a:0 ""
  QJ_milano.1.b:0 ""
+ 
+ QJ_penglai.2.t:0 "Vinland notification event"
+ QJ_penglai.2.d:0 ""
+ QJ_penglai.2.a:0 ""
+ QJ_penglai.2.b:0 ""
+ 
+ QJ_penglai.3.t:0 "Langobardia notification event"
+ QJ_penglai.3.d:0 ""
+ QJ_penglai.3.a:0 ""
+ 
+ QJ_penglai.4.t:0 "Gardaveldi notification event"
+ QJ_penglai.4.d:0 ""
+ QJ_penglai.4.a:0 ""
+ QJ_penglai.4.b:0 ""
+ QJ_penglai.4.c:0 ""
+ 
+ QJ_penglai.5.t:0 "Ezo notification event"
+ QJ_penglai.5.d:0 ""
+ QJ_penglai.5.a:0 ""
+ QJ_penglai.5.b:0 ""
+ QJ_penglai.5.c:0 ""

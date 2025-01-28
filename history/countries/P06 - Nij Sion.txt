@@ -6,13 +6,14 @@ set_technology = {
 	gw_artillery = 1
 }
 
+recruit_character = P06_Likele_Terpstra
 
 set_country_flag = monroe_doctrine
 set_war_support = 0.1
 set_convoys = 5
 
 set_politics = {
-	ruling_party = conservatism
+	ruling_party = liberalism
 	last_election = "1905.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -20,8 +21,8 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	socialism = 30
-	liberalism = 30
-	conservatism = 40
+	liberalism = 40
+	conservatism = 30
 	jacobinism = 0
 	duemarism = 0
 	indigeneum = 0

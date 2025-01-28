@@ -177,6 +177,12 @@ on_actions = {
 					days = 820
 				}
 			}
+			GUA = {
+				country_event = {
+					id = QJ_penglai.1
+					days = 1600
+				}
+			}
 		}
 	}
 }

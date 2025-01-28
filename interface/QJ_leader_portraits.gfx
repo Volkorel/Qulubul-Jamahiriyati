@@ -192,4 +192,14 @@ spriteTypes = {
 		name = "GFX_Portrait_S13_Helga_Hrafnsdóttir"
 		texturefile = "gfx/leaders/Apocalypse/Portrait_S13_Helga_Hrafnsdóttir.dds"
 	}
+	#Penglai
+	spriteType = {
+		name = "GFX_Portrait_GUA_Emperor_Hongguang"
+		texturefile = "gfx/leaders/GUA/Portrait_GUA_Emperor_Hongguang.dds"
+	}
+	#Qiang
+	spriteType = {
+		name = "GFX_Portrait_P02_Cao_Zhoulin"
+		texturefile = "gfx/leaders/GUA/Portrait_P02_Cao_Zhoulin.dds"
+	}
 }

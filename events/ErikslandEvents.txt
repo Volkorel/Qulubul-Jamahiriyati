@@ -1792,3 +1792,290 @@ country_event = { #Penglai test
 		}
 	}
 }
+
+country_event = { #Illusion of Penglai order collapses
+	id = QJ_penglai.1
+	title = QJ_penglai.1.t
+	desc = QJ_penglai.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_penglai.1.a
+		end_puppet = P01
+		end_puppet = P02
+		end_puppet = P03
+		end_puppet = P04
+		end_puppet = P05
+		P01 = {
+			set_cosmetic_tag = S01_NRC
+			set_politics = {
+				ruling_party = jacobinism
+				last_election = "1905.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			set_popularities = {
+				communism = 0
+				socialism = 10
+				liberalism = 10
+				conservatism = 0
+				jacobinism = 70
+				duemarism = 10
+				indigeneum = 0
+				suprarealisme = 0
+			}
+		}
+		P03 = {
+			set_cosmetic_tag = S03_TA
+			set_politics = {
+				ruling_party = socialism
+				last_election = "1905.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			set_popularities = {
+				communism = 30
+				socialism = 60
+				liberalism = 0
+				conservatism = 0
+				jacobinism = 10
+				duemarism = 0
+				indigeneum = 0
+				suprarealisme = 0
+			}
+		}
+		P04 = {
+			set_cosmetic_tag = S04_SRA
+			set_politics = {
+				ruling_party = duemarism
+				last_election = "1905.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			set_popularities = {
+				communism = 0
+				socialism = 20
+				liberalism = 0
+				conservatism = 0
+				jacobinism = 10
+				duemarism = 70
+				indigeneum = 0
+				suprarealisme = 0
+			}
+		}
+		P06 = {
+			transfer_state = 1135
+		}
+		every_country = {
+			news_event = jam_world.11
+		}
+		CAN = {
+			country_event = {
+				id = QJ_penglai.2
+				days = 3
+			}
+		}
+		CUB = {
+			country_event = {
+				id = QJ_penglai.3
+				days = 3
+			}
+		}
+		SOV = {
+			country_event = {
+				id = QJ_penglai.4
+				days = 3
+			}
+		}
+		CKK = {
+			country_event = {
+				id = QJ_penglai.5
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = { #Vinland - Nij Sion separatists; do we support them?
+	id = QJ_penglai.2
+	title = QJ_penglai.2.t
+	desc = QJ_penglai.2.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #FUCK YEAH! HOP ON!
+		name = QJ_penglai.2.a
+		set_country_flag = CAN_Penglai_Supporting_Nij_Sion
+		reverse_add_opinion_modifier = {
+			target = GUA
+			modifier = western_betrayal
+		}
+		reverse_add_opinion_modifier = {
+			target = P06
+			modifier = offered_support
+		}
+	}
+	option = { #No I'm a traitor to the white race
+		name = QJ_penglai.2.b
+		set_country_flag = CAN_Penglai_Supporting_Emperor
+		add_stability = -0.05
+		reverse_add_opinion_modifier = {
+			target = P06
+			modifier = supported_the_chinese
+		}
+		reverse_add_opinion_modifier = {
+			target = SAF
+			modifier = supported_the_chinese
+		}
+		reverse_add_opinion_modifier = {
+			target = HOL
+			modifier = supported_the_chinese
+		}
+		reverse_add_opinion_modifier = {
+			target = USA
+			modifier = supported_the_chinese
+		}
+		reverse_add_opinion_modifier = {
+			target = CSA
+			modifier = supported_the_chinese
+		}
+		reverse_add_opinion_modifier = {
+			target = BLZ
+			modifier = supported_the_chinese
+		}
+	}
+}
+
+country_event = { #Langobardia - Notification; our profits are in danger!
+	id = QJ_penglai.3
+	title = QJ_penglai.3.t
+	desc = QJ_penglai.3.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #Millions must die!
+		name = QJ_penglai.3.a
+		set_country_flag = CUB_Penglai_Supporting_Emperor
+		#unlock_decision_category_tooltip = 
+	}
+}
+
+country_event = { #Gardaveldi - WHO'S READY TO TOPPLE A MONARCHY?
+	id = QJ_penglai.4
+	title = QJ_penglai.4.t
+	desc = QJ_penglai.4.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #We must support the Jacobins!
+		name = QJ_penglai.4.a
+		set_country_flag = SOV_Penglai_Supporting_Jacobins
+		if = {
+			limit = {
+				NOT = {
+					has_government = jacobinism
+				}
+			}
+			add_stability = -0.01
+		}
+		add_popularity = {
+			ideology = jacobinism
+			popularity = -0.01
+		}
+	}
+	option = { #We must support the Communists!
+		name = QJ_penglai.4.b
+		set_country_flag = SOV_Penglai_Supporting_Communists
+		if = {
+			limit = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			add_stability = -0.01
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = -0.01
+		}
+	}
+	option = { #We must support the Duemarists!
+		name = QJ_penglai.4.c
+		set_country_flag = SOV_Penglai_Supporting_Duemarists
+		if = {
+			limit = {
+				NOT = {
+					has_government = duemarism
+				}
+			}
+			add_stability = -0.01
+		}
+		add_popularity = {
+			ideology = duemarism
+			popularity = -0.01
+		}
+	}
+}
+
+country_event = { #Ezo - WHO'S READY TO TOPPLE A MONARCHY?
+	id = QJ_penglai.5
+	title = QJ_penglai.5.t
+	desc = QJ_penglai.5.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #We must support the Jacobins!
+		name = QJ_penglai.5.a
+		set_country_flag = CKK_Penglai_Supporting_Jacobins
+		if = {
+			limit = {
+				NOT = {
+					has_government = jacobinism
+				}
+			}
+			add_stability = -0.01
+		}
+		add_popularity = {
+			ideology = jacobinism
+			popularity = -0.01
+		}
+	}
+	option = { #We must support the Communists!
+		name = QJ_penglai.5.b
+		set_country_flag = CKK_Penglai_Supporting_Communists
+		if = {
+			limit = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			add_stability = -0.01
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = -0.01
+		}
+	}
+	option = { #We must support the Duemarists!
+		name = QJ_penglai.5.c
+		set_country_flag = CKK_Penglai_Supporting_Duemarists
+		if = {
+			limit = {
+				NOT = {
+					has_government = duemarism
+				}
+			}
+			add_stability = -0.01
+		}
+		add_popularity = {
+			ideology = duemarism
+			popularity = -0.01
+		}
+	}
+}
