@@ -6,7 +6,7 @@ set_technology = {
 	gw_artillery = 1
 }
 
-recruit_character = P03_Chen_Jialie
+recruit_character = P03_Yanmin_Jialie
 
 set_country_flag = monroe_doctrine
 set_war_support = 0.1

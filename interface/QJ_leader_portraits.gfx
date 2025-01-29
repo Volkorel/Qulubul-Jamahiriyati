@@ -197,9 +197,34 @@ spriteTypes = {
 		name = "GFX_Portrait_GUA_Emperor_Hongguang"
 		texturefile = "gfx/leaders/GUA/Portrait_GUA_Emperor_Hongguang.dds"
 	}
+	#Penglai NRA
+	spriteType = {
+		name = "GFX_Portrait_Portrait_P01_Lu_Jiyao"
+		texturefile = "gfx/leaders/GUA/Portrait_P01_Lu_Jiyao.dds"
+	}
 	#Qiang
 	spriteType = {
 		name = "GFX_Portrait_P02_Cao_Zhoulin"
 		texturefile = "gfx/leaders/GUA/Portrait_P02_Cao_Zhoulin.dds"
+	}
+	#Penglai TA
+	spriteType = {
+		name = "GFX_Portrait_P03_Yanmin_Jialie"
+		texturefile = "gfx/leaders/GUA/Portrait_P03_Yanmin_Jialie.dds"
+	}
+	#Penglai SRA
+	spriteType = {
+		name = "GFX_Portrait_P04_Zhao_Long"
+		texturefile = "gfx/leaders/GUA/Portrait_P04_Zhao_Long.dds"
+	}
+	#Lantang
+	spriteType = {
+		name = "GFX_Portrait_P05_Haraldr_Vagnsson"
+		texturefile = "gfx/leaders/GUA/Portrait_P05_Haraldr_Vagnsson.dds"
+	}
+	#Nij Sion
+	spriteType = {
+		name = "GFX_Portrait_P06_Likele_Terpstra"
+		texturefile = "gfx/leaders/GUA/Portrait_P06_Likele_Terpstra.dds"
 	}
 }

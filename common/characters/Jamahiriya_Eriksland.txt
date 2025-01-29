@@ -718,11 +718,11 @@ characters={
 	#Penglai Jacobins
 	P01_Lu_Jiyao={
 		name="Lu Jiyao"
-#		portraits={
-#			civilian={
-#				large=""
-#			}
-#		}
+		portraits={
+			civilian={
+				large="GFX_Portrait_Portrait_P01_Lu_Jiyao"
+			}
+		}
 		country_leader={
 			ideology=liberalism_progressive_liberalism_subtype
 			expire="1965.1.1.1"
@@ -749,13 +749,13 @@ characters={
 		}
 	}
 	#Penglai Socialists
-	P03_Chen_Jialie={
-		name="Chen Jialie"
-#		portraits={
-#			civilian={
-#				large=""
-#			}
-#		}
+	P03_Yanmin_Jialie={
+		name="Yanmin Jialie"
+		portraits={
+			civilian={
+				large="GFX_Portrait_P03_Yanmin_Jialie"
+			}
+		}
 		country_leader={
 			ideology=conservatism_military_junta_subtype
 			expire="1965.1.1.1"
@@ -775,11 +775,11 @@ characters={
 	#Penglai Duemarists
 	P04_Zhao_Long={
 		name="Zhao Long"
-#		portraits={
-#			civilian={
-#				large=""
-#			}
-#		}
+		portraits={
+			civilian={
+				large="GFX_Portrait_P04_Zhao_Long"
+			}
+		}
 		country_leader={
 			ideology=socialism_leftist_nationalism_subtype
 			expire="1965.1.1.1"
@@ -794,11 +794,11 @@ characters={
 	#Lantang
 	P05_Haraldr_Vagnsson={
 		name="Haraldr Vagnsson"
-#		portraits={
-#			civilian={
-#				large=""
-#			}
-#		}
+		portraits={
+			civilian={
+				large="GFX_Portrait_P05_Haraldr_Vagnsson"
+			}
+		}
 		country_leader={
 			ideology=conservatism_unregulated_corporatism_subtype
 			expire="1965.1.1.1"
@@ -808,11 +808,11 @@ characters={
 	#Nij Sion
 	P06_Likele_Terpstra={
 		name="Likele Terpstra"
-#		portraits={
-#			civilian={
-#				large=""
-#			}
-#		}
+		portraits={
+			civilian={
+				large="GFX_Portrait_P06_Likele_Terpstra"
+			}
+		}
 		country_leader={
 			ideology=liberalism_meinwerkist_modernism_subtype
 			expire="1965.1.1.1"
