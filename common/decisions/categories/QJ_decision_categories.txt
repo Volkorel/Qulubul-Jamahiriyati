@@ -1,0 +1,24 @@
+penglai_warlord_category = {
+	icon = spr_the_seeds_of_revolution
+	allowed = {
+		OR = {
+			original_tag = CAN
+			original_tag = CUB
+			original_tag = SOV
+			original_tag = CKK
+		}
+	}
+	visible = {
+		OR = {
+			has_country_flag = CAN_Penglai_Supporting_Nij_Sion
+			has_country_flag = CAN_Penglai_Supporting_Emperor
+			has_country_flag = CUB_Penglai_Supporting_Emperor
+			has_country_flag = SOV_Penglai_Supporting_Jacobins
+			has_country_flag = SOV_Penglai_Supporting_Communists
+			has_country_flag = SOV_Penglai_Supporting_Duemarists
+			has_country_flag = CKK_Penglai_Supporting_Jacobins
+			has_country_flag = CKK_Penglai_Supporting_Communists
+			has_country_flag = CKK_Penglai_Supporting_Duemarists
+		}
+	}
+}

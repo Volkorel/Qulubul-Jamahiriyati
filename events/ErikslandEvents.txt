@@ -1830,14 +1830,14 @@ country_event = { #Illusion of Penglai order collapses
 		P03 = {
 			set_cosmetic_tag = S03_TA
 			set_politics = {
-				ruling_party = socialism
+				ruling_party = communism
 				last_election = "1905.1.1"
 				election_frequency = 48
 				elections_allowed = no
 			}
 			set_popularities = {
-				communism = 30
-				socialism = 60
+				communism = 60
+				socialism = 30
 				liberalism = 0
 				conservatism = 0
 				jacobinism = 10
@@ -1868,6 +1868,11 @@ country_event = { #Illusion of Penglai order collapses
 		P06 = {
 			transfer_state = 1135
 		}
+		set_variable = { QJ_Penglai_Lantang_Security = 70 }
+		set_variable = { QJ_Penglai_Zhoulin_Alignment = 60 }
+		set_variable = { QJ_Penglai_NRC_Coalition = 45 }
+		set_variable = { QJ_Penglai_TA_Coalition = 40 }
+		set_variable = { QJ_Penglai_SRA_Coalition = 30 }
 		every_country = {
 			news_event = jam_world.11
 		}
@@ -1895,6 +1900,10 @@ country_event = { #Illusion of Penglai order collapses
 				days = 3
 			}
 		}
+		country_event = {
+			id = QJ_penglai.6
+			days = 100
+		}
 	}
 }
 
@@ -1917,6 +1926,11 @@ country_event = { #Vinland - Nij Sion separatists; do we support them?
 			target = P06
 			modifier = offered_support
 		}
+		GUA = {
+			add_to_variable = { QJ_Penglai_Zhoulin_Alignment = -30 }
+			unlock_decision_category_tooltip = penglai_warlord_category
+		}
+		custom_effect_tooltip = QJ_Penglai_Cannot_Sway_Zhoulin
 	}
 	option = { #No I'm a traitor to the white race
 		name = QJ_penglai.2.b
@@ -1946,6 +1960,7 @@ country_event = { #Vinland - Nij Sion separatists; do we support them?
 			target = BLZ
 			modifier = supported_the_chinese
 		}
+		unlock_decision_category_tooltip = penglai_warlord_category
 	}
 }
 
@@ -1960,7 +1975,7 @@ country_event = { #Langobardia - Notification; our profits are in danger!
 	option = { #Millions must die!
 		name = QJ_penglai.3.a
 		set_country_flag = CUB_Penglai_Supporting_Emperor
-		#unlock_decision_category_tooltip = 
+		unlock_decision_category_tooltip = penglai_warlord_category
 	}
 }
 
@@ -1974,6 +1989,9 @@ country_event = { #Gardaveldi - WHO'S READY TO TOPPLE A MONARCHY?
 	
 	option = { #We must support the Jacobins!
 		name = QJ_penglai.4.a
+		ai_chance = {
+			modifier = { has_government = jacobinism add = 999 }
+		}
 		set_country_flag = SOV_Penglai_Supporting_Jacobins
 		if = {
 			limit = {
@@ -1990,6 +2008,9 @@ country_event = { #Gardaveldi - WHO'S READY TO TOPPLE A MONARCHY?
 	}
 	option = { #We must support the Communists!
 		name = QJ_penglai.4.b
+		ai_chance = {
+			modifier = { has_government = communism add = 999 }
+		}
 		set_country_flag = SOV_Penglai_Supporting_Communists
 		if = {
 			limit = {
@@ -2006,6 +2027,9 @@ country_event = { #Gardaveldi - WHO'S READY TO TOPPLE A MONARCHY?
 	}
 	option = { #We must support the Duemarists!
 		name = QJ_penglai.4.c
+		ai_chance = {
+			modifier = { has_government = duemarism add = 999 }
+		}
 		set_country_flag = SOV_Penglai_Supporting_Duemarists
 		if = {
 			limit = {
@@ -2032,6 +2056,9 @@ country_event = { #Ezo - WHO'S READY TO TOPPLE A MONARCHY?
 	
 	option = { #We must support the Jacobins!
 		name = QJ_penglai.5.a
+		ai_chance = {
+			modifier = { has_government = jacobinism add = 999 }
+		}
 		set_country_flag = CKK_Penglai_Supporting_Jacobins
 		if = {
 			limit = {
@@ -2048,6 +2075,9 @@ country_event = { #Ezo - WHO'S READY TO TOPPLE A MONARCHY?
 	}
 	option = { #We must support the Communists!
 		name = QJ_penglai.5.b
+		ai_chance = {
+			modifier = { has_government = communism add = 999 }
+		}
 		set_country_flag = CKK_Penglai_Supporting_Communists
 		if = {
 			limit = {
@@ -2064,6 +2094,9 @@ country_event = { #Ezo - WHO'S READY TO TOPPLE A MONARCHY?
 	}
 	option = { #We must support the Duemarists!
 		name = QJ_penglai.5.c
+		ai_chance = {
+			modifier = { has_government = duemarism add = 999 }
+		}
 		set_country_flag = CKK_Penglai_Supporting_Duemarists
 		if = {
 			limit = {
@@ -2076,6 +2109,443 @@ country_event = { #Ezo - WHO'S READY TO TOPPLE A MONARCHY?
 		add_popularity = {
 			ideology = duemarism
 			popularity = -0.01
+		}
+	}
+}
+
+country_event = { #Penglai again - calculating sides for end of deccat section
+	id = QJ_penglai.6
+	title = QJ_penglai.6.t
+	desc = QJ_penglai.6.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #
+		name = QJ_penglai.6.a
+		if = {
+			limit = {
+				check_variable = {
+					QJ_Penglai_Lantang_Security < 25
+				}
+			}
+			P03 = {
+				annex_country = {
+					target = P05
+					transfer_troops = no
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					QJ_Penglai_Lantang_Security > 24
+				}
+				check_variable = {
+					QJ_Penglai_Lantang_Security < 50
+				}
+			}
+			annex_country = {
+				target = P05
+				transfer_troops = no
+			}
+		}
+		
+		create_faction = for_the_emperor_raaaaaaagh
+		
+		if = {
+			limit = {
+				SOV = {
+					has_country_flag = SOV_Penglai_Supporting_Jacobins
+				}
+			}
+			P01 = {
+				create_faction = sun_yat_sen_larp
+			}
+			#Jacobins-Communists:
+			if = {
+				limit = {
+					check_variable = {
+						QJ_Penglai_TA_Coalition < 33
+					}
+				}
+				P03 = {
+					declare_war_on = {
+						target = P01
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = P04
+						type = annex_everything
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						QJ_Penglai_TA_Coalition > 32
+					}
+					check_variable = {
+						QJ_Penglai_TA_Coalition < 66
+					}
+				}
+				P03 = {
+					set_country_flag = QJ_Penglai_Boogaloo_After_Emperor_Falls
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						QJ_Penglai_TA_Coalition > 65
+					}
+				}
+				P01 = {
+					add_to_faction = P03
+				}
+			}
+			#Jacobins-Duemarists
+			if = {
+				limit = {
+					check_variable = {
+						QJ_Penglai_SRA_Coalition < 33
+					}
+				}
+				P04 = {
+					declare_war_on = {
+						target = P01
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = P03
+						type = annex_everything
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						QJ_Penglai_SRA_Coalition > 32
+					}
+					check_variable = {
+						QJ_Penglai_SRA_Coalition < 66
+					}
+				}
+				P04 = {
+					set_country_flag = QJ_Penglai_Boogaloo_After_Emperor_Falls
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						QJ_Penglai_SRA_Coalition > 65
+					}
+				}
+				P01 = {
+					add_to_faction = P04
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				SOV = {
+					has_country_flag = SOV_Penglai_Supporting_Communists
+				}
+			}
+			P03 = {
+				create_faction = sun_yat_sen_larp
+			}
+			#Communists-Jacobins:
+			if = {
+				limit = {
+					check_variable = {
+						QJ_Penglai_NRC_Coalition < 33
+					}
+				}
+				P01 = {
+					declare_war_on = {
+						target = P03
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = P04
+						type = annex_everything
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						QJ_Penglai_NRC_Coalition > 32
+					}
+					check_variable = {
+						QJ_Penglai_NRC_Coalition < 66
+					}
+				}
+				P01 = {
+					set_country_flag = QJ_Penglai_Boogaloo_After_Emperor_Falls
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						QJ_Penglai_NRC_Coalition > 65
+					}
+				}
+				P03 = {
+					add_to_faction = P04
+				}
+			}
+			#Communists-Duemarists
+			if = {
+				limit = {
+					check_variable = {
+						QJ_Penglai_SRA_Coalition < 33
+					}
+				}
+				P04 = {
+					declare_war_on = {
+						target = P01
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = P03
+						type = annex_everything
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						QJ_Penglai_SRA_Coalition > 32
+					}
+					check_variable = {
+						QJ_Penglai_SRA_Coalition < 66
+					}
+				}
+				P04 = {
+					set_country_flag = QJ_Penglai_Boogaloo_After_Emperor_Falls
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						QJ_Penglai_SRA_Coalition > 65
+					}
+				}
+				P03 = {
+					add_to_faction = P04
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				SOV = {
+					has_country_flag = SOV_Penglai_Supporting_Duemarists
+				}
+			}
+			P04 = {
+				create_faction = sun_yat_sen_larp
+			}
+			#Jacobins-Communists:
+			if = {
+				limit = {
+					check_variable = {
+						QJ_Penglai_TA_Coalition < 33
+					}
+				}
+				P03 = {
+					declare_war_on = {
+						target = P01
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = P04
+						type = annex_everything
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						QJ_Penglai_TA_Coalition > 32
+					}
+					check_variable = {
+						QJ_Penglai_TA_Coalition < 66
+					}
+				}
+				P03 = {
+					set_country_flag = QJ_Penglai_Boogaloo_After_Emperor_Falls
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						QJ_Penglai_TA_Coalition > 65
+					}
+				}
+				P04 = {
+					add_to_faction = P03
+				}
+			}
+			#Communists-Jacobins:
+			if = {
+				limit = {
+					check_variable = {
+						QJ_Penglai_NRC_Coalition < 33
+					}
+				}
+				P01 = {
+					declare_war_on = {
+						target = P03
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = P04
+						type = annex_everything
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						QJ_Penglai_NRC_Coalition > 32
+					}
+					check_variable = {
+						QJ_Penglai_NRC_Coalition < 66
+					}
+				}
+				P01 = {
+					set_country_flag = QJ_Penglai_Boogaloo_After_Emperor_Falls
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						QJ_Penglai_NRC_Coalition > 65
+					}
+				}
+				P04 = {
+					add_to_faction = P04
+				}
+			}
+		}
+		
+		if = {
+			limit = {
+				check_variable = {
+					QJ_Penglai_Zhoulin_Alignment < 51
+				}
+			}
+			if = {
+				limit = {
+					SOV = {
+						has_country_flag = SOV_Penglai_Supporting_Jacobins
+					}
+				}
+				P01 = {
+					add_to_faction = P02
+				}
+			}
+			else_if = {
+				limit = {
+					SOV = {
+						has_country_flag = SOV_Penglai_Supporting_Communists
+					}
+				}
+				P03 = {
+					add_to_faction = P02
+				}
+			}
+			else_if = {
+				limit = {
+					SOV = {
+						has_country_flag = SOV_Penglai_Supporting_Duemarists
+					}
+				}
+				P04 = {
+					add_to_faction = P02
+				}
+			}
+		}
+		else = {
+			add_to_faction = P02
+			declare_war_on = {
+				target = P02
+				type = annex_everything
+			}
+			P01 = {
+				declare_war_on = {
+					target = P02
+					type = annex_everything
+				}
+			}
+			P03 = {
+				declare_war_on = {
+					target = P02
+					type = annex_everything
+				}
+			}
+			P04 = {
+				declare_war_on = {
+					target = P02
+					type = annex_everything
+				}
+			}
+		}
+		
+		P01 = {
+			declare_war_on = {
+				target = GUA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = P06
+				type = annex_everything
+			}
+		}
+		P02 = {
+			declare_war_on = {
+				target = P06
+				type = annex_everything
+			}
+		}
+		P03 = {
+			declare_war_on = {
+				target = GUA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = P06
+				type = annex_everything
+			}
+		}
+		P04 = {
+			declare_war_on = {
+				target = GUA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = P06
+				type = annex_everything
+			}
+		}
+		
+		CAN = {
+			clr_country_flag = CAN_Penglai_Supporting_Nij_Sion
+			clr_country_flag = CAN_Penglai_Supporting_Emperor
+		}
+		CUB = {
+			clr_country_flag = CUB_Penglai_Supporting_Emperor
+		}
+		SOV = {
+			clr_country_flag = SOV_Penglai_Supporting_Jacobins
+			clr_country_flag = SOV_Penglai_Supporting_Communists
+			clr_country_flag = SOV_Penglai_Supporting_Duemarists
+		}
+		CKK = {
+			clr_country_flag = CKK_Penglai_Supporting_Jacobins
+			clr_country_flag = CKK_Penglai_Supporting_Communists
+			clr_country_flag = CKK_Penglai_Supporting_Duemarists
 		}
 	}
 }

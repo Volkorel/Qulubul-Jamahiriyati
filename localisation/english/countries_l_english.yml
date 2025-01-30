@@ -198,7 +198,10 @@
 ### ASIA ###
  SOV:0 "Garðaveldi"
  SOV_DEF:0 "Garðaveldi"
- SOV_ADJ:0 "Garðaveldr"
+ SOV_ADJ:0 "Garðaveldic"
+ SOV_jacobinism:0 "Garðaveldi"
+ SOV_jacobinism_DEF:0 "the Republic of Garðaveldi"
+ SOV_jacobinism_ADJ:0 "Garðaveldic"
  KAZ:0 "Khazar Khaganate"
  KAZ_DEF:0 "the Khazar Khaganate"
  KAZ_ADJ:0 "Khazar"

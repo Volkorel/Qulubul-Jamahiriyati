@@ -22,9 +22,9 @@ set_popularities = {
 	communism = 0
 	socialism = 10
 	liberalism = 50
-	conservatism = 10
+	conservatism = 0
 	jacobinism = 30
-	duemarism = 0
+	duemarism = 10
 	indigeneum = 0
 	suprarealisme = 0
 }

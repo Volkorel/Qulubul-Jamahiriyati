@@ -1,0 +1,269 @@
+defined_text = {
+	name = GetVinlandSupport
+	text = {
+		trigger = {
+			CAN = {
+				has_country_flag = CAN_Penglai_Supporting_Nij_Sion
+			}
+		}
+		localization_key = QJ_Penglai_Supporting_Nij_Sion
+	}
+	text = {
+		trigger = {
+			CAN = {
+				has_country_flag = CAN_Penglai_Supporting_Emperor
+			}
+		}
+		localization_key = QJ_Penglai_Supporting_Emperor
+	}
+	text = {
+		localization_key = QJ_Penglai_No_Support
+	}
+}
+
+defined_text = {
+	name = GetGardaveldiSupport
+	text = {
+		trigger = {
+			SOV = {
+				has_country_flag = SOV_Penglai_Supporting_Jacobins
+			}
+		}
+		localization_key = QJ_Penglai_Supporting_Jacobins
+	}
+	text = {
+		trigger = {
+			SOV = {
+				has_country_flag = SOV_Penglai_Supporting_Communists
+			}
+		}
+		localization_key = QJ_Penglai_Supporting_Socialists
+	}
+	text = {
+		trigger = {
+			SOV = {
+				has_country_flag = SOV_Penglai_Supporting_Duemarists
+			}
+		}
+		localization_key = QJ_Penglai_Supporting_Duemarists
+	}
+	text = {
+		localization_key = QJ_Penglai_No_Support
+	}
+}
+
+defined_text = {
+	name = GetEzoSupport
+	text = {
+		trigger = {
+			CKK = {
+				has_country_flag = CKK_Penglai_Supporting_Jacobins
+			}
+		}
+		localization_key = QJ_Penglai_Supporting_Jacobins
+	}
+	text = {
+		trigger = {
+			CKK = {
+				has_country_flag = CKK_Penglai_Supporting_Communists
+			}
+		}
+		localization_key = QJ_Penglai_Supporting_Socialists
+	}
+	text = {
+		trigger = {
+			CKK = {
+				has_country_flag = CKK_Penglai_Supporting_Duemarists
+			}
+		}
+		localization_key = QJ_Penglai_Supporting_Duemarists
+	}
+	text = {
+		localization_key = QJ_Penglai_No_Support
+	}
+}
+
+defined_text = {
+	name = GetLantangSecurity
+	text = {
+		trigger = {
+			GUA = {
+				check_variable = {
+					QJ_Penglai_Lantang_Security < 25
+				}
+			}
+		}
+		localization_key = QJ_Penglai_Lantang_VERY_BAD
+	}
+	text = {
+		trigger = {
+			GUA = {
+				check_variable = {
+					QJ_Penglai_Lantang_Security > 24
+				}
+				check_variable = {
+					QJ_Penglai_Lantang_Security < 50
+				}
+			}
+		}
+		localization_key = QJ_Penglai_Lantang_BAD
+	}
+	text = {
+		trigger = {
+			GUA = {
+				check_variable = {
+					QJ_Penglai_Lantang_Security > 49
+				}
+				check_variable = {
+					QJ_Penglai_Lantang_Security < 75
+				}
+			}
+		}
+		localization_key = QJ_Penglai_Lantang_GOOD
+	}
+	text = {
+		trigger = {
+			GUA = {
+				check_variable = {
+					QJ_Penglai_Lantang_Security > 74
+				}
+			}
+		}
+		localization_key = QJ_Penglai_Lantang_VERY_GOOD
+	}
+}
+
+defined_text = {
+	name = GetZhoulinAlignment
+	text = {
+		trigger = {
+			GUA = {
+				check_variable = {
+					QJ_Penglai_Zhoulin_Alignment < 51
+				}
+			}
+		}
+		localization_key = QJ_Penglai_Zhoulin_Republic
+	}
+	text = {
+		trigger = {
+			GUA = {
+				check_variable = {
+					QJ_Penglai_Zhoulin_Alignment > 50
+				}
+			}
+		}
+		localization_key = QJ_Penglai_Zhoulin_Emperor
+	}
+}
+
+defined_text = {
+	name = GetNRCAntiImperialAffinity
+	text = {
+		trigger = {
+			GUA = {
+				check_variable = {
+					QJ_Penglai_NRC_Coalition < 33
+				}
+			}
+		}
+		localization_key = QJ_Penglai_Outright_Hostility
+	}
+	text = {
+		trigger = {
+			GUA = {
+				check_variable = {
+					QJ_Penglai_NRC_Coalition > 32
+				}
+				check_variable = {
+					QJ_Penglai_NRC_Coalition < 66
+				}
+			}
+		}
+		localization_key = QJ_Penglai_Temporary_Truce
+	}
+	text = {
+		trigger = {
+			GUA = {
+				check_variable = {
+					QJ_Penglai_NRC_Coalition > 65
+				}
+			}
+		}
+		localization_key = QJ_Penglai_Full_Alliance
+	}
+}
+
+defined_text = {
+	name = GetTAAntiImperialAffinity
+	text = {
+		trigger = {
+			GUA = {
+				check_variable = {
+					QJ_Penglai_TA_Coalition < 33
+				}
+			}
+		}
+		localization_key = QJ_Penglai_Outright_Hostility
+	}
+	text = {
+		trigger = {
+			GUA = {
+				check_variable = {
+					QJ_Penglai_TA_Coalition > 32
+				}
+				check_variable = {
+					QJ_Penglai_TA_Coalition < 66
+				}
+			}
+		}
+		localization_key = QJ_Penglai_Temporary_Truce
+	}
+	text = {
+		trigger = {
+			GUA = {
+				check_variable = {
+					QJ_Penglai_TA_Coalition > 65
+				}
+			}
+		}
+		localization_key = QJ_Penglai_Full_Alliance
+	}
+}
+
+defined_text = {
+	name = GetSRAAntiImperialAffinity
+	text = {
+		trigger = {
+			GUA = {
+				check_variable = {
+					QJ_Penglai_SRA_Coalition < 33
+				}
+			}
+		}
+		localization_key = QJ_Penglai_Outright_Hostility
+	}
+	text = {
+		trigger = {
+			GUA = {
+				check_variable = {
+					QJ_Penglai_SRA_Coalition > 32
+				}
+				check_variable = {
+					QJ_Penglai_SRA_Coalition < 66
+				}
+			}
+		}
+		localization_key = QJ_Penglai_Temporary_Truce
+	}
+	text = {
+		trigger = {
+			GUA = {
+				check_variable = {
+					QJ_Penglai_SRA_Coalition > 65
+				}
+			}
+		}
+		localization_key = QJ_Penglai_Full_Alliance
+	}
+}
