@@ -1,0 +1,142 @@
+﻿###################################################################
+division_template = {
+	name = "Xinjian Lujun"
+	division_names_group = CHI_INF_02
+	template_counter = 0
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 2 y = 3 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+		cavalry = { x = 4 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Xinjian Lujun Hùnchéngxié"
+	division_names_group = CHI_GAR_02
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+###################################################################
+units = {
+	division= {
+		name = "Lùjūn Dì 2 Hùnchéngxié" #陸軍第二混成協
+		location = 9814
+		division_template="Xinjian Lujun Hùnchéngxié"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+
+	division= {
+		name = "Fèngtiān Línshí Lùjūn Dì 20 Zhèn" #奉天臨時陸軍第二十陣
+		location = 9814
+		division_template="Xinjian Lujun Hùnchéngxié"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+
+	division= {
+		name = "Hénán Línshí Lùjūn Dì 7 Zhèn" #河南臨時陸軍第七陣
+		location = 9814
+		division_template="Xinjian Lujun Hùnchéngxié"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+
+	division= {
+		name = "Lùjūn Dì 25 Hùnchéngxié" #陸軍第二十五混成協
+		location = 9814
+		division_template="Xinjian Lujun Hùnchéngxié"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+
+	division= {
+		name = "Lùjūn Dì 35 Hùnchéngxié" #陸軍第三十五混成協
+		location = 9814
+		division_template="Xinjian Lujun Hùnchéngxié"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+
+	division= {
+		name = "Lùjūn Dì 39 Hùnchéngxié" #陸軍第三十九混成協
+		location = 9814
+		division_template="Xinjian Lujun Hùnchéngxié"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+
+	division= {
+		name = "Lùjūn Dì 43 Hùnchéngxié" #陸軍第四十三混成協
+		location = 9814
+		division_template="Xinjian Lujun Hùnchéngxié"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+
+	division= {
+		name = "Lùjūn Guǎngdōng Hùnchéngxié" #陸軍廣東混成協
+		location = 9814
+		division_template="Xinjian Lujun Hùnchéngxié"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+
+	division= {
+		name = "Lùjūn Guǎngxī Hùnchéngxié" #陸軍廣西混成協
+		location = 9814
+		division_template="Xinjian Lujun Hùnchéngxié"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+
+	division= {
+		name = "Lùjūn Gānsù Hùnchéngxié" #陸軍甘肅混成協
+		location = 9814
+		division_template="Xinjian Lujun Hùnchéngxié"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+
+	division= {
+		name = "Lùjūn Yīlí Hùnchéngxié" #陸軍伊犁混成協
+		location = 9814
+		division_template="Xinjian Lujun Hùnchéngxié"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+
+	division= {
+		name = "Lùjūn Hēilóngjiāng Hùnchéngxié" #陸軍黑龍江混成協
+		location = 9814
+		division_template="Xinjian Lujun Hùnchéngxié"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+
+}

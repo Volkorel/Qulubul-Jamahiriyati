@@ -1867,6 +1867,7 @@ country_event = { #Illusion of Penglai order collapses
 		}
 		P06 = {
 			transfer_state = 1135
+			load_oob = P06
 		}
 		set_variable = { QJ_Penglai_Lantang_Security = 70 }
 		set_variable = { QJ_Penglai_Zhoulin_Alignment = 60 }
@@ -1928,8 +1929,8 @@ country_event = { #Vinland - Nij Sion separatists; do we support them?
 		}
 		GUA = {
 			add_to_variable = { QJ_Penglai_Zhoulin_Alignment = -30 }
-			unlock_decision_category_tooltip = penglai_warlord_category
 		}
+		unlock_decision_category_tooltip = penglai_warlord_category
 		custom_effect_tooltip = QJ_Penglai_Cannot_Sway_Zhoulin
 	}
 	option = { #No I'm a traitor to the white race
@@ -2113,7 +2114,7 @@ country_event = { #Ezo - WHO'S READY TO TOPPLE A MONARCHY?
 	}
 }
 
-country_event = { #Penglai again - calculating sides for end of deccat section
+country_event = { #Penglai again - War were declared
 	id = QJ_penglai.6
 	title = QJ_penglai.6.t
 	desc = QJ_penglai.6.d
@@ -2175,6 +2176,10 @@ country_event = { #Penglai again - calculating sides for end of deccat section
 						type = annex_everything
 					}
 					declare_war_on = {
+						target = P02
+						type = annex_everything
+					}
+					declare_war_on = {
 						target = P04
 						type = annex_everything
 					}
@@ -2213,6 +2218,10 @@ country_event = { #Penglai again - calculating sides for end of deccat section
 				P04 = {
 					declare_war_on = {
 						target = P01
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = P02
 						type = annex_everything
 					}
 					declare_war_on = {
@@ -2263,6 +2272,10 @@ country_event = { #Penglai again - calculating sides for end of deccat section
 				}
 				P01 = {
 					declare_war_on = {
+						target = P02
+						type = annex_everything
+					}
+					declare_war_on = {
 						target = P03
 						type = annex_everything
 					}
@@ -2305,6 +2318,10 @@ country_event = { #Penglai again - calculating sides for end of deccat section
 				P04 = {
 					declare_war_on = {
 						target = P01
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = P02
 						type = annex_everything
 					}
 					declare_war_on = {
@@ -2359,6 +2376,10 @@ country_event = { #Penglai again - calculating sides for end of deccat section
 						type = annex_everything
 					}
 					declare_war_on = {
+						target = P02
+						type = annex_everything
+					}
+					declare_war_on = {
 						target = P04
 						type = annex_everything
 					}
@@ -2395,6 +2416,10 @@ country_event = { #Penglai again - calculating sides for end of deccat section
 					}
 				}
 				P01 = {
+					declare_war_on = {
+						target = P02
+						type = annex_everything
+					}
 					declare_war_on = {
 						target = P03
 						type = annex_everything
@@ -2466,6 +2491,12 @@ country_event = { #Penglai again - calculating sides for end of deccat section
 					add_to_faction = P02
 				}
 			}
+			P02 = {
+				declare_war_on = {
+					target = GUA
+					type = annex_everything
+				}
+			}
 		}
 		else = {
 			add_to_faction = P02
@@ -2493,6 +2524,9 @@ country_event = { #Penglai again - calculating sides for end of deccat section
 			}
 		}
 		
+		GUA = {
+			add_ideas = QJ_Penglai_Jiyou_Uprising
+		}
 		P01 = {
 			declare_war_on = {
 				target = GUA
@@ -2502,12 +2536,14 @@ country_event = { #Penglai again - calculating sides for end of deccat section
 				target = P06
 				type = annex_everything
 			}
+			add_ideas = QJ_Penglai_Jiyou_Uprising
 		}
 		P02 = {
 			declare_war_on = {
 				target = P06
 				type = annex_everything
 			}
+			add_ideas = QJ_Penglai_Jiyou_Uprising
 		}
 		P03 = {
 			declare_war_on = {
@@ -2518,6 +2554,7 @@ country_event = { #Penglai again - calculating sides for end of deccat section
 				target = P06
 				type = annex_everything
 			}
+			add_ideas = QJ_Penglai_Jiyou_Uprising
 		}
 		P04 = {
 			declare_war_on = {
@@ -2528,6 +2565,10 @@ country_event = { #Penglai again - calculating sides for end of deccat section
 				target = P06
 				type = annex_everything
 			}
+			add_ideas = QJ_Penglai_Jiyou_Uprising
+		}
+		P06 = {
+			add_ideas = QJ_Penglai_Jiyou_Uprising
 		}
 		
 		CAN = {
@@ -2546,6 +2587,10 @@ country_event = { #Penglai again - calculating sides for end of deccat section
 			clr_country_flag = CKK_Penglai_Supporting_Jacobins
 			clr_country_flag = CKK_Penglai_Supporting_Communists
 			clr_country_flag = CKK_Penglai_Supporting_Duemarists
+		}
+		
+		every_country = {
+			news_event = jam_world.12
 		}
 	}
 }

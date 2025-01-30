@@ -155,7 +155,9 @@ penglai_warlord_category = {
 		available = { always = yes }
 
 		complete_effect = {
-			#National Spirit
+			GUA = {
+				add_ideas = QJ_Penglai_Vinlandic_Support
+			}
 		}
 	}
 	CAN_heighten_tensions_between_rebels = {
@@ -310,7 +312,9 @@ penglai_warlord_category = {
 		available = { always = yes }
 
 		complete_effect = {
-			#National Spirit
+			P06 = {
+				add_ideas = QJ_Penglai_Vinlandic_Support
+			}
 		}
 	}
 	CAN_allow_frysk_to_cross_border = {
@@ -329,7 +333,9 @@ penglai_warlord_category = {
 
 		complete_effect = {
 			add_threat = 1
-			#New OOB
+			P06 = {
+				load_oob = P06
+			}
 		}
 	}
 }

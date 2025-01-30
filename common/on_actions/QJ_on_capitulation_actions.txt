@@ -468,6 +468,148 @@ on_actions = {
 					country_event = QJ_pygmies.6
 				}
 			}
+			else_if = { #Penglai War
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = GUA
+							original_tag = P01
+							original_tag = P02
+							original_tag = P03
+							original_tag = P04
+						}
+					}
+					ROOT = {
+						OR = {
+							original_tag = GUA
+							original_tag = P01
+							original_tag = P02
+							original_tag = P03
+							original_tag = P04
+							original_tag = P05
+							original_tag = P06
+						}
+					}
+				}
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = GUA
+						}
+						P01 = {
+							is_in_faction = no
+						}
+					}
+					P01 = {
+						declare_war_on = {
+							target = P02
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = P03
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = P04
+							type = annex_everything
+						}
+					}
+				}
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = GUA
+						}
+						P03 = {
+							is_in_faction = no
+						}
+					}
+					P03 = {
+						declare_war_on = {
+							target = P01
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = P02
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = P04
+							type = annex_everything
+						}
+					}
+				}
+				if = {
+					limit = {
+						ROOT = {
+							original_tag = GUA
+						}
+						P04 = {
+							is_in_faction = no
+						}
+					}
+					P04 = {
+						declare_war_on = {
+							target = P01
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = P02
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = P03
+							type = annex_everything
+						}
+					}
+				}
+				if = {
+					limit = {
+						FROM = {
+							original_tag = GUA
+						}
+						ROOT = {
+							original_tag = P02
+						}
+						P06 = {
+							annex_country = {
+								target = P02
+								transfer_troops = no
+							}
+						}
+					}
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+			}
+			else_if = { #Penglai War - Nij Sion
+				limit = {
+					FROM = {
+						original_tag = P06
+					}
+					ROOT = {
+						OR = {
+							original_tag = GUA
+							original_tag = P01
+							original_tag = P02
+							original_tag = P03
+							original_tag = P04
+						}
+					}
+				}
+				P06 = {
+					white_peace = GUA
+					white_peace = P01
+					white_peace = P03
+					white_peace = P04
+					transfer_state = 379
+					transfer_state = 1006
+				}
+			}
 		}
 	}
 } 

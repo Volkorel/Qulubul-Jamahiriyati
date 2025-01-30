@@ -1,0 +1,87 @@
+﻿###################################################################
+division_template = {
+	name = "Xinjian Lujun"
+	division_names_group = CHI_INF_02
+	template_counter = 0
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 2 y = 3 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+		cavalry = { x = 4 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Xinjian Lujun Hùnchéngxié"
+	division_names_group = CHI_GAR_02
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+###################################################################
+units = {
+
+	division= {
+		name = "Húběi Lùjūn Dì 8 Zhèn" #湖北陸軍第八陣
+		location = 10765
+		division_template="Xinjian Lujun Hùnchéngxié"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+
+	division= {
+		name = "Nányáng Lùjūn Dì 9 Zhèn" #南洋陸軍第九陣
+		location = 10765
+		division_template="Xinjian Lujun Hùnchéngxié"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+
+	division= {
+		name = "Fújiàn Línshí Lùjūn Dì 10 Zhèn" #福建臨時陸軍第十陣
+		location = 10765
+		division_template="Xinjian Lujun Hùnchéngxié"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+
+	division= {
+		name = "Sìchuān Línshí Lùjūn Dì 17 Zhèn" #四川臨時陸軍第十七陣
+		location = 10765
+		division_template="Xinjian Lujun Hùnchéngxié"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+
+	division= {
+		name = "Yúnnán Línshí Lùjūn Dì 19 Zhèn" #云南臨時陸軍第十九陣
+		location = 10765
+		division_template="Xinjian Lujun Hùnchéngxié"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+
+}

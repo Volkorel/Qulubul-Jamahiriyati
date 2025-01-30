@@ -2,9 +2,31 @@
 
 # Starting tech
 set_technology = {
+	#infantry
 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	bicycle_infantry = 1
+	#support
+	tech_support = 1
+	tech_engineers = 1
+	#artillery
 	gw_artillery = 1
+	#doctrine
+	ww1_landdoctrine = 1
+	#engineering
+	electrical_engineering = 1
+	mechanical_engineering = 1
+	basic_train = 1
+	basic_railways = 1
+	construction0 = 1
+	powder_type_b = 1
 }
+
+set_rule = {
+    can_join_factions = no
+}
+
+oob = "P03"
 
 recruit_character = P03_Yanmin_Jialie
 
