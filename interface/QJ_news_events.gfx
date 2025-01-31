@@ -63,4 +63,33 @@ spriteTypes = {
 		name = "GFX_news_event_savoyard_frankish_war"
 		texturefile = "gfx/event_pictures/news_event/news_event_savoyard_frankish_war.dds"
 	}
+	#################
+	### ERIKSLAND ###
+	#################
+	#    Penglai    #
+	#################
+	spriteType = {
+		name = "GFX_news_event_start_of_jiyoyu"
+		texturefile = "gfx/event_pictures/news_event/news_event_start_of_jiyoyu.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_jiyou_war"
+		texturefile = "gfx/event_pictures/news_event/news_event_jiyou_war.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_penglai_imperial_rule"
+		texturefile = "gfx/event_pictures/news_event/news_event_penglai_imperial_rule.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_penglai_jacobins"
+		texturefile = "gfx/event_pictures/news_event/news_event_penglai_jacobins.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_penglai_communists"
+		texturefile = "gfx/event_pictures/news_event/news_event_penglai_communists.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_penglai_duemarists"
+		texturefile = "gfx/event_pictures/news_event/news_event_penglai_duemarists.dds"
+	}
 }

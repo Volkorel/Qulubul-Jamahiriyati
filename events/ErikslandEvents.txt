@@ -2645,6 +2645,9 @@ country_event = { #Penglai - Faction victorious
 			transfer_state = 484
 			transfer_state = 483
 		}
+		every_country = {
+			news_event = jam_world.13
+		}
 	}
 	option = { #Jacobin Victory
 		name = QJ_penglai.7.b
@@ -2672,6 +2675,9 @@ country_event = { #Penglai - Faction victorious
 				duemarism = 20
 				indigeneum = 0
 				suprarealisme = 0
+			}
+			every_country = {
+				news_event = jam_world.14
 			}
 		}
 	}
@@ -2710,6 +2716,9 @@ country_event = { #Penglai - Faction victorious
 					suprarealisme = 0
 				}
 			}
+			every_country = {
+				news_event = jam_world.15
+			}
 		}
 		else = {
 			GUA = {
@@ -2731,6 +2740,9 @@ country_event = { #Penglai - Faction victorious
 					indigeneum = 0
 					suprarealisme = 0
 				}
+			}
+			every_country = {
+				news_event = jam_world.17
 			}
 		}
 	}
@@ -2768,6 +2780,8 @@ country_event = { #Penglai - Faction victorious
 					indigeneum = 0
 					suprarealisme = 0
 				}
+			}every_country = {
+				news_event = jam_world.16
 			}
 		}
 		else = {
@@ -2790,6 +2804,9 @@ country_event = { #Penglai - Faction victorious
 					indigeneum = 0
 					suprarealisme = 0
 				}
+			}
+			every_country = {
+				news_event = jam_world.18
 			}
 		}
 	}

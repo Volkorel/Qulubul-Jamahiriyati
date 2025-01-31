@@ -119,20 +119,86 @@ news_event = { #Illusion of Penglai order collapses
 	id = jam_world.11
 	title = jam_world.11.t
 	desc = jam_world.11.d
-	#picture = GFX_news_event_pygmy_paramountcy
+	picture = GFX_news_event_start_of_jiyoyu
 	is_triggered_only = yes
 	option = {
 		name = jam_world.11.a
 	}
 }
 
-news_event = { #Illusion of Penglai order collapses
+news_event = { #Jiyou Uprising
 	id = jam_world.12
 	title = jam_world.12.t
 	desc = jam_world.12.d
-	#picture = GFX_news_event_pygmy_paramountcy
+	picture = GFX_news_event_jiyou_war
 	is_triggered_only = yes
 	option = {
 		name = jam_world.12.a
+	}
+}
+
+news_event = { #Imperial Rule Restored in Penglai
+	id = jam_world.13
+	title = jam_world.13.t
+	desc = jam_world.13.d
+	picture = GFX_news_event_penglai_imperial_rule
+	is_triggered_only = yes
+	option = {
+		name = jam_world.13.a
+	}
+}
+
+news_event = { #Penglai Republic Declared - Jacobins
+	id = jam_world.14
+	title = jam_world.14.t
+	desc = jam_world.14.d
+	picture = GFX_news_event_penglai_jacobins
+	is_triggered_only = yes
+	option = {
+		name = jam_world.14.a
+	}
+}
+
+news_event = { #Penglai Republic Declared - Socialists
+	id = jam_world.15
+	title = jam_world.15.t
+	desc = jam_world.15.d
+	picture = GFX_news_event_penglai_communists
+	is_triggered_only = yes
+	option = {
+		name = jam_world.15.a
+	}
+}
+
+news_event = { #Penglai Republic Declared - Duemarists
+	id = jam_world.16
+	title = jam_world.16.t
+	desc = jam_world.16.d
+	picture = GFX_news_event_penglai_duemarists
+	is_triggered_only = yes
+	option = {
+		name = jam_world.16.a
+	}
+}
+
+news_event = { #Penglai People's Republic Declared
+	id = jam_world.17
+	title = jam_world.17.t
+	desc = jam_world.17.d
+	picture = GFX_news_event_penglai_communists
+	is_triggered_only = yes
+	option = {
+		name = jam_world.17.a
+	}
+}
+
+news_event = { #State of Great Dadong Declared
+	id = jam_world.18
+	title = jam_world.18.t
+	desc = jam_world.18.d
+	picture = GFX_news_event_penglai_duemarists
+	is_triggered_only = yes
+	option = {
+		name = jam_world.18.a
 	}
 }
