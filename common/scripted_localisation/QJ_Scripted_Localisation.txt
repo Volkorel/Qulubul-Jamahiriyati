@@ -84,6 +84,37 @@ defined_text = {
 }
 
 defined_text = {
+	name = GetPenglaiCoalitionLeader
+	text = {
+		trigger = {
+			SOV = {
+				has_country_flag = SOV_Penglai_Supporting_Jacobins
+			}
+		}
+		localization_key = QJ_Penglai_Jacobins_Leader
+	}
+	text = {
+		trigger = {
+			SOV = {
+				has_country_flag = SOV_Penglai_Supporting_Communists
+			}
+		}
+		localization_key = QJ_Penglai_Socialists_Leader
+	}
+	text = {
+		trigger = {
+			SOV = {
+				has_country_flag = SOV_Penglai_Supporting_Duemarists
+			}
+		}
+		localization_key = QJ_Penglai_Duemarists_Leader
+	}
+	text = {
+		localization_key = QJ_Penglai_No_Leader
+	}
+}
+
+defined_text = {
 	name = GetLantangSecurity
 	text = {
 		trigger = {

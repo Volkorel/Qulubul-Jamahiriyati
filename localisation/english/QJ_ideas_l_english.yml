@@ -40,10 +40,10 @@
  QJ_CUB_The_Anti_Revolutionary_Army_2:0 "The Anti-Revolutionary Army"
  QJ_CUB_The_Anti_Revolutionary_Army_3:0 "The Anti-Revolutionary Army"
  BRA_Treaty_of_Murabaegh:0 "Treaty of Murabaegh"
- BRA_Treaty_of_Murabaegh_desc:0 "In 1659, during the golden age of Atlantic piracy, a treaty was signed between Vinland and Califocasa. It banned conflict between Vinlandic vikings and Califocasan corsairs, and guaranteed these pirate fleets safe harbor in any port owned by either of the two states. This tradition of Vinlandic and Califocasan naval cooperation has continued to the modern day."
+ BRA_Treaty_of_Murabaegh_desc:0 "In 1659, during the golden age of Atlantic piracy, a treaty was signed between Vinland and Califocasa. It banned conflict between Vinlandic vikings and Califocasan corsairs, and guaranteed these pirate fleets safe harbor in any port owned by either of the two states. This treaty remains in place to this day, and the tradition of Vinlandic and Califocasan naval cooperation has continued to the modern day."
  BRA_Treaty_of_Murabaegh_tt:0 "Opinion of @CAN §Y[CAN.GetName]§! §G+30§!."
  CAN_Treaty_of_Murabaegh:0 "Treaty of Murabaegh"
- CAN_Treaty_of_Murabaegh_desc:0 "In 1659, during the golden age of Atlantic piracy, a treaty was signed between Vinland and Califocasa. It banned conflict between Vinlandic vikings and Califocasan corsairs, and guaranteed these pirate fleets safe harbor in any port owned by either of the two states. This tradition of Vinlandic and Califocasan naval cooperation has continued to the modern day."
+ CAN_Treaty_of_Murabaegh_desc:0 "In 1659, during the golden age of Atlantic piracy, a treaty was signed between Vinland and Califocasa. It banned conflict between Vinlandic vikings and Califocasan corsairs, and guaranteed these pirate fleets safe harbor in any port owned by either of the two states. This treaty remains in place to this day, and the tradition of Vinlandic and Califocasan naval cooperation has continued to the modern day."
  CAN_Treaty_of_Murabaegh_tt:0 "Opinion of @BRA §Y[BRA.GetName]§! §G+30§!."
  BLZ_REMEMBER_THE_HILLIGE:0 "§RRemember the Hillige!§!"
  BLZ_REMEMBER_THE_HILLIGE_desc:0 "And then they sent a young scout from the battlements, bloody and loud\nWith the words of farewell from a garrison valiant and proud\nGrieve not little darling, my dying, if Taysha is sovereign and free\nWe'll never surrender and ever with liberty be\n\nHey Louis Bonaparte, we're killing your soldiers below!\nThat men, wherever they go will remember the Hillige!"
@@ -70,6 +70,9 @@
  QJ_Frankia_Crisis_Support_3:0 "Foreign Support in Crisis"
  QJ_Penglai_Jiyou_Uprising:0 "The Jiyou Uprising"
  QJ_Penglai_Vinlandic_Support:0 "Vinlandic Military Advisors"
+ QJ_Penglai_Langobard_Support:0 "Langobard Military Advisors"
+ QJ_Penglai_Gardaveldi_Support:0 "Gardaveldic Military Advisors"
+ QJ_Penglai_Ezo_Support:0 "Ezo Military Advisors"
  
  # Idea Modifiers
  socialism_acceptance:0 "Acceptance of Socialist Diplomacy"

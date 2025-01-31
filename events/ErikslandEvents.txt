@@ -1919,6 +1919,7 @@ country_event = { #Vinland - Nij Sion separatists; do we support them?
 	option = { #FUCK YEAH! HOP ON!
 		name = QJ_penglai.2.a
 		set_country_flag = CAN_Penglai_Supporting_Nij_Sion
+		set_country_flag = QJ_Penglai_Proxy_War_Ongoing
 		reverse_add_opinion_modifier = {
 			target = GUA
 			modifier = western_betrayal
@@ -1936,6 +1937,7 @@ country_event = { #Vinland - Nij Sion separatists; do we support them?
 	option = { #No I'm a traitor to the white race
 		name = QJ_penglai.2.b
 		set_country_flag = CAN_Penglai_Supporting_Emperor
+		set_country_flag = QJ_Penglai_Proxy_War_Ongoing
 		add_stability = -0.05
 		reverse_add_opinion_modifier = {
 			target = P06
@@ -1976,6 +1978,7 @@ country_event = { #Langobardia - Notification; our profits are in danger!
 	option = { #Millions must die!
 		name = QJ_penglai.3.a
 		set_country_flag = CUB_Penglai_Supporting_Emperor
+		set_country_flag = QJ_Penglai_Proxy_War_Ongoing
 		unlock_decision_category_tooltip = penglai_warlord_category
 	}
 }
@@ -1994,6 +1997,7 @@ country_event = { #Gardaveldi - WHO'S READY TO TOPPLE A MONARCHY?
 			modifier = { has_government = jacobinism add = 999 }
 		}
 		set_country_flag = SOV_Penglai_Supporting_Jacobins
+		set_country_flag = QJ_Penglai_Proxy_War_Ongoing
 		if = {
 			limit = {
 				NOT = {
@@ -2004,7 +2008,7 @@ country_event = { #Gardaveldi - WHO'S READY TO TOPPLE A MONARCHY?
 		}
 		add_popularity = {
 			ideology = jacobinism
-			popularity = -0.01
+			popularity = 0.01
 		}
 	}
 	option = { #We must support the Communists!
@@ -2013,6 +2017,7 @@ country_event = { #Gardaveldi - WHO'S READY TO TOPPLE A MONARCHY?
 			modifier = { has_government = communism add = 999 }
 		}
 		set_country_flag = SOV_Penglai_Supporting_Communists
+		set_country_flag = QJ_Penglai_Proxy_War_Ongoing
 		if = {
 			limit = {
 				NOT = {
@@ -2023,7 +2028,7 @@ country_event = { #Gardaveldi - WHO'S READY TO TOPPLE A MONARCHY?
 		}
 		add_popularity = {
 			ideology = communism
-			popularity = -0.01
+			popularity = 0.01
 		}
 	}
 	option = { #We must support the Duemarists!
@@ -2032,6 +2037,7 @@ country_event = { #Gardaveldi - WHO'S READY TO TOPPLE A MONARCHY?
 			modifier = { has_government = duemarism add = 999 }
 		}
 		set_country_flag = SOV_Penglai_Supporting_Duemarists
+		set_country_flag = QJ_Penglai_Proxy_War_Ongoing
 		if = {
 			limit = {
 				NOT = {
@@ -2042,7 +2048,7 @@ country_event = { #Gardaveldi - WHO'S READY TO TOPPLE A MONARCHY?
 		}
 		add_popularity = {
 			ideology = duemarism
-			popularity = -0.01
+			popularity = 0.01
 		}
 	}
 }
@@ -2061,6 +2067,7 @@ country_event = { #Ezo - WHO'S READY TO TOPPLE A MONARCHY?
 			modifier = { has_government = jacobinism add = 999 }
 		}
 		set_country_flag = CKK_Penglai_Supporting_Jacobins
+		set_country_flag = QJ_Penglai_Proxy_War_Ongoing
 		if = {
 			limit = {
 				NOT = {
@@ -2071,7 +2078,7 @@ country_event = { #Ezo - WHO'S READY TO TOPPLE A MONARCHY?
 		}
 		add_popularity = {
 			ideology = jacobinism
-			popularity = -0.01
+			popularity = 0.01
 		}
 	}
 	option = { #We must support the Communists!
@@ -2080,6 +2087,7 @@ country_event = { #Ezo - WHO'S READY TO TOPPLE A MONARCHY?
 			modifier = { has_government = communism add = 999 }
 		}
 		set_country_flag = CKK_Penglai_Supporting_Communists
+		set_country_flag = QJ_Penglai_Proxy_War_Ongoing
 		if = {
 			limit = {
 				NOT = {
@@ -2090,7 +2098,7 @@ country_event = { #Ezo - WHO'S READY TO TOPPLE A MONARCHY?
 		}
 		add_popularity = {
 			ideology = communism
-			popularity = -0.01
+			popularity = 0.01
 		}
 	}
 	option = { #We must support the Duemarists!
@@ -2099,6 +2107,7 @@ country_event = { #Ezo - WHO'S READY TO TOPPLE A MONARCHY?
 			modifier = { has_government = duemarism add = 999 }
 		}
 		set_country_flag = CKK_Penglai_Supporting_Duemarists
+		set_country_flag = QJ_Penglai_Proxy_War_Ongoing
 		if = {
 			limit = {
 				NOT = {
@@ -2109,7 +2118,7 @@ country_event = { #Ezo - WHO'S READY TO TOPPLE A MONARCHY?
 		}
 		add_popularity = {
 			ideology = duemarism
-			popularity = -0.01
+			popularity = 0.01
 		}
 	}
 }
@@ -2501,7 +2510,7 @@ country_event = { #Penglai again - War were declared
 		else = {
 			add_to_faction = P02
 			declare_war_on = {
-				target = P02
+				target = P06
 				type = annex_everything
 			}
 			P01 = {
@@ -2572,25 +2581,216 @@ country_event = { #Penglai again - War were declared
 		}
 		
 		CAN = {
-			clr_country_flag = CAN_Penglai_Supporting_Nij_Sion
-			clr_country_flag = CAN_Penglai_Supporting_Emperor
+			clr_country_flag = QJ_Penglai_Proxy_War_Ongoing
 		}
 		CUB = {
-			clr_country_flag = CUB_Penglai_Supporting_Emperor
+			clr_country_flag = QJ_Penglai_Proxy_War_Ongoing
 		}
 		SOV = {
-			clr_country_flag = SOV_Penglai_Supporting_Jacobins
-			clr_country_flag = SOV_Penglai_Supporting_Communists
-			clr_country_flag = SOV_Penglai_Supporting_Duemarists
+			clr_country_flag = QJ_Penglai_Proxy_War_Ongoing
 		}
 		CKK = {
-			clr_country_flag = CKK_Penglai_Supporting_Jacobins
-			clr_country_flag = CKK_Penglai_Supporting_Communists
-			clr_country_flag = CKK_Penglai_Supporting_Duemarists
+			clr_country_flag = QJ_Penglai_Proxy_War_Ongoing
 		}
 		
 		every_country = {
 			news_event = jam_world.12
+		}
+	}
+}
+
+country_event = { #Penglai - Faction victorious
+	id = QJ_penglai.7
+	title = QJ_penglai.7.t
+	desc = QJ_penglai.7.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		GUA = {
+			remove_ideas = QJ_Penglai_Jiyou_Uprising
+			remove_ideas = QJ_Penglai_Vinlandic_Support
+		}
+		P01 = {
+			remove_ideas = QJ_Penglai_Jiyou_Uprising
+		}
+		P02 = {
+			remove_ideas = QJ_Penglai_Jiyou_Uprising
+		}
+		P03 = {
+			remove_ideas = QJ_Penglai_Jiyou_Uprising
+		}
+		P04 = {
+			remove_ideas = QJ_Penglai_Jiyou_Uprising
+		}
+		P06 = {
+			remove_ideas = QJ_Penglai_Jiyou_Uprising
+			remove_ideas = QJ_Penglai_Vinlandic_Support
+		}
+		#Event for Vinland
+	}
+	
+	option = { #Imperial Victory
+		name = QJ_penglai.7.a
+		trigger = {
+			OR = {
+				original_tag = GUA
+				is_in_faction_with = GUA
+			}
+		}
+		GUA = {
+			transfer_state = 378
+			transfer_state = 377
+			transfer_state = 484
+			transfer_state = 483
+		}
+	}
+	option = { #Jacobin Victory
+		name = QJ_penglai.7.b
+		trigger = {
+			OR = {
+				original_tag = P01
+				is_in_faction_with = P01
+			}
+		}
+		GUA = {
+			transfer_state = 378
+			transfer_state = 377
+			transfer_state = 484
+			transfer_state = 483
+			set_cosmetic_tag = GUA_REPUBLIC
+			set_politics = {
+				ruling_party = jacobinism
+			}
+			set_popularities = {
+				communism = 5
+				socialism = 15
+				liberalism = 10
+				conservatism = 0
+				jacobinism = 50
+				duemarism = 20
+				indigeneum = 0
+				suprarealisme = 0
+			}
+		}
+	}
+	option = { #Communist Victory
+		name = QJ_penglai.7.c
+		trigger = {
+			OR = {
+				original_tag = P03
+				is_in_faction_with = P03
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					original_tag = P01
+					is_in_faction_with = P01
+				}
+			}
+			GUA = {
+				transfer_state = 378
+				transfer_state = 377
+				transfer_state = 484
+				transfer_state = 483
+				set_cosmetic_tag = GUA_REPUBLIC
+				set_politics = {
+					ruling_party = communism
+				}
+				set_popularities = {
+					communism = 45
+					socialism = 10
+					liberalism = 10
+					conservatism = 0
+					jacobinism = 15
+					duemarism = 20
+					indigeneum = 0
+					suprarealisme = 0
+				}
+			}
+		}
+		else = {
+			GUA = {
+				transfer_state = 378
+				transfer_state = 377
+				transfer_state = 484
+				transfer_state = 483
+				set_cosmetic_tag = GUA_SOCIALIST
+				set_politics = {
+					ruling_party = communism
+				}
+				set_popularities = {
+					communism = 70
+					socialism = 10
+					liberalism = 0
+					conservatism = 0
+					jacobinism = 20
+					duemarism = 0
+					indigeneum = 0
+					suprarealisme = 0
+				}
+			}
+		}
+	}
+	option = { #Duemarist Victory
+		name = QJ_penglai.7.e
+		trigger = {
+			OR = {
+				original_tag = P04
+				is_in_faction_with = P04
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					original_tag = P01
+					is_in_faction_with = P01
+				}
+			}
+			GUA = {
+				transfer_state = 378
+				transfer_state = 377
+				transfer_state = 484
+				transfer_state = 483
+				set_cosmetic_tag = GUA_REPUBLIC
+				set_politics = {
+					ruling_party = duemarism
+				}
+				set_popularities = {
+					communism = 5
+					socialism = 15
+					liberalism = 10
+					conservatism = 0
+					jacobinism = 20
+					duemarism = 50
+					indigeneum = 0
+					suprarealisme = 0
+				}
+			}
+		}
+		else = {
+			GUA = {
+				transfer_state = 378
+				transfer_state = 377
+				transfer_state = 484
+				transfer_state = 483
+				set_cosmetic_tag = GUA_DUEMARIST
+				set_politics = {
+					ruling_party = duemarism
+				}
+				set_popularities = {
+					communism = 0
+					socialism = 20
+					liberalism = 0
+					conservatism = 0
+					jacobinism = 10
+					duemarism = 70
+					indigeneum = 0
+					suprarealisme = 0
+				}
+			}
 		}
 	}
 }

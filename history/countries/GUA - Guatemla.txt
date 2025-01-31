@@ -29,6 +29,9 @@ set_rule = {
 oob = "GUA"
 
 recruit_character = GUA_Emperor_Hongguang
+recruit_character = GUA_Lu_Jiyao
+recruit_character = GUA_Yanmin_Jialie
+recruit_character = GUA_Zhao_Long
 
 set_country_flag = monroe_doctrine
 set_war_support = 0.1

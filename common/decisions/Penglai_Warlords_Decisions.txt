@@ -1,5 +1,7 @@
 penglai_warlord_category = {
-
+	#############################
+	##### VINLAND DECISIONS #####
+	#############################
 	CAN_reinforce_lantang = {
 		custom_cost_trigger = {
 			has_manpower > 499
@@ -7,7 +9,7 @@ penglai_warlord_category = {
         }
         custom_cost_text = decision_cost_MP_500_CP_10
 		fire_only_once = no   
-#		icon = 
+		icon = generic_police_action
 		allowed = {
 			original_tag = CAN
 		}
@@ -43,7 +45,7 @@ penglai_warlord_category = {
 	CAN_root_out_lantang_insurgents = {
 		cost = 25
 		fire_only_once = no   
-#		icon = 
+		icon = generic_operation
 		allowed = {
 			original_tag = CAN
 		}
@@ -73,7 +75,7 @@ penglai_warlord_category = {
 	CAN_pressure_penglai_crackdown = {
 		cost = 50
 		fire_only_once = yes
-#		icon = 
+		icon = generic_arrest
 		allowed = {
 			original_tag = CAN
 		}
@@ -106,7 +108,7 @@ penglai_warlord_category = {
 	CAN_arm_imperials = {
 		cost = 25
 		fire_only_once = no   
-#		icon = 
+		icon = GFX_decision_generic_reorganize_irregulars
 		allowed = {
 			original_tag = CAN
 		}
@@ -140,9 +142,13 @@ penglai_warlord_category = {
 		}
 	}
 	CAN_send_advisors_to_imperials = {
-		cost = 50
+		custom_cost_trigger = {
+			command_power > 24
+			has_political_power > 49
+		}
+		custom_cost_text = decision_cost_CP_25_pp_50
 		fire_only_once = yes
-#		icon = 
+		icon = generic_army_support
 		allowed = {
 			original_tag = CAN
 		}
@@ -155,6 +161,10 @@ penglai_warlord_category = {
 		available = { always = yes }
 
 		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+				add_political_power = -50
+			}
 			GUA = {
 				add_ideas = QJ_Penglai_Vinlandic_Support
 			}
@@ -163,7 +173,7 @@ penglai_warlord_category = {
 	CAN_heighten_tensions_between_rebels = {
 		cost = 25
 		fire_only_once = no   
-#		icon = 
+		icon = GFX_decision_generic_wreckers
 		allowed = {
 			original_tag = CAN
 		}
@@ -205,7 +215,7 @@ penglai_warlord_category = {
 	CAN_negotiate_with_zhoulin = {
 		cost = 25
 		fire_only_once = no   
-#		icon = 
+		icon = generic_political_discourse
 		allowed = {
 			original_tag = CAN
 		}
@@ -235,7 +245,7 @@ penglai_warlord_category = {
 		}
 		custom_cost_text = decision_cost_civ_factory_1
 		fire_only_once = yes
-#		icon = 
+		icon = GFX_decision_gre_investment_decisions
 		allowed = {
 			original_tag = CAN
 		}
@@ -244,7 +254,7 @@ penglai_warlord_category = {
 		}
 		available = { always = yes }
 
-		days_remove = 30
+		days_remove = 100
 		modifier = {
 			civilian_factory_use = 1
 		}
@@ -265,7 +275,7 @@ penglai_warlord_category = {
 	CAN_arm_nij_sion = {
 		cost = 25
 		fire_only_once = no   
-#		icon = 
+		icon = GFX_decision_generic_reorganize_irregulars
 		allowed = {
 			original_tag = CAN
 		}
@@ -298,9 +308,13 @@ penglai_warlord_category = {
 		}
 	}
 	CAN_send_advisors_to_nij_sion = {
-		cost = 50
+		custom_cost_trigger = {
+			command_power > 24
+			has_political_power > 49
+		}
+		custom_cost_text = decision_cost_CP_25_pp_50
 		fire_only_once = yes
-#		icon = 
+		icon = generic_army_support
 		allowed = {
 			original_tag = CAN
 		}
@@ -312,6 +326,10 @@ penglai_warlord_category = {
 		available = { always = yes }
 
 		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+				add_political_power = -50
+			}
 			P06 = {
 				add_ideas = QJ_Penglai_Vinlandic_Support
 			}
@@ -320,7 +338,7 @@ penglai_warlord_category = {
 	CAN_allow_frysk_to_cross_border = {
 		cost = 10
 		fire_only_once = yes
-#		icon = 
+		icon = generic_nationalism
 		allowed = {
 			original_tag = CAN
 		}
@@ -335,6 +353,783 @@ penglai_warlord_category = {
 			add_threat = 1
 			P06 = {
 				load_oob = P06
+			}
+		}
+	}
+	
+	#################################
+	##### LANGOBARDIA DECISIONS #####
+	#################################
+	CUB_arm_imperials = {
+		cost = 25
+		fire_only_once = no   
+		icon = GFX_decision_generic_reorganize_irregulars
+		allowed = {
+			original_tag = CUB
+		}
+		visible = {
+			has_country_flag = CUB_Penglai_Supporting_Emperor
+		}
+		available = { always = yes }
+
+		days_remove = 30
+		complete_effect = {
+			GUA = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+					producer = CUB
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment_1
+					amount = 100
+					producer = CUB
+				}
+				add_equipment_to_stockpile = {
+					type = artillery_equipment_1
+					amount = 100
+					producer = CUB
+				}
+			}
+		}
+	}
+	CUB_send_advisors_to_imperials = {
+		custom_cost_trigger = {
+			command_power > 24
+			has_political_power > 49
+		}
+		custom_cost_text = decision_cost_CP_25_pp_50
+		fire_only_once = yes
+		icon = generic_army_support
+		allowed = {
+			original_tag = CUB
+		}
+		visible = {
+			has_country_flag = CUB_Penglai_Supporting_Emperor
+		}
+		available = { always = yes }
+
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+				add_political_power = -50
+			}
+			GUA = {
+				add_ideas = QJ_Penglai_Langobard_Support
+			}
+		}
+	}
+	CUB_heighten_tensions_between_rebels = {
+		cost = 25
+		fire_only_once = no   
+		icon = GFX_decision_generic_wreckers
+		allowed = {
+			original_tag = CUB
+		}
+		visible = {
+			has_country_flag = CUB_Penglai_Supporting_Emperor
+		}
+		available = { always = yes }
+
+		days_remove = 30
+		complete_effect = {
+			hidden_effect = {
+				GUA = {
+					add_to_variable = { QJ_Penglai_NRC_Coalition = -10 }
+					clamp_variable = {
+						var = QJ_Penglai_NRC_Coalition
+						min = 0
+						max = 100
+					}
+					add_to_variable = { QJ_Penglai_TA_Coalition = -10 }
+					clamp_variable = {
+						var = QJ_Penglai_TA_Coalition
+						min = 0
+						max = 100
+					}
+					add_to_variable = { QJ_Penglai_SRA_Coalition = -10 }
+					clamp_variable = {
+						var = QJ_Penglai_SRA_Coalition
+						min = 0
+						max = 100
+					}
+				}
+			}
+			custom_effect_tooltip = QJ_Penglai_Reduce_Rebel_Alliances
+		}
+	}
+	
+	################################
+	##### GARDAVELDI DECISIONS #####
+	################################
+	SOV_arm_jacobins = {
+		cost = 25
+		fire_only_once = no   
+		icon = GFX_decision_generic_reorganize_irregulars
+		allowed = {
+			original_tag = SOV
+		}
+		visible = {
+			has_country_flag = SOV_Penglai_Supporting_Jacobins
+		}
+		available = { always = yes }
+
+		days_remove = 30
+		complete_effect = {
+			P01 = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+					producer = SOV
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment_1
+					amount = 100
+					producer = SOV
+				}
+				add_equipment_to_stockpile = {
+					type = artillery_equipment_1
+					amount = 100
+					producer = SOV
+				}
+			}
+		}
+	}
+	SOV_arm_communists = {
+		cost = 25
+		fire_only_once = no   
+		icon = GFX_decision_generic_reorganize_irregulars
+		allowed = {
+			original_tag = SOV
+		}
+		visible = {
+			has_country_flag = SOV_Penglai_Supporting_Communists
+		}
+		available = { always = yes }
+
+		days_remove = 30
+		complete_effect = {
+			P03 = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+					producer = SOV
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment_1
+					amount = 100
+					producer = SOV
+				}
+				add_equipment_to_stockpile = {
+					type = artillery_equipment_1
+					amount = 100
+					producer = SOV
+				}
+			}
+		}
+	}
+	SOV_arm_duemarists = {
+		cost = 25
+		fire_only_once = no   
+		icon = GFX_decision_generic_reorganize_irregulars
+		allowed = {
+			original_tag = SOV
+		}
+		visible = {
+			has_country_flag = SOV_Penglai_Supporting_Duemarists
+		}
+		available = { always = yes }
+
+		days_remove = 30
+		complete_effect = {
+			P04 = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+					producer = SOV
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment_1
+					amount = 100
+					producer = SOV
+				}
+				add_equipment_to_stockpile = {
+					type = artillery_equipment_1
+					amount = 100
+					producer = SOV
+				}
+			}
+		}
+	}
+	SOV_send_advisors_to_republicans = {
+		custom_cost_trigger = {
+			command_power > 24
+			has_political_power > 49
+		}
+		custom_cost_text = decision_cost_CP_25_pp_50
+		fire_only_once = yes
+		icon = generic_army_support
+		allowed = {
+			original_tag = SOV
+		}
+		visible = {
+			OR = {
+				has_country_flag = SOV_Penglai_Supporting_Jacobins
+				has_country_flag = SOV_Penglai_Supporting_Communists
+				has_country_flag = SOV_Penglai_Supporting_Duemarists
+			}
+		}
+		available = { always = yes }
+
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+				add_political_power = -50
+			}
+			if = {
+				limit = {
+					has_country_flag = SOV_Penglai_Supporting_Jacobins
+				}
+				P01 = {
+					add_ideas = QJ_Penglai_Gardaveldi_Support
+				}
+			}
+			else_if = {
+				limit = {
+					has_country_flag = SOV_Penglai_Supporting_Communists
+				}
+				P03 = {
+					add_ideas = QJ_Penglai_Gardaveldi_Support
+				}
+			}
+			else_if = {
+				limit = {
+					has_country_flag = SOV_Penglai_Supporting_Duemarists
+				}
+				P04 = {
+					add_ideas = QJ_Penglai_Gardaveldi_Support
+				}
+			}
+		}
+	}
+	SOV_facilitate_alliance_with_jacobins = {
+		cost = 25
+		fire_only_once = no   
+		icon = generic_civil_support
+		allowed = {
+			original_tag = SOV
+		}
+		visible = {
+			OR = {
+				has_country_flag = SOV_Penglai_Supporting_Communists
+				has_country_flag = SOV_Penglai_Supporting_Duemarists
+			}
+		}
+		available = { always = yes }
+
+		days_remove = 30
+		complete_effect = {
+			hidden_effect = {
+				GUA = {
+					add_to_variable = { QJ_Penglai_NRC_Coalition = 10 }
+					clamp_variable = {
+						var = QJ_Penglai_NRC_Coalition
+						min = 0
+						max = 100
+					}
+				}
+			}
+			custom_effect_tooltip = QJ_Penglai_Increase_Jacobin_Alliance
+		}
+	}
+	SOV_facilitate_alliance_with_communists = {
+		cost = 25
+		fire_only_once = no   
+		icon = generic_civil_support
+		allowed = {
+			original_tag = SOV
+		}
+		visible = {
+			OR = {
+				has_country_flag = SOV_Penglai_Supporting_Jacobins
+				has_country_flag = SOV_Penglai_Supporting_Duemarists
+			}
+		}
+		available = { always = yes }
+
+		days_remove = 30
+		complete_effect = {
+			hidden_effect = {
+				GUA = {
+					add_to_variable = { QJ_Penglai_TA_Coalition = 10 }
+					clamp_variable = {
+						var = QJ_Penglai_TA_Coalition
+						min = 0
+						max = 100
+					}
+				}
+			}
+			custom_effect_tooltip = QJ_Penglai_Increase_Communist_Alliance
+		}
+	}
+	SOV_facilitate_alliance_with_duemarists = {
+		cost = 25
+		fire_only_once = no   
+		icon = generic_civil_support
+		allowed = {
+			original_tag = SOV
+		}
+		visible = {
+			OR = {
+				has_country_flag = SOV_Penglai_Supporting_Jacobins
+				has_country_flag = SOV_Penglai_Supporting_Communists
+			}
+		}
+		available = { always = yes }
+
+		days_remove = 30
+		complete_effect = {
+			hidden_effect = {
+				GUA = {
+					add_to_variable = { QJ_Penglai_SRA_Coalition = 10 }
+					clamp_variable = {
+						var = QJ_Penglai_SRA_Coalition
+						min = 0
+						max = 100
+					}
+				}
+			}
+			custom_effect_tooltip = QJ_Penglai_Increase_Duemarist_Alliance
+		}
+	}
+	SOV_negotiate_with_zhoulin = {
+		cost = 25
+		fire_only_once = no   
+		icon = generic_political_discourse
+		allowed = {
+			original_tag = SOV
+		}
+		visible = {
+			OR = {
+				has_country_flag = SOV_Penglai_Supporting_Jacobins
+				has_country_flag = SOV_Penglai_Supporting_Communists
+				has_country_flag = SOV_Penglai_Supporting_Duemarists
+			}
+			NOT = {
+				CAN = {
+					has_country_flag = CAN_Penglai_Supporting_Nij_Sion
+				}
+			}
+		}
+		available = { always = yes }
+
+		days_remove = 30
+		complete_effect = {
+			hidden_effect = {
+				GUA = {
+					add_to_variable = { QJ_Penglai_Zhoulin_Alignment = -10 }
+					clamp_variable = {
+						var = QJ_Penglai_Zhoulin_Alignment
+						min = 0
+						max = 100
+					}
+				}
+			}
+			custom_effect_tooltip = QJ_Penglai_Zhoulin_Republican_10
+		}
+	}
+	SOV_bribe_zhoulin = {
+		custom_cost_trigger = {
+			num_of_civilian_factories_available_for_projects > 0
+		}
+		custom_cost_text = decision_cost_civ_factory_1
+		fire_only_once = yes
+		icon = GFX_decision_gre_investment_decisions
+		allowed = {
+			original_tag = SOV
+		}
+		visible = {
+			OR = {
+				has_country_flag = SOV_Penglai_Supporting_Jacobins
+				has_country_flag = SOV_Penglai_Supporting_Communists
+				has_country_flag = SOV_Penglai_Supporting_Duemarists
+			}
+			NOT = {
+				CAN = {
+					has_country_flag = CAN_Penglai_Supporting_Nij_Sion
+				}
+			}
+		}
+		available = { always = yes }
+
+		days_remove = 100
+		modifier = {
+			civilian_factory_use = 1
+		}
+		complete_effect = {
+			hidden_effect = {
+				GUA = {
+					add_to_variable = { QJ_Penglai_Zhoulin_Alignment = 20 }
+					clamp_variable = {
+						var = QJ_Penglai_Zhoulin_Alignment
+						min = 0
+						max = 100
+					}
+				}
+			}
+			custom_effect_tooltip = QJ_Penglai_Zhoulin_Republican_20
+		}
+	}
+	
+	#########################
+	##### EZO DECISIONS #####
+	#########################
+	CKK_strike_against_lantang_guard = {
+		custom_cost_trigger = {
+			command_power > 14
+        }
+        custom_cost_text = decision_cost_CP_15
+		fire_only_once = no   
+		icon = generic_ignite_civil_war
+		allowed = {
+			original_tag = CKK
+		}
+		visible = {
+			OR = {
+				has_country_flag = CKK_Penglai_Supporting_Jacobins
+				has_country_flag = CKK_Penglai_Supporting_Communists
+				has_country_flag = CKK_Penglai_Supporting_Duemarists
+			}
+		}
+		available = { always = yes }
+
+		days_remove = 30
+		complete_effect = {
+			hidden_effect = {
+				GUA = {
+					add_to_variable = { QJ_Penglai_Lantang_Security = -5 }
+					clamp_variable = {
+						var = QJ_Penglai_Lantang_Security
+						min = 0
+						max = 100
+					}
+				}
+			}
+			custom_effect_tooltip = QJ_Penglai_Lantang_Security_Decrease_5
+			hidden_effect = {
+				add_command_power = -15
+			}
+		}
+	}
+	CKK_propagandize_to_lantang = {
+		cost = 25
+		fire_only_once = no   
+		icon = generic_nationalism
+		allowed = {
+			original_tag = CKK
+		}
+		visible = {
+			OR = {
+				has_country_flag = CKK_Penglai_Supporting_Jacobins
+				has_country_flag = CKK_Penglai_Supporting_Communists
+				has_country_flag = CKK_Penglai_Supporting_Duemarists
+			}
+		}
+		available = { always = yes }
+
+		days_remove = 30
+		complete_effect = {
+			hidden_effect = {
+				GUA = {
+					add_to_variable = { QJ_Penglai_Lantang_Security = -10 }
+					clamp_variable = {
+						var = QJ_Penglai_Lantang_Security
+						min = 0
+						max = 100
+					}
+				}
+			}
+			custom_effect_tooltip = QJ_Penglai_Lantang_Security_Decrease_10
+		}
+	}
+	CKK_authorize_kenpeitai_operation = {
+		custom_cost_trigger = {
+			command_power > 24
+			has_political_power > 74
+        }
+        custom_cost_text = decision_cost_CP_25_pp_75
+		fire_only_once = yes
+		icon = generic_operation
+		allowed = {
+			original_tag = CKK
+		}
+		visible = {
+			OR = {
+				has_country_flag = CKK_Penglai_Supporting_Jacobins
+				has_country_flag = CKK_Penglai_Supporting_Communists
+				has_country_flag = CKK_Penglai_Supporting_Duemarists
+			}
+		}
+		available = { always = yes }
+
+		complete_effect = {
+			hidden_effect = {
+				GUA = {
+					add_to_variable = { QJ_Penglai_Lantang_Security = -50 }
+					clamp_variable = {
+						var = QJ_Penglai_Lantang_Security
+						min = 0
+						max = 100
+					}
+				}
+			}
+			custom_effect_tooltip = QJ_Penglai_Lantang_Security_Decrease_50
+			reverse_add_opinion_modifier = {
+				target = GUA
+				modifier = small_decrease
+			}
+			hidden_effect = {
+				add_command_power = -25
+				add_political_power = -75
+			}
+		}
+	}
+	CKK_arm_jacobins = {
+		cost = 25
+		fire_only_once = no   
+		icon = GFX_decision_generic_reorganize_irregulars
+		allowed = {
+			original_tag = CKK
+		}
+		visible = {
+			has_country_flag = CKK_Penglai_Supporting_Jacobins
+		}
+		available = { always = yes }
+
+		days_remove = 30
+		complete_effect = {
+			P01 = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+					producer = CKK
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment_1
+					amount = 100
+					producer = CKK
+				}
+				add_equipment_to_stockpile = {
+					type = artillery_equipment_1
+					amount = 100
+					producer = CKK
+				}
+			}
+		}
+	}
+	CKK_arm_communists = {
+		cost = 25
+		fire_only_once = no   
+		icon = GFX_decision_generic_reorganize_irregulars
+		allowed = {
+			original_tag = CKK
+		}
+		visible = {
+			has_country_flag = CKK_Penglai_Supporting_Communists
+		}
+		available = { always = yes }
+
+		days_remove = 30
+		complete_effect = {
+			P03 = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+					producer = CKK
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment_1
+					amount = 100
+					producer = CKK
+				}
+				add_equipment_to_stockpile = {
+					type = artillery_equipment_1
+					amount = 100
+					producer = CKK
+				}
+			}
+		}
+	}
+	CKK_arm_duemarists = {
+		cost = 25
+		fire_only_once = no   
+		icon = GFX_decision_generic_reorganize_irregulars
+		allowed = {
+			original_tag = CKK
+		}
+		visible = {
+			has_country_flag = CKK_Penglai_Supporting_Duemarists
+		}
+		available = { always = yes }
+
+		days_remove = 30
+		complete_effect = {
+			P04 = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+					producer = CKK
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment_1
+					amount = 100
+					producer = CKK
+				}
+				add_equipment_to_stockpile = {
+					type = artillery_equipment_1
+					amount = 100
+					producer = CKK
+				}
+			}
+		}
+	}
+	CKK_send_advisors_to_republicans = {
+		custom_cost_trigger = {
+			command_power > 24
+			has_political_power > 49
+		}
+		custom_cost_text = decision_cost_CP_25_pp_50
+		fire_only_once = yes
+		icon = generic_army_support
+		allowed = {
+			original_tag = CKK
+		}
+		visible = {
+			OR = {
+				has_country_flag = CKK_Penglai_Supporting_Jacobins
+				has_country_flag = CKK_Penglai_Supporting_Communists
+				has_country_flag = CKK_Penglai_Supporting_Duemarists
+			}
+		}
+		available = { always = yes }
+
+		complete_effect = {
+			hidden_effect = {
+				add_command_power = -25
+				add_political_power = -50
+			}
+			if = {
+				limit = {
+					has_country_flag = CKK_Penglai_Supporting_Jacobins
+				}
+				P01 = {
+					add_ideas = QJ_Penglai_Ezo_Support
+				}
+			}
+			else_if = {
+				limit = {
+					has_country_flag = CKK_Penglai_Supporting_Communists
+				}
+				P03 = {
+					add_ideas = QJ_Penglai_Ezo_Support
+				}
+			}
+			else_if = {
+				limit = {
+					has_country_flag = CKK_Penglai_Supporting_Duemarists
+				}
+				P04 = {
+					add_ideas = QJ_Penglai_Ezo_Support
+				}
+			}
+		}
+	}
+	CKK_encourage_participation_in_alliance = {
+		cost = 25
+		fire_only_once = no   
+		icon = generic_civil_support
+		allowed = {
+			original_tag = CKK
+		}
+		visible = {
+			OR = {
+				AND = {
+					has_country_flag = CKK_Penglai_Supporting_Jacobins
+					NOT = {
+						SOV = {
+							has_country_flag = SOV_Penglai_Supporting_Jacobins
+						}
+					}
+				}
+				AND = {
+					has_country_flag = CKK_Penglai_Supporting_Communists
+					NOT = {
+						SOV = {
+							has_country_flag = CKK_Penglai_Supporting_Communists
+						}
+					}
+				}
+				AND = {
+					has_country_flag = CKK_Penglai_Supporting_Duemarists
+					NOT = {
+						SOV = {
+							has_country_flag = SOV_Penglai_Supporting_Duemarists
+						}
+					}
+				}
+			}
+		}
+		available = { always = yes }
+
+		days_remove = 30
+		complete_effect = {
+			if = {
+				limit = {
+					has_country_flag = CKK_Penglai_Supporting_Jacobins
+				}
+				hidden_effect = {
+					GUA = {
+						add_to_variable = { QJ_Penglai_NRC_Coalition = 30 }
+						clamp_variable = {
+							var = QJ_Penglai_NRC_Coalition
+							min = 0
+							max = 100
+						}
+					}
+				}
+				custom_effect_tooltip = QJ_Penglai_Increase_Jacobin_Alliance_Large
+			}
+			else_if = {
+				limit = {
+					has_country_flag = CKK_Penglai_Supporting_Communists
+				}
+				hidden_effect = {
+					GUA = {
+						add_to_variable = { QJ_Penglai_TA_Coalition = 30 }
+						clamp_variable = {
+							var = QJ_Penglai_NRC_Coalition
+							min = 0
+							max = 100
+						}
+					}
+				}
+				custom_effect_tooltip = QJ_Penglai_Increase_Communist_Alliance_Large
+			}
+			else_if = {
+				limit = {
+					has_country_flag = CKK_Penglai_Supporting_Duemarists
+				}
+				hidden_effect = {
+					GUA = {
+						add_to_variable = { QJ_Penglai_SRA_Coalition = 30 }
+						clamp_variable = {
+							var = QJ_Penglai_NRC_Coalition
+							min = 0
+							max = 100
+						}
+					}
+				}
+				custom_effect_tooltip = QJ_Penglai_Increase_Duemarist_Alliance_Large
 			}
 		}
 	}

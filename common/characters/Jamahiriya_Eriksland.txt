@@ -715,6 +715,45 @@ characters={
 			id=-1
 		}
 	}
+	GUA_Lu_Jiyao={
+		name="Lu Jiyao"
+		portraits={
+			civilian={
+				large="GFX_Portrait_Portrait_P01_Lu_Jiyao"
+			}
+		}
+		country_leader={
+			ideology=jacobinism_left_jacobinism_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GUA_Yanmin_Jialie={
+		name="Yanmin Jialie"
+		portraits={
+			civilian={
+				large="GFX_Portrait_P03_Yanmin_Jialie"
+			}
+		}
+		country_leader={
+			ideology=communism_fujian_thought_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GUA_Zhao_Long={
+		name="Zhao Long"
+		portraits={
+			civilian={
+				large="GFX_Portrait_P04_Zhao_Long"
+			}
+		}
+		country_leader={
+			ideology=duemarism_hongjin_qiyi_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 	#Penglai Jacobins
 	P01_Lu_Jiyao={
 		name="Lu Jiyao"
@@ -758,11 +797,6 @@ characters={
 		}
 		country_leader={
 			ideology=conservatism_military_junta_subtype
-			expire="1965.1.1.1"
-			id=-1
-		}
-		country_leader={
-			ideology=socialism_leftist_agrarianism_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}

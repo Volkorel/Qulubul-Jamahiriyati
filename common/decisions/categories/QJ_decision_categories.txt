@@ -9,16 +9,6 @@ penglai_warlord_category = {
 		}
 	}
 	visible = {
-		OR = {
-			has_country_flag = CAN_Penglai_Supporting_Nij_Sion
-			has_country_flag = CAN_Penglai_Supporting_Emperor
-			has_country_flag = CUB_Penglai_Supporting_Emperor
-			has_country_flag = SOV_Penglai_Supporting_Jacobins
-			has_country_flag = SOV_Penglai_Supporting_Communists
-			has_country_flag = SOV_Penglai_Supporting_Duemarists
-			has_country_flag = CKK_Penglai_Supporting_Jacobins
-			has_country_flag = CKK_Penglai_Supporting_Communists
-			has_country_flag = CKK_Penglai_Supporting_Duemarists
-		}
+		has_country_flag = QJ_Penglai_Proxy_War_Ongoing
 	}
 }

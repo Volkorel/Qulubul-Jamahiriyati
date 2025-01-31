@@ -585,6 +585,82 @@ on_actions = {
 						transfer_troops = no
 					}
 				}
+				if = {
+					limit = {
+						AND = {
+							OR = {
+								378 = {
+									is_owned_by = FROM
+								}
+								any_country = {
+									378 = {
+										is_owned_by = PREV
+									}
+									is_in_faction_with = FROM
+								}
+							}
+							OR = {
+								377 = {
+									is_owned_by = FROM
+								}
+								any_country = {
+									377 = {
+										is_owned_by = PREV
+									}
+									is_in_faction_with = FROM
+								}
+							}
+							OR = {
+								484 = {
+									is_owned_by = FROM
+								}
+								any_country = {
+									484 = {
+										is_owned_by = PREV
+									}
+									is_in_faction_with = FROM
+								}
+							}
+							OR = {
+								483 = {
+									is_owned_by = FROM
+								}
+								any_country = {
+									483 = {
+										is_owned_by = PREV
+									}
+									is_in_faction_with = FROM
+								}
+							}
+						}
+					}
+					if = {
+						limit = {
+							1135 = {
+								is_owned_by = P06
+							}
+						}
+						P06 = {
+							white_peace = GUA
+							white_peace = P01
+							white_peace = P03
+							white_peace = P04
+							transfer_state = 1135
+							transfer_state = 379
+							transfer_state = 1006
+						}
+					}
+					else = {
+						FROM = {
+							transfer_state = 1135
+							transfer_state = 379
+							transfer_state = 1006
+						}
+					}
+					FROM = {
+						country_event = QJ_penglai.7
+					}
+				}
 			}
 			else_if = { #Penglai War - Nij Sion
 				limit = {
