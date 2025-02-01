@@ -54,6 +54,9 @@ set_popularities = {
 	suprarealisme = 0
 }
 
+add_ideas = GUA_The_Eunuch_Regency
+add_ideas = GUA_Politically_Divided_Army
+
 if = {
 	limit = {
 		OR = {

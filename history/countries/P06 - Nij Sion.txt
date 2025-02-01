@@ -61,3 +61,6 @@ set_popularities = {
 	indigeneum = 0
 	suprarealisme = 0
 }
+
+add_ideas = P06_Come_and_Take_It
+add_ideas = P06_Solidarity_of_the_Frysk

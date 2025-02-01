@@ -1826,6 +1826,7 @@ country_event = { #Illusion of Penglai order collapses
 				indigeneum = 0
 				suprarealisme = 0
 			}
+			remove_ideas = QJ_Penglai_Warlord_Administration
 		}
 		P03 = {
 			set_cosmetic_tag = S03_TA
@@ -1845,6 +1846,7 @@ country_event = { #Illusion of Penglai order collapses
 				indigeneum = 0
 				suprarealisme = 0
 			}
+			remove_ideas = QJ_Penglai_Warlord_Administration
 		}
 		P04 = {
 			set_cosmetic_tag = S04_SRA
@@ -1864,6 +1866,7 @@ country_event = { #Illusion of Penglai order collapses
 				indigeneum = 0
 				suprarealisme = 0
 			}
+			remove_ideas = QJ_Penglai_Warlord_Administration
 		}
 		P06 = {
 			transfer_state = 1135
@@ -2611,18 +2614,27 @@ country_event = { #Penglai - Faction victorious
 		GUA = {
 			remove_ideas = QJ_Penglai_Jiyou_Uprising
 			remove_ideas = QJ_Penglai_Vinlandic_Support
+			remove_ideas = QJ_Penglai_Langobard_Support
 		}
 		P01 = {
 			remove_ideas = QJ_Penglai_Jiyou_Uprising
+			remove_ideas = QJ_Penglai_Gardaveldi_Support
+			remove_ideas = QJ_Penglai_Ezo_Support
 		}
 		P02 = {
 			remove_ideas = QJ_Penglai_Jiyou_Uprising
+			remove_ideas = QJ_Penglai_Gardaveldi_Support
+			remove_ideas = QJ_Penglai_Ezo_Support
 		}
 		P03 = {
 			remove_ideas = QJ_Penglai_Jiyou_Uprising
+			remove_ideas = QJ_Penglai_Gardaveldi_Support
+			remove_ideas = QJ_Penglai_Ezo_Support
 		}
 		P04 = {
 			remove_ideas = QJ_Penglai_Jiyou_Uprising
+			remove_ideas = QJ_Penglai_Gardaveldi_Support
+			remove_ideas = QJ_Penglai_Ezo_Support
 		}
 		P06 = {
 			remove_ideas = QJ_Penglai_Jiyou_Uprising
@@ -2676,6 +2688,10 @@ country_event = { #Penglai - Faction victorious
 				indigeneum = 0
 				suprarealisme = 0
 			}
+			remove_ideas = GUA_The_Eunuch_Regency
+			remove_ideas = GUA_Politically_Divided_Army
+			add_ideas = P01_Decentralized_Command
+			add_ideas = P01_Foreign_Military_Doctrine
 			every_country = {
 				news_event = jam_world.14
 			}
@@ -2715,6 +2731,10 @@ country_event = { #Penglai - Faction victorious
 					indigeneum = 0
 					suprarealisme = 0
 				}
+				remove_ideas = GUA_The_Eunuch_Regency
+				remove_ideas = GUA_Politically_Divided_Army
+				add_ideas = P03_Workers_and_Soldiers_Councils
+				add_ideas = P03_Disciplined_Guerillas
 			}
 			every_country = {
 				news_event = jam_world.15
@@ -2740,6 +2760,10 @@ country_event = { #Penglai - Faction victorious
 					indigeneum = 0
 					suprarealisme = 0
 				}
+				remove_ideas = GUA_The_Eunuch_Regency
+				remove_ideas = GUA_Politically_Divided_Army
+				add_ideas = P03_Workers_and_Soldiers_Councils
+				add_ideas = P03_Disciplined_Guerillas
 			}
 			every_country = {
 				news_event = jam_world.17
@@ -2780,7 +2804,12 @@ country_event = { #Penglai - Faction victorious
 					indigeneum = 0
 					suprarealisme = 0
 				}
-			}every_country = {
+				remove_ideas = GUA_The_Eunuch_Regency
+				remove_ideas = GUA_Politically_Divided_Army
+				add_ideas = P04_Dragons_of_Fenlishamo
+				add_ideas = P04_Slaughter_the_Devils
+			}
+			every_country = {
 				news_event = jam_world.16
 			}
 		}
@@ -2804,6 +2833,10 @@ country_event = { #Penglai - Faction victorious
 					indigeneum = 0
 					suprarealisme = 0
 				}
+				remove_ideas = GUA_The_Eunuch_Regency
+				remove_ideas = GUA_Politically_Divided_Army
+				add_ideas = P04_Dragons_of_Fenlishamo
+				add_ideas = P04_Slaughter_the_Devils
 			}
 			every_country = {
 				news_event = jam_world.18

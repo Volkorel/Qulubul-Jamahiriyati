@@ -116,4 +116,72 @@ spriteTypes = {
 		name = "GFX_idea_united_front"
 		texturefile = "gfx/interface/ideas/idea_united_front.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_decentralized_command"
+		texturefile = "gfx/interface/ideas/idea_decentralized_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_disciplined_guerillas"
+		texturefile = "gfx/interface/ideas/idea_disciplined_guerillas.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_dragons_of_fenlishamo"
+		texturefile = "gfx/interface/ideas/idea_dragons_of_fenlishamo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_eunuch_regency"
+		texturefile = "gfx/interface/ideas/idea_eunuch_regency.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ezo_mil_advisors"
+		texturefile = "gfx/interface/ideas/idea_ezo_mil_advisors.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_foreign_military_doctrine"
+		texturefile = "gfx/interface/ideas/idea_foreign_military_doctrine.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_gardaveldic_mil_advisors"
+		texturefile = "gfx/interface/ideas/idea_gardaveldic_mil_advisors.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jiyou_uprising"
+		texturefile = "gfx/interface/ideas/idea_jiyou_uprising.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_langobard_mil_advisors"
+		texturefile = "gfx/interface/ideas/idea_langobard_mil_advisors.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_penglai_political_army"
+		texturefile = "gfx/interface/ideas/idea_penglai_political_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slaughter_the_devils"
+		texturefile = "gfx/interface/ideas/idea_slaughter_the_devils.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_solidarity_of_frysk"
+		texturefile = "gfx/interface/ideas/idea_solidarity_of_frysk.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_vinlandic_enforcement_of_free_trade"
+		texturefile = "gfx/interface/ideas/idea_vinlandic_enforcement_of_free_trade.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_vinlandic_mil_advisors"
+		texturefile = "gfx/interface/ideas/idea_vinlandic_mil_advisors.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_warlord_administration"
+		texturefile = "gfx/interface/ideas/idea_warlord_administration.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_workers_and_soldiers_councils"
+		texturefile = "gfx/interface/ideas/idea_workers_and_soldiers_councils.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_zhoulins_kingdom"
+		texturefile = "gfx/interface/ideas/idea_zhoulins_kingdom.dds"
+	}
 }

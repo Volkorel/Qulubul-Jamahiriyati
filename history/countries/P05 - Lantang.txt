@@ -48,3 +48,5 @@ set_popularities = {
 	indigeneum = 0
 	suprarealisme = 0
 }
+
+add_ideas = P05_Vinlandic_Enforcement_of_Free_Trade

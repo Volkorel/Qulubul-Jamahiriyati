@@ -50,3 +50,6 @@ set_popularities = {
 	indigeneum = 0
 	suprarealisme = 10
 }
+
+add_ideas = QJ_Penglai_Warlord_Administration
+add_ideas = P02_Zhoulins_Kingdom
