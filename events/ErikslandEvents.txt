@@ -1936,6 +1936,7 @@ country_event = { #Vinland - Nij Sion separatists; do we support them?
 		}
 		unlock_decision_category_tooltip = penglai_warlord_category
 		custom_effect_tooltip = QJ_Penglai_Cannot_Sway_Zhoulin
+		custom_effect_tooltip = QJ_Penglai_Jiyou_War_Explanation
 	}
 	option = { #No I'm a traitor to the white race
 		name = QJ_penglai.2.b
@@ -1967,6 +1968,7 @@ country_event = { #Vinland - Nij Sion separatists; do we support them?
 			modifier = supported_the_chinese
 		}
 		unlock_decision_category_tooltip = penglai_warlord_category
+		custom_effect_tooltip = QJ_Penglai_Jiyou_War_Explanation
 	}
 }
 
@@ -1983,6 +1985,7 @@ country_event = { #Langobardia - Notification; our profits are in danger!
 		set_country_flag = CUB_Penglai_Supporting_Emperor
 		set_country_flag = QJ_Penglai_Proxy_War_Ongoing
 		unlock_decision_category_tooltip = penglai_warlord_category
+		custom_effect_tooltip = QJ_Penglai_Jiyou_War_Explanation
 	}
 }
 
@@ -2013,6 +2016,7 @@ country_event = { #Gardaveldi - WHO'S READY TO TOPPLE A MONARCHY?
 			ideology = jacobinism
 			popularity = 0.01
 		}
+		custom_effect_tooltip = QJ_Penglai_Jiyou_War_Explanation
 	}
 	option = { #We must support the Communists!
 		name = QJ_penglai.4.b
@@ -2033,6 +2037,7 @@ country_event = { #Gardaveldi - WHO'S READY TO TOPPLE A MONARCHY?
 			ideology = communism
 			popularity = 0.01
 		}
+		custom_effect_tooltip = QJ_Penglai_Jiyou_War_Explanation
 	}
 	option = { #We must support the Duemarists!
 		name = QJ_penglai.4.c
@@ -2053,6 +2058,7 @@ country_event = { #Gardaveldi - WHO'S READY TO TOPPLE A MONARCHY?
 			ideology = duemarism
 			popularity = 0.01
 		}
+		custom_effect_tooltip = QJ_Penglai_Jiyou_War_Explanation
 	}
 }
 
@@ -2083,6 +2089,7 @@ country_event = { #Ezo - WHO'S READY TO TOPPLE A MONARCHY?
 			ideology = jacobinism
 			popularity = 0.01
 		}
+		custom_effect_tooltip = QJ_Penglai_Jiyou_War_Explanation
 	}
 	option = { #We must support the Communists!
 		name = QJ_penglai.5.b
@@ -2103,6 +2110,7 @@ country_event = { #Ezo - WHO'S READY TO TOPPLE A MONARCHY?
 			ideology = communism
 			popularity = 0.01
 		}
+		custom_effect_tooltip = QJ_Penglai_Jiyou_War_Explanation
 	}
 	option = { #We must support the Duemarists!
 		name = QJ_penglai.5.c
@@ -2123,6 +2131,7 @@ country_event = { #Ezo - WHO'S READY TO TOPPLE A MONARCHY?
 			ideology = duemarism
 			popularity = 0.01
 		}
+		custom_effect_tooltip = QJ_Penglai_Jiyou_War_Explanation
 	}
 }
 
@@ -2615,6 +2624,7 @@ country_event = { #Penglai - Faction victorious
 			remove_ideas = QJ_Penglai_Jiyou_Uprising
 			remove_ideas = QJ_Penglai_Vinlandic_Support
 			remove_ideas = QJ_Penglai_Langobard_Support
+			dismantle_faction = yes
 		}
 		P01 = {
 			remove_ideas = QJ_Penglai_Jiyou_Uprising
@@ -2640,7 +2650,18 @@ country_event = { #Penglai - Faction victorious
 			remove_ideas = QJ_Penglai_Jiyou_Uprising
 			remove_ideas = QJ_Penglai_Vinlandic_Support
 		}
-		#Event for Vinland
+		if = {
+			limit = {
+				country_exists = P05
+			}
+			CAN = {
+				country_event = {
+					id = QJ_penglai.8
+					days = 3
+				}
+				add_to_variable = { QJ_Penglai_Lantang_Demands = 1 }
+			}
+		}
 	}
 	
 	option = { #Imperial Victory
@@ -2656,6 +2677,9 @@ country_event = { #Penglai - Faction victorious
 			transfer_state = 377
 			transfer_state = 484
 			transfer_state = 483
+		}
+		CAN = {
+			add_to_variable = { QJ_Penglai_Lantang_Demands = 1 }
 		}
 		every_country = {
 			news_event = jam_world.13
@@ -2842,5 +2866,368 @@ country_event = { #Penglai - Faction victorious
 				news_event = jam_world.18
 			}
 		}
+	}
+}
+
+country_event = { #Vinland - Penglai united, and we can force concessions
+	id = QJ_penglai.8
+	title = QJ_penglai.8.t
+	desc = QJ_penglai.8.d
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #Recognize Nij Sion independence
+		name = QJ_penglai.8.a
+		trigger = {
+			country_exists = P06
+			NOT = {
+				P06 = {
+					is_puppet_of = CAN
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_dlc = "Together for Victory"
+					has_dlc = "Man the Guns"
+				}
+			}
+			set_autonomy = {
+				target = P06
+				autonomous_state = autonomy_satellite
+			}
+			else = {
+				puppet = P06
+			}
+		}
+		custom_effect_tooltip = GUA_CAN_NO_INVADE_NIJ_SION
+		add_to_variable = { QJ_Penglai_Lantang_Demands = -1 }
+		if = {
+			limit = {
+				check_variable = {
+					QJ_Penglai_Lantang_Demands > 0
+				}
+			}
+			CAN = { country_event = QJ_penglai.9 }
+		}
+		P06 = {
+			set_politics = {
+				ruling_party = liberalism
+				last_election = "1905.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			set_popularities = {
+				communism = 0
+				socialism = 30
+				liberalism = 40
+				conservatism = 30
+				jacobinism = 0
+				duemarism = 0
+				indigeneum = 0
+				suprarealisme = 0
+			}
+		}
+	}
+	option = { #Do not join any faction
+		name = QJ_penglai.8.b
+		trigger = {
+			NOT = {
+				GUA = {
+					has_country_flag = GUA_CAN_demanded_not_join_faction
+				}
+			}
+		}
+		custom_effect_tooltip = GUA_CAN_DONT_FUCK_US_OVER_AND_OPEN_NEW_FRONT
+		hidden_effect = {
+			GUA = {
+				set_country_flag = GUA_CAN_demanded_not_join_faction
+				if = {
+					limit = {
+						OR = {
+							has_dlc = "Together for Victory"
+							has_dlc = "Man the Guns"
+						}
+					}
+					set_autonomy = {
+						target = P05
+						autonomous_state = autonomy_integrated_puppet
+					}
+					else = {
+						puppet = P05
+					}
+				}
+			}
+			add_to_variable = { QJ_Penglai_Lantang_Demands = -1 }
+		}
+		if = {
+			limit = {
+				check_variable = {
+					QJ_Penglai_Lantang_Demands > 0
+				}
+			}
+			CAN = { country_event = QJ_penglai.9 }
+		}
+	}
+	option = { #Keep Lantang
+		name = QJ_penglai.8.c
+		trigger = {
+			NOT = {
+				GUA = {
+					has_country_flag = GUA_CAN_demanded_keep_lantang
+				}
+			}
+		}
+		custom_effect_tooltip = GUA_CAN_KEEP_LANTANG
+		hidden_effect = {
+			GUA = {
+				set_country_flag = GUA_CAN_demanded_keep_lantang
+				if = {
+					limit = {
+						OR = {
+							has_dlc = "Together for Victory"
+							has_dlc = "Man the Guns"
+						}
+					}
+					set_autonomy = {
+						target = P06
+						autonomous_state = autonomy_integrated_puppet
+					}
+					else = {
+						puppet = P06
+					}
+				}
+			}
+			add_to_variable = { QJ_Penglai_Lantang_Demands = -1 }
+		}
+		if = {
+			limit = {
+				check_variable = {
+					QJ_Penglai_Lantang_Demands > 0
+				}
+			}
+			CAN = { country_event = QJ_penglai.9 }
+		}
+	}
+	option = { #Penglai joins ADL
+		name = QJ_penglai.8.e
+		trigger = {
+			check_variable = {
+				QJ_Penglai_Lantang_Demands = 2
+			}
+			NOT = {
+				GUA = {
+					is_in_faction = yes
+				}
+			}
+		}
+		custom_effect_tooltip = GUA_CAN_JOIN_ADL
+		add_to_faction = GUA
+		add_to_variable = { QJ_Penglai_Lantang_Demands = -2 }
+		CAN = { country_event = QJ_penglai.10 }
+	}
+}
+
+country_event = { #Vinland - Second concession
+	id = QJ_penglai.9
+	title = QJ_penglai.9.t
+	desc = QJ_penglai.9.d
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #Recognize Nij Sion independence
+		name = QJ_penglai.9.a
+		trigger = {
+			country_exists = P06
+			NOT = {
+				P06 = {
+					is_puppet_of = CAN
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_dlc = "Together for Victory"
+					has_dlc = "Man the Guns"
+				}
+			}
+			set_autonomy = {
+				target = P06
+				autonomous_state = autonomy_satellite
+			}
+			else = {
+				puppet = P06
+			}
+		}
+		P06 = {
+			set_politics = {
+				ruling_party = liberalism
+				last_election = "1905.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			set_popularities = {
+				communism = 0
+				socialism = 30
+				liberalism = 40
+				conservatism = 30
+				jacobinism = 0
+				duemarism = 0
+				indigeneum = 0
+				suprarealisme = 0
+			}
+		}
+		custom_effect_tooltip = GUA_CAN_NO_INVADE_NIJ_SION
+		add_to_variable = { QJ_Penglai_Lantang_Demands = -1 }
+		CAN = { country_event = QJ_penglai.10 }
+	}
+	option = { #Do not join any faction
+		name = QJ_penglai.9.b
+		trigger = {
+			NOT = {
+				GUA = {
+					has_country_flag = GUA_CAN_demanded_not_join_faction
+				}
+			}
+		}
+		custom_effect_tooltip = GUA_CAN_DONT_FUCK_US_OVER_AND_OPEN_NEW_FRONT
+		hidden_effect = {
+			GUA = {
+				set_country_flag = GUA_CAN_demanded_not_join_faction
+				if = {
+					limit = {
+						OR = {
+							has_dlc = "Together for Victory"
+							has_dlc = "Man the Guns"
+						}
+					}
+					set_autonomy = {
+						target = P05
+						autonomous_state = autonomy_integrated_puppet
+					}
+					else = {
+						puppet = P05
+					}
+				}
+			}
+			add_to_variable = { QJ_Penglai_Lantang_Demands = -1 }
+		}
+		CAN = { country_event = QJ_penglai.10 }
+	}
+	option = { #Keep Lantang
+		name = QJ_penglai.9.c
+		trigger = {
+			NOT = {
+				GUA = {
+					has_country_flag = GUA_CAN_demanded_keep_lantang
+				}
+			}
+		}
+		custom_effect_tooltip = GUA_CAN_KEEP_LANTANG
+		hidden_effect = {
+			GUA = {
+				set_country_flag = GUA_CAN_demanded_keep_lantang
+				if = {
+					limit = {
+						OR = {
+							has_dlc = "Together for Victory"
+							has_dlc = "Man the Guns"
+						}
+					}
+					set_autonomy = {
+						target = P06
+						autonomous_state = autonomy_integrated_puppet
+					}
+					else = {
+						puppet = P06
+					}
+				}
+			}
+			add_to_variable = { QJ_Penglai_Lantang_Demands = -1 }
+		}
+		CAN = { country_event = QJ_penglai.10 }
+	}
+}
+
+country_event = { #Vinland - End of concessions
+	id = QJ_penglai.10
+	title = QJ_penglai.10.t
+	desc = QJ_penglai.10.d
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #No more demands
+		name = QJ_penglai.10.a
+		if = {
+			limit = {
+				NOT = {
+					GUA = {
+						has_country_flag = GUA_CAN_demanded_keep_lantang
+					}
+				}
+			}
+			GUA = {
+				annex_country = {
+					target = P05
+					transfer_troops = yes
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					GUA = {
+						OR = {
+							has_country_flag = GUA_CAN_demanded_not_join_faction
+							is_in_faction = yes
+						}
+					}
+				}
+			}
+			GUA = {
+				country_event = {
+					id = QJ_penglai.11
+					days = 30
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					P06 = {
+						is_puppet_of = CAN
+					}
+				}
+			}
+			GUA = {
+				declare_war_on = {
+					target = P06
+					type = annex_everything
+				}
+			}
+		}
+	}
+}
+
+country_event = { #Penglai - Faction joining event
+	id = QJ_penglai.11
+	title = QJ_penglai.11.t
+	desc = QJ_penglai.11.d
+	#picture = 
+	
+	is_triggered_only = yes
+	fire_only_once = no
+	
+	option = { #BIG NOTE: NEEDS TO BE IMPLEMENTED ONCE EZO AND GARDAVELDI CONTENT IS IN LMAO HOPE THIS AIN'T IN THE FINISHED VERSION LOL XD
+		name = QJ_penglai.11.a
+		
 	}
 }

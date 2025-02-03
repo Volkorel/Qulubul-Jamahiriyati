@@ -636,7 +636,7 @@ ideas = {
 				max_dig_in_factor = 0.1
 				dig_in_speed_factor = 0.25
 				equipment_capture_factor = 0.5
-				out_of_supply_factor = 0.25
+				out_of_supply_factor = -0.25
 				no_supply_grace = 120
 			}
 		}
