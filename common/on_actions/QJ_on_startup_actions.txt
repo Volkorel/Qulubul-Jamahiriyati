@@ -126,7 +126,13 @@ on_actions = {
 			BUL = { set_country_flag = QJ_In_Sphere_Mariafold }
 			UKR = { set_country_flag = QJ_In_Sphere_Mariafold }
 			LBV = { set_country_flag = QJ_In_Sphere_Mariafold }
-			SOV = { set_country_flag = QJ_In_Sphere_Gardaveldi }
+			SOV = {
+				set_country_flag = QJ_In_Sphere_Gardaveldi
+				set_variable = {
+					set_variable = { SOV_guillotinist_balance_of_power = 45 }
+					set_variable = { SOV_reformist_balance_of_power = 55 }
+				}
+			}
 			GUM = { set_country_flag = QJ_In_Sphere_Shogun }
 			JAP = { set_country_flag = QJ_In_Sphere_Imperial }
 			XSM = { set_country_flag = QJ_In_Sphere_Shams }

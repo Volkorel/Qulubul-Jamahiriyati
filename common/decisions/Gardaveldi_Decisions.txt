@@ -1,0 +1,18 @@
+gardaveldi_politics_category = {
+	SOV_test = {
+		cost = 25
+		fire_only_once = no   
+		icon = generic_police_action
+		allowed = {
+			original_tag = SOV
+		}
+		visible = {
+			always = yes
+		}
+
+		days_remove = 30
+		complete_effect = {
+			
+		}
+	}
+}

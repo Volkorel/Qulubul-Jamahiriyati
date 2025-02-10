@@ -79,3 +79,8 @@
  QJ_Penglai_Zhoulin_Imperial_20:0 "§LCao Zhoulin'sS§! alignment moves §G20%§! in support of the §OImperial Restorationists.§!"
  QJ_Penglai_Zhoulin_Republican_10:0 "§LCao Zhoulin'sS§! alignment moves §G10%§! in support of the §Canti-Imperial Coalition.§!"
  QJ_Penglai_Zhoulin_Republican_20:0 "§LCao Zhoulin'sS§! alignment moves §G20%§! in support of the §Canti-Imperial Coalition.§!"
+ 
+ # GARDAVELDI POLITICS DECISIONS
+ gardaveldi_politics_category:0 "Revolutionary Factions of the Republic"
+ gardaveldi_politics_category_desc:0 "\n\n\n\n\n\nREVOLUTIONARY LEAGUE BALANCE OF POWER:\n§9Guillotinist Wing:§! §Y[?SOV.SOV_guillotinist_balance_of_power]%§!\n§8Reformist Wing:§! §Y[?SOV.SOV_reformist_balance_of_power]%§!\n\nCONSILIAR FACTIONS:\n§5Revolutionary League:§! [?party_popularity@jacobinism|%Y0]\n§tFólkmannar:§! [?party_popularity@socialism|%Y0]\n§3Örrmannar:§! [?party_popularity@liberalism|%Y0]\n§GFoldlægh Movement - Duemarist Wing:§! [?party_popularity@duemarism|%Y0]\n§RFoldlægh Movement - Socialist Wing:§! [?party_popularity@communism|%Y0]"
+ 

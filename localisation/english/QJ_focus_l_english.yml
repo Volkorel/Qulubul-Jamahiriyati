@@ -1,4 +1,7 @@
 ﻿l_english:
+ ###################
+ ### LANGOBARDIA ###
+ ###################
  CUB_Running_the_Slave_State:0 "Running the Slave State"
  CUB_Running_the_Slave_State_desc:0 ""
  CUB_Running_the_Slave_State_tt:0 "§RWill be completed automatically following the 1906 elections.§!"
@@ -121,3 +124,30 @@
  CUB_No_Such_Thing_As_A_War_Crime_desc:0 ""
  CUB_The_Greatest_Defense:0 "The Greatest Defense"
  CUB_The_Greatest_Defense_desc:0 ""
+ 
+ ##################
+ ### GARDAVELDI ###
+ ##################
+ SOV_Shield_or_Sword:0 "The Shield, or the Sword?"
+ SOV_Nothing_Without_Ideals:0 "Nothing without Ideals to Defend"
+ SOV_Deal_With_Hardliners:0 "Dealing with the Hardliners..."
+ SOV_Nurture_New_Parties:0 "Nurturing New Parties"
+ SOV_Decenter_Rev_League:0 "De-Centering the Revolutionary League"
+ SOV_No_Democracy_for_Undemocratic:0 "No Democracy for the Undemocratic!"
+ SOV_Allow_a_Foldlaeghite_Party:0 "Allow a Foldlæghite Party"
+ SOV_To_the_Villages:0 "To the Villages..."
+ SOV_Ally_Populist_Parties:0 "Ally with Populists"
+ SOV_Guide_them_to_the_Light:0 "Guide them to the Light"
+ SOV_At_the_Cities:0 "At the Cities..."
+ SOV_Conciliar_Decentralization:0 "Conciliar Decentralization"
+ SOV_Consular_Efficiency:0 "Consular Efficiency"
+ SOV_In_the_Army:0 "In the Army..."
+ SOV_No_Moment_of_Weakness:0 "No Moment of Weakness"
+ SOV_Reassign_Unsympathetic_Generals:0 "Reassign Unsympathetic Generals"
+ SOV_Nothing_Without_Defence:0 "Nothing if we Cannot Defend Ourselves"
+ SOV_Unite_in_Vision:0 "Unite the Party in Our Vision"
+ SOV_Fold_in_Foldlaegh:0 "Fold in Foldlægh"
+ SOV_Expand_Party_State:0 "Expand the Party-State"
+ SOV_Extend_Hand_to_Moderates:0 "Extend a Hand to the Moderates..."
+ SOV_DEATH_PENALTY_BRING_IT_FORTH:0 "Death Penalty; Bring it Forth!"
+ SOV_Weave_Our_Fate:0 "Weave Our Fate"

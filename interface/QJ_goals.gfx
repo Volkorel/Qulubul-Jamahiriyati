@@ -228,4 +228,96 @@ spriteTypes = {
 		name = "GFX_Islands_Covered_in_Plantations"
 		texturefile = "gfx/interface/goals/Islands_Covered_in_Plantations.dds"			
 	}
+	SpriteType = {
+		name = "GFX_Shield_or_Sword"
+		texturefile = "gfx/interface/goals/Shield_or_Sword.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Nothing_Without_Ideals"
+		texturefile = "gfx/interface/goals/Nothing_Without_Ideals.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Nothing_Without_Defence"
+		texturefile = "gfx/interface/goals/Nothing_Without_Defence.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Deal_With_Hardliners"
+		texturefile = "gfx/interface/goals/Deal_With_Hardliners.dds"			
+	}
+	SpriteType = {
+		name = "GFX_DEATH_PENALTY_BRING_IT_FORTH"
+		texturefile = "gfx/interface/goals/DEATH_PENALTY_BRING_IT_FORTH.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Nurture_New_Parties"
+		texturefile = "gfx/interface/goals/Nurture_New_Parties.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Decenter_Rev_League"
+		texturefile = "gfx/interface/goals/Decenter_Rev_League.dds"			
+	}
+	SpriteType = {
+		name = "GFX_No_Democracy_for_Undemocratic"
+		texturefile = "gfx/interface/goals/No_Democracy_for_Undemocratic.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Allow_a_Foldlaeghite_Party"
+		texturefile = "gfx/interface/goals/Allow_a_Foldlaeghite_Party.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Unite_in_Vision"
+		texturefile = "gfx/interface/goals/Unite_in_Vision.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Fold_in_Foldlaegh"
+		texturefile = "gfx/interface/goals/Fold_in_Foldlaegh.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Hand_to_Moderates"
+		texturefile = "gfx/interface/goals/Hand_to_Moderates.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Expand_Party_State"
+		texturefile = "gfx/interface/goals/Expand_Party_State.dds"			
+	}
+	SpriteType = {
+		name = "GFX_To_the_Villages"
+		texturefile = "gfx/interface/goals/To_the_Villages.dds"			
+	}
+	SpriteType = {
+		name = "GFX_At_the_Cities"
+		texturefile = "gfx/interface/goals/At_the_Cities.dds"			
+	}
+	SpriteType = {
+		name = "GFX_In_the_Army"
+		texturefile = "gfx/interface/goals/In_the_Army.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Reassign_Unsympathetic_Generals"
+		texturefile = "gfx/interface/goals/Reassign_Unsympathetic_Generals.dds"			
+	}
+	SpriteType = {
+		name = "GFX_No_Moment_of_Weakness"
+		texturefile = "gfx/interface/goals/No_Moment_of_Weakness.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Ally_Populist_Parties"
+		texturefile = "gfx/interface/goals/Ally_Populist_Parties.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Guide_them_to_the_Light"
+		texturefile = "gfx/interface/goals/Guide_them_to_the_Light.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Conciliar_Decentralization"
+		texturefile = "gfx/interface/goals/Conciliar_Decentralization.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Consular_Efficiency"
+		texturefile = "gfx/interface/goals/Consular_Efficiency.dds"			
+	}
+	SpriteType = {
+		name = "GFX_Weave_Our_Fate"
+		texturefile = "gfx/interface/goals/Weave_Our_Fate.dds"			
+	}
 }

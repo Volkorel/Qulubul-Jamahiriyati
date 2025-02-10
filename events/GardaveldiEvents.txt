@@ -1,0 +1,19 @@
+﻿add_namespace = QJ_gardaveldi
+
+country_event = { #Choice
+	id = QJ_gardaveldi.1
+	title = QJ_gardaveldi.1.t
+	desc = QJ_gardaveldi.1.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = QJ_gardaveldi.1.a
+		set_country_flag = SOV_reformists_supported
+	}
+	option = {
+		name = QJ_gardaveldi.1.b
+		set_country_flag = SOV_guillotinists_supported
+	}
+}

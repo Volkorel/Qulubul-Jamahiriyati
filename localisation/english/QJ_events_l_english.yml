@@ -298,3 +298,10 @@
  GUA_CAN_DONT_FUCK_US_OVER_AND_OPEN_NEW_FRONT:0 "§YPenglai will not join any faction in the future.§!"
  GUA_CAN_KEEP_LANTANG:0 "§YLantang will remain as an independent, autonomous region within Penglai. We will get economic buffs as a result.§!"
  GUA_CAN_JOIN_ADL:0 "§YPenglai will immediately join the Atlantic Defence League.§!"
+ 
+ QJ_gardaveldi.1.t:0 ""
+ QJ_gardaveldi.1.d:0 ""
+ QJ_gardaveldi.1.a:0 ""
+ QJ_gardaveldi.1.b:0 ""
+ SOV_reformists_supported:0 "We are supporting the §YReformist Wing§! of the Revolutionary League."
+ SOV_guillotinists_supported:0 "We are supporting the §YGuillotinist Wing§! of the Revolutionary League."

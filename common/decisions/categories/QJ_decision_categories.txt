@@ -12,3 +12,13 @@ penglai_warlord_category = {
 		has_country_flag = QJ_Penglai_Proxy_War_Ongoing
 	}
 }
+gardaveldi_politics_category = {
+	icon = spr_the_seeds_of_revolution
+	picture = GFX_decision_cat_picture_gardaveldi_politics
+	allowed = {
+		original_tag = SOV
+	}
+	visible = {
+		always = yes
+	}
+}

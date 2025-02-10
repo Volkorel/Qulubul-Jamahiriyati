@@ -1,0 +1,418 @@
+focus_tree = {
+	id = gardaveldi_initial_focus
+	
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+
+	}
+	
+	default = no
+
+	focus = {
+		id = SOV_Shield_or_Sword
+		icon = GFX_Shield_or_Sword
+		cost = 2
+		x = 12
+		y = 0
+		completion_reward = {
+			country_event = QJ_gardaveldi.1
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = SOV_Nothing_Without_Ideals
+		icon = GFX_Nothing_Without_Ideals
+		cost = 4
+		prerequisite = {
+			focus = SOV_Shield_or_Sword
+		}
+		x = -10
+		y = 1
+		mutually_exclusive = {
+			focus = SOV_Nothing_Without_Defence
+		}
+		available = {
+			has_country_flag = SOV_reformists_supported
+		}
+		relative_position_id = SOV_Shield_or_Sword
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Deal_With_Hardliners
+		icon = GFX_Deal_With_Hardliners
+		cost = 4
+		prerequisite = {
+			focus = SOV_Nothing_Without_Ideals
+		}
+		x = -1
+		y = 1
+		relative_position_id = SOV_Nothing_Without_Ideals
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Nurture_New_Parties
+		icon = GFX_Nurture_New_Parties
+		cost = 4
+		prerequisite = {
+			focus = SOV_Nothing_Without_Ideals
+		}
+		x = 1
+		y = 1
+		relative_position_id = SOV_Nothing_Without_Ideals
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Decenter_Rev_League
+		icon = GFX_Decenter_Rev_League
+		cost = 4
+		prerequisite = {
+			focus = SOV_Nothing_Without_Ideals
+		}
+		x = 0
+		y = 2
+		relative_position_id = SOV_Nothing_Without_Ideals
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_No_Democracy_for_Undemocratic
+		icon = GFX_No_Democracy_for_Undemocratic
+		cost = 4
+		prerequisite = {
+			focus = SOV_Deal_With_Hardliners
+		}
+		prerequisite = {
+			focus = SOV_Decenter_Rev_League
+		}
+		prerequisite = {
+			focus = SOV_Nurture_New_Parties
+		}
+		x = -1
+		y = 3
+		mutually_exclusive = {
+			focus = SOV_Allow_a_Foldlaeghite_Party
+		}
+		relative_position_id = SOV_Nothing_Without_Ideals
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Allow_a_Foldlaeghite_Party
+		icon = GFX_Allow_a_Foldlaeghite_Party
+		cost = 4
+		prerequisite = {
+			focus = SOV_Deal_With_Hardliners
+		}
+		prerequisite = {
+			focus = SOV_Decenter_Rev_League
+		}
+		prerequisite = {
+			focus = SOV_Nurture_New_Parties
+		}
+		x = 1
+		y = 3
+		mutually_exclusive = {
+			focus = SOV_No_Democracy_for_Undemocratic
+		}
+		relative_position_id = SOV_Nothing_Without_Ideals
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_To_the_Villages
+		icon = GFX_To_the_Villages
+		cost = 4
+		prerequisite = {
+			focus = SOV_Shield_or_Sword
+		}
+		x = -5
+		y = 2
+		relative_position_id = SOV_Shield_or_Sword
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Ally_Populist_Parties
+		icon = GFX_Ally_Populist_Parties
+		cost = 4
+		prerequisite = {
+			focus = SOV_To_the_Villages
+		}
+		x = -1
+		y = 1
+		mutually_exclusive = {
+			focus = SOV_Guide_them_to_the_Light
+		}
+		relative_position_id = SOV_To_the_Villages
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Guide_them_to_the_Light
+		icon = GFX_Guide_them_to_the_Light
+		cost = 4
+		prerequisite = {
+			focus = SOV_To_the_Villages
+		}
+		x = 1
+		y = 1
+		mutually_exclusive = {
+			focus = SOV_Ally_Populist_Parties
+		}
+		relative_position_id = SOV_To_the_Villages
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_At_the_Cities
+		icon = GFX_At_the_Cities
+		cost = 4
+		prerequisite = {
+			focus = SOV_Shield_or_Sword
+		}
+		x = 0
+		y = 2
+		relative_position_id = SOV_Shield_or_Sword
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Conciliar_Decentralization
+		icon = GFX_Conciliar_Decentralization
+		cost = 4
+		prerequisite = {
+			focus = SOV_At_the_Cities
+		}
+		x = -1
+		y = 1
+		mutually_exclusive = {
+			focus = SOV_Consular_Efficiency
+		}
+		relative_position_id = SOV_At_the_Cities
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Consular_Efficiency
+		icon = GFX_Consular_Efficiency
+		cost = 4
+		prerequisite = {
+			focus = SOV_At_the_Cities
+		}
+		x = 1
+		y = 1
+		mutually_exclusive = {
+			focus = SOV_Conciliar_Decentralization
+		}
+		relative_position_id = SOV_At_the_Cities
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_In_the_Army
+		icon = GFX_In_the_Army
+		cost = 4
+		prerequisite = {
+			focus = SOV_Shield_or_Sword
+		}
+		x = 5
+		y = 2
+		relative_position_id = SOV_Shield_or_Sword
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_No_Moment_of_Weakness
+		icon = GFX_No_Moment_of_Weakness
+		cost = 4
+		prerequisite = {
+			focus = SOV_In_the_Army
+		}
+		x = -1
+		y = 1
+		mutually_exclusive = {
+			focus = SOV_Reassign_Unsympathetic_Generals
+		}
+		relative_position_id = SOV_In_the_Army
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Reassign_Unsympathetic_Generals
+		icon = GFX_Reassign_Unsympathetic_Generals
+		cost = 4
+		prerequisite = {
+			focus = SOV_In_the_Army
+		}
+		x = 1
+		y = 1
+		mutually_exclusive = {
+			focus = SOV_No_Moment_of_Weakness
+		}
+		relative_position_id = SOV_In_the_Army
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Nothing_Without_Defence
+		icon = GFX_Nothing_Without_Defence
+		cost = 4
+		prerequisite = {
+			focus = SOV_Shield_or_Sword
+		}
+		x = 10
+		y = 1
+		mutually_exclusive = {
+			focus = SOV_Nothing_Without_Ideals
+		}
+		available = {
+			has_country_flag = SOV_guillotinists_supported
+		}
+		relative_position_id = SOV_Shield_or_Sword
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Unite_in_Vision
+		icon = GFX_Unite_in_Vision
+		cost = 4
+		prerequisite = {
+			focus = SOV_Nothing_Without_Defence
+		}
+		x = -1
+		y = 1
+		relative_position_id = SOV_Nothing_Without_Defence
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Fold_in_Foldlaegh
+		icon = GFX_Fold_in_Foldlaegh
+		cost = 4
+		prerequisite = {
+			focus = SOV_Nothing_Without_Defence
+		}
+		x = 1
+		y = 1
+		relative_position_id = SOV_Nothing_Without_Defence
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Expand_Party_State
+		icon = GFX_Expand_Party_State
+		cost = 4
+		prerequisite = {
+			focus = SOV_Nothing_Without_Defence
+		}
+		x = 0
+		y = 2
+		relative_position_id = SOV_Nothing_Without_Defence
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Extend_Hand_to_Moderates
+		icon = GFX_Hand_to_Moderates
+		cost = 4
+		prerequisite = {
+			focus = SOV_Unite_in_Vision
+		}
+		prerequisite = {
+			focus = SOV_Expand_Party_State
+		}
+		prerequisite = {
+			focus = SOV_Fold_in_Foldlaegh
+		}
+		x = -1
+		y = 3
+		mutually_exclusive = {
+			focus = SOV_DEATH_PENALTY_BRING_IT_FORTH
+		}
+		relative_position_id = SOV_Nothing_Without_Defence
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_DEATH_PENALTY_BRING_IT_FORTH
+		icon = GFX_DEATH_PENALTY_BRING_IT_FORTH
+		cost = 4
+		prerequisite = {
+			focus = SOV_Unite_in_Vision
+		}
+		prerequisite = {
+			focus = SOV_Expand_Party_State
+		}
+		prerequisite = {
+			focus = SOV_Fold_in_Foldlaegh
+		}
+		x = 1
+		y = 3
+		mutually_exclusive = {
+			focus = SOV_Extend_Hand_to_Moderates
+		}
+		relative_position_id = SOV_Nothing_Without_Defence
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = SOV_Weave_Our_Fate
+		icon = GFX_Weave_Our_Fate
+		cost = 2
+		prerequisite = {
+			focus = SOV_No_Democracy_for_Undemocratic
+			focus = SOV_Allow_a_Foldlaeghite_Party
+		}
+		prerequisite = {
+			focus = SOV_Ally_Populist_Parties
+			focus = SOV_Guide_them_to_the_Light
+		}
+		prerequisite = {
+			focus = SOV_Conciliar_Decentralization
+			focus = SOV_Consular_Efficiency
+		}
+		prerequisite = {
+			focus = SOV_No_Moment_of_Weakness
+			focus = SOV_Reassign_Unsympathetic_Generals
+		}
+		prerequisite = {
+			focus = SOV_Extend_Hand_to_Moderates
+			focus = SOV_DEATH_PENALTY_BRING_IT_FORTH
+		}
+		x = 0
+		y = 5
+		relative_position_id = SOV_Shield_or_Sword
+		completion_reward = {
+			
+		}
+	}
+}
