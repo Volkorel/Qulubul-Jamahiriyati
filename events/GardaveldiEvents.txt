@@ -17,3 +17,197 @@ country_event = { #Choice
 		set_country_flag = SOV_guillotinists_supported
 	}
 }
+
+country_event = { #Reformists - Are we evil reactionary traitors that will fuck over our own party just to troll the Guillotinists?
+	id = QJ_gardaveldi.2
+	title = QJ_gardaveldi.2.t
+	desc = QJ_gardaveldi.2.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #Yes.
+		name = QJ_gardaveldi.2.a
+		add_popularity = {
+			ideology = jacobinism
+			popularity = -0.2
+		}
+		add_to_variable = { SOV_reformist_balance_of_power = 10 }
+		clamp_variable = {
+			var = SOV_reformist_balance_of_power
+			min = 0
+			max = 100
+		}
+		add_to_variable = { SOV_guillotinist_balance_of_power = -10 }
+		clamp_variable = {
+			var = SOV_guillotinist_balance_of_power
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = SOV_Rev_League_BOP_10_Reformist
+	}
+	option = { #Uhhhhh no
+		name = QJ_gardaveldi.2.b
+		add_political_power = 25
+		add_to_variable = { SOV_reformist_balance_of_power = -10 }
+		clamp_variable = {
+			var = SOV_reformist_balance_of_power
+			min = 0
+			max = 100
+		}
+		add_to_variable = { SOV_guillotinist_balance_of_power = 10 }
+		clamp_variable = {
+			var = SOV_guillotinist_balance_of_power
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = SOV_Rev_League_BOP_10_Guillotinist
+	}
+}
+
+country_event = { #Reformists - Are we evil reactionary traitors AGAIN?
+	id = QJ_gardaveldi.3
+	title = QJ_gardaveldi.3.t
+	desc = QJ_gardaveldi.3.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #Yes.
+		name = QJ_gardaveldi.3.a
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.1
+		}
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.1
+		}
+		add_to_variable = { SOV_reformist_balance_of_power = 10 }
+		clamp_variable = {
+			var = SOV_reformist_balance_of_power
+			min = 0
+			max = 100
+		}
+		add_to_variable = { SOV_guillotinist_balance_of_power = -10 }
+		clamp_variable = {
+			var = SOV_guillotinist_balance_of_power
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = SOV_Rev_League_BOP_10_Reformist
+	}
+	option = { #Uhhhhh no
+		name = QJ_gardaveldi.3.b
+		add_popularity = {
+			ideology = jacobinism
+			popularity = 0.05
+		}
+		add_political_power = 50
+		add_stability = -0.15
+	}
+}
+
+country_event = { #Guillotinists - Fuck the libs?
+	id = QJ_gardaveldi.4
+	title = QJ_gardaveldi.4.t
+	desc = QJ_gardaveldi.4.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = { #Yes.
+		name = QJ_gardaveldi.4.a
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = duemarism
+			popularity = 0.05
+		}
+		add_to_variable = { SOV_reformist_balance_of_power = -10 }
+		clamp_variable = {
+			var = SOV_reformist_balance_of_power
+			min = 0
+			max = 100
+		}
+		add_to_variable = { SOV_guillotinist_balance_of_power = 10 }
+		clamp_variable = {
+			var = SOV_guillotinist_balance_of_power
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = SOV_Rev_League_BOP_10_Guillotinist
+	}
+	option = { #Uhhhhh no
+		name = QJ_gardaveldi.4.b
+		add_popularity = {
+			ideology = jacobinism
+			popularity = 0.05
+		}
+		add_political_power = 50
+		add_stability = 0.1
+	}
+}
+
+country_event = { #WEAVE OUR FATE
+	id = QJ_gardaveldi.5
+	title = QJ_gardaveldi.5.t
+	desc = QJ_gardaveldi.5.d
+	#picture = 
+	
+	immediate = {
+		add_to_variable = { SOV_Reformists_Total_BOP = party_popularity@socialism }
+		add_to_variable = { SOV_Reformists_Total_BOP = party_popularity@liberalism }
+		add_to_variable = { SOV_Guillotinists_Total_BOP = party_popularity@duemarism }
+		add_to_variable = { SOV_Guillotinists_Total_BOP = party_popularity@communism }
+		
+		set_temp_variable = { SOV_reformist_balance_of_power_percentage = SOV_reformist_balance_of_power }
+		divide_temp_variable = { SOV_reformist_balance_of_power_percentage = 100 }
+		add_to_variable = { SOV_Reformists_Inner_Party_BOP = party_popularity@jacobinism }
+		multiply_variable = { SOV_Reformists_Inner_Party_BOP = SOV_reformist_balance_of_power_percentage }
+		add_to_variable = { SOV_Reformists_Total_BOP = SOV_Reformists_Inner_Party_BOP }
+		
+		set_temp_variable = { SOV_guillotinist_balance_of_power_percentage = SOV_guillotinist_balance_of_power }
+		divide_temp_variable = { SOV_guillotinist_balance_of_power_percentage = 100 }
+		add_to_variable = { SOV_Guillotinists_Inner_Party_BOP = party_popularity@jacobinism }
+		multiply_variable = { SOV_Guillotinists_Inner_Party_BOP = SOV_guillotinist_balance_of_power_percentage }
+		add_to_variable = { SOV_Guillotinists_Total_BOP = SOV_Guillotinists_Inner_Party_BOP }
+	}
+	
+	is_triggered_only = yes
+	
+	option = { #Elections
+		name = QJ_gardaveldi.5.a
+		trigger = {
+			has_country_flag = SOV_reformists_supported
+			check_variable = { SOV_Reformists_Inner_Party_BOP > SOV_Guillotinists_Inner_Party_BOP }
+		}
+		custom_effect_tooltip = SOV_QJ_balance_of_power_final_result
+	}
+	option = { #Foldlaegh Coup
+		name = QJ_gardaveldi.5.b
+		trigger = {
+			has_country_flag = SOV_reformists_supported
+			check_variable = { SOV_Guillotinists_Inner_Party_BOP > SOV_Reformists_Inner_Party_BOP }
+		}
+		custom_effect_tooltip = SOV_QJ_balance_of_power_final_result
+	}
+	option = { #Auth. Consolidation
+		name = QJ_gardaveldi.5.c
+		trigger = {
+			has_country_flag = SOV_guillotinists_supported
+			check_variable = { SOV_Guillotinists_Inner_Party_BOP > SOV_Reformists_Inner_Party_BOP }
+		}
+		custom_effect_tooltip = SOV_QJ_balance_of_power_final_result
+	}
+	option = { #Democratic Revolution
+		name = QJ_gardaveldi.5.e
+		trigger = {
+			has_country_flag = SOV_guillotinists_supported
+			check_variable = { SOV_Reformists_Inner_Party_BOP > SOV_Guillotinists_Inner_Party_BOP }
+		}
+		custom_effect_tooltip = SOV_QJ_balance_of_power_final_result
+	}
+}

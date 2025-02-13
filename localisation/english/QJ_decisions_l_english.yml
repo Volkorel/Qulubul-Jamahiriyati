@@ -84,3 +84,7 @@
  gardaveldi_politics_category:0 "Revolutionary Factions of the Republic"
  gardaveldi_politics_category_desc:0 "\n\n\n\n\n\nREVOLUTIONARY LEAGUE BALANCE OF POWER:\n§9Guillotinist Wing:§! §Y[?SOV.SOV_guillotinist_balance_of_power]%§!\n§8Reformist Wing:§! §Y[?SOV.SOV_reformist_balance_of_power]%§!\n\nCONSILIAR FACTIONS:\n§5Revolutionary League:§! [?party_popularity@jacobinism|%Y0]\n§tFólkmannar:§! [?party_popularity@socialism|%Y0]\n§3Örrmannar:§! [?party_popularity@liberalism|%Y0]\n§GFoldlægh Movement - Duemarist Wing:§! [?party_popularity@duemarism|%Y0]\n§RFoldlægh Movement - Socialist Wing:§! [?party_popularity@communism|%Y0]"
  
+ SOV_Rev_League_BOP_10_Reformist:0 "The §YBalance of Power§! will shift §Y10%§! in favor of the §8Reformist Wing.§!"
+ SOV_Rev_League_BOP_20_Reformist:0 "The §YBalance of Power§! will shift §Y20%§! in favor of the §8Reformist Wing.§!"
+ SOV_Rev_League_BOP_10_Guillotinist:0 "The §YBalance of Power§! will shift §Y10%§! in favor of the §9Guillotinist Wing.§!"
+ SOV_Rev_League_BOP_20_Guillotinist:0 "The §YBalance of Power§! will shift §Y20%§! in favor of the §9Guillotinist Wing.§!"

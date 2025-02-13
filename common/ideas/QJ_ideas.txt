@@ -774,5 +774,15 @@ ideas = {
 				recon_factor = 0.25
 			}
 		}
+		### GARDAVELDI IDEAS ###
+#		SOV_ = {
+#			allowed = { always = no }
+#			#picture = 
+#			removal_cost = -1
+#
+#			modifier = {
+#				
+#			}
+#		}
 	}
 }

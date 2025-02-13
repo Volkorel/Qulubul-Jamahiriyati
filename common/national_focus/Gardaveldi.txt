@@ -41,7 +41,21 @@ focus_tree = {
 		}
 		relative_position_id = SOV_Shield_or_Sword
 		completion_reward = {
-			
+			add_stability = 0.1
+			add_war_support = -0.15
+			add_to_variable = { SOV_reformist_balance_of_power = 10 }
+			clamp_variable = {
+				var = SOV_reformist_balance_of_power
+				min = 0
+				max = 100
+			}
+			add_to_variable = { SOV_guillotinist_balance_of_power = -10 }
+			clamp_variable = {
+				var = SOV_guillotinist_balance_of_power
+				min = 0
+				max = 100
+			}
+			custom_effect_tooltip = SOV_Rev_League_BOP_10_Reformist
 		}
 	}
 	focus = {
@@ -55,7 +69,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SOV_Nothing_Without_Ideals
 		completion_reward = {
-			
+			country_event = QJ_gardaveldi.2
 		}
 	}
 	focus = {
@@ -69,7 +83,25 @@ focus_tree = {
 		y = 1
 		relative_position_id = SOV_Nothing_Without_Ideals
 		completion_reward = {
-			
+			add_political_power = 50
+			set_party_name = {
+				ideology = socialism
+				long_name = SOV_socialism_ACTUAL_PARTY_party_long
+				name = SOV_socialism_ACTUAL_PARTY_party
+			}
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.05
+			}
+			set_party_name = {
+				ideology = liberalism
+				long_name = SOV_liberalism_ACTUAL_PARTY_party_long
+				name = SOV_liberalism_ACTUAL_PARTY_party
+			}
+			add_popularity = {
+				ideology = liberalism
+				popularity = 0.05
+			}
 		}
 	}
 	focus = {
@@ -83,7 +115,11 @@ focus_tree = {
 		y = 2
 		relative_position_id = SOV_Nothing_Without_Ideals
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = jacobinism
+				popularity = -0.05
+			}
+			country_event = QJ_gardaveldi.3
 		}
 	}
 	focus = {
@@ -106,7 +142,16 @@ focus_tree = {
 		}
 		relative_position_id = SOV_Nothing_Without_Ideals
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = communism
+				popularity = -0.1
+			}
+			add_popularity = {
+				ideology = duemarism
+				popularity = -0.1
+			}
+			add_stability = -0.2
+			add_manpower = -50000
 		}
 	}
 	focus = {
@@ -129,7 +174,15 @@ focus_tree = {
 		}
 		relative_position_id = SOV_Nothing_Without_Ideals
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = duemarism
+				popularity = 0.05
+			}
+			add_war_support = 0.1
 		}
 	}
 	focus = {
@@ -160,7 +213,18 @@ focus_tree = {
 		}
 		relative_position_id = SOV_To_the_Villages
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = duemarism
+				popularity = 0.05
+			}
 		}
 	}
 	focus = {
@@ -177,7 +241,14 @@ focus_tree = {
 		}
 		relative_position_id = SOV_To_the_Villages
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = jacobinism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = liberalism
+				popularity = 0.05
+			}
 		}
 	}
 	focus = {
@@ -208,7 +279,27 @@ focus_tree = {
 		}
 		relative_position_id = SOV_At_the_Cities
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = liberalism
+				popularity = 0.05
+			}
+			add_to_variable = { SOV_reformist_balance_of_power = 10 }
+			clamp_variable = {
+				var = SOV_reformist_balance_of_power
+				min = 0
+				max = 100
+			}
+			add_to_variable = { SOV_guillotinist_balance_of_power = -10 }
+			clamp_variable = {
+				var = SOV_guillotinist_balance_of_power
+				min = 0
+				max = 100
+			}
+			custom_effect_tooltip = SOV_Rev_League_BOP_10_Reformist
 		}
 	}
 	focus = {
@@ -225,7 +316,27 @@ focus_tree = {
 		}
 		relative_position_id = SOV_At_the_Cities
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = duemarism
+				popularity = 0.05
+			}
+			add_to_variable = { SOV_reformist_balance_of_power = -10 }
+			clamp_variable = {
+				var = SOV_reformist_balance_of_power
+				min = 0
+				max = 100
+			}
+			add_to_variable = { SOV_guillotinist_balance_of_power = 10 }
+			clamp_variable = {
+				var = SOV_guillotinist_balance_of_power
+				min = 0
+				max = 100
+			}
+			custom_effect_tooltip = SOV_Rev_League_BOP_10_Guillotinist
 		}
 	}
 	focus = {
@@ -256,7 +367,58 @@ focus_tree = {
 		}
 		relative_position_id = SOV_In_the_Army
 		completion_reward = {
-			
+			if = {
+				limit = {
+					has_country_flag = SOV_reformists_supported
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = duemarism
+					popularity = 0.05
+				}
+				add_to_variable = { SOV_reformist_balance_of_power = -10 }
+				clamp_variable = {
+					var = SOV_reformist_balance_of_power
+					min = 0
+					max = 100
+				}
+				add_to_variable = { SOV_guillotinist_balance_of_power = 10 }
+				clamp_variable = {
+					var = SOV_guillotinist_balance_of_power
+					min = 0
+					max = 100
+				}
+				custom_effect_tooltip = SOV_Rev_League_BOP_10_Guillotinist
+			}
+			else_if = {
+				limit = {
+					has_country_flag = SOV_guillotinists_supported
+				}
+				add_popularity = {
+					ideology = socialism
+					popularity = 0.05
+				}
+				add_popularity = {
+					ideology = liberalism
+					popularity = 0.05
+				}
+				add_to_variable = { SOV_reformist_balance_of_power = 10 }
+				clamp_variable = {
+					var = SOV_reformist_balance_of_power
+					min = 0
+					max = 100
+				}
+				add_to_variable = { SOV_guillotinist_balance_of_power = -10 }
+				clamp_variable = {
+					var = SOV_guillotinist_balance_of_power
+					min = 0
+					max = 100
+				}
+				custom_effect_tooltip = SOV_Rev_League_BOP_10_Reformist
+			}
 		}
 	}
 	focus = {
@@ -273,7 +435,58 @@ focus_tree = {
 		}
 		relative_position_id = SOV_In_the_Army
 		completion_reward = {
-			
+			if = {
+				limit = {
+					has_country_flag = SOV_reformists_supported
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = -0.1
+				}
+				add_popularity = {
+					ideology = duemarism
+					popularity = -0.1
+				}
+				add_to_variable = { SOV_reformist_balance_of_power = 20 }
+				clamp_variable = {
+					var = SOV_reformist_balance_of_power
+					min = 0
+					max = 100
+				}
+				add_to_variable = { SOV_guillotinist_balance_of_power = -20 }
+				clamp_variable = {
+					var = SOV_guillotinist_balance_of_power
+					min = 0
+					max = 100
+				}
+				custom_effect_tooltip = SOV_Rev_League_BOP_20_Reformist
+			}
+			else_if = {
+				limit = {
+					has_country_flag = SOV_guillotinists_supported
+				}
+				add_popularity = {
+					ideology = socialism
+					popularity = -0.1
+				}
+				add_popularity = {
+					ideology = liberalism
+					popularity = -0.1
+				}
+				add_to_variable = { SOV_reformist_balance_of_power = -20 }
+				clamp_variable = {
+					var = SOV_reformist_balance_of_power
+					min = 0
+					max = 100
+				}
+				add_to_variable = { SOV_guillotinist_balance_of_power = 20 }
+				clamp_variable = {
+					var = SOV_guillotinist_balance_of_power
+					min = 0
+					max = 100
+				}
+				custom_effect_tooltip = SOV_Rev_League_BOP_20_Guillotinist
+			}
 		}
 	}
 	focus = {
@@ -293,7 +506,21 @@ focus_tree = {
 		}
 		relative_position_id = SOV_Shield_or_Sword
 		completion_reward = {
-			
+			add_stability = -0.1
+			add_war_support = 0.1
+			add_to_variable = { SOV_reformist_balance_of_power = -10 }
+			clamp_variable = {
+				var = SOV_reformist_balance_of_power
+				min = 0
+				max = 100
+			}
+			add_to_variable = { SOV_guillotinist_balance_of_power = 10 }
+			clamp_variable = {
+				var = SOV_guillotinist_balance_of_power
+				min = 0
+				max = 100
+			}
+			custom_effect_tooltip = SOV_Rev_League_BOP_10_Guillotinist
 		}
 	}
 	focus = {
@@ -307,7 +534,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SOV_Nothing_Without_Defence
 		completion_reward = {
-			
+			country_event = QJ_gardaveldi.4
 		}
 	}
 	focus = {
@@ -321,7 +548,24 @@ focus_tree = {
 		y = 1
 		relative_position_id = SOV_Nothing_Without_Defence
 		completion_reward = {
-			
+			set_party_name = {
+				ideology = communism
+				long_name = SOV_communism_REVOLUTIONARY_party_long
+				name = SOV_communism_REVOLUTIONARY_party
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+			set_party_name = {
+				ideology = duemarism
+				long_name = SOV_duemarism_REVOLUTIONARY_party_long
+				name = SOV_duemarism_REVOLUTIONARY_party
+			}
+			add_popularity = {
+				ideology = duemarism
+				popularity = 0.05
+			}
 		}
 	}
 	focus = {
@@ -335,7 +579,20 @@ focus_tree = {
 		y = 2
 		relative_position_id = SOV_Nothing_Without_Defence
 		completion_reward = {
-			
+			add_political_power = 50
+			add_to_variable = { SOV_reformist_balance_of_power = -10 }
+			clamp_variable = {
+				var = SOV_reformist_balance_of_power
+				min = 0
+				max = 100
+			}
+			add_to_variable = { SOV_guillotinist_balance_of_power = 10 }
+			clamp_variable = {
+				var = SOV_guillotinist_balance_of_power
+				min = 0
+				max = 100
+			}
+			custom_effect_tooltip = SOV_Rev_League_BOP_10_Guillotinist
 		}
 	}
 	focus = {
@@ -358,7 +615,17 @@ focus_tree = {
 		}
 		relative_position_id = SOV_Nothing_Without_Defence
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = liberalism
+				popularity = 0.05
+			}
+			add_stability = 0.1
+			add_war_support = -0.1
+			add_political_power = 50
 		}
 	}
 	focus = {
@@ -381,7 +648,16 @@ focus_tree = {
 		}
 		relative_position_id = SOV_Nothing_Without_Defence
 		completion_reward = {
-			
+			add_popularity = {
+				ideology = socialism
+				popularity = -0.2
+			}
+			add_popularity = {
+				ideology = liberalism
+				popularity = -0.2
+			}
+			add_stability = -0.2
+			add_war_support = 0.1
 		}
 	}
 	focus = {
@@ -391,6 +667,8 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_No_Democracy_for_Undemocratic
 			focus = SOV_Allow_a_Foldlaeghite_Party
+			focus = SOV_Extend_Hand_to_Moderates
+			focus = SOV_DEATH_PENALTY_BRING_IT_FORTH
 		}
 		prerequisite = {
 			focus = SOV_Ally_Populist_Parties
@@ -404,15 +682,11 @@ focus_tree = {
 			focus = SOV_No_Moment_of_Weakness
 			focus = SOV_Reassign_Unsympathetic_Generals
 		}
-		prerequisite = {
-			focus = SOV_Extend_Hand_to_Moderates
-			focus = SOV_DEATH_PENALTY_BRING_IT_FORTH
-		}
 		x = 0
 		y = 5
 		relative_position_id = SOV_Shield_or_Sword
 		completion_reward = {
-			
+			country_event = QJ_gardaveldi.5
 		}
 	}
 }
